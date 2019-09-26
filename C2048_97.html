@@ -1,0 +1,55 @@
+<html>
+Selected compartmentalization: <strong>C2048</strong><br />
+<br />
+Viewing compartment: 97 of 2689<br />
+<a href='C2048_96.html'> Prev</a>
+<a href='C2048_98.html'> Next</a>
+<br /><br />
+<strong> Compartment 97 is 2032 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L2331'">block/blk-core.c:blk_peek_request</a>(672 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1786'">drivers/base/core.c:get_device</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi.c.html#L230'">drivers/scsi/scsi.c:scsi_get_command</a>(368 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1297'">drivers/scsi/scsi_lib.c:scsi_prep_fn</a>(368 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1207'">drivers/scsi/scsi_lib.c:scsi_prep_state_check</a>(128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1186'">drivers/scsi/scsi_lib.c:scsi_setup_cmnd</a>(336 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L811'">kernel/time/timer.c:init_timer_key</a>(128 bytes)<br />
+<br /><br />
+<strong> Compartment 97 accesses 37 objects:</strong><br />
+1. Globar var iosched_cfq <br />
+2. Globar var jiffies_64 <br />
+3. Globar var sd_template <br />
+4. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+5. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+6. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+8. KMEM_CACHE alloc from block/blk-throttle.c:throtl_pd_alloc <br />
+9. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+10. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+11. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+12. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+13. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+14. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+15. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
+16. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+17. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+18. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+19. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+20. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+21. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
+22. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+23. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+24. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+25. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+26. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+27. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+28. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+29. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_init <br />
+30. KMEM_CACHE alloc from net/ipv4/igmp.c:ip_mc_inc_group <br />
+31. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
+32. KMEM_CACHE alloc from net/ipv4/ipmr.c:ipmr_net_init <br />
+33. KMEM_CACHE alloc from net/ipv4/tcp_input.c:inet_reqsk_alloc <br />
+34. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
+35. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
+36. KMEM_CACHE alloc from net/ipv6/ip6mr.c:ip6mr_new_table <br />
+37. KMEM_CACHE alloc from net/ipv6/mcast.c:ipv6_dev_mc_inc <br />
+</html>

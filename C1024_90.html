@@ -1,0 +1,26 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 90 of 3805<br />
+<a href='C1024_89.html'> Prev</a>
+<a href='C1024_91.html'> Next</a>
+<br /><br />
+<strong> Compartment 90 is 960 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L61'">block/genhd.c:disk_get_part</a>(64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1786'">drivers/base/core.c:get_device</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1297'">drivers/scsi/scsi_lib.c:scsi_prep_fn</a>(368 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1207'">drivers/scsi/scsi_lib.c:scsi_prep_state_check</a>(128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1186'">drivers/scsi/scsi_lib.c:scsi_setup_cmnd</a>(336 bytes)<br />
+<br /><br />
+<strong> Compartment 90 accesses 9 objects:</strong><br />
+1. Globar var sd_template <br />
+2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+5. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+6. KMEM_CACHE alloc from block/genhd.c:disk_expand_part_tbl <br />
+7. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
+8. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+9. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+</html>

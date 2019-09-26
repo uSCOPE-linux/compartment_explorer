@@ -1,0 +1,27 @@
+<html>
+Selected compartmentalization: <strong>C131072</strong><br />
+<br />
+Viewing compartment: 86 of 1485<br />
+<a href='C131072_85.html'> Prev</a>
+<a href='C131072_87.html'> Next</a>
+<br /><br />
+<strong> Compartment 86 is 3312 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/frontswap.c.html#L353'">mm/frontswap.c:__frontswap_invalidate_area</a>(128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L1854'">mm/swapfile.c:SyS_swapoff</a>(1232 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L1673'">mm/swapfile.c:destroy_swap_extents</a>(160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L1387'">mm/swapfile.c:try_to_unuse</a>(1664 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/zswap.c.html#L1084'">mm/zswap.c:zswap_frontswap_invalidate_area</a>(128 bytes)<br />
+<br /><br />
+<strong> Compartment 86 accesses 11 objects:</strong><br />
+1. Globar var init_mm <br />
+2. Globar var swap_info <br />
+3. Globar var vm_committed_as <br />
+4. Globar var zswap_frontswap_ops <br />
+5. Globar var zswap_trees <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+10. KMEM_CACHE alloc from mm/swapfile.c:SyS_swapon <br />
+11. KMEM_CACHE alloc from mm/zswap.c:zswap_frontswap_init <br />
+</html>

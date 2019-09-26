@@ -1,0 +1,31 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 81 of 3805<br />
+<a href='C1024_80.html'> Prev</a>
+<a href='C1024_82.html'> Next</a>
+<br /><br />
+<strong> Compartment 81 is 848 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/af_inet.c.html#L766'">net/ipv4/af_inet.c:inet_recvmsg</a>(80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L1712'">net/socket.c:SYSC_recvfrom</a>(304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L808'">net/socket.c:sock_read_iter</a>(192 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L744'">net/socket.c:sock_recvmsg</a>(80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2474'">net/unix/af_unix.c:unix_stream_recvmsg</a>(80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1284'">security/security.c:security_socket_recvmsg</a>(112 bytes)<br />
+<br /><br />
+<strong> Compartment 81 accesses 14 objects:</strong><br />
+1. Globar var inet6_dgram_ops <br />
+2. Globar var inet6_stream_ops <br />
+3. Globar var inet_dgram_ops <br />
+4. Globar var inet_stream_ops <br />
+5. Globar var netlink_ops <br />
+6. Globar var tcp_prot <br />
+7. Globar var tcpv6_prot <br />
+8. Globar var udp_prot <br />
+9. Globar var udpv6_prot <br />
+10. Globar var unix_dgram_ops <br />
+11. Globar var unix_stream_ops <br />
+12. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+13. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+14. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+</html>

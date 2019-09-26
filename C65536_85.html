@@ -1,0 +1,27 @@
+<html>
+Selected compartmentalization: <strong>C65536</strong><br />
+<br />
+Viewing compartment: 85 of 1469<br />
+<a href='C65536_84.html'> Prev</a>
+<a href='C65536_86.html'> Next</a>
+<br /><br />
+<strong> Compartment 85 is 4208 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L265'">drivers/net/virtio_net.c:page_to_skb</a>(736 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L998'">drivers/net/virtio_net.c:virtnet_poll</a>(128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L978'">drivers/net/virtio_net.c:virtnet_receive</a>(3136 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L728'">drivers/virtio/virtio_ring.c:virtqueue_disable_cb</a>(48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L805'">drivers/virtio/virtio_ring.c:virtqueue_enable_cb</a>(48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L753'">drivers/virtio/virtio_ring.c:virtqueue_enable_cb_prepare</a>(64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L1136'">drivers/virtio/virtio_ring.c:virtqueue_get_vring_size</a>(16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L785'">drivers/virtio/virtio_ring.c:virtqueue_poll</a>(32 bytes)<br />
+<br /><br />
+<strong> Compartment 85 accesses 8 objects:</strong><br />
+1. ALLOC_PAGES alloc from drivers/virtio/virtio_ring.c:vring_alloc_queue <br />
+2. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
+3. ALLOC_PAGES alloc from net/core/sock.c:skb_page_frag_refill <br />
+4. KMEM_CACHE alloc from drivers/net/virtio_net.c:init_vqs <br />
+5. KMEM_CACHE alloc from drivers/virtio/virtio_pci_common.c:virtio_pci_probe <br />
+6. KMEM_CACHE alloc from drivers/virtio/virtio_ring.c:__vring_new_virtqueue <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+</html>

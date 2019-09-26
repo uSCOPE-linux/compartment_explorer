@@ -1,0 +1,29 @@
+<html>
+Selected compartmentalization: <strong>C65536</strong><br />
+<br />
+Viewing compartment: 86 of 1469<br />
+<a href='C65536_85.html'> Prev</a>
+<a href='C65536_87.html'> Next</a>
+<br /><br />
+<strong> Compartment 86 is 2144 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kmod.c.html#L522'">kernel/kmod.c:call_usermodehelper_setup</a>(160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L277'">security/keys/keyctl.c:keyctl_join_session_keyring</a>(80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1247'">security/keys/keyring.c:key_link</a>(160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L497'">security/keys/keyring.c:keyring_alloc</a>(128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1072'">security/keys/keyring.c:keyring_detect_cycle</a>(128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/process_keys.c.html#L175'">security/keys/process_keys.c:install_process_keyring_to_cred</a>(128 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/process_keys.c.html#L222'">security/keys/process_keys.c:install_session_keyring_to_cred</a>(144 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/process_keys.c.html#L132'">security/keys/process_keys.c:install_thread_keyring_to_cred</a>(96 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/process_keys.c.html#L756'">security/keys/process_keys.c:join_session_keyring</a>(368 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/request_key.c.html#L95'">security/keys/request_key.c:call_sbin_request_key</a>(752 bytes)<br />
+<br /><br />
+<strong> Compartment 86 accesses 8 objects:</strong><br />
+1. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+2. KMEM_CACHE alloc from kernel/cred.c:prepare_kernel_cred <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+4. KMEM_CACHE alloc from kernel/kmod.c:call_usermodehelper_setup <br />
+5. KMEM_CACHE alloc from mm/util.c:memdup_user <br />
+6. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+7. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+8. KMEM_CACHE alloc from security/keys/request_key.c:request_key_and_link <br />
+</html>

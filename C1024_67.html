@@ -1,0 +1,30 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 67 of 3805<br />
+<a href='C1024_66.html'> Prev</a>
+<a href='C1024_68.html'> Next</a>
+<br /><br />
+<strong> Compartment 67 is 1008 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L565'">drivers/char/random.c:__mix_pool_bytes</a>(128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L518'">drivers/char/random.c:_mix_pool_bytes</a>(256 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1192'">drivers/char/random.c:add_disk_randomness</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1076'">drivers/char/random.c:add_input_randomness</a>(128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1020'">drivers/char/random.c:add_timer_randomness</a>(208 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L572'">drivers/char/random.c:mix_pool_bytes</a>(144 bytes)<br />
+<br /><br />
+<strong> Compartment 67 accesses 13 objects:</strong><br />
+1. Globar var blocking_pool <br />
+2. Globar var blocking_pool_data <br />
+3. Globar var input_pool <br />
+4. Globar var input_pool_data <br />
+5. Globar var input_timer_state <br />
+6. Globar var irq_randomness <br />
+7. Globar var jiffies_64 <br />
+8. Globar var poolinfo_table <br />
+9. Globar var twist_table <br />
+10. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+11. KMEM_CACHE alloc from drivers/char/random.c:rand_initialize_disk <br />
+12. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+13. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br />
+</html>

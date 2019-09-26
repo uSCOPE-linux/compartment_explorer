@@ -1,0 +1,44 @@
+<html>
+Selected compartmentalization: <strong>C4096</strong><br />
+<br />
+Viewing compartment: 35 of 2037<br />
+<a href='C4096_34.html'> Prev</a>
+<a href='C4096_36.html'> Next</a>
+<br /><br />
+<strong> Compartment 35 is 4080 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2633'">block/cfq-iosched.c:__cfq_set_active_queue</a>(320 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L1090'">block/cfq-iosched.c:cfq_choose_req</a>(272 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3000'">block/cfq-iosched.c:cfq_dispatch_insert</a>(304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3501'">block/cfq-iosched.c:cfq_dispatch_request</a>(752 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L1223'">block/cfq-iosched.c:cfq_find_next_rq</a>(208 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2512'">block/cfq-iosched.c:cfq_remove_request</a>(336 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2888'">block/cfq-iosched.c:cfq_should_idle</a>(368 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L350'">block/elevator.c:elv_dispatch_sort</a>(240 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L317'">block/elevator.c:elv_rb_del</a>(64 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L250'">block/elevator.c:elv_rqhash_del</a>(112 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L198'">fs/kernfs/dir.c:kernfs_path_from_node</a>(64 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L118'">fs/kernfs/dir.c:kernfs_path_from_node_locked</a>(1040 bytes)<br />
+<br /><br />
+<strong> Compartment 35 accesses 21 objects:</strong><br />
+1. Globar var *.LC2 <br />
+2. Globar var blkcg_root <br />
+3. Globar var group_path <br />
+4. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+5. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
+6. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+7. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+8. KMEM_CACHE alloc from block/blk-ioc.c:ioc_create_icq <br />
+9. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
+10. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
+11. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
+12. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+13. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+14. KMEM_CACHE alloc from fs/kernfs/dir.c:kernfs_create_root <br />
+15. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+16. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+17. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_release_agent <br />
+18. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_show_path <br />
+19. KMEM_CACHE alloc from kernel/cgroup.c:proc_cgroup_show <br />
+20. KMEM_CACHE alloc from kernel/cpuset.c:proc_cpuset_show <br />
+21. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+</html>

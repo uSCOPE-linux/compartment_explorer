@@ -1,0 +1,31 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 54 of 3805<br />
+<a href='C1024_53.html'> Prev</a>
+<a href='C1024_55.html'> Next</a>
+<br /><br />
+<strong> Compartment 54 is 1008 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L683'">drivers/base/power/wakeup.c:__pm_relax</a>(64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L595'">fs/eventpoll.c:ep_scan_ready_list</a>(480 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1495'">fs/eventpoll.c:ep_send_events_proc</a>(368 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L218'">fs/timerfd.c:timerfd_poll</a>(96 bytes)<br />
+<br /><br />
+<strong> Compartment 54 accesses 16 objects:</strong><br />
+1. Globar var eventpoll_fops <br />
+2. Globar var inotify_fops <br />
+3. Globar var kmsg_fops <br />
+4. Globar var pipefifo_fops <br />
+5. Globar var proc_mountinfo_operations <br />
+6. Globar var proc_reg_file_ops_no_compat <br />
+7. Globar var proc_sys_file_operations <br />
+8. Globar var signalfd_fops <br />
+9. Globar var socket_file_ops <br />
+10. Globar var timerfd_fops <br />
+11. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
+12. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
+13. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
+14. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+15. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+16. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+</html>

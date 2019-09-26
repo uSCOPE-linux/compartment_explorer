@@ -1,0 +1,22 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 26 of 3805<br />
+<a href='C1024_25.html'> Prev</a>
+<a href='C1024_27.html'> Next</a>
+<br /><br />
+<strong> Compartment 26 is 1024 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L96'">block/blk-mq.c:blk_mq_freeze_queue</a>(16 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1565'">block/genhd.c:disk_flush_events</a>(80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/loop.c.html#L1552'">drivers/block/loop.c:lo_release</a>(112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1830'">fs/block_dev.c:__blkdev_put</a>(576 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1875'">fs/block_dev.c:blkdev_put</a>(240 bytes)<br />
+<br /><br />
+<strong> Compartment 26 accesses 6 objects:</strong><br />
+1. Globar var brd_fops <br />
+2. Globar var lo_fops <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+5. KMEM_CACHE alloc from drivers/block/loop.c:loop_add <br />
+6. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+</html>

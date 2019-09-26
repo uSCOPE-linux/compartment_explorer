@@ -1,0 +1,70 @@
+<html>
+Selected compartmentalization: <strong>C4096</strong><br />
+<br />
+Viewing compartment: 79 of 2037<br />
+<a href='C4096_78.html'> Prev</a>
+<a href='C4096_80.html'> Next</a>
+<br /><br />
+<strong> Compartment 79 is 4016 bytes and has 13 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L916'">fs/kernfs/dir.c:kernfs_create_dir_ns</a>(128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1011'">fs/kernfs/dir.c:kernfs_iop_mkdir</a>(144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/dir.c.html#L40'">fs/sysfs/dir.c:sysfs_create_dir_ns</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/bpf/cgroup.c.html#L44'">kernel/bpf/cgroup.c:cgroup_bpf_inherit</a>(96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L1005'">kernel/cgroup.c:allocate_cgrp_cset_links</a>(128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L489'">kernel/cgroup.c:cgroup_get</a>(96 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L332'">kernel/cgroup.c:cgroup_idr_alloc</a>(112 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L2711'">kernel/cgroup.c:cgroup_migrate_prepare_dst</a>(448 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5305'">kernel/cgroup.c:cgroup_mkdir</a>(816 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L3192'">kernel/cgroup.c:cgroup_propagate_control</a>(352 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L1063'">kernel/cgroup.c:find_css_set</a>(1152 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5095'">kernel/cgroup.c:init_and_link_css</a>(256 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L1030'">kernel/cgroup.c:link_css_set</a>(144 bytes)<br />
+<br /><br />
+<strong> Compartment 79 accesses 46 objects:</strong><br />
+1. Globar var blkcg_root <br />
+2. Globar var cgroup_kf_syscall_ops <br />
+3. Globar var cgroup_subsys <br />
+4. Globar var cgrp_dfl_root <br />
+5. Globar var cpu_cgrp_subsys <br />
+6. Globar var cpuacct_cgrp_subsys <br />
+7. Globar var css_set_table <br />
+8. Globar var devices_cgrp_subsys <br />
+9. Globar var ext4_kset <br />
+10. Globar var init_css_set <br />
+11. Globar var io_cgrp_subsys <br />
+12. Globar var pids_cgrp_subsys <br />
+13. Globar var root_cpuacct <br />
+14. Globar var root_task_group <br />
+15. Globar var top_cpuset <br />
+16. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+17. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+18. KMEM_CACHE alloc from drivers/base/core.c:get_device_parent <br />
+19. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+20. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+21. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+22. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+23. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+24. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+25. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+26. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+27. KMEM_CACHE alloc from fs/kernfs/dir.c:kernfs_create_root <br />
+28. KMEM_CACHE alloc from kernel/cgroup.c:allocate_cgrp_cset_links <br />
+29. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+30. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+31. KMEM_CACHE alloc from kernel/cgroup.c:find_css_set <br />
+32. KMEM_CACHE alloc from kernel/cgroup_freezer.c:freezer_css_alloc <br />
+33. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
+34. KMEM_CACHE alloc from kernel/events/core.c:perf_cgroup_css_alloc <br />
+35. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
+36. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
+37. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+38. KMEM_CACHE alloc from mm/hugetlb_cgroup.c:hugetlb_cgroup_css_alloc <br />
+39. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+40. KMEM_CACHE alloc from mm/slab_common.c:create_cache <br />
+41. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+42. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+43. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+44. KMEM_CACHE alloc from net/core/netclassid_cgroup.c:cgrp_css_alloc <br />
+45. KMEM_CACHE alloc from net/core/netprio_cgroup.c:cgrp_css_alloc <br />
+46. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
+</html>

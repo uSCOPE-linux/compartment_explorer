@@ -1,0 +1,27 @@
+<html>
+Selected compartmentalization: <strong>C32768</strong><br />
+<br />
+Viewing compartment: 48 of 1537<br />
+<a href='C32768_47.html'> Prev</a>
+<a href='C32768_49.html'> Next</a>
+<br /><br />
+<strong> Compartment 48 is 1376 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1204'">fs/buffer.c:__bforget</a>(80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L185'">fs/ext4/ext4_jbd2.c:__ext4_forget</a>(464 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L137'">fs/jbd2/revoke.c:insert_revoke_hash</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L324'">fs/jbd2/revoke.c:jbd2_journal_revoke</a>(304 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1471'">fs/jbd2/transaction.c:jbd2_journal_forget</a>(384 bytes)<br />
+<br /><br />
+<strong> Compartment 48 accesses 11 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+4. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
+5. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+6. KMEM_CACHE alloc from fs/jbd2/revoke.c:insert_revoke_hash <br />
+7. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
+8. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
+9. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+10. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+11. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+</html>

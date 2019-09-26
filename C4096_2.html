@@ -1,0 +1,35 @@
+<html>
+Selected compartmentalization: <strong>C4096</strong><br />
+<br />
+Viewing compartment: 2 of 2037<br />
+<a href='C4096_1.html'> Prev</a>
+<a href='C4096_3.html'> Next</a>
+<br /><br />
+<strong> Compartment 2 is 2192 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L3100'">block/blk-core.c:kblockd_schedule_delayed_work</a>(48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L165'">block/blk-flush.c:blk_flush_complete_seq</a>(720 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L133'">block/blk-flush.c:blk_flush_queue_rq</a>(96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L410'">block/blk-flush.c:blk_insert_flush</a>(448 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L378'">block/blk-flush.c:mq_flush_data_end_io</a>(160 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L195'">block/blk-mq-tag.c:blk_mq_put_tag</a>(80 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L322'">block/blk-mq.c:__blk_mq_free_request</a>(128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L564'">block/blk-mq.c:blk_mq_add_to_requeue_list</a>(144 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L370'">block/blk-mq.c:blk_mq_end_request</a>(128 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L339'">block/blk-mq.c:blk_mq_free_hctx_request</a>(64 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L349'">block/blk-mq.c:blk_mq_free_request</a>(64 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/virtio_blk.c.html#L118'">drivers/block/virtio_blk.c:virtblk_request_done</a>(112 bytes)<br />
+<br /><br />
+<strong> Compartment 2 accesses 12 objects:</strong><br />
+1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+2. Globar var jiffies_64 <br />
+3. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+5. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+6. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+8. KMEM_CACHE alloc from block/blk-mq-tag.c:blk_mq_init_tags <br />
+9. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_alloc_tag_set <br />
+10. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br />
+11. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+12. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br />
+</html>

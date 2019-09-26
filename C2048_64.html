@@ -1,0 +1,37 @@
+<html>
+Selected compartmentalization: <strong>C2048</strong><br />
+<br />
+Viewing compartment: 64 of 2689<br />
+<a href='C2048_63.html'> Prev</a>
+<a href='C2048_65.html'> Next</a>
+<br /><br />
+<strong> Compartment 64 is 2048 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/fault.c.html#L1214'">arch/x86/mm/fault.c:__do_page_fault</a>(1232 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/fault.c.html#L1444'">arch/x86/mm/fault.c:do_page_fault</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5869'">fs/ext4/inode.c:ext4_filemap_fault</a>(80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L1313'">fs/namespace.c:m_stop</a>(32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/rwsem.c.html#L32'">kernel/locking/rwsem.c:down_read_trylock</a>(48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/rwsem.c.html#L98'">kernel/locking/rwsem.c:up_read</a>(32 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L2865'">mm/memory.c:__do_fault</a>(192 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2092'">mm/mmap.c:find_vma</a>(112 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmacache.c.html#L85'">mm/vmacache.c:vmacache_find</a>(208 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmacache.c.html#L59'">mm/vmacache.c:vmacache_update</a>(64 bytes)<br />
+<br /><br />
+<strong> Compartment 64 accesses 16 objects:</strong><br />
+1. Globar var ext4_file_vm_ops <br />
+2. Globar var kmmio_count <br />
+3. Globar var shm_vm_ops <br />
+4. Globar var shmem_vm_ops <br />
+5. Globar var special_mapping_vmops <br />
+6. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
+7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+12. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
+13. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
+14. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
+15. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
+16. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+</html>

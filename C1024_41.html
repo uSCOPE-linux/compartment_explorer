@@ -1,0 +1,32 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 41 of 3805<br />
+<a href='C1024_40.html'> Prev</a>
+<a href='C1024_42.html'> Next</a>
+<br /><br />
+<strong> Compartment 41 is 1024 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L645'">drivers/input/input.c:input_close_device</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2351'">drivers/input/input.c:input_unregister_handle</a>(112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L441'">drivers/input/mousedev.c:mousedev_close_device</a>(80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L2757'">fs/locks.c:locks_start</a>(80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/percpu-rwsem.c.html#L140'">kernel/locking/percpu-rwsem.c:percpu_down_write</a>(128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/sync.c.html#L113'">kernel/rcu/sync.c:rcu_sync_enter</a>(224 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L188'">kernel/rcu/tiny.c:synchronize_sched</a>(16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L570'">mm/slab_common.c:memcg_deactivate_kmem_caches</a>(272 bytes)<br />
+<br /><br />
+<strong> Compartment 41 accesses 13 objects:</strong><br />
+1. Globar var __percpu_rwsem_rc_file_rwsem <br />
+2. Globar var cgroup_threadgroup_rwsem <br />
+3. Globar var evdev_handler <br />
+4. Globar var file_rwsem <br />
+5. Globar var gp_ops <br />
+6. Globar var kbd_handler <br />
+7. Globar var mousedev_handler <br />
+8. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+9. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+10. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+11. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
+12. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+13. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+</html>

@@ -1,0 +1,25 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 2 of 3805<br />
+<a href='C1024_1.html'> Prev</a>
+<a href='C1024_3.html'> Next</a>
+<br /><br />
+<strong> Compartment 2 is 864 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L2417'">fs/namei.c:lookup_one_len</a>(304 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/dir.c.html#L43'">fs/overlayfs/dir.c:ovl_lookup_temp</a>(160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/mqueue.c.html#L848'">ipc/mqueue.c:SyS_mq_unlink</a>(400 bytes)<br />
+<br /><br />
+<strong> Compartment 2 accesses 11 objects:</strong><br />
+1. Globar var *.LC10 <br />
+2. Globar var init_ipc_ns <br />
+3. Globar var init_nsproxy <br />
+4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/namei.c:getname_flags <br />
+7. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+8. KMEM_CACHE alloc from ipc/mqueue.c:mqueue_alloc_inode <br />
+9. KMEM_CACHE alloc from ipc/namespace.c:copy_ipcs <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
+</html>

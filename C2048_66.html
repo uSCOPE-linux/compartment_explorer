@@ -1,0 +1,35 @@
+<html>
+Selected compartmentalization: <strong>C2048</strong><br />
+<br />
+Viewing compartment: 66 of 2689<br />
+<a href='C2048_65.html'> Prev</a>
+<a href='C2048_67.html'> Next</a>
+<br /><br />
+<strong> Compartment 66 is 1776 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L621'">fs/libfs.c:simple_read_from_buffer</a>(208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1013'">fs/proc/base.c:auxv_read</a>(80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1035'">fs/proc/base.c:oom_adj_read</a>(192 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1197'">fs/proc/base.c:oom_score_adj_read</a>(160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L2565'">fs/proc/base.c:proc_coredump_filter_read</a>(224 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1250'">fs/proc/base.c:proc_loginuid_read</a>(176 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L2459'">fs/proc/base.c:proc_pid_attr_read</a>(176 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1312'">fs/proc/base.c:proc_sessionid_read</a>(144 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/evm/evm_secfs.c.html#L34'">security/integrity/evm/evm_secfs.c:evm_read_key</a>(128 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L54'">security/integrity/ima/ima_fs.c:ima_show_htable_violations</a>(96 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L66'">security/integrity/ima/ima_fs.c:ima_show_measurements_count</a>(96 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1167'">security/security.c:security_getprocattr</a>(96 bytes)<br />
+<br /><br />
+<strong> Compartment 66 accesses 12 objects:</strong><br />
+1. Globar var apparmor_hooks <br />
+2. Globar var evm_initialized <br />
+3. Globar var ima_htable <br />
+4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+5. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+6. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+7. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+12. KMEM_CACHE alloc from security/apparmor/procattr.c:aa_getprocattr <br />
+</html>

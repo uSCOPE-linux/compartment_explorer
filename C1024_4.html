@@ -1,0 +1,26 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 4 of 3805<br />
+<a href='C1024_3.html'> Prev</a>
+<a href='C1024_5.html'> Next</a>
+<br /><br />
+<strong> Compartment 4 is 960 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L165'">block/blk-flush.c:blk_flush_complete_seq</a>(720 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L133'">block/blk-flush.c:blk_flush_queue_rq</a>(96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L564'">block/blk-mq.c:blk_mq_add_to_requeue_list</a>(144 bytes)<br />
+<br /><br />
+<strong> Compartment 4 accesses 12 objects:</strong><br />
+1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+2. Globar var jiffies_64 <br />
+3. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+5. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+6. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+8. KMEM_CACHE alloc from block/blk-mq-tag.c:blk_mq_init_tags <br />
+9. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_alloc_tag_set <br />
+10. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br />
+11. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+12. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br />
+</html>

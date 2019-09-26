@@ -1,0 +1,52 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 46 of 3805<br />
+<a href='C1024_45.html'> Prev</a>
+<a href='C1024_47.html'> Next</a>
+<br /><br />
+<strong> Compartment 46 is 992 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L877'">fs/eventpoll.c:ep_show_fdinfo</a>(128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L2739'">fs/locks.c:show_fd_locks</a>(144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L73'">fs/notify/fdinfo.c:inotify_fdinfo</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L101'">fs/notify/fdinfo.c:inotify_show_fdinfo</a>(32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L21'">fs/notify/fdinfo.c:show_fdinfo</a>(112 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/fd.c.html#L18'">fs/proc/fd.c:seq_show</a>(368 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/signalfd.c.html#L233'">fs/signalfd.c:signalfd_show_fdinfo</a>(64 bytes)<br />
+<br /><br />
+<strong> Compartment 46 accesses 34 objects:</strong><br />
+1. Globar var eventpoll_fops <br />
+2. Globar var ext4_file_operations <br />
+3. Globar var inotify_fops <br />
+4. Globar var kernfs_dir_fops <br />
+5. Globar var kmsg_fops <br />
+6. Globar var null_fops <br />
+7. Globar var pipefifo_fops <br />
+8. Globar var proc_clear_refs_operations <br />
+9. Globar var proc_fdinfo_operations <br />
+10. Globar var proc_mountinfo_operations <br />
+11. Globar var proc_reg_file_ops_no_compat <br />
+12. Globar var proc_root_operations <br />
+13. Globar var proc_task_operations <br />
+14. Globar var proc_tgid_base_operations <br />
+15. Globar var proc_tid_base_operations <br />
+16. Globar var rfkill_fops <br />
+17. Globar var signalfd_fops <br />
+18. Globar var socket_file_ops <br />
+19. Globar var timerfd_fops <br />
+20. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+21. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
+22. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+23. KMEM_CACHE alloc from fs/file.c:dup_fd <br />
+24. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+25. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+26. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+27. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
+28. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:SyS_inotify_add_watch <br />
+29. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+30. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+31. KMEM_CACHE alloc from fs/signalfd.c:SyS_signalfd4 <br />
+32. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+33. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+34. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+</html>

@@ -1,0 +1,20 @@
+<html>
+Selected compartmentalization: <strong>C1024</strong><br />
+<br />
+Viewing compartment: 66 of 3805<br />
+<a href='C1024_65.html'> Prev</a>
+<a href='C1024_67.html'> Next</a>
+<br /><br />
+<strong> Compartment 66 is 1024 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2886'">fs/ext4/inode.c:ext4_da_write_begin</a>(864 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2837'">fs/ext4/inode.c:ext4_nonda_switch</a>(96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2766'">mm/filemap.c:grab_cache_page_write_begin</a>(64 bytes)<br />
+<br /><br />
+<strong> Compartment 66 accesses 6 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+</html>

@@ -1,0 +1,42 @@
+<html>
+Selected compartmentalization: <strong>C4096</strong><br />
+<br />
+Viewing compartment: 6 of 2037<br />
+<a href='C4096_5.html'> Prev</a>
+<a href='C4096_7.html'> Next</a>
+<br /><br />
+<strong> Compartment 6 is 4096 bytes and has 17 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L49'">fs/block_dev.c:I_BDEV</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1354'">fs/buffer.c:__find_get_block</a>(496 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1380'">fs/buffer.c:__getblk_gfp</a>(672 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L952'">fs/buffer.c:init_page_buffers</a>(208 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L280'">fs/ext4/balloc.c:ext4_get_group_desc</a>(160 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L156'">fs/ext4/ext4_jbd2.c:__ext4_journal_get_write_access</a>(128 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L164'">fs/ext4/extents.c:__ext4_ext_dirty</a>(144 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L858'">fs/ext4/extents.c:ext4_ext_tree_init</a>(64 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L4302'">fs/ext4/inode.c:__ext4_get_inode_loc</a>(1008 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L4438'">fs/ext4/inode.c:ext4_get_inode_loc</a>(32 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5567'">fs/ext4/inode.c:ext4_mark_inode_dirty</a>(480 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5504'">fs/ext4/inode.c:ext4_reserve_inode_write</a>(160 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L217'">fs/ext4/super.c:ext4_inode_table</a>(48 bytes)<br />
+14. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L249'">fs/ext4/super.c:ext4_itable_unused_count</a>(48 bytes)<br />
+15. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2430'">fs/jbd2/journal.c:jbd2_journal_add_journal_head</a>(240 bytes)<br />
+16. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1067'">fs/jbd2/transaction.c:jbd2_journal_get_write_access</a>(112 bytes)<br />
+17. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1003'">fs/jbd2/transaction.c:jbd2_write_access_granted</a>(64 bytes)<br />
+<br /><br />
+<strong> Compartment 6 accesses 14 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+5. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+7. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_ext_remove_space <br />
+8. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_find_extent <br />
+9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+11. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvmalloc <br />
+12. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
+13. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+14. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+</html>
