@@ -1,1 +1,31 @@
-hello world
+<html>
+
+	<head>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<h1>uSCOPE Linux Compartmentalization Explorer</h1>
+	<script type='text/javascript'>
+	function selectObject(){
+	newpage=document.getElementById('comppick').value + '_1.html';
+	document.getElementById('comp_panel').src=newpage;
+	document.getElementById('linux_panel').src='blank.html';
+	}
+	</script>
+
+	<form oninput='selectObject()'>
+	<label for='comppick'>Select a compartmentalization:</label>
+	<select id='comppick' name='object'>
+		<option value='C1024'>C1024</option>
+		<option value='C2048'>C2048</option>
+		<option value='C4096'>C4096</option>
+		<option value='C8192'>C8192</option>
+		<option value='C16384'>C16384</option>
+		<option value='C32768'>C32768</option>
+		<option value='C65536'>C65536</option>
+		<option value='C131072'>C131072</option>
+	</select>
+	</form>
+
+	<iframe src="C1024_1.html" id='comp_panel' width='550' height='750'></iframe>
+	<iframe src="blank.html" id='linux_panel' width='550' height='750'></iframe>
+</html>
