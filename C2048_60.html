@@ -1,28 +1,27 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 60 of 2689<br />
+Viewing compartment: 60 of 1153<br />
 <a href='C2048_59.html'> Prev</a>
 <a href='C2048_61.html'> Next</a>
 <br /><br />
-<strong> Compartment 60 is 2032 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L5437'">net/ipv6/addrconf.c:__ipv6_ifa_notify</a>(672 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L2398'">net/ipv6/addrconf.c:addrconf_prefix_rcv_add_addr</a>(592 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L1857'">net/ipv6/addrconf.c:ipv6_get_ifaddr</a>(176 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L5484'">net/ipv6/addrconf.c:ipv6_ifa_notify</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L2323'">net/ipv6/addrconf.c:manage_tempaddrs</a>(384 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_fib.c.html#L1722'">net/ipv6/ip6_fib.c:fib6_flush_trees</a>(64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/route.c.html#L931'">net/ipv6/route.c:ip6_ins_rt</a>(80 bytes)<br />
+<strong> Compartment 60 is 1872 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3232'">fs/buffer.c:__sync_dirty_buffer</a>(272 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3252'">fs/buffer.c:sync_dirty_buffer</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5081'">fs/ext4/inode.c:ext4_write_inode</a>(320 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1293'">fs/fs-writeback.c:__writeback_single_inode</a>(624 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2460'">fs/fs-writeback.c:sync_inode_metadata</a>(64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2417'">fs/fs-writeback.c:write_inode_now</a>(160 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1380'">fs/fs-writeback.c:writeback_single_inode</a>(400 bytes)<br />
 <br /><br />
-<strong> Compartment 60 accesses 10 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. Globar var __fib6_flush_trees <br />
-3. Globar var inet6_addr_lst <br />
-4. Globar var jiffies_64 <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-7. KMEM_CACHE alloc from net/core/dst.c:dst_alloc <br />
-8. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-9. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
-10. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
+<strong> Compartment 60 accesses 9 objects:</strong><br />
+1. Globar var blockdev_superblock <br />
+2. Globar var ext4_sops <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+8. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

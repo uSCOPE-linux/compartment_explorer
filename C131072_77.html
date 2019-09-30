@@ -1,15 +1,20 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 77 of 1485<br />
+Viewing compartment: 77 of 381<br />
 <a href='C131072_76.html'> Prev</a>
 <a href='C131072_78.html'> Next</a>
 <br /><br />
-<strong> Compartment 77 is 864 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L528'">mm/memory-failure.c:delete_from_lru_cache</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mlock.c.html#L79'">mm/mlock.c:mlock_vma_page</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmscan.c.html#L1541'">mm/vmscan.c:isolate_lru_page</a>(592 bytes)<br />
+<strong> Compartment 77 is 432 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L56'">crypto/akcipher.c:crypto_akcipher_exit_tfm</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa.c.html#L346'">crypto/rsa.c:rsa_exit_tfm</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa.c.html#L242'">crypto/rsa.c:rsa_free_mpi_key</a>(80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa.c.html#L268'">crypto/rsa.c:rsa_set_pub_key</a>(256 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa_helper.c.html#L167'">crypto/rsa_helper.c:rsa_parse_pub_key</a>(32 bytes)<br />
 <br /><br />
-<strong> Compartment 77 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+<strong> Compartment 77 accesses 4 objects:</strong><br />
+1. Globar var rsa <br />
+2. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+3. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
+4. KMEM_CACHE alloc from lib/mpi/mpiutil.c:mpi_alloc <br />
 </html>

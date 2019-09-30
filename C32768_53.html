@@ -1,15 +1,21 @@
 <html>
 Selected compartmentalization: <strong>C32768</strong><br />
 <br />
-Viewing compartment: 53 of 1537<br />
+Viewing compartment: 53 of 408<br />
 <a href='C32768_52.html'> Prev</a>
 <a href='C32768_54.html'> Next</a>
 <br /><br />
-<strong> Compartment 53 is 800 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L963'">drivers/base/power/runtime.c:__pm_runtime_idle</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L235'">drivers/base/power/runtime.c:rpm_check_suspend_allowed</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L375'">drivers/base/power/runtime.c:rpm_idle</a>(528 bytes)<br />
+<strong> Compartment 53 is 1872 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L273'">block/bio.c:bio_init</a>(96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L862'">block/bio.c:bio_iov_iter_get_pages</a>(256 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L200'">fs/block_dev.c:__blkdev_direct_IO_simple</a>(640 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L423'">fs/block_dev.c:blkdev_direct_IO</a>(880 bytes)<br />
 <br /><br />
-<strong> Compartment 53 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/pci/probe.c:pci_create_root_bus_msi <br />
+<strong> Compartment 53 accesses 6 objects:</strong><br />
+1. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+2. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+3. KMEM_CACHE alloc from fs/block_dev.c:__blkdev_direct_IO_simple <br />
+4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

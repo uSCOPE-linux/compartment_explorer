@@ -1,34 +1,19 @@
 <html>
 Selected compartmentalization: <strong>C32768</strong><br />
 <br />
-Viewing compartment: 57 of 1537<br />
+Viewing compartment: 57 of 408<br />
 <a href='C32768_56.html'> Prev</a>
 <a href='C32768_58.html'> Next</a>
 <br /><br />
-<strong> Compartment 57 is 6368 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/paravirt.c.html#L187'">arch/x86/kernel/paravirt.c:native_flush_tlb_global</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/init.c.html#L391'">arch/x86/mm/init.c:pfn_range_is_mapped</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L1327'">arch/x86/mm/pageattr.c:__change_page_attr_set_clr</a>(3392 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L1115'">arch/x86/mm/pageattr.c:__cpa_process_fault</a>(1472 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L377'">arch/x86/mm/pageattr.c:_lookup_address_cpa</a>(64 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L333'">arch/x86/mm/pageattr.c:lookup_address_in_pgd</a>(352 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L503'">mm/vmalloc.c:__free_vmap_area</a>(240 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L624'">mm/vmalloc.c:__purge_vmap_area_lazy</a>(144 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L884'">mm/vmalloc.c:purge_fragmented_blocks</a>(336 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1034'">mm/vmalloc.c:vm_unmap_aliases</a>(176 bytes)<br />
+<strong> Compartment 57 is 960 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L779'">arch/x86/kernel/fpu/xstate.c:__raw_xsave_addr</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L1019'">arch/x86/kernel/fpu/xstate.c:copyin_to_xsaves</a>(304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L947'">arch/x86/kernel/fpu/xstate.c:copyout_from_xsaves</a>(544 bytes)<br />
 <br /><br />
-<strong> Compartment 57 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from arch/x86/mm/pageattr.c:__change_page_attr_set_clr <br />
-2. ALLOC_PAGES alloc from arch/x86/mm/pgtable.c:pte_alloc_one_kernel <br />
-3. ALLOC_PAGES alloc from mm/memory.c:__pmd_alloc <br />
-4. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
-5. Globar var __supported_pte_mask <br />
-6. Globar var _brk_end <br />
-7. Globar var direct_pages_count <br />
-8. Globar var init_mm <br />
-9. Globar var kernel_set_to_readonly <br />
-10. Globar var max_pfn_mapped <br />
-11. Globar var pfn_mapped <br />
-12. Globar var phys_base <br />
-13. KMEM_CACHE alloc from mm/vmalloc.c:alloc_vmap_area <br />
+<strong> Compartment 57 accesses 5 objects:</strong><br />
+1. Globar var xstate_comp_offsets <br />
+2. Globar var xstate_offsets <br />
+3. Globar var xstate_sizes <br />
+4. KMEM_CACHE alloc from fs/binfmt_elf.c:elf_core_dump <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

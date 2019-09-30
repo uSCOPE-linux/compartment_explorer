@@ -1,37 +1,21 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 56 of 2689<br />
+Viewing compartment: 56 of 1153<br />
 <a href='C2048_55.html'> Prev</a>
 <a href='C2048_57.html'> Next</a>
 <br /><br />
-<strong> Compartment 56 is 2048 bytes and has 13 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/dcache.c.html#L810'">fs/dcache.c:dget_parent</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L367'">fs/ext4/file.c:ext4_file_open</a>(688 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L4142'">fs/ext4/inode.c:ext4_inode_attach_jinode</a>(192 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2532'">fs/jbd2/journal.c:jbd2_journal_init_jbd_inode</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L1160'">fs/open.c:generic_file_open</a>(48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/copy_up.c.html#L426'">fs/overlayfs/copy_up.c:ovl_copy_up</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/copy_up.c.html#L382'">fs/overlayfs/copy_up.c:ovl_copy_up_flags</a>(320 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/super.c.html#L52'">fs/overlayfs/super.c:ovl_d_real</a>(304 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L116'">fs/overlayfs/util.c:ovl_dentry_upper</a>(32 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L34'">fs/overlayfs/util.c:ovl_override_creds</a>(32 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L97'">fs/overlayfs/util.c:ovl_path_lower</a>(64 bytes)<br />
-12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L67'">fs/overlayfs/util.c:ovl_path_type</a>(80 bytes)<br />
-13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L2078'">fs/quota/dquot.c:dquot_file_open</a>(80 bytes)<br />
+<strong> Compartment 56 is 1984 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L967'">mm/memcontrol.c:mem_cgroup_page_lruvec</a>(64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L5589'">mm/memcontrol.c:mem_cgroup_uncharge_list</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L1011'">mm/memcontrol.c:mem_cgroup_update_lru_size</a>(224 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L859'">mm/swap.c:__pagevec_lru_add_fn</a>(608 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L179'">mm/swap.c:pagevec_lru_move_fn</a>(224 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L729'">mm/swap.c:release_pages</a>(832 bytes)<br />
 <br /><br />
-<strong> Compartment 56 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. Globar var jbd2_inode_cache <br />
-4. Globar var ovl_dentry_operations <br />
-5. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-6. KMEM_CACHE alloc from fs/ext4/inode.c:ext4_inode_attach_jinode <br />
-7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-9. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-10. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
-11. KMEM_CACHE alloc from fs/overlayfs/super.c:ovl_fill_super <br />
-12. KMEM_CACHE alloc from fs/overlayfs/util.c:ovl_alloc_entry <br />
-13. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 56 accesses 4 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/memory.c:tlb_next_batch <br />
+2. Globar var lru_add_pvec <br />
+3. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+4. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
 </html>

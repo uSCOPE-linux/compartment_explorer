@@ -1,23 +1,22 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 72 of 1485<br />
+Viewing compartment: 72 of 381<br />
 <a href='C131072_71.html'> Prev</a>
 <a href='C131072_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 3264 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L1286'">drivers/input/evdev.c:evdev_ioctl_handler</a>(2992 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L791'">drivers/input/evdev.c:str_to_user</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L519'">drivers/input/input.c:input_grab_device</a>(96 bytes)<br />
+<strong> Compartment 72 is 704 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L585'">drivers/input/input.c:input_open_device</a>(160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L456'">drivers/input/mousedev.c:mixdev_open_devices</a>(144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L535'">drivers/input/mousedev.c:mousedev_open</a>(288 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L421'">drivers/input/mousedev.c:mousedev_open_device</a>(112 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 9 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/acpi/scan.c:acpi_add_single_object <br />
-2. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
-4. KMEM_CACHE alloc from drivers/input/input.c:input_alloc_absinfo <br />
-5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-6. KMEM_CACHE alloc from drivers/input/keyboard/atkbd.c:atkbd_connect <br />
-7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. KMEM_CACHE alloc from mm/util.c:kstrndup <br />
+<strong> Compartment 72 accesses 7 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+2. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+3. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+4. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_open <br />
+5. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
+6. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+7. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

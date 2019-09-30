@@ -1,18 +1,22 @@
 <html>
 Selected compartmentalization: <strong>C8192</strong><br />
 <br />
-Viewing compartment: 34 of 1711<br />
+Viewing compartment: 34 of 594<br />
 <a href='C8192_33.html'> Prev</a>
 <a href='C8192_35.html'> Next</a>
 <br /><br />
-<strong> Compartment 34 is 688 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ptrace.c.html#L487'">kernel/ptrace.c:__ptrace_detach</a>(160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ptrace.c.html#L103'">kernel/ptrace.c:__ptrace_unlink</a>(256 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ptrace.c.html#L544'">kernel/ptrace.c:exit_ptrace</a>(208 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/signal.c.html#L275'">kernel/signal.c:task_clear_jobctl_trapping</a>(64 bytes)<br />
+<strong> Compartment 34 is 400 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L464'">drivers/input/evdev.c:evdev_release</a>(224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L541'">drivers/input/input.c:__input_release_device</a>(112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L568'">drivers/input/input.c:input_release_device</a>(64 bytes)<br />
 <br /><br />
-<strong> Compartment 34 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 34 accesses 8 objects:</strong><br />
+1. Globar var evdev_handler <br />
+2. Globar var kbd_handler <br />
+3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
+8. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
 </html>

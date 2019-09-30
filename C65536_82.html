@@ -1,22 +1,21 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 82 of 1469<br />
+Viewing compartment: 82 of 377<br />
 <a href='C65536_81.html'> Prev</a>
 <a href='C65536_83.html'> Next</a>
 <br /><br />
-<strong> Compartment 82 is 480 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L1171'">fs/ext4/extents_status.c:ext4_es_unregister_shrinker</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1814'">fs/ext4/xattr.c:ext4_xattr_destroy_cache</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/mbcache.c.html#L386'">fs/mbcache.c:mb_cache_destroy</a>(320 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmscan.c.html#L278'">mm/vmscan.c:unregister_shrinker</a>(96 bytes)<br />
+<strong> Compartment 82 is 1584 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L183'">fs/splice.c:splice_to_pipe</a>(288 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1918'">net/core/skbuff.c:__skb_splice_bits</a>(512 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1876'">net/core/skbuff.c:__splice_segment</a>(576 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1970'">net/core/skbuff.c:skb_splice_bits</a>(160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2489'">net/unix/af_unix.c:unix_stream_splice_actor</a>(48 bytes)<br />
 <br /><br />
-<strong> Compartment 82 accesses 7 objects:</strong><br />
-1. Globar var shrinker_list <br />
-2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-3. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
-4. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
-5. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_entry_create <br />
-6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-7. KMEM_CACHE alloc from mm/vmscan.c:register_shrinker <br />
+<strong> Compartment 82 accesses 5 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+2. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+3. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+4. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+5. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
 </html>

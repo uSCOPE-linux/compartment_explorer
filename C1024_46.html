@@ -1,52 +1,95 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 46 of 3805<br />
+Viewing compartment: 46 of 1503<br />
 <a href='C1024_45.html'> Prev</a>
 <a href='C1024_47.html'> Next</a>
 <br /><br />
-<strong> Compartment 46 is 992 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L877'">fs/eventpoll.c:ep_show_fdinfo</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L2739'">fs/locks.c:show_fd_locks</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L73'">fs/notify/fdinfo.c:inotify_fdinfo</a>(144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L101'">fs/notify/fdinfo.c:inotify_show_fdinfo</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fdinfo.c.html#L21'">fs/notify/fdinfo.c:show_fdinfo</a>(112 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/fd.c.html#L18'">fs/proc/fd.c:seq_show</a>(368 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/signalfd.c.html#L233'">fs/signalfd.c:signalfd_show_fdinfo</a>(64 bytes)<br />
+<strong> Compartment 46 is 1008 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/proc_net.c.html#L185'">fs/proc/proc_net.c:proc_net_ns_init</a>(240 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net_namespace.c.html#L546'">net/core/net_namespace.c:net_ns_net_init</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net_namespace.c.html#L98'">net/core/net_namespace.c:ops_init</a>(288 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1191'">net/ipv4/ping.c:ping_v4_proc_init_net</a>(64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/route.c.html#L375'">net/ipv4/route.c:ip_rt_do_proc_init</a>(144 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L4164'">net/ipv6/addrconf.c:if6_proc_net_init</a>(64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ndisc.c.html#L1832'">net/ipv6/ndisc.c:ndisc_net_init</a>(160 bytes)<br />
 <br /><br />
-<strong> Compartment 46 accesses 34 objects:</strong><br />
-1. Globar var eventpoll_fops <br />
-2. Globar var ext4_file_operations <br />
-3. Globar var inotify_fops <br />
-4. Globar var kernfs_dir_fops <br />
-5. Globar var kmsg_fops <br />
-6. Globar var null_fops <br />
-7. Globar var pipefifo_fops <br />
-8. Globar var proc_clear_refs_operations <br />
-9. Globar var proc_fdinfo_operations <br />
-10. Globar var proc_mountinfo_operations <br />
-11. Globar var proc_reg_file_ops_no_compat <br />
-12. Globar var proc_root_operations <br />
-13. Globar var proc_task_operations <br />
-14. Globar var proc_tgid_base_operations <br />
-15. Globar var proc_tid_base_operations <br />
-16. Globar var rfkill_fops <br />
-17. Globar var signalfd_fops <br />
-18. Globar var socket_file_ops <br />
-19. Globar var timerfd_fops <br />
-20. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-21. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-22. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-23. KMEM_CACHE alloc from fs/file.c:dup_fd <br />
-24. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-25. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-26. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
-27. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
-28. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:SyS_inotify_add_watch <br />
-29. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
-30. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-31. KMEM_CACHE alloc from fs/signalfd.c:SyS_signalfd4 <br />
-32. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-33. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-34. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+<strong> Compartment 46 accesses 77 objects:</strong><br />
+1. Globar var *.LC2 <br />
+2. Globar var addrconf_ops <br />
+3. Globar var af_inet_ops <br />
+4. Globar var arp_net_ops <br />
+5. Globar var audit_net_id <br />
+6. Globar var audit_net_ops <br />
+7. Globar var cma_pernet_id <br />
+8. Globar var cma_pernet_operations <br />
+9. Globar var default_device_ops <br />
+10. Globar var dev_mc_net_ops <br />
+11. Globar var dev_proc_ops <br />
+12. Globar var devinet_ops <br />
+13. Globar var diag_net_ops <br />
+14. Globar var fib6_net_ops <br />
+15. Globar var fib6_rules_net_ops <br />
+16. Globar var fib_net_ops <br />
+17. Globar var fib_rules_net_ops <br />
+18. Globar var genl_pernet_ops <br />
+19. Globar var icmp_sk_ops <br />
+20. Globar var icmpv6_sk_ops <br />
+21. Globar var if6_proc_net_ops <br />
+22. Globar var igmp6_net_ops <br />
+23. Globar var igmp_net_ops <br />
+24. Globar var inet6_net_ops <br />
+25. Globar var ip4_frags_ops <br />
+26. Globar var ip6_flowlabel_net_ops <br />
+27. Globar var ip6_frags_ops <br />
+28. Globar var ip6_route_net_late_ops <br />
+29. Globar var ip6_route_net_ops <br />
+30. Globar var ip6_segments_ops <br />
+31. Globar var ip6mr_net_ops <br />
+32. Globar var ip_proc_ops <br />
+33. Globar var ip_rt_proc_ops <br />
+34. Globar var ipmr_net_ops <br />
+35. Globar var ipv4_inetpeer_ops <br />
+36. Globar var ipv4_mib_ops <br />
+37. Globar var ipv4_sysctl_ops <br />
+38. Globar var ipv6_addr_label_ops <br />
+39. Globar var ipv6_inetpeer_ops <br />
+40. Globar var ipv6_proc_ops <br />
+41. Globar var ipv6_sysctl_net_ops <br />
+42. Globar var loopback_net_ops <br />
+43. Globar var ndisc_net_ops <br />
+44. Globar var net_inuse_ops <br />
+45. Globar var net_ns_ops <br />
+46. Globar var netdev_net_ops <br />
+47. Globar var netfilter_net_ops <br />
+48. Globar var netlink_net_ops <br />
+49. Globar var nf_log_net_ops <br />
+50. Globar var packet_net_ops <br />
+51. Globar var ping_v4_net_ops <br />
+52. Globar var ping_v6_net_ops <br />
+53. Globar var ppp_net_id <br />
+54. Globar var ppp_net_ops <br />
+55. Globar var proc_net_ns_ops <br />
+56. Globar var proto_net_ops <br />
+57. Globar var psched_net_ops <br />
+58. Globar var raw6_net_ops <br />
+59. Globar var raw_net_ops <br />
+60. Globar var rt_genid_ops <br />
+61. Globar var rtnetlink_net_ops <br />
+62. Globar var sysctl_core_ops <br />
+63. Globar var sysctl_pernet_ops <br />
+64. Globar var sysctl_route_ops <br />
+65. Globar var tcp4_net_ops <br />
+66. Globar var tcp_net_metrics_ops <br />
+67. Globar var tcp_sk_ops <br />
+68. Globar var tcpv6_net_ops <br />
+69. Globar var udp4_net_ops <br />
+70. Globar var udplite4_net_ops <br />
+71. Globar var udplite6_net_ops <br />
+72. Globar var uevent_net_ops <br />
+73. Globar var unix_net_ops <br />
+74. KMEM_CACHE alloc from fs/proc/proc_net.c:proc_net_ns_init <br />
+75. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+76. KMEM_CACHE alloc from net/core/net_namespace.c:net_alloc_generic <br />
+77. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

@@ -1,31 +1,25 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 54 of 3805<br />
+Viewing compartment: 54 of 1503<br />
 <a href='C1024_53.html'> Prev</a>
 <a href='C1024_55.html'> Next</a>
 <br /><br />
-<strong> Compartment 54 is 1008 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L683'">drivers/base/power/wakeup.c:__pm_relax</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L595'">fs/eventpoll.c:ep_scan_ready_list</a>(480 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1495'">fs/eventpoll.c:ep_send_events_proc</a>(368 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L218'">fs/timerfd.c:timerfd_poll</a>(96 bytes)<br />
+<strong> Compartment 54 is 1008 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L3127'">block/blk-core.c:blk_start_plug</a>(80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L578'">fs/block_dev.c:blkdev_readpages</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L2013'">fs/block_dev.c:blkdev_writepages</a>(64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L3211'">fs/ext4/inode.c:ext4_readpages</a>(64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2331'">mm/page-writeback.c:generic_writepages</a>(96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/readahead.c.html#L151'">mm/readahead.c:__do_page_cache_readahead</a>(560 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L113'">mm/swap.c:put_pages_list</a>(112 bytes)<br />
 <br /><br />
-<strong> Compartment 54 accesses 16 objects:</strong><br />
-1. Globar var eventpoll_fops <br />
-2. Globar var inotify_fops <br />
-3. Globar var kmsg_fops <br />
-4. Globar var pipefifo_fops <br />
-5. Globar var proc_mountinfo_operations <br />
-6. Globar var proc_reg_file_ops_no_compat <br />
-7. Globar var proc_sys_file_operations <br />
-8. Globar var signalfd_fops <br />
-9. Globar var socket_file_ops <br />
-10. Globar var timerfd_fops <br />
-11. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
-12. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-13. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-14. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-15. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
-16. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+<strong> Compartment 54 accesses 7 objects:</strong><br />
+1. Globar var def_blk_aops <br />
+2. Globar var empty_aops <br />
+3. Globar var ext4_aops <br />
+4. Globar var ext4_da_aops <br />
+5. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

@@ -1,19 +1,29 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 99 of 1469<br />
+Viewing compartment: 99 of 377<br />
 <a href='C65536_98.html'> Prev</a>
 <a href='C65536_100.html'> Next</a>
 <br /><br />
-<strong> Compartment 99 is 6656 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2400'">net/ipv4/tcp.c:do_tcp_setsockopt</a>(2048 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2693'">net/ipv4/tcp.c:tcp_setsockopt</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ipv6_sockglue.c.html#L139'">net/ipv6/ipv6_sockglue.c:do_ipv6_setsockopt</a>(4368 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ipv6_sockglue.c.html#L900'">net/ipv6/ipv6_sockglue.c:ipv6_setsockopt</a>(192 bytes)<br />
+<strong> Compartment 99 is 2240 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4581'">kernel/cgroup.c:cgroup_pidlist_find</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4759'">kernel/cgroup.c:cgroup_pidlist_start</a>(1216 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L3543'">kernel/cgroup.c:cgroup_seqfile_start</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4240'">kernel/cgroup.c:css_task_iter_advance</a>(112 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4180'">kernel/cgroup.c:css_task_iter_advance_css_set</a>(320 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4332'">kernel/cgroup.c:css_task_iter_end</a>(128 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4305'">kernel/cgroup.c:css_task_iter_next</a>(112 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4274'">kernel/cgroup.c:css_task_iter_start</a>(208 bytes)<br />
 <br /><br />
-<strong> Compartment 99 accesses 4 objects:</strong><br />
-1. Globar var ipv4_specific <br />
-2. Globar var ipv6_specific <br />
-3. Globar var udp_prot <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 99 accesses 10 objects:</strong><br />
+1. Globar var cgroup_legacy_base_files <br />
+2. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+3. KMEM_CACHE alloc from fs/kernfs/file.c:kernfs_fop_open <br />
+4. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+5. KMEM_CACHE alloc from kernel/cgroup.c:allocate_cgrp_cset_links <br />
+6. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+7. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+8. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+9. KMEM_CACHE alloc from kernel/cgroup.c:find_css_set <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

@@ -1,30 +1,46 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 67 of 3805<br />
+Viewing compartment: 67 of 1503<br />
 <a href='C1024_66.html'> Prev</a>
 <a href='C1024_68.html'> Next</a>
 <br /><br />
-<strong> Compartment 67 is 1008 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L565'">drivers/char/random.c:__mix_pool_bytes</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L518'">drivers/char/random.c:_mix_pool_bytes</a>(256 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1192'">drivers/char/random.c:add_disk_randomness</a>(144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1076'">drivers/char/random.c:add_input_randomness</a>(128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1020'">drivers/char/random.c:add_timer_randomness</a>(208 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L572'">drivers/char/random.c:mix_pool_bytes</a>(144 bytes)<br />
+<strong> Compartment 67 is 976 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5463'">kernel/cgroup.c:cgroup_destroy_locked</a>(224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L1450'">kernel/cgroup.c:cgroup_kn_lock_live</a>(240 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5517'">kernel/cgroup.c:cgroup_rmdir</a>(128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L1503'">kernel/cgroup.c:css_clear_dir</a>(112 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4158'">kernel/cgroup.c:css_has_online_children</a>(80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L3965'">kernel/cgroup.c:css_next_child</a>(112 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5409'">kernel/cgroup.c:kill_css</a>(80 bytes)<br />
 <br /><br />
-<strong> Compartment 67 accesses 13 objects:</strong><br />
-1. Globar var blocking_pool <br />
-2. Globar var blocking_pool_data <br />
-3. Globar var input_pool <br />
-4. Globar var input_pool_data <br />
-5. Globar var input_timer_state <br />
-6. Globar var irq_randomness <br />
-7. Globar var jiffies_64 <br />
-8. Globar var poolinfo_table <br />
-9. Globar var twist_table <br />
-10. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-11. KMEM_CACHE alloc from drivers/char/random.c:rand_initialize_disk <br />
-12. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-13. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br />
+<strong> Compartment 67 accesses 28 objects:</strong><br />
+1. Globar var blkcg_files <br />
+2. Globar var blkcg_legacy_files <br />
+3. Globar var cfq_blkcg_files <br />
+4. Globar var cfq_blkcg_legacy_files <br />
+5. Globar var cpu_cgrp_subsys <br />
+6. Globar var cpu_files <br />
+7. Globar var cpuacct_cgrp_subsys <br />
+8. Globar var dev_cgroup_files <br />
+9. Globar var devices_cgrp_subsys <br />
+10. Globar var files <br />
+11. Globar var io_cgrp_subsys <br />
+12. Globar var mem_cgroup_legacy_files <br />
+13. Globar var memory_files <br />
+14. Globar var pids_cgrp_subsys <br />
+15. Globar var pids_files <br />
+16. Globar var throtl_files <br />
+17. Globar var throtl_legacy_files <br />
+18. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+19. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+20. KMEM_CACHE alloc from kernel/cgroup.c:allocate_cgrp_cset_links <br />
+21. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+22. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+23. KMEM_CACHE alloc from kernel/cgroup.c:find_css_set <br />
+24. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
+25. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
+26. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
+27. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+28. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
 </html>

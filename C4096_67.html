@@ -1,21 +1,24 @@
 <html>
 Selected compartmentalization: <strong>C4096</strong><br />
 <br />
-Viewing compartment: 67 of 2037<br />
+Viewing compartment: 67 of 824<br />
 <a href='C4096_66.html'> Prev</a>
 <a href='C4096_68.html'> Next</a>
 <br /><br />
-<strong> Compartment 67 is 1821 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dscontrol.c.html#L166'">drivers/acpi/acpica/dscontrol.c:acpi_ds_exec_end_control_op</a>(547 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L72'">drivers/acpi/acpica/dswstate.c:acpi_ds_result_pop</a>(244 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psobject.c.html#L562'">drivers/acpi/acpica/psobject.c:acpi_ps_complete_final_op</a>(300 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psobject.c.html#L388'">drivers/acpi/acpica/psobject.c:acpi_ps_complete_op</a>(558 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psscope.c.html#L82'">drivers/acpi/acpica/psscope.c:acpi_ps_has_completed_scope</a>(34 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psscope.c.html#L199'">drivers/acpi/acpica/psscope.c:acpi_ps_pop_scope</a>(113 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utstate.c.html#L87'">drivers/acpi/acpica/utstate.c:acpi_ut_pop_generic_state</a>(25 bytes)<br />
+<strong> Compartment 67 is 160 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L158'">drivers/base/class.c:klist_class_dev_put</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1237'">drivers/base/core.c:klist_children_put</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L209'">lib/klist.c:klist_put</a>(96 bytes)<br />
 <br /><br />
-<strong> Compartment 67 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/acpi/acpica/dswstate.c:acpi_ds_create_walk_state <br />
-2. KMEM_CACHE alloc from drivers/acpi/acpica/utstate.c:acpi_ut_create_generic_state <br />
-3. KMEM_CACHE alloc from include/acpi/platform/aclinuxex.h:acpi_os_acquire_object <br />
+<strong> Compartment 67 accesses 10 objects:</strong><br />
+1. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+2. KMEM_CACHE alloc from drivers/base/bus.c:bus_register <br />
+3. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+4. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
+5. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+6. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+7. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+8. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_register_device_attr <br />
+9. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+10. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

@@ -1,31 +1,20 @@
 <html>
 Selected compartmentalization: <strong>C4096</strong><br />
 <br />
-Viewing compartment: 76 of 2037<br />
+Viewing compartment: 76 of 824<br />
 <a href='C4096_75.html'> Prev</a>
 <a href='C4096_77.html'> Next</a>
 <br /><br />
-<strong> Compartment 76 is 4080 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1389'">net/ipv4/ip_output.c:__ip_make_skb</a>(1008 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1203'">net/ipv4/ip_output.c:ip_append_data</a>(288 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1493'">net/ipv4/ip_output.c:ip_push_pending_frames</a>(64 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1478'">net/ipv4/ip_output.c:ip_send_skb</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1581'">net/ipv4/ip_output.c:ip_send_unicast_reply</a>(784 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/route.c.html#L493'">net/ipv4/route.c:__ip_select_ident</a>(224 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L579'">net/ipv4/tcp_ipv4.c:tcp_v4_send_reset</a>(1152 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L852'">net/ipv4/udp.c:udp_push_pending_frames</a>(96 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1124'">net/ipv4/udp.c:udp_sendpage</a>(400 bytes)<br />
+<strong> Compartment 76 is 384 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/apic.c.html#L242'">arch/x86/kernel/apic/apic.c:native_apic_wait_icr_idle</a>(48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/ipi.c.html#L19'">arch/x86/kernel/apic/ipi.c:__default_send_IPI_shortcut</a>(64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/probe_64.c.html#L50'">arch/x86/kernel/apic/probe_64.c:apic_send_IPI_self</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq_work.c.html#L34'">arch/x86/kernel/irq_work.c:arch_irq_work_raise</a>(64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq_work.c.html#L86'">kernel/irq_work.c:irq_work_queue</a>(144 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L497'">kernel/time/tick-sched.c:tick_nohz_tick_stopped</a>(32 bytes)<br />
 <br /><br />
-<strong> Compartment 76 accesses 11 objects:</strong><br />
-1. Globar var dst_default_metrics <br />
-2. Globar var init_net <br />
-3. Globar var ipv4_dst_ops <br />
-4. Globar var sysctl_wmem_default <br />
-5. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
-6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-8. KMEM_CACHE alloc from net/core/dst.c:dst_alloc <br />
-9. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-10. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-11. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 76 accesses 3 objects:</strong><br />
+1. Globar var apic <br />
+2. Globar var perf_duration_work <br />
+3. Globar var wake_up_klogd_work <br />
 </html>

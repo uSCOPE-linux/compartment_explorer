@@ -1,24 +1,25 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 92 of 3805<br />
+Viewing compartment: 92 of 1503<br />
 <a href='C1024_91.html'> Prev</a>
 <a href='C1024_93.html'> Next</a>
 <br /><br />
-<strong> Compartment 92 is 1008 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L651'">block/blk-core.c:blk_queue_enter</a>(368 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L672'">block/blk-core.c:blk_queue_exit</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L322'">block/blk-mq.c:__blk_mq_free_request</a>(128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L339'">block/blk-mq.c:blk_mq_free_hctx_request</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L349'">block/blk-mq.c:blk_mq_free_request</a>(64 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-timeout.c.html#L129'">block/blk-timeout.c:blk_timeout_work</a>(320 bytes)<br />
+<strong> Compartment 92 is 944 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L621'">fs/libfs.c:simple_read_from_buffer</a>(208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1013'">fs/proc/base.c:auxv_read</a>(80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1197'">fs/proc/base.c:oom_score_adj_read</a>(160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1250'">fs/proc/base.c:proc_loginuid_read</a>(176 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L2459'">fs/proc/base.c:proc_pid_attr_read</a>(176 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1312'">fs/proc/base.c:proc_sessionid_read</a>(144 bytes)<br />
 <br /><br />
-<strong> Compartment 92 accesses 7 objects:</strong><br />
-1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
-2. Globar var jiffies_64 <br />
-3. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-5. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
-6. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_alloc_tag_set <br />
-7. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br />
+<strong> Compartment 92 accesses 8 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+3. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+4. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+7. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+8. KMEM_CACHE alloc from security/apparmor/procattr.c:aa_getprocattr <br />
 </html>

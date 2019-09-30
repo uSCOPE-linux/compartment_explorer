@@ -1,30 +1,149 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 92 of 1485<br />
+Viewing compartment: 92 of 381<br />
 <a href='C131072_91.html'> Prev</a>
 <a href='C131072_93.html'> Next</a>
 <br /><br />
-<strong> Compartment 92 is 976 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L1344'">block/blk-core.c:blk_requeue_request</a>(160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-wbt.c.html#L644'">block/blk-wbt.c:wbt_requeue</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2502'">block/cfq-iosched.c:cfq_deactivate_request</a>(272 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L555'">block/elevator.c:elv_requeue_request</a>(160 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L105'">drivers/scsi/scsi_lib.c:__scsi_queue_insert</a>(336 bytes)<br />
+<strong> Compartment 92 is 784 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mtrr/if.c.html#L361'">arch/x86/kernel/cpu/mtrr/if.c:mtrr_close</a>(160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/pci/proc.c.html#L274'">drivers/pci/proc.c:proc_bus_pci_release</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/rtc/rtc-proc.c.html#L123'">drivers/rtc/rtc-proc.c:rtc_proc_release</a>(64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L1049'">fs/jbd2/journal.c:jbd2_seq_info_release</a>(80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L138'">fs/proc/inode.c:close_pdeo</a>(160 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L366'">fs/proc/inode.c:proc_reg_release</a>(80 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/kcore.c.html#L564'">fs/proc/kcore.c:release_kcore</a>(32 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/kmsg.c.html#L26'">fs/proc/kmsg.c:kmsg_release</a>(32 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/proc_net.c.html#L99'">fs/proc/proc_net.c:single_release_net</a>(64 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_flowlabel.c.html#L828'">net/ipv6/ip6_flowlabel.c:ip6fl_seq_release</a>(64 bytes)<br />
 <br /><br />
-<strong> Compartment 92 accesses 14 objects:</strong><br />
-1. Globar var iosched_cfq <br />
-2. Globar var scsi_logging_level <br />
-3. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-4. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
-5. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-6. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
-8. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
-9. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
-10. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
-11. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
-12. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
-13. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
-14. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+<strong> Compartment 92 accesses 128 objects:</strong><br />
+1. Globar var ac6_seq_fops <br />
+2. Globar var acpi_system_wakeup_device_fops <br />
+3. Globar var adio_fops <br />
+4. Globar var arp_seq_fops <br />
+5. Globar var cmdline_proc_fops <br />
+6. Globar var cn_file_ops <br />
+7. Globar var debug_fops <br />
+8. Globar var dev_fops <br />
+9. Globar var dev_mc_seq_fops <br />
+10. Globar var dev_seq_fops <br />
+11. Globar var devhdr_fops <br />
+12. Globar var devstrs_fops <br />
+13. Globar var dressz_fops <br />
+14. Globar var execdomains_proc_fops <br />
+15. Globar var ext4_seq_es_shrinker_info_fops <br />
+16. Globar var ext4_seq_mb_groups_fops <br />
+17. Globar var ext4_seq_options_fops <br />
+18. Globar var fb_proc_fops <br />
+19. Globar var fib_route_fops <br />
+20. Globar var fib_trie_fops <br />
+21. Globar var fib_triestat_fops <br />
+22. Globar var filesystems_proc_fops <br />
+23. Globar var fragmentation_file_operations <br />
+24. Globar var if6_fops <br />
+25. Globar var igmp6_mc_seq_fops <br />
+26. Globar var igmp6_mcf_seq_fops <br />
+27. Globar var igmp_mc_seq_fops <br />
+28. Globar var igmp_mcf_seq_fops <br />
+29. Globar var input_devices_fileops <br />
+30. Globar var input_handlers_fileops <br />
+31. Globar var ip6fl_seq_fops <br />
+32. Globar var ip6mr_mfc_fops <br />
+33. Globar var ip6mr_vif_fops <br />
+34. Globar var ipmr_mfc_fops <br />
+35. Globar var ipmr_vif_fops <br />
+36. Globar var ipv6_route_proc_fops <br />
+37. Globar var irq_spurious_proc_fops <br />
+38. Globar var jbd2_seq_info_fops <br />
+39. Globar var jfs_lmstats_proc_fops <br />
+40. Globar var jfs_mpstat_proc_fops <br />
+41. Globar var jfs_txstats_proc_fops <br />
+42. Globar var jfs_xtstat_proc_fops <br />
+43. Globar var kallsyms_operations <br />
+44. Globar var loadavg_proc_fops <br />
+45. Globar var md_seq_fops <br />
+46. Globar var meminfo_proc_fops <br />
+47. Globar var misc_proc_fops <br />
+48. Globar var mtrr_fops <br />
+49. Globar var neigh_stat_seq_fops <br />
+50. Globar var netlink_seq_fops <br />
+51. Globar var netstat_seq_fops <br />
+52. Globar var nflog_file_ops <br />
+53. Globar var packet_seq_fops <br />
+54. Globar var pagetypeinfo_file_ops <br />
+55. Globar var ping_seq_fops <br />
+56. Globar var proc_bus_pci_dev_operations <br />
+57. Globar var proc_bus_pci_operations <br />
+58. Globar var proc_cgroupstats_operations <br />
+59. Globar var proc_consoles_operations <br />
+60. Globar var proc_cpuinfo_operations <br />
+61. Globar var proc_crypto_ops <br />
+62. Globar var proc_devinfo_operations <br />
+63. Globar var proc_diskstats_operations <br />
+64. Globar var proc_dma_operations <br />
+65. Globar var proc_interrupts_operations <br />
+66. Globar var proc_iomem_operations <br />
+67. Globar var proc_ioports_operations <br />
+68. Globar var proc_kcore_operations <br />
+69. Globar var proc_key_users_fops <br />
+70. Globar var proc_keys_fops <br />
+71. Globar var proc_kmsg_operations <br />
+72. Globar var proc_locks_operations <br />
+73. Globar var proc_modules_operations <br />
+74. Globar var proc_partitions_operations <br />
+75. Globar var proc_schedstat_operations <br />
+76. Globar var proc_scsi_operations <br />
+77. Globar var proc_softirqs_operations <br />
+78. Globar var proc_stat_operations <br />
+79. Globar var proc_swaps_operations <br />
+80. Globar var proc_tty_drivers_operations <br />
+81. Globar var proc_vmalloc_operations <br />
+82. Globar var proc_vmstat_file_operations <br />
+83. Globar var proc_zoneinfo_file_operations <br />
+84. Globar var proto_seq_fops <br />
+85. Globar var psched_fops <br />
+86. Globar var ptype_seq_fops <br />
+87. Globar var raw6_seq_fops <br />
+88. Globar var raw_seq_fops <br />
+89. Globar var rt6_stats_seq_fops <br />
+90. Globar var rt_cache_seq_fops <br />
+91. Globar var rt_cpu_seq_fops <br />
+92. Globar var rtc_proc_fops <br />
+93. Globar var sched_debug_fops <br />
+94. Globar var scsi_devinfo_proc_fops <br />
+95. Globar var snmp6_dev_seq_fops <br />
+96. Globar var snmp6_seq_fops <br />
+97. Globar var snmp_seq_fops <br />
+98. Globar var sockstat6_seq_fops <br />
+99. Globar var sockstat_seq_fops <br />
+100. Globar var softnet_seq_fops <br />
+101. Globar var sysvipc_proc_fops <br />
+102. Globar var tcp6_afinfo_seq_fops <br />
+103. Globar var tcp_afinfo_seq_fops <br />
+104. Globar var timer_list_fops <br />
+105. Globar var tstats_fops <br />
+106. Globar var tty_ldiscs_proc_fops <br />
+107. Globar var uart_proc_fops <br />
+108. Globar var udp6_afinfo_seq_fops <br />
+109. Globar var udp_afinfo_seq_fops <br />
+110. Globar var udplite6_afinfo_seq_fops <br />
+111. Globar var udplite_afinfo_seq_fops <br />
+112. Globar var unix_seq_fops <br />
+113. Globar var uptime_proc_fops <br />
+114. Globar var version_fops <br />
+115. Globar var version_proc_fops <br />
+116. Globar var xqm_proc_fops <br />
+117. Globar var xqmstat_proc_fops <br />
+118. KMEM_CACHE alloc from drivers/pci/proc.c:proc_bus_pci_open <br />
+119. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
+120. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+121. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_seq_info_open <br />
+122. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_seq_info_open <br />
+123. KMEM_CACHE alloc from fs/proc/generic.c:__proc_create <br />
+124. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+125. KMEM_CACHE alloc from fs/proc/inode.c:proc_reg_open <br />
+126. KMEM_CACHE alloc from fs/proc/kcore.c:open_kcore <br />
+127. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+128. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
 </html>

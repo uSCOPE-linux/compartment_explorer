@@ -1,29 +1,29 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 18 of 3805<br />
+Viewing compartment: 18 of 1503<br />
 <a href='C1024_17.html'> Prev</a>
 <a href='C1024_19.html'> Next</a>
 <br /><br />
-<strong> Compartment 18 is 992 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L2768'">block/blk-core.c:__blk_end_bidi_request</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L2883'">block/blk-core.c:__blk_end_request_all</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L2685'">block/blk-core.c:blk_finish_request</a>(320 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L2646'">block/blk-core.c:blk_update_bidi_request</a>(112 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-tag.c.html#L264'">block/blk-tag.c:blk_queue_end_tag</a>(192 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-timeout.c.html#L77'">block/blk-timeout.c:blk_delete_timer</a>(64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1318'">drivers/scsi/scsi_lib.c:scsi_unprep_fn</a>(64 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/sd.c.html#L1174'">drivers/scsi/sd.c:sd_uninit_command</a>(112 bytes)<br />
+<strong> Compartment 18 is 656 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L447'">drivers/tty/pty.c:pty_cleanup</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L585'">drivers/tty/tty_buffer.c:tty_buffer_cancel_work</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L114'">drivers/tty/tty_buffer.c:tty_buffer_free_all</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L166'">drivers/tty/tty_io.c:free_tty_struct</a>(64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1625'">drivers/tty/tty_io.c:release_one_tty</a>(160 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ldisc.c.html#L820'">drivers/tty/tty_ldisc.c:tty_ldisc_deinit</a>(48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_port.c.html#L137'">drivers/tty/tty_port.c:tty_port_destructor</a>(128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_port.c.html#L153'">drivers/tty/tty_port.c:tty_port_put</a>(48 bytes)<br />
 <br /><br />
 <strong> Compartment 18 accesses 10 objects:</strong><br />
-1. Globar var laptop_mode <br />
-2. Globar var sd_template <br />
-3. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-5. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
-6. KMEM_CACHE alloc from block/blk-tag.c:__blk_queue_init_tags <br />
-7. KMEM_CACHE alloc from block/blk-tag.c:init_tag_map <br />
-8. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-9. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
-10. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+1. Globar var con_ops <br />
+2. Globar var ptm_unix98_ops <br />
+3. Globar var pty_unix98_ops <br />
+4. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+5. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+6. KMEM_CACHE alloc from drivers/tty/tty_buffer.c:__tty_buffer_request_room <br />
+7. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+8. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+9. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
+10. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
 </html>

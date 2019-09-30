@@ -1,30 +1,29 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 34 of 3805<br />
+Viewing compartment: 34 of 1503<br />
 <a href='C1024_33.html'> Prev</a>
 <a href='C1024_35.html'> Next</a>
 <br /><br />
-<strong> Compartment 34 is 992 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1523'">fs/buffer.c:block_invalidatepage</a>(320 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L75'">fs/buffer.c:unlock_buffer</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L952'">fs/inode.c:unlock_new_inode</a>(96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/commit.c.html#L34'">fs/jbd2/commit.c:journal_end_buffer_io_sync</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L810'">fs/jbd2/journal.c:jbd2_journal_get_descriptor_buffer</a>(208 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7533'">kernel/sched/core.c:bit_waitqueue</a>(64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/wait.c.html#L451'">kernel/sched/wait.c:__wake_up_bit</a>(80 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/wait.c.html#L476'">kernel/sched/wait.c:wake_up_bit</a>(48 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L3009'">mm/filemap.c:try_to_release_page</a>(80 bytes)<br />
+<strong> Compartment 34 is 880 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/alternative.c.html#L729'">arch/x86/kernel/alternative.c:do_sync_core</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/alternative.c.html#L777'">arch/x86/kernel/alternative.c:text_poke_bp</a>(192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/jump_label.c.html#L106'">arch/x86/kernel/jump_label.c:arch_jump_label_transform</a>(224 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L172'">arch/x86/mm/pageattr.c:__cpa_flush_range</a>(32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/extable.c.html#L119'">kernel/extable.c:kernel_text_address</a>(96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/jump_label.c.html#L268'">kernel/jump_label.c:__jump_label_update</a>(144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L663'">kernel/time/hrtimer.c:retrigger_next_event</a>(96 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/up.c.html#L36'">kernel/up.c:on_each_cpu</a>(64 bytes)<br />
 <br /><br />
 <strong> Compartment 34 accesses 10 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. Globar var def_blk_aops <br />
-3. Globar var ext4_aops <br />
-4. Globar var ext4_da_aops <br />
-5. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-8. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-9. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-10. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+1. Globar var ___once_key.58098 <br />
+2. Globar var ___once_key.58103 <br />
+3. Globar var ___once_key.60919 <br />
+4. Globar var ideal_nops <br />
+5. Globar var k8_nops <br />
+6. Globar var k8nops <br />
+7. Globar var netstamp_needed <br />
+8. Globar var p6_nops <br />
+9. Globar var p6nops <br />
+10. Globar var perf_sched_events <br />
 </html>

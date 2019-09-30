@@ -1,22 +1,24 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 99 of 1485<br />
+Viewing compartment: 99 of 381<br />
 <a href='C131072_98.html'> Prev</a>
 <a href='C131072_100.html'> Next</a>
 <br /><br />
-<strong> Compartment 99 is 544 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3615'">kernel/workqueue.c:apply_wqattrs_cleanup</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L4035'">kernel/workqueue.c:destroy_workqueue</a>(432 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1098'">kernel/workqueue.c:put_pwq_unlocked</a>(48 bytes)<br />
+<strong> Compartment 99 is 832 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L194'">net/core/neighbour.c:neigh_flush_dev</a>(288 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L253'">net/core/neighbour.c:neigh_ifdown</a>(224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L185'">net/core/neighbour.c:pneigh_queue_purge</a>(64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/arp.c.html#L1229'">net/ipv4/arp.c:arp_ifdown</a>(32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ndisc.c.html#L1737'">net/ipv6/ndisc.c:ndisc_netdev_event</a>(224 bytes)<br />
 <br /><br />
 <strong> Compartment 99 accesses 8 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
-2. Globar var workqueues <br />
-3. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
-4. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
-5. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
-6. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
-7. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
-8. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
+1. Globar var arp_tbl <br />
+2. Globar var nd_tbl <br />
+3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+5. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+6. KMEM_CACHE alloc from net/core/neighbour.c:neigh_hash_alloc <br />
+7. KMEM_CACHE alloc from net/core/neighbour.c:neigh_hash_alloc <br />
+8. KMEM_CACHE alloc from net/core/neighbour.c:neigh_table_init <br />
 </html>

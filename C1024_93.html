@@ -1,19 +1,18 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 93 of 3805<br />
+Viewing compartment: 93 of 1503<br />
 <a href='C1024_92.html'> Prev</a>
 <a href='C1024_94.html'> Next</a>
 <br /><br />
-<strong> Compartment 93 is 432 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L567'">fs/block_dev.c:blkdev_writepage</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L2985'">fs/buffer.c:block_write_full_page</a>(352 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2314'">mm/page-writeback.c:__writepage</a>(48 bytes)<br />
+<strong> Compartment 93 is 1024 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/ntp.c.html#L659'">kernel/time/ntp.c:ntp_validate_timex</a>(224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L1045'">kernel/time/posix-timers.c:SYSC_clock_adjtime</a>(272 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L219'">kernel/time/posix-timers.c:posix_clock_realtime_adj</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L217'">kernel/time/time.c:SYSC_adjtimex</a>(144 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L2263'">kernel/time/timekeeping.c:do_adjtimex</a>(352 bytes)<br />
 <br /><br />
-<strong> Compartment 93 accesses 5 objects:</strong><br />
-1. Globar var def_blk_aops <br />
-2. Globar var ext4_aops <br />
-3. Globar var ext4_da_aops <br />
-4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+<strong> Compartment 93 accesses 2 objects:</strong><br />
+1. Globar var posix_clocks <br />
+2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

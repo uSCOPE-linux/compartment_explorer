@@ -1,28 +1,25 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 34 of 1469<br />
+Viewing compartment: 34 of 377<br />
 <a href='C65536_33.html'> Prev</a>
 <a href='C65536_35.html'> Next</a>
 <br /><br />
-<strong> Compartment 34 is 2432 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/stream.c.html#L93'">net/core/stream.c:sk_stream_wait_close</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_connection_sock.c.html#L840'">net/ipv4/inet_connection_sock.c:inet_csk_listen_stop</a>(544 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2050'">net/ipv4/tcp.c:tcp_check_oom</a>(208 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2064'">net/ipv4/tcp.c:tcp_close</a>(1008 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L3042'">net/ipv4/tcp_output.c:tcp_send_active_reset</a>(272 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_timer.c.html#L58'">net/ipv4/tcp_timer.c:tcp_out_of_resources</a>(176 bytes)<br />
+<strong> Compartment 34 is 848 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L2492'">net/core/neighbour.c:neigh_get_first</a>(208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L2531'">net/core/neighbour.c:neigh_get_next</a>(192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L2688'">net/core/neighbour.c:neigh_seq_next</a>(112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L2673'">net/core/neighbour.c:neigh_seq_start</a>(224 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L2594'">net/core/neighbour.c:pneigh_get_first</a>(80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/arp.c.html#L1359'">net/ipv4/arp.c:arp_seq_start</a>(32 bytes)<br />
 <br /><br />
-<strong> Compartment 34 accesses 11 objects:</strong><br />
-1. Globar var init_net <br />
-2. Globar var jiffies_64 <br />
-3. Globar var new_state <br />
-4. Globar var sysctl_tcp_max_orphans <br />
-5. Globar var sysctl_tcp_mem <br />
-6. Globar var tcp_memory_allocated <br />
-7. Globar var tcp_orphan_count <br />
-8. Globar var tcp_prot <br />
-9. Globar var tcpv6_prot <br />
-10. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-11. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 34 accesses 8 objects:</strong><br />
+1. Globar var arp_tbl <br />
+2. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+5. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+6. KMEM_CACHE alloc from net/core/neighbour.c:neigh_hash_alloc <br />
+7. KMEM_CACHE alloc from net/core/neighbour.c:neigh_hash_alloc <br />
+8. KMEM_CACHE alloc from net/core/neighbour.c:neigh_table_init <br />
 </html>

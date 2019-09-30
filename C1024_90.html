@@ -1,26 +1,30 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 90 of 3805<br />
+Viewing compartment: 90 of 1503<br />
 <a href='C1024_89.html'> Prev</a>
 <a href='C1024_91.html'> Next</a>
 <br /><br />
-<strong> Compartment 90 is 960 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L61'">block/genhd.c:disk_get_part</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1786'">drivers/base/core.c:get_device</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1297'">drivers/scsi/scsi_lib.c:scsi_prep_fn</a>(368 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1207'">drivers/scsi/scsi_lib.c:scsi_prep_state_check</a>(128 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1186'">drivers/scsi/scsi_lib.c:scsi_setup_cmnd</a>(336 bytes)<br />
+<strong> Compartment 90 is 496 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L101'">mm/mmap.c:vm_get_page_prot</a>(160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L115'">mm/mmap.c:vma_set_page_prot</a>(112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L1536'">mm/mmap.c:vma_wants_writenotify</a>(224 bytes)<br />
 <br /><br />
-<strong> Compartment 90 accesses 9 objects:</strong><br />
-1. Globar var sd_template <br />
-2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-4. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
-5. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-6. KMEM_CACHE alloc from block/genhd.c:disk_expand_part_tbl <br />
-7. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
-8. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
-9. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+<strong> Compartment 90 accesses 16 objects:</strong><br />
+1. Globar var aio_ring_vm_ops <br />
+2. Globar var blockdev_superblock <br />
+3. Globar var ext4_file_vm_ops <br />
+4. Globar var hugetlb_vm_ops <br />
+5. Globar var noop_backing_dev_info <br />
+6. Globar var protection_map <br />
+7. Globar var shm_vm_ops <br />
+8. Globar var shmem_vm_ops <br />
+9. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
+10. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+11. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
+12. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+13. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
+14. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
+15. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+16. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

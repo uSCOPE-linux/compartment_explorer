@@ -1,33 +1,27 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 10 of 2689<br />
+Viewing compartment: 10 of 1153<br />
 <a href='C2048_9.html'> Prev</a>
 <a href='C2048_11.html'> Next</a>
 <br /><br />
 <strong> Compartment 10 is 2032 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3522'">kernel/workqueue.c:alloc_unbound_pwq</a>(800 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3779'">kernel/workqueue.c:apply_workqueue_attrs</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3739'">kernel/workqueue.c:apply_workqueue_attrs_locked</a>(128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3615'">kernel/workqueue.c:apply_wqattrs_cleanup</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3634'">kernel/workqueue.c:apply_wqattrs_prepare</a>(464 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L4035'">kernel/workqueue.c:destroy_workqueue</a>(432 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1098'">kernel/workqueue.c:put_pwq_unlocked</a>(48 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3566'">kernel/workqueue.c:wq_calc_node_cpumask</a>(32 bytes)<br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/dcache.c.html#L3476'">fs/dcache.c:is_subdir</a>(96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L1315'">fs/namei.c:follow_dotdot_rcu</a>(320 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L891'">fs/namespace.c:attach_shadowed</a>(128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L909'">fs/namespace.c:commit_tree</a>(272 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L1743'">fs/namespace.c:copy_tree</a>(864 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L3041'">fs/namespace.c:is_path_reachable</a>(80 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L870'">fs/namespace.c:mnt_set_mountpoint</a>(128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pnode.c.html#L54'">fs/pnode.c:get_dominating_id</a>(144 bytes)<br />
 <br /><br />
-<strong> Compartment 10 accesses 14 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
-2. Globar var __cpu_possible_mask <br />
-3. Globar var unbound_pool_hash <br />
-4. Globar var workqueues <br />
-5. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
-6. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
-7. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
-8. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
-9. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
-10. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
-11. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
-12. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
-13. KMEM_CACHE alloc from kernel/workqueue.c:init_worker_pool <br />
-14. KMEM_CACHE alloc from kernel/workqueue.c:workqueue_init_early <br />
+<strong> Compartment 10 accesses 8 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/page_alloc.c:alloc_large_system_hash <br />
+2. Globar var mount_lock <br />
+3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+4. KMEM_CACHE alloc from fs/namespace.c:alloc_mnt_ns <br />
+5. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+6. KMEM_CACHE alloc from fs/namespace.c:lock_mount <br />
+7. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+8. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

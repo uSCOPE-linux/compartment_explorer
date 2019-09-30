@@ -1,18 +1,23 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 88 of 1485<br />
+Viewing compartment: 88 of 381<br />
 <a href='C131072_87.html'> Prev</a>
 <a href='C131072_89.html'> Next</a>
 <br /><br />
-<strong> Compartment 88 is 1088 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L479'">fs/buffer.c:__remove_assoc_queue</a>(96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L568'">fs/buffer.c:sync_mapping_buffers</a>(688 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3214'">fs/buffer.c:write_dirty_buffer</a>(144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L969'">fs/libfs.c:__generic_file_fsync</a>(160 bytes)<br />
+<strong> Compartment 88 is 1232 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/kvm.c.html#L84'">arch/x86/kernel/kvm.c:kvm_io_delay</a>(16 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L556'">drivers/tty/vt/vt.c:add_softcursor</a>(176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L584'">drivers/tty/vt/vt.c:hide_cursor</a>(144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L592'">drivers/tty/vt/vt.c:set_cursor</a>(128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/vgacon.c.html#L626'">drivers/video/console/vgacon.c:vgacon_cursor</a>(480 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/vgacon.c.html#L594'">drivers/video/console/vgacon.c:vgacon_set_cursor_size</a>(288 bytes)<br />
 <br /><br />
-<strong> Compartment 88 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+<strong> Compartment 88 accesses 6 objects:</strong><br />
+1. Globar var fb_con <br />
+2. Globar var pv_cpu_ops <br />
+3. Globar var sel_cons <br />
+4. Globar var vga_con <br />
+5. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
+6. KMEM_CACHE alloc from slab.h:kzalloc <br />
 </html>

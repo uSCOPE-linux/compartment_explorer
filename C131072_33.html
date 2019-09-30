@@ -1,22 +1,19 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 33 of 1485<br />
+Viewing compartment: 33 of 381<br />
 <a href='C131072_32.html'> Prev</a>
 <a href='C131072_34.html'> Next</a>
 <br /><br />
-<strong> Compartment 33 is 832 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L495'">drivers/input/evdev.c:evdev_open</a>(416 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L585'">drivers/input/input.c:input_open_device</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L456'">drivers/input/mousedev.c:mixdev_open_devices</a>(144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L421'">drivers/input/mousedev.c:mousedev_open_device</a>(112 bytes)<br />
+<strong> Compartment 33 is 880 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L1381'">net/core/dev.c:__dev_close_many</a>(208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L901'">net/sched/sch_generic.c:dev_deactivate_many</a>(496 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L845'">net/sched/sch_generic.c:dev_deactivate_queue</a>(80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L668'">net/sched/sch_generic.c:qdisc_reset</a>(96 bytes)<br />
 <br /><br />
-<strong> Compartment 33 accesses 7 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-2. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
-3. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-4. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-5. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
-6. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-7. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+<strong> Compartment 33 accesses 4 objects:</strong><br />
+1. Globar var loopback_ops <br />
+2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+4. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
 </html>

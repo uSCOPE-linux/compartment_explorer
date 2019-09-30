@@ -1,15 +1,18 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 40 of 1469<br />
+Viewing compartment: 40 of 377<br />
 <a href='C65536_39.html'> Prev</a>
 <a href='C65536_41.html'> Next</a>
 <br /><br />
-<strong> Compartment 40 is 1328 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/percpu.c.html#L551'">mm/percpu.c:pcpu_alloc_area</a>(960 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/percpu.c.html#L365'">mm/percpu.c:pcpu_chunk_relocate</a>(192 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/percpu.c.html#L329'">mm/percpu.c:pcpu_count_occupied_pages</a>(176 bytes)<br />
+<strong> Compartment 40 is 336 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2183'">drivers/input/input.c:input_unregister_device</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/misc/uinput.c.html#L232'">drivers/input/misc/uinput.c:uinput_destroy_device</a>(176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/misc/uinput.c.html#L653'">drivers/input/misc/uinput.c:uinput_release</a>(48 bytes)<br />
 <br /><br />
-<strong> Compartment 40 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from mm/percpu.c:pcpu_mem_zalloc <br />
+<strong> Compartment 40 accesses 4 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+2. KMEM_CACHE alloc from drivers/input/misc/uinput.c:uinput_open <br />
+3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+4. KMEM_CACHE alloc from mm/util.c:kstrndup <br />
 </html>

@@ -1,22 +1,22 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 49 of 1485<br />
+Viewing compartment: 49 of 381<br />
 <a href='C131072_48.html'> Prev</a>
 <a href='C131072_50.html'> Next</a>
 <br /><br />
-<strong> Compartment 49 is 1312 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L339'">kernel/time/posix-cpu-timers.c:posix_cpu_timer_create</a>(192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1421'">kernel/time/posix-cpu-timers.c:process_cpu_timer_create</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1446'">kernel/time/posix-cpu-timers.c:thread_cpu_timer_create</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L600'">kernel/time/posix-timers.c:SyS_timer_create</a>(1024 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L593'">kernel/time/posix-timers.c:common_timer_create</a>(32 bytes)<br />
+<strong> Compartment 49 is 144 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1229'">drivers/base/core.c:klist_children_get</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L108'">lib/klist.c:klist_node_init</a>(80 bytes)<br />
 <br /><br />
-<strong> Compartment 49 accesses 6 objects:</strong><br />
-1. Globar var posix_clocks <br />
-2. Globar var posix_timers_hashtable <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-5. KMEM_CACHE alloc from kernel/signal.c:__sigqueue_alloc <br />
-6. KMEM_CACHE alloc from kernel/time/posix-timers.c:SyS_timer_create <br />
+<strong> Compartment 49 accesses 8 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+2. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+3. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

@@ -1,27 +1,129 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 98 of 1469<br />
+Viewing compartment: 98 of 377<br />
 <a href='C65536_97.html'> Prev</a>
 <a href='C65536_99.html'> Next</a>
 <br /><br />
-<strong> Compartment 98 is 656 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L677'">block/blk-core.c:blk_queue_usage_counter_release</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L596'">fs/aio.c:free_ioctx_reqs</a>(112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L613'">fs/aio.c:free_ioctx_users</a>(192 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5389'">kernel/cgroup.c:css_killed_ref_fn</a>(96 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/percpu-refcount.c.html#L125'">lib/percpu-refcount.c:percpu_ref_switch_to_atomic_rcu</a>(224 bytes)<br />
+<strong> Compartment 98 is 336 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/group.c.html#L19'">fs/sysfs/group.c:remove_files</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/group.c.html#L226'">fs/sysfs/group.c:sysfs_remove_group</a>(144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/group.c.html#L261'">fs/sysfs/group.c:sysfs_remove_groups</a>(80 bytes)<br />
 <br /><br />
-<strong> Compartment 98 accesses 11 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
-2. Globar var system_wq <br />
-3. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-5. KMEM_CACHE alloc from fs/aio.c:ioctx_alloc <br />
-6. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-7. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
-8. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
-9. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
-10. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-11. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
+<strong> Compartment 98 accesses 115 objects:</strong><br />
+1. Globar var bql_hold_time_attribute <br />
+2. Globar var bql_inflight_attribute <br />
+3. Globar var bql_limit_attribute <br />
+4. Globar var bql_limit_max_attribute <br />
+5. Globar var bql_limit_min_attribute <br />
+6. Globar var dev_attr_abs <br />
+7. Globar var dev_attr_addr_assign_type <br />
+8. Globar var dev_attr_addr_len <br />
+9. Globar var dev_attr_address <br />
+10. Globar var dev_attr_async <br />
+11. Globar var dev_attr_broadcast <br />
+12. Globar var dev_attr_bustype <br />
+13. Globar var dev_attr_carrier <br />
+14. Globar var dev_attr_carrier_changes <br />
+15. Globar var dev_attr_collisions <br />
+16. Globar var dev_attr_dev_id <br />
+17. Globar var dev_attr_dev_port <br />
+18. Globar var dev_attr_dormant <br />
+19. Globar var dev_attr_duplex <br />
+20. Globar var dev_attr_ev <br />
+21. Globar var dev_attr_ff <br />
+22. Globar var dev_attr_flags <br />
+23. Globar var dev_attr_gro_flush_timeout <br />
+24. Globar var dev_attr_group <br />
+25. Globar var dev_attr_ifalias <br />
+26. Globar var dev_attr_ifindex <br />
+27. Globar var dev_attr_iflink <br />
+28. Globar var dev_attr_key <br />
+29. Globar var dev_attr_led <br />
+30. Globar var dev_attr_link_mode <br />
+31. Globar var dev_attr_modalias <br />
+32. Globar var dev_attr_msc <br />
+33. Globar var dev_attr_mtu <br />
+34. Globar var dev_attr_multicast <br />
+35. Globar var dev_attr_name <br />
+36. Globar var dev_attr_name_assign_type <br />
+37. Globar var dev_attr_netdev_group <br />
+38. Globar var dev_attr_operstate <br />
+39. Globar var dev_attr_owner <br />
+40. Globar var dev_attr_phys <br />
+41. Globar var dev_attr_phys_port_id <br />
+42. Globar var dev_attr_phys_port_name <br />
+43. Globar var dev_attr_phys_switch_id <br />
+44. Globar var dev_attr_product <br />
+45. Globar var dev_attr_properties <br />
+46. Globar var dev_attr_proto_down <br />
+47. Globar var dev_attr_rel <br />
+48. Globar var dev_attr_runtime_active_kids <br />
+49. Globar var dev_attr_runtime_enabled <br />
+50. Globar var dev_attr_runtime_status <br />
+51. Globar var dev_attr_runtime_usage <br />
+52. Globar var dev_attr_rx_bytes <br />
+53. Globar var dev_attr_rx_compressed <br />
+54. Globar var dev_attr_rx_crc_errors <br />
+55. Globar var dev_attr_rx_dropped <br />
+56. Globar var dev_attr_rx_errors <br />
+57. Globar var dev_attr_rx_fifo_errors <br />
+58. Globar var dev_attr_rx_frame_errors <br />
+59. Globar var dev_attr_rx_length_errors <br />
+60. Globar var dev_attr_rx_missed_errors <br />
+61. Globar var dev_attr_rx_nohandler <br />
+62. Globar var dev_attr_rx_over_errors <br />
+63. Globar var dev_attr_rx_packets <br />
+64. Globar var dev_attr_snd <br />
+65. Globar var dev_attr_speed <br />
+66. Globar var dev_attr_sw <br />
+67. Globar var dev_attr_tun_flags <br />
+68. Globar var dev_attr_tx_aborted_errors <br />
+69. Globar var dev_attr_tx_bytes <br />
+70. Globar var dev_attr_tx_carrier_errors <br />
+71. Globar var dev_attr_tx_compressed <br />
+72. Globar var dev_attr_tx_dropped <br />
+73. Globar var dev_attr_tx_errors <br />
+74. Globar var dev_attr_tx_fifo_errors <br />
+75. Globar var dev_attr_tx_heartbeat_errors <br />
+76. Globar var dev_attr_tx_packets <br />
+77. Globar var dev_attr_tx_queue_len <br />
+78. Globar var dev_attr_tx_window_errors <br />
+79. Globar var dev_attr_type <br />
+80. Globar var dev_attr_uniq <br />
+81. Globar var dev_attr_vendor <br />
+82. Globar var dev_attr_version <br />
+83. Globar var dql_attrs <br />
+84. Globar var dql_group <br />
+85. Globar var input_dev_attr_group <br />
+86. Globar var input_dev_attr_groups <br />
+87. Globar var input_dev_attrs <br />
+88. Globar var input_dev_caps_attr_group <br />
+89. Globar var input_dev_caps_attrs <br />
+90. Globar var input_dev_id_attr_group <br />
+91. Globar var input_dev_id_attrs <br />
+92. Globar var loop_attr_autoclear <br />
+93. Globar var loop_attr_backing_file <br />
+94. Globar var loop_attr_dio <br />
+95. Globar var loop_attr_offset <br />
+96. Globar var loop_attr_partscan <br />
+97. Globar var loop_attr_sizelimit <br />
+98. Globar var loop_attribute_group <br />
+99. Globar var loop_attrs <br />
+100. Globar var net_class_attrs <br />
+101. Globar var net_class_group <br />
+102. Globar var net_class_groups <br />
+103. Globar var netstat_attrs <br />
+104. Globar var netstat_group <br />
+105. Globar var pm_attr_group <br />
+106. Globar var power_attrs <br />
+107. Globar var tun_attr_group <br />
+108. Globar var tun_dev_attrs <br />
+109. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+110. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+111. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+112. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+113. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+114. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+115. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

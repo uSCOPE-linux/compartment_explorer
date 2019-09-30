@@ -1,26 +1,18 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 17 of 2689<br />
+Viewing compartment: 17 of 1153<br />
 <a href='C2048_16.html'> Prev</a>
 <a href='C2048_18.html'> Next</a>
 <br /><br />
-<strong> Compartment 17 is 2048 bytes and has 12 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/alternative.c.html#L729'">arch/x86/kernel/alternative.c:do_sync_core</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/alternative.c.html#L694'">arch/x86/kernel/alternative.c:text_poke</a>(576 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/alternative.c.html#L777'">arch/x86/kernel/alternative.c:text_poke_bp</a>(192 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/init_64.c.html#L163'">arch/x86/mm/init_64.c:fill_pmd</a>(352 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/init_64.c.html#L175'">arch/x86/mm/init_64.c:fill_pte</a>(336 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/init_64.c.html#L205'">arch/x86/mm/init_64.c:set_pte_vaddr</a>(144 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/init_64.c.html#L186'">arch/x86/mm/init_64.c:set_pte_vaddr_pud</a>(80 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pageattr.c.html#L172'">arch/x86/mm/pageattr.c:__cpa_flush_range</a>(32 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pgtable.c.html#L532'">arch/x86/mm/pgtable.c:__native_set_fixmap</a>(64 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pgtable.c.html#L545'">arch/x86/mm/pgtable.c:native_set_fixmap</a>(64 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/extable.c.html#L67'">kernel/extable.c:core_kernel_text</a>(112 bytes)<br />
-12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/up.c.html#L36'">kernel/up.c:on_each_cpu</a>(64 bytes)<br />
+<strong> Compartment 17 is 288 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L271'">security/keys/proc.c:__key_user_next</a>(80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L319'">security/keys/proc.c:proc_key_users_next</a>(64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L303'">security/keys/proc.c:proc_key_users_start</a>(144 bytes)<br />
 <br /><br />
-<strong> Compartment 17 accesses 3 objects:</strong><br />
-1. Globar var __supported_pte_mask <br />
-2. Globar var init_mm <br />
-3. Globar var phys_base <br />
+<strong> Compartment 17 accesses 4 objects:</strong><br />
+1. Globar var root_key_user <br />
+2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+4. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
 </html>

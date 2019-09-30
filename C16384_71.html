@@ -1,21 +1,21 @@
 <html>
 Selected compartmentalization: <strong>C16384</strong><br />
 <br />
-Viewing compartment: 71 of 1581<br />
+Viewing compartment: 71 of 483<br />
 <a href='C16384_70.html'> Prev</a>
 <a href='C16384_72.html'> Next</a>
 <br /><br />
-<strong> Compartment 71 is 176 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L557'">kernel/user_namespace.c:gid_m_start</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L571'">kernel/user_namespace.c:m_next</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L564'">kernel/user_namespace.c:projid_m_start</a>(48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L550'">kernel/user_namespace.c:uid_m_start</a>(48 bytes)<br />
+<strong> Compartment 71 is 352 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L541'">drivers/input/input.c:__input_release_device</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L568'">drivers/input/input.c:input_release_device</a>(64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/keyboard.c.html#L1538'">drivers/tty/vt/keyboard.c:kbd_start</a>(48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/keyboard.c.html#L1041'">drivers/tty/vt/keyboard.c:kbd_update_leds_helper</a>(128 bytes)<br />
 <br /><br />
 <strong> Compartment 71 accesses 6 objects:</strong><br />
-1. Globar var init_user_ns <br />
-2. Globar var proc_gid_seq_operations <br />
-3. Globar var proc_projid_seq_operations <br />
-4. Globar var proc_uid_seq_operations <br />
-5. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-6. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
+1. Globar var evdev_handler <br />
+2. Globar var kbd_handler <br />
+3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+4. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+5. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+6. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
 </html>

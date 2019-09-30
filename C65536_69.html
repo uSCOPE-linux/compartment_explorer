@@ -1,24 +1,18 @@
 <html>
 Selected compartmentalization: <strong>C65536</strong><br />
 <br />
-Viewing compartment: 69 of 1469<br />
+Viewing compartment: 69 of 377<br />
 <a href='C65536_68.html'> Prev</a>
 <a href='C65536_70.html'> Next</a>
 <br /><br />
-<strong> Compartment 69 is 2048 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L1010'">kernel/time/posix-timers.c:SyS_clock_settime</a>(160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L213'">kernel/time/posix-timers.c:posix_clock_realtime_set</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L191'">kernel/time/time.c:SyS_settimeofday</a>(224 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L162'">kernel/time/time.c:do_sys_settimeofday64</a>(240 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L1190'">kernel/time/timekeeping.c:do_settimeofday64</a>(304 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L646'">kernel/time/timekeeping.c:timekeeping_forward_now</a>(240 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L1236'">kernel/time/timekeeping.c:timekeeping_inject_offset</a>(400 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L96'">kernel/time/timekeeping.c:tk_set_wall_to_mono</a>(288 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L113'">security/commoncap.c:cap_settime</a>(32 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L211'">security/security.c:security_settime64</a>(80 bytes)<br />
+<strong> Compartment 69 is 256 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/raw.c.html#L967'">net/ipv4/raw.c:raw_get_first</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/raw.c.html#L1019'">net/ipv4/raw.c:raw_seq_next</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/raw.c.html#L1010'">net/ipv4/raw.c:raw_seq_start</a>(96 bytes)<br />
 <br /><br />
-<strong> Compartment 69 accesses 3 objects:</strong><br />
-1. Globar var capability_hooks <br />
-2. Globar var posix_clocks <br />
-3. Globar var tk_core <br />
+<strong> Compartment 69 accesses 4 objects:</strong><br />
+1. Globar var raw_v4_hashinfo <br />
+2. Globar var raw_v6_hashinfo <br />
+3. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+4. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
 </html>

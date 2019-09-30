@@ -1,20 +1,29 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 100 of 3805<br />
+Viewing compartment: 100 of 1503<br />
 <a href='C1024_99.html'> Prev</a>
- (only 200 compartments shown due to hosting limitations)<br /><br />
-<strong> Compartment 100 is 736 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L250'">mm/memcontrol.c:memcg_to_vmpressure</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L257'">mm/memcontrol.c:vmpressure_to_css</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmpressure.c.html#L219'">mm/vmpressure.c:vmpressure</a>(208 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmpressure.c.html#L111'">mm/vmpressure.c:vmpressure_calc_level</a>(144 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmpressure.c.html#L301'">mm/vmpressure.c:vmpressure_prio</a>(48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmpressure.c.html#L158'">mm/vmpressure.c:vmpressure_work_fn</a>(272 bytes)<br />
+ (only 100 compartments shown due to hosting limitations)<br /><br />
+<strong> Compartment 100 is 1024 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/file.c.html#L604'">fs/file.c:__fd_install</a>(176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/file.c.html#L624'">fs/file.c:fd_install</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L3484'">fs/namei.c:do_filp_open</a>(208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L539'">fs/namei.c:restore_nameidata</a>(80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L1037'">fs/open.c:do_sys_open</a>(512 bytes)<br />
 <br /><br />
-<strong> Compartment 100 accesses 4 objects:</strong><br />
-1. Globar var jiffies_64 <br />
-2. Globar var root_mem_cgroup <br />
-3. Globar var system_wq <br />
-4. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+<strong> Compartment 100 accesses 14 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from fs/file.c:alloc_fdmem <br />
+4. KMEM_CACHE alloc from fs/file.c:alloc_fdtable <br />
+5. KMEM_CACHE alloc from fs/file.c:dup_fd <br />
+6. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+7. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
+8. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+9. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+10. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+11. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+12. KMEM_CACHE alloc from ipc/mqueue.c:mqueue_alloc_inode <br />
+13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+14. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

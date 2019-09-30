@@ -1,18 +1,25 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 30 of 1485<br />
+Viewing compartment: 30 of 381<br />
 <a href='C131072_29.html'> Prev</a>
 <a href='C131072_31.html'> Next</a>
 <br /><br />
-<strong> Compartment 30 is 464 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs_struct.c.html#L12'">fs/fs_struct.c:set_fs_root</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L484'">fs/open.c:SyS_chroot</a>(272 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L511'">security/security.c:security_path_chroot</a>(80 bytes)<br />
+<strong> Compartment 30 is 608 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L1303'">kernel/audit.c:audit_net_exit</a>(96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L438'">lib/kobject_uevent.c:uevent_net_exit</a>(176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L4109'">net/core/rtnetlink.c:rtnetlink_net_exit</a>(48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock_diag.c.html#L328'">net/core/sock_diag.c:diag_net_exit</a>(48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L1302'">net/ipv4/fib_frontend.c:fib_net_exit</a>(64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L2831'">net/ipv4/fib_trie.c:fib_proc_exit</a>(80 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1985'">net/netlink/af_netlink.c:netlink_kernel_release</a>(48 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/genetlink.c.html#L1022'">net/netlink/genetlink.c:genl_pernet_exit</a>(48 bytes)<br />
 <br /><br />
-<strong> Compartment 30 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-2. KMEM_CACHE alloc from fs/fs_struct.c:copy_fs_struct <br />
-3. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 30 accesses 6 objects:</strong><br />
+1. Globar var uevent_sock_list <br />
+2. KMEM_CACHE alloc from lib/kobject_uevent.c:uevent_net_init <br />
+3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+4. KMEM_CACHE alloc from net/core/net_namespace.c:net_alloc_generic <br />
+5. KMEM_CACHE alloc from net/core/net_namespace.c:ops_init <br />
+6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

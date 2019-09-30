@@ -1,22 +1,32 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 62 of 3805<br />
+Viewing compartment: 62 of 1503<br />
 <a href='C1024_61.html'> Prev</a>
 <a href='C1024_63.html'> Next</a>
 <br /><br />
-<strong> Compartment 62 is 928 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3793'">kernel/sched/core.c:can_nice</a>(96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L173'">kernel/sys.c:SyS_setpriority</a>(560 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L150'">kernel/sys.c:set_one_prio</a>(176 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user.c.html#L145'">kernel/user.c:find_user</a>(96 bytes)<br />
+<strong> Compartment 62 is 1024 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L852'">fs/inode.c:get_next_ino</a>(48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/array.c.html#L576'">fs/proc/array.c:proc_tgid_stat</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/array.c.html#L570'">fs/proc/array.c:proc_tid_stat</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1763'">fs/proc/base.c:pid_revalidate</a>(208 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L1670'">fs/proc/base.c:proc_pid_make_inode</a>(208 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L722'">fs/proc/base.c:proc_pid_permission</a>(192 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L756'">fs/proc/base.c:proc_single_show</a>(128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L475'">kernel/pid.c:get_pid_task</a>(64 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L463'">kernel/pid.c:get_task_pid</a>(48 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1050'">security/security.c:security_task_to_inode</a>(64 bytes)<br />
 <br /><br />
-<strong> Compartment 62 accesses 7 objects:</strong><br />
-1. Globar var init_task <br />
-2. Globar var uidhash_table <br />
-3. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-6. KMEM_CACHE alloc from kernel/pid.c:alloc_pid <br />
-7. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
+<strong> Compartment 62 accesses 11 objects:</strong><br />
+1. Globar var init_pid_ns <br />
+2. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+3. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+6. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+7. KMEM_CACHE alloc from kernel/cred.c:prepare_kernel_cred <br />
+8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+10. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+11. KMEM_CACHE alloc from kernel/pid.c:alloc_pid <br />
 </html>

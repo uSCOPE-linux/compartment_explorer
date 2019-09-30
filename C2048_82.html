@@ -1,76 +1,21 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 82 of 2689<br />
+Viewing compartment: 82 of 1153<br />
 <a href='C2048_81.html'> Prev</a>
 <a href='C2048_83.html'> Next</a>
 <br /><br />
-<strong> Compartment 82 is 2048 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/mem.c.html#L830'">drivers/char/mem.c:memory_open</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/misc.c.html#L111'">drivers/char/misc.c:misc_open</a>(352 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/char_dev.c.html#L325'">fs/char_dev.c:cdev_get</a>(96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/char_dev.c.html#L338'">fs/char_dev.c:cdev_put</a>(48 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/char_dev.c.html#L350'">fs/char_dev.c:chrdev_open</a>(320 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fuse/dev.c.html#L1315'">fs/fuse/dev.c:fuse_dev_open</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L446'">kernel/power/qos.c:pm_qos_add_request</a>(240 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L615'">kernel/power/qos.c:pm_qos_power_open</a>(176 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L474'">kernel/power/qos.c:pm_qos_update_request</a>(176 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L273'">kernel/power/qos.c:pm_qos_update_target</a>(528 bytes)<br />
+<strong> Compartment 82 is 1168 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L2431'">net/core/skbuff.c:skb_rbtree_purge</a>(80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L1069'">net/ipv4/tcp.c:tcp_free_fastopen_req</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_cong.c.html#L210'">net/ipv4/tcp_cong.c:tcp_cleanup_congestion_control</a>(64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L4073'">net/ipv4/tcp_input.c:tcp_fin</a>(352 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L1853'">net/ipv4/tcp_ipv4.c:tcp_v4_destroy_sock</a>(624 bytes)<br />
 <br /><br />
-<strong> Compartment 82 accesses 55 objects:</strong><br />
-1. Globar var _dm_misc <br />
-2. Globar var _nvm_misc <br />
-3. Globar var btrfs_misc <br />
-4. Globar var console_fops <br />
-5. Globar var cpu_dma_constraints <br />
-6. Globar var cpu_dma_pm_qos <br />
-7. Globar var def_chr_fops <br />
-8. Globar var devlist <br />
-9. Globar var ecryptfs_miscdev <br />
-10. Globar var evdev_fops <br />
-11. Globar var full_fops <br />
-12. Globar var fuse_dev_operations <br />
-13. Globar var fuse_miscdevice <br />
-14. Globar var hpet_misc <br />
-15. Globar var kmsg_fops <br />
-16. Globar var loop_ctl_fops <br />
-17. Globar var loop_misc <br />
-18. Globar var mce_chrdev_device <br />
-19. Globar var memory_bandwidth_pm_qos <br />
-20. Globar var memory_fops <br />
-21. Globar var misc_fops <br />
-22. Globar var mousedev_fops <br />
-23. Globar var network_lat_pm_qos <br />
-24. Globar var network_throughput_pm_qos <br />
-25. Globar var null_fops <br />
-26. Globar var pm_qos_array <br />
-27. Globar var pm_qos_power_fops <br />
-28. Globar var psaux_mouse <br />
-29. Globar var ptmx_cdev <br />
-30. Globar var ptmx_fops <br />
-31. Globar var random_fops <br />
-32. Globar var rfkill_fops <br />
-33. Globar var rfkill_miscdev <br />
-34. Globar var rng_miscdev <br />
-35. Globar var rtc_dev_fops <br />
-36. Globar var snapshot_device <br />
-37. Globar var tty_cdev <br />
-38. Globar var tty_fops <br />
-39. Globar var tun_fops <br />
-40. Globar var tun_miscdev <br />
-41. Globar var uinput_fops <br />
-42. Globar var uinput_misc <br />
-43. Globar var urandom_fops <br />
-44. Globar var vc0_cdev <br />
-45. Globar var vhost_net_misc <br />
-46. Globar var zero_fops <br />
-47. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-48. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-49. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
-50. KMEM_CACHE alloc from fs/char_dev.c:cdev_alloc <br />
-51. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-52. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-53. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-54. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
-55. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+<strong> Compartment 82 accesses 5 objects:</strong><br />
+1. Globar var tcp_prot <br />
+2. Globar var tcp_sockets_allocated <br />
+3. Globar var tcpv6_prot <br />
+4. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+5. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

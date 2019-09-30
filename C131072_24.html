@@ -1,33 +1,18 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 24 of 1485<br />
+Viewing compartment: 24 of 381<br />
 <a href='C131072_23.html'> Prev</a>
 <a href='C131072_25.html'> Next</a>
 <br /><br />
-<strong> Compartment 24 is 2064 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L446'">kernel/power/qos.c:pm_qos_add_request</a>(240 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L633'">kernel/power/qos.c:pm_qos_power_release</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L665'">kernel/power/qos.c:pm_qos_power_write</a>(128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L526'">kernel/power/qos.c:pm_qos_remove_request</a>(224 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L474'">kernel/power/qos.c:pm_qos_update_request</a>(176 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L273'">kernel/power/qos.c:pm_qos_update_target</a>(528 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2880'">kernel/workqueue.c:__cancel_work_timer</a>(432 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3046'">kernel/workqueue.c:cancel_delayed_work_sync</a>(32 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2962'">kernel/workqueue.c:cancel_work_sync</a>(32 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/rhashtable.c.html#L975'">lib/rhashtable.c:rhashtable_free_and_destroy</a>(224 bytes)<br />
+<strong> Compartment 24 is 336 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2383'">net/netlink/af_netlink.c:__netlink_seq_next</a>(128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2436'">net/netlink/af_netlink.c:netlink_seq_next</a>(32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2417'">net/netlink/af_netlink.c:netlink_seq_start</a>(96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2362'">net/netlink/af_netlink.c:netlink_walk_start</a>(80 bytes)<br />
 <br /><br />
-<strong> Compartment 24 accesses 12 objects:</strong><br />
-1. Globar var cpu_dma_constraints <br />
-2. Globar var cpu_dma_pm_qos <br />
-3. Globar var pm_qos_array <br />
-4. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-5. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-6. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
-7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-8. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-9. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
-10. KMEM_CACHE alloc from lib/rhashtable.c:bucket_table_alloc <br />
-11. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-12. KMEM_CACHE alloc from net/ipv6/seg6.c:seg6_net_init <br />
+<strong> Compartment 24 accesses 3 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
+2. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+3. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

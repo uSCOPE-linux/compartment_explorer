@@ -1,19 +1,74 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 94 of 1485<br />
+Viewing compartment: 94 of 381<br />
 <a href='C131072_93.html'> Prev</a>
 <a href='C131072_95.html'> Next</a>
 <br /><br />
-<strong> Compartment 94 is 304 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L4881'">kernel/sched/core.c:sys_sched_yield</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6364'">kernel/sched/fair.c:yield_task_fair</a>(128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1368'">kernel/sched/rt.c:yield_task_rt</a>(112 bytes)<br />
+<strong> Compartment 94 is 864 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/super.c.html#L194'">fs/overlayfs/super.c:ovl_show_options</a>(352 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc_namespace.c.html#L189'">fs/proc_namespace.c:show_vfsstat</a>(352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/seq_file.c.html#L393'">fs/seq_file.c:seq_escape</a>(160 bytes)<br />
 <br /><br />
-<strong> Compartment 94 accesses 5 objects:</strong><br />
-1. Globar var fair_sched_class <br />
-2. Globar var rt_sched_class <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-4. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
-5. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+<strong> Compartment 94 accesses 60 objects:</strong><br />
+1. Globar var *.LC1 <br />
+2. Globar var *.LC101 <br />
+3. Globar var *.LC102 <br />
+4. Globar var *.LC103 <br />
+5. Globar var *.LC105 <br />
+6. Globar var *.LC106 <br />
+7. Globar var *.LC107 <br />
+8. Globar var *.LC108 <br />
+9. Globar var *.LC109 <br />
+10. Globar var *.LC11 <br />
+11. Globar var *.LC110 <br />
+12. Globar var *.LC111 <br />
+13. Globar var *.LC12 <br />
+14. Globar var *.LC14 <br />
+15. Globar var *.LC16 <br />
+16. Globar var *.LC17 <br />
+17. Globar var *.LC18 <br />
+18. Globar var *.LC18 <br />
+19. Globar var *.LC19 <br />
+20. Globar var *.LC2 <br />
+21. Globar var *.LC21 <br />
+22. Globar var *.LC22 <br />
+23. Globar var *.LC3 <br />
+24. Globar var *.LC3 <br />
+25. Globar var *.LC36 <br />
+26. Globar var *.LC40 <br />
+27. Globar var *.LC43 <br />
+28. Globar var *.LC5 <br />
+29. Globar var *.LC527 <br />
+30. Globar var *.LC59 <br />
+31. Globar var *.LC614 <br />
+32. Globar var *.LC615 <br />
+33. Globar var *.LC65 <br />
+34. Globar var *.LC7 <br />
+35. Globar var *.LC7 <br />
+36. Globar var *.LC9 <br />
+37. Globar var *.LC9 <br />
+38. Globar var *.LC92 <br />
+39. Globar var debugfs_super_operations <br />
+40. Globar var devpts_sops <br />
+41. Globar var ext4_sops <br />
+42. Globar var hugetlbfs_ops <br />
+43. Globar var kernfs_sops <br />
+44. Globar var mqueue_super_ops <br />
+45. Globar var proc_sops <br />
+46. Globar var pstore_ops <br />
+47. Globar var ramfs_ops <br />
+48. Globar var shmem_ops <br />
+49. Globar var simple_super_operations <br />
+50. Globar var tracefs_super_operations <br />
+51. Globar var v9fs_super_ops_dotl <br />
+52. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+53. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+54. KMEM_CACHE alloc from fs/overlayfs/super.c:ovl_fill_super <br />
+55. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+56. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+57. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+58. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_show_path <br />
+59. KMEM_CACHE alloc from lib/parser.c:match_strdup <br />
+60. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
 </html>

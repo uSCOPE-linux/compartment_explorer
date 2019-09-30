@@ -1,21 +1,26 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 72 of 3805<br />
+Viewing compartment: 72 of 1503<br />
 <a href='C1024_71.html'> Prev</a>
 <a href='C1024_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 1008 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fanotify/fanotify_user.c.html#L615'">fs/notify/fanotify/fanotify_user.c:fanotify_add_new_mark</a>(144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/inotify/inotify_user.c.html#L697'">fs/notify/inotify/inotify_user.c:SyS_inotify_add_watch</a>(800 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/mark.c.html#L516'">fs/notify/mark.c:fsnotify_init_mark</a>(64 bytes)<br />
+<strong> Compartment 72 is 976 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1178'">fs/kernfs/dir.c:__kernfs_remove</a>(576 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1251'">fs/kernfs/dir.c:kernfs_remove</a>(48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L377'">fs/kernfs/dir.c:kernfs_unlink_sibling</a>(96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/file.c.html#L748'">fs/kernfs/file.c:kernfs_unmap_bin_file</a>(160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/dir.c.html#L74'">fs/sysfs/dir.c:sysfs_remove_dir</a>(96 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 7 objects:</strong><br />
-1. Globar var root_user <br />
-2. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-4. KMEM_CACHE alloc from fs/notify/fanotify/fanotify_user.c:fanotify_add_new_mark <br />
-5. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
-6. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:SyS_inotify_add_watch <br />
-7. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
+<strong> Compartment 72 accesses 10 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+2. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+3. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+5. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+6. KMEM_CACHE alloc from fs/kernfs/inode.c:kernfs_iattrs <br />
+7. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+9. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+10. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

@@ -1,26 +1,46 @@
 <html>
 Selected compartmentalization: <strong>C1024</strong><br />
 <br />
-Viewing compartment: 31 of 3805<br />
+Viewing compartment: 31 of 1503<br />
 <a href='C1024_30.html'> Prev</a>
 <a href='C1024_32.html'> Next</a>
 <br /><br />
-<strong> Compartment 31 is 992 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2633'">block/cfq-iosched.c:__cfq_set_active_queue</a>(320 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2491'">block/cfq-iosched.c:cfq_activate_request</a>(240 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2888'">block/cfq-iosched.c:cfq_should_idle</a>(368 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L198'">fs/kernfs/dir.c:kernfs_path_from_node</a>(64 bytes)<br />
+<strong> Compartment 31 is 1008 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1505'">fs/kernfs/dir.c:kernfs_dir_fop_release</a>(32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L494'">fs/kernfs/dir.c:kernfs_put</a>(416 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/file.c.html#L315'">fs/sysfs/file.c:sysfs_add_file</a>(32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/group.c.html#L282'">fs/sysfs/group.c:sysfs_merge_group</a>(192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L571'">lib/kobject.c:kobject_del</a>(112 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L257'">lib/kobject.c:kobject_set_name_vargs</a>(176 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/util.c.html#L31'">mm/util.c:kfree_const</a>(48 bytes)<br />
 <br /><br />
-<strong> Compartment 31 accesses 11 objects:</strong><br />
-1. Globar var blkcg_root <br />
-2. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-3. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
-4. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-5. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-6. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
-7. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
-8. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
-9. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
-10. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-11. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+<strong> Compartment 31 accesses 28 objects:</strong><br />
+1. Globar var *.LC121 <br />
+2. Globar var *.LC23 <br />
+3. Globar var *.LC63 <br />
+4. Globar var dev_attr_autosuspend_delay_ms <br />
+5. Globar var dev_attr_control <br />
+6. Globar var dev_attr_runtime_active_time <br />
+7. Globar var dev_attr_runtime_suspended_time <br />
+8. Globar var ext4_kset <br />
+9. Globar var kernfs_node_cache <br />
+10. Globar var pm_runtime_attr_group <br />
+11. Globar var runtime_attrs <br />
+12. KMALLOC alloc from mm/util.c:kstrdup_const <br />
+13. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+14. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+15. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+16. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+17. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+18. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+19. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+20. KMEM_CACHE alloc from fs/kernfs/inode.c:kernfs_iattrs <br />
+21. KMEM_CACHE alloc from fs/xattr.c:simple_xattr_alloc <br />
+22. KMEM_CACHE alloc from lib/kasprintf.c:kvasprintf <br />
+23. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+24. KMEM_CACHE alloc from mm/slab_common.c:create_cache <br />
+25. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+26. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+27. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+28. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

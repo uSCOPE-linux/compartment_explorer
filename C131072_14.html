@@ -1,21 +1,22 @@
 <html>
 Selected compartmentalization: <strong>C131072</strong><br />
 <br />
-Viewing compartment: 14 of 1485<br />
+Viewing compartment: 14 of 381<br />
 <a href='C131072_13.html'> Prev</a>
 <a href='C131072_15.html'> Next</a>
 <br /><br />
-<strong> Compartment 14 is 720 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L3871'">fs/namei.c:SyS_rmdir</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L4013'">fs/namei.c:SyS_unlinkat</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L3813'">fs/namei.c:do_rmdir</a>(512 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/lsm.c.html#L259'">security/apparmor/lsm.c:apparmor_path_rmdir</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L439'">security/security.c:security_path_rmdir</a>(96 bytes)<br />
+<strong> Compartment 14 is 1024 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L280'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_acquire_init</a>(112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L424'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock</a>(224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L79'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all</a>(192 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L481'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all_ctx</a>(176 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L258'">drivers/gpu/drm/drm_modeset_lock.c:drm_warn_on_modeset_not_all_locked</a>(208 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/mutex.c.html#L1017'">kernel/locking/mutex.c:__ww_mutex_lock</a>(112 bytes)<br />
 <br /><br />
 <strong> Compartment 14 accesses 5 objects:</strong><br />
-1. Globar var apparmor_hooks <br />
-2. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-5. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+1. Globar var oops_in_progress <br />
+2. KMEM_CACHE alloc from drivers/gpu/drm/ast/ast_mode.c:ast_mode_init <br />
+3. KMEM_CACHE alloc from drivers/gpu/drm/drm_drv.c:drm_dev_alloc <br />
+4. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_helper.c:drm_crtc_init <br />
+5. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all <br />
 </html>

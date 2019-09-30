@@ -1,37 +1,43 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 64 of 2689<br />
+Viewing compartment: 64 of 1153<br />
 <a href='C2048_63.html'> Prev</a>
 <a href='C2048_65.html'> Next</a>
 <br /><br />
-<strong> Compartment 64 is 2048 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/fault.c.html#L1214'">arch/x86/mm/fault.c:__do_page_fault</a>(1232 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/fault.c.html#L1444'">arch/x86/mm/fault.c:do_page_fault</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5869'">fs/ext4/inode.c:ext4_filemap_fault</a>(80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L1313'">fs/namespace.c:m_stop</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/rwsem.c.html#L32'">kernel/locking/rwsem.c:down_read_trylock</a>(48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/rwsem.c.html#L98'">kernel/locking/rwsem.c:up_read</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L2865'">mm/memory.c:__do_fault</a>(192 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2092'">mm/mmap.c:find_vma</a>(112 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmacache.c.html#L85'">mm/vmacache.c:vmacache_find</a>(208 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmacache.c.html#L59'">mm/vmacache.c:vmacache_update</a>(64 bytes)<br />
+<strong> Compartment 64 is 2000 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L1423'">block/blk-core.c:__blk_put_request</a>(496 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L946'">block/blk-core.c:__freed_request</a>(144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L966'">block/blk-core.c:freed_request</a>(96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-ioc.c.html#L128'">block/blk-ioc.c:put_io_context</a>(128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-wbt.c.html#L167'">block/blk-wbt.c:wbt_done</a>(224 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3587'">block/cfq-iosched.c:cfq_put_queue</a>(480 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L4383'">block/cfq-iosched.c:cfq_put_request</a>(192 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L726'">block/elevator.c:elv_completed_request</a>(96 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L708'">block/elevator.c:elv_put_request</a>(48 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/backing-dev.c.html#L917'">mm/backing-dev.c:clear_wb_congested</a>(96 bytes)<br />
 <br /><br />
-<strong> Compartment 64 accesses 16 objects:</strong><br />
-1. Globar var ext4_file_vm_ops <br />
-2. Globar var kmmio_count <br />
-3. Globar var shm_vm_ops <br />
-4. Globar var shmem_vm_ops <br />
-5. Globar var special_mapping_vmops <br />
-6. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-11. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-12. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
-13. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-14. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
-15. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
-16. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+<strong> Compartment 64 accesses 22 objects:</strong><br />
+1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+2. Globar var blkcg_root <br />
+3. Globar var congestion_wqh <br />
+4. Globar var iosched_cfq <br />
+5. Globar var jiffies_64 <br />
+6. Globar var system_power_efficient_wq <br />
+7. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+8. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
+9. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+10. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+11. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+12. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+13. KMEM_CACHE alloc from block/blk-ioc.c:create_task_io_context <br />
+14. KMEM_CACHE alloc from block/blk-ioc.c:ioc_create_icq <br />
+15. KMEM_CACHE alloc from block/blk-wbt.c:wbt_init <br />
+16. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
+17. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
+18. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
+19. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+20. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+21. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+22. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
 </html>

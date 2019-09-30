@@ -1,17 +1,33 @@
 <html>
 Selected compartmentalization: <strong>C4096</strong><br />
 <br />
-Viewing compartment: 100 of 2037<br />
+Viewing compartment: 100 of 824<br />
 <a href='C4096_99.html'> Prev</a>
- (only 200 compartments shown due to hosting limitations)<br /><br />
-<strong> Compartment 100 is 1440 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/frontswap.c.html#L245'">mm/frontswap.c:__frontswap_store</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page_io.c.html#L235'">mm/page_io.c:swap_writepage</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/zswap.c.html#L909'">mm/zswap.c:zswap_frontswap_store</a>(1072 bytes)<br />
+ (only 100 compartments shown due to hosting limitations)<br /><br />
+<strong> Compartment 100 is 4080 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L2473'">net/core/skbuff.c:skb_queue_tail</a>(64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1170'">net/netlink/af_netlink.c:__netlink_sendskb</a>(96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L1587'">net/unix/af_unix.c:maybe_add_creds</a>(112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L1102'">net/unix/af_unix.c:unix_dgram_connect</a>(544 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L1631'">net/unix/af_unix.c:unix_dgram_sendmsg</a>(1536 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L224'">net/unix/af_unix.c:unix_mkname</a>(144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L1557'">net/unix/af_unix.c:unix_scm_to_skb</a>(352 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L1841'">net/unix/af_unix.c:unix_stream_sendmsg</a>(912 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/garbage.c.html#L258'">net/unix/garbage.c:wait_for_unix_gc</a>(144 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1327'">security/security.c:security_socket_getpeersec_dgram</a>(96 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1240'">security/security.c:security_unix_may_send</a>(80 bytes)<br />
 <br /><br />
-<strong> Compartment 100 accesses 4 objects:</strong><br />
-1. Globar var swap_info <br />
-2. Globar var zswap_frontswap_ops <br />
-3. Globar var zswap_trees <br />
-4. KMEM_CACHE alloc from mm/swapfile.c:SyS_swapon <br />
+<strong> Compartment 100 accesses 12 objects:</strong><br />
+1. Globar var audit_queue <br />
+2. Globar var root_user <br />
+3. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+6. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
+7. KMEM_CACHE alloc from net/core/scm.c:__scm_send <br />
+8. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+9. KMEM_CACHE alloc from net/core/skbuff.c:skb_clone <br />
+10. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+11. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+12. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
 </html>

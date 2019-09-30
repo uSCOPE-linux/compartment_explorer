@@ -1,25 +1,20 @@
 <html>
 Selected compartmentalization: <strong>C2048</strong><br />
 <br />
-Viewing compartment: 14 of 2689<br />
+Viewing compartment: 14 of 1153<br />
 <a href='C2048_13.html'> Prev</a>
 <a href='C2048_15.html'> Next</a>
 <br /><br />
-<strong> Compartment 14 is 2000 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L606'">fs/ext4/balloc.c:ext4_should_retry_alloc</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L4656'">fs/ext4/extents.c:ext4_alloc_file_blocks</a>(688 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L5008'">fs/ext4/extents.c:ext4_convert_unwritten_extents</a>(416 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L5471'">fs/ext4/inode.c:ext4_chunk_trans_blocks</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L3430'">fs/ext4/inode.c:ext4_end_io_dio</a>(144 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/page-io.c.html#L272'">fs/ext4/page-io.c:ext4_put_io_end</a>(176 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/page-io.c.html#L260'">fs/ext4/page-io.c:ext4_put_io_end_defer</a>(256 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/page-io.c.html#L122'">fs/ext4/page-io.c:ext4_release_io_end</a>(128 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L586'">fs/jbd2/journal.c:jbd2_journal_force_commit_nested</a>(32 bytes)<br />
+<strong> Compartment 14 is 1792 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3422'">fs/buffer.c:alloc_buffer_head</a>(96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L866'">fs/buffer.c:alloc_page_buffers</a>(224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1578'">fs/buffer.c:create_empty_buffers</a>(208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L1093'">fs/ext4/inode.c:ext4_block_write_begin</a>(1264 bytes)<br />
 <br /><br />
 <strong> Compartment 14 accesses 5 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/ext4/page-io.c:ext4_init_io_end <br />
-2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+1. ALLOC_PAGES alloc from mm/filemap.c:grab_cache_page_write_begin <br />
+2. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>
