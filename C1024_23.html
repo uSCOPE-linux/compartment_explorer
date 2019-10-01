@@ -5,14 +5,24 @@ Viewing compartment: 23 of 1503<br />
 <a href='C1024_22.html'> Prev</a>
 <a href='C1024_24.html'> Next</a>
 <br /><br />
-<strong> Compartment 23 is 976 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L233'">ipc/msg.c:freeque</a> (240 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L361'">ipc/msg.c:msgctl_down</a> (448 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L178'">ipc/msg.c:ss_wakeup</a> (224 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msgutil.c.html#L168'">ipc/msgutil.c:free_msg</a> (64 bytes)<br />
+<strong> Compartment 23 is 848 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1489'">drivers/base/core.c:device_remove_class_symlinks</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/group.c.html#L153'">fs/sysfs/group.c:sysfs_create_group</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/symlink.c.html#L120'">fs/sysfs/symlink.c:sysfs_delete_link</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/symlink.c.html#L141'">fs/sysfs/symlink.c:sysfs_remove_link</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L232'">mm/slab_common.c:slab_unmergeable</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slub.c.html#L5623'">mm/slub.c:sysfs_slab_add</a> (496 bytes)<br />
 <br /><br />
-<strong> Compartment 23 accesses 3 objects:</strong><br />
-1. Global var init_ipc_ns <br />
-2. KMEM_CACHE alloc from ipc/msgutil.c:load_msg <br />
-3. KMEM_CACHE alloc from ipc/util.c:ipc_alloc <br />
+<strong> Compartment 23 accesses 11 objects:</strong><br />
+1. Global var input_class <br />
+2. Global var net_class <br />
+3. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+8. KMEM_CACHE alloc from lib/kobject.c:kobject_create <br />
+9. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+10. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+11. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

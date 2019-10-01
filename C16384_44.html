@@ -5,43 +5,22 @@ Viewing compartment: 44 of 483<br />
 <a href='C16384_43.html'> Prev</a>
 <a href='C16384_45.html'> Next</a>
 <br /><br />
-<strong> Compartment 44 is 4640 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L224'">drivers/base/power/wakeup.c:wakeup_source_unregister</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/md/md.c.html#L7595'">drivers/md/md.c:mdstat_poll</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1847'">fs/eventpoll.c:SyS_epoll_ctl</a> (3376 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L848'">fs/eventpoll.c:ep_eventpoll_poll</a> (144 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L738'">fs/eventpoll.c:ep_free</a> (224 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L696'">fs/eventpoll.c:ep_remove</a> (176 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L536'">fs/eventpoll.c:ep_unregister_pollwait</a> (144 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L234'">fs/proc/inode.c:proc_reg_poll</a> (128 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/proc_sysctl.c.html#L585'">fs/proc/proc_sysctl.c:proc_sys_poll</a> (224 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L2011'">mm/swapfile.c:swaps_poll</a> (80 bytes)<br />
+<strong> Compartment 44 is 1040 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/loopback.c.html#L100'">drivers/net/loopback.c:loopback_get_stats64</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/tun.c.html#L956'">drivers/net/tun.c:tun_net_get_stats64</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L1284'">drivers/net/virtio_net.c:virtnet_stats</a> (112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L7587'">net/core/dev.c:dev_get_stats</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L76'">net/core/net-procfs.c:dev_seq_printf_stats</a> (256 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L104'">net/core/net-procfs.c:dev_seq_show</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L1091'">net/core/rtnetlink.c:rtnl_fill_stats</a> (304 bytes)<br />
 <br /><br />
-<strong> Compartment 44 accesses 26 objects:</strong><br />
-1. Global var eventpoll_fops <br />
-2. Global var hostname_poll <br />
-3. Global var inotify_fops <br />
-4. Global var kmsg_fops <br />
-5. Global var md_seq_fops <br />
-6. Global var pipefifo_fops <br />
-7. Global var proc_mountinfo_operations <br />
-8. Global var proc_reg_file_ops_no_compat <br />
-9. Global var proc_swaps_operations <br />
-10. Global var proc_sys_file_operations <br />
-11. Global var root_user <br />
-12. Global var signalfd_fops <br />
-13. Global var socket_file_ops <br />
-14. Global var tfile_check_list <br />
-15. Global var timerfd_fops <br />
-16. Global var uts_kern_table <br />
-17. Global var visited_list <br />
-18. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-19. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-20. KMEM_CACHE alloc from fs/eventpoll.c:ep_ptable_queue_proc <br />
-21. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-22. KMEM_CACHE alloc from fs/proc/generic.c:__proc_create <br />
-23. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
-24. KMEM_CACHE alloc from fs/proc/proc_sysctl.c:__register_sysctl_table <br />
-25. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-26. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
+<strong> Compartment 44 accesses 8 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
+2. Global var loopback_ops <br />
+3. Global var tap_netdev_ops <br />
+4. Global var virtnet_netdev <br />
+5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+7. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+8. STACK <br />
 </html>

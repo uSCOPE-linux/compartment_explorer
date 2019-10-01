@@ -5,23 +5,23 @@ Viewing compartment: 16 of 1503<br />
 <a href='C1024_15.html'> Prev</a>
 <a href='C1024_17.html'> Next</a>
 <br /><br />
-<strong> Compartment 16 is 960 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L1393'">fs/exec.c:install_exec_creds</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cred.c.html#L421'">kernel/cred.c:commit_creds</a> (496 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L562'">security/apparmor/domain.c:apparmor_bprm_committed_creds</a> (16 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L542'">security/apparmor/domain.c:apparmor_bprm_committing_creds</a> (96 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/process_keys.c.html#L279'">security/keys/process_keys.c:key_fsuid_changed</a> (96 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L259'">security/security.c:security_bprm_committed_creds</a> (64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L254'">security/security.c:security_bprm_committing_creds</a> (64 bytes)<br />
+<strong> Compartment 16 is 977 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evgpe.c.html#L381'">drivers/acpi/acpica/evgpe.c:acpi_ev_gpe_detect</a> (406 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evgpe.c.html#L754'">drivers/acpi/acpica/evgpe.c:acpi_ev_gpe_dispatch</a> (294 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evsci.c.html#L66'">drivers/acpi/acpica/evsci.c:acpi_ev_sci_dispatch</a> (94 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evsci.c.html#L111'">drivers/acpi/acpica/evsci.c:acpi_ev_sci_xrupt_handler</a> (50 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/osl.c.html#L528'">drivers/acpi/osl.c:acpi_irq</a> (49 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/sysfs.c.html#L549'">drivers/acpi/sysfs.c:acpi_global_event_handler</a> (84 bytes)<br />
 <br /><br />
-<strong> Compartment 16 accesses 9 objects:</strong><br />
-1. Global var apparmor_hooks <br />
-2. Global var suid_dumpable <br />
-3. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-4. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-5. KMEM_CACHE alloc from kernel/cred.c:prepare_kernel_cred <br />
-6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-7. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-8. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
-9. KMEM_CACHE alloc from security/apparmor/context.c:aa_alloc_task_context <br />
+<strong> Compartment 16 accesses 10 objects:</strong><br />
+1. Global var acpi_gbl_global_event_handler <br />
+2. Global var acpi_gbl_global_event_handler_context <br />
+3. Global var acpi_gbl_gpe_lock <br />
+4. Global var acpi_gbl_sci_handler_list <br />
+5. Global var acpi_gpe_count <br />
+6. Global var acpi_irq_handled <br />
+7. Global var acpi_sci_count <br />
+8. KMEM_CACHE alloc from drivers/acpi/acpica/evgpeutil.c:acpi_ev_get_gpe_xrupt_block <br />
+9. KMEM_CACHE alloc from include/acpi/platform/aclinuxex.h:acpi_os_allocate_zeroed <br />
+10. KMEM_CACHE alloc from slab.h:kzalloc <br />
 </html>

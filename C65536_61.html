@@ -5,22 +5,21 @@ Viewing compartment: 61 of 377<br />
 <a href='C65536_60.html'> Prev</a>
 <a href='C65536_62.html'> Next</a>
 <br /><br />
-<strong> Compartment 61 is 2240 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L1441'">fs/locks.c:__break_lease</a> (1216 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L682'">fs/locks.c:__locks_insert_block</a> (176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L1413'">fs/locks.c:any_leases_conflict</a> (96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/locks.c.html#L1404'">fs/locks.c:leases_conflict</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L151'">fs/open.c:SyS_truncate</a> (16 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L130'">fs/open.c:do_sys_truncate</a> (160 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L67'">fs/open.c:vfs_truncate</a> (512 bytes)<br />
+<strong> Compartment 61 is 992 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/loopback.c.html#L100'">drivers/net/loopback.c:loopback_get_stats64</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/tun.c.html#L956'">drivers/net/tun.c:tun_net_get_stats64</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L1284'">drivers/net/virtio_net.c:virtnet_stats</a> (112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L7587'">net/core/dev.c:dev_get_stats</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L76'">net/core/net-procfs.c:dev_seq_printf_stats</a> (256 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L1091'">net/core/rtnetlink.c:rtnl_fill_stats</a> (304 bytes)<br />
 <br /><br />
 <strong> Compartment 61 accesses 8 objects:</strong><br />
-1. Global var blocked_hash <br />
-2. Global var jiffies_64 <br />
-3. Global var lease_manager_ops <br />
-4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/locks.c:locks_alloc_lock <br />
-7. KMEM_CACHE alloc from fs/locks.c:locks_get_lock_context <br />
-8. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
+2. Global var loopback_ops <br />
+3. Global var tap_netdev_ops <br />
+4. Global var virtnet_netdev <br />
+5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+7. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+8. STACK <br />
 </html>

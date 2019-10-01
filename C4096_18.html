@@ -5,33 +5,17 @@ Viewing compartment: 18 of 824<br />
 <a href='C4096_17.html'> Prev</a>
 <a href='C4096_19.html'> Next</a>
 <br /><br />
-<strong> Compartment 18 is 1760 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/vdso/vma.c.html#L288'">arch/x86/entry/vdso/vma.c:arch_setup_additional_pages</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/vdso/vma.c.html#L244'">arch/x86/entry/vdso/vma.c:map_vdso_randomized</a> (160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/process.c.html#L454'">arch/x86/kernel/process.c:arch_align_stack</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L2061'">drivers/char/random.c:get_random_int</a> (112 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L658'">fs/exec.c:setup_arg_pages</a> (544 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2277'">mm/mmap.c:expand_downwards</a> (752 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2382'">mm/mmap.c:expand_stack</a> (64 bytes)<br />
+<strong> Compartment 18 is 2048 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L585'">fs/block_dev.c:blkdev_write_begin</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1992'">fs/buffer.c:__block_write_begin_int</a> (1440 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L2128'">fs/buffer.c:block_write_begin</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1900'">fs/buffer.c:page_zero_new_buffers</a> (400 bytes)<br />
 <br /><br />
-<strong> Compartment 18 accesses 19 objects:</strong><br />
-1. Global var jiffies_64 <br />
-2. Global var mmap_min_addr <br />
-3. Global var randomize_va_space <br />
-4. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-5. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-10. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-11. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
-12. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-13. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
-14. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-15. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
-16. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
-17. KMEM_CACHE alloc from mm/rmap.c:anon_vma_clone <br />
-18. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
-19. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
+<strong> Compartment 18 accesses 6 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/filemap.c:grab_cache_page_write_begin <br />
+2. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+6. STACK <br />
 </html>

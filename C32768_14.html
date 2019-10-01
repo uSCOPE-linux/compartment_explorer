@@ -5,19 +5,14 @@ Viewing compartment: 14 of 408<br />
 <a href='C32768_13.html'> Prev</a>
 <a href='C32768_15.html'> Next</a>
 <br /><br />
-<strong> Compartment 14 is 2480 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L751'">fs/ext4/balloc.c:ext4_bg_has_super</a> (336 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L807'">fs/ext4/balloc.c:ext4_bg_num_gdb</a> (160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/block_validity.c.html#L57'">fs/ext4/block_validity.c:add_system_zone</a> (400 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/block_validity.c.html#L138'">fs/ext4/block_validity.c:ext4_setup_system_zone</a> (496 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L3228'">fs/ext4/super.c:ext4_calculate_overhead</a> (1088 bytes)<br />
+<strong> Compartment 14 is 368 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/assoc_array.c.html#L26'">lib/assoc_array.c:assoc_array_subtree_iterate</a> (224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1384'">security/keys/keyring.c:keyring_gc_check_iterator</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L423'">security/keys/keyring.c:keyring_read_iterator</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 14 accesses 7 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
-4. KMEM_CACHE alloc from fs/ext4/block_validity.c:add_system_zone <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-6. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-7. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 14 accesses 4 objects:</strong><br />
+1. KMEM_CACHE alloc from lib/assoc_array.c:assoc_array_insert <br />
+2. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+3. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+4. STACK <br />
 </html>

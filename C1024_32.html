@@ -5,24 +5,18 @@ Viewing compartment: 32 of 1503<br />
 <a href='C1024_31.html'> Prev</a>
 <a href='C1024_33.html'> Next</a>
 <br /><br />
-<strong> Compartment 32 is 688 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L1517'">fs/exec.c:prepare_binprm</a> (448 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L3402'">fs/namespace.c:mnt_may_suid</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L990'">kernel/user_namespace.c:current_in_userns</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L239'">security/security.c:security_bprm_set_creds</a> (80 bytes)<br />
+<strong> Compartment 32 is 736 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1945'">fs/fs-writeback.c:wakeup_flusher_threads</a> (368 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L176'">fs/fs-writeback.c:wb_queue_work</a> (192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L922'">fs/fs-writeback.c:wb_start_writeback</a> (176 bytes)<br />
 <br /><br />
-<strong> Compartment 32 accesses 13 objects:</strong><br />
-1. Global var apparmor_hooks <br />
-2. Global var capability_hooks <br />
-3. Global var init_nsproxy <br />
-4. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-7. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
-8. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-9. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-10. KMEM_CACHE alloc from kernel/cred.c:prepare_kernel_cred <br />
-11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-12. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
-13. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
+<strong> Compartment 32 accesses 8 objects:</strong><br />
+1. Global var bdi_list <br />
+2. Global var bdi_wq <br />
+3. Global var vm_node_stat <br />
+4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+5. KMEM_CACHE alloc from fs/9p/vfs_super.c:v9fs_mount <br />
+6. KMEM_CACHE alloc from fs/fs-writeback.c:bdi_split_work_to_wbs <br />
+7. KMEM_CACHE alloc from fs/fs-writeback.c:wb_start_writeback <br />
+8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

@@ -5,18 +5,18 @@ Viewing compartment: 70 of 381<br />
 <a href='C131072_69.html'> Prev</a>
 <a href='C131072_71.html'> Next</a>
 <br /><br />
-<strong> Compartment 70 is 144 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1229'">drivers/base/core.c:klist_children_get</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L108'">lib/klist.c:klist_node_init</a> (80 bytes)<br />
+<strong> Compartment 70 is 7744 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L256'">crypto/sha256_generic.c:crypto_sha256_finup</a> (352 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L249'">crypto/sha256_generic.c:sha256_final</a> (352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L234'">crypto/sha256_generic.c:sha256_generic_block_fn</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L70'">crypto/sha256_generic.c:sha256_transform</a> (6912 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L154'">crypto/shash.c:crypto_shash_finup</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 70 accesses 8 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
-2. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
-3. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
-4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+<strong> Compartment 70 accesses 6 objects:</strong><br />
+1. Global var sha256_algs <br />
+2. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+3. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br />
+4. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br />
+5. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br />
+6. STACK <br />
 </html>

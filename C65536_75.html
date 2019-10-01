@@ -5,17 +5,29 @@ Viewing compartment: 75 of 377<br />
 <a href='C65536_74.html'> Prev</a>
 <a href='C65536_76.html'> Next</a>
 <br /><br />
-<strong> Compartment 75 is 3296 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1339'">net/ipv4/udp.c:skb_consume_udp</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1419'">net/ipv4/udp.c:udp_recvmsg</a> (1152 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L326'">net/ipv6/udp.c:udpv6_recvmsg</a> (1744 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L731'">net/socket.c:__sock_recv_ts_and_drops</a> (272 bytes)<br />
+<strong> Compartment 75 is 3120 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L1249'">fs/namei.c:follow_down_one</a> (96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L3292'">fs/namespace.c:current_chrooted</a> (192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/fork.c.html#L2185'">kernel/fork.c:SyS_unshare</a> (768 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/nsproxy.c.html#L191'">kernel/nsproxy.c:unshare_nsproxy_namespaces</a> (176 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ucount.c.html#L186'">kernel/ucount.c:inc_ucount</a> (512 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L70'">kernel/user_namespace.c:create_user_ns</a> (832 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user_namespace.c.html#L154'">kernel/user_namespace.c:unshare_userns</a> (96 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/utsname.c.html#L89'">kernel/utsname.c:copy_utsname</a> (448 bytes)<br />
 <br /><br />
-<strong> Compartment 75 accesses 6 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. Global var init_net <br />
-3. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-4. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
-5. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 75 accesses 14 objects:</strong><br />
+1. Global var init_nsproxy <br />
+2. Global var init_user_ns <br />
+3. Global var init_uts_ns <br />
+4. Global var ucounts_hashtable <br />
+5. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+6. KMEM_CACHE alloc from fs/fs_struct.c:copy_fs_struct <br />
+7. KMEM_CACHE alloc from fs/namespace.c:alloc_mnt_ns <br />
+8. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+9. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/ucount.c:inc_ucount <br />
+12. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
+13. KMEM_CACHE alloc from kernel/utsname.c:copy_utsname <br />
+14. STACK <br />
 </html>

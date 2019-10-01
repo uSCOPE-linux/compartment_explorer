@@ -5,15 +5,21 @@ Viewing compartment: 92 of 483<br />
 <a href='C16384_91.html'> Prev</a>
 <a href='C16384_93.html'> Next</a>
 <br /><br />
-<strong> Compartment 92 is 432 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/cpufreq.c.html#L229'">drivers/cpufreq/cpufreq.c:cpufreq_cpu_get</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/cpufreq.c.html#L1439'">drivers/cpufreq/cpufreq.c:cpufreq_quick_get</a> (144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/cpufreq.c.html#L634'">drivers/cpufreq/cpufreq.c:show_scaling_cur_freq</a> (96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1921'">drivers/cpufreq/intel_pstate.c:intel_pstate_get</a> (64 bytes)<br />
+<strong> Compartment 92 is 3168 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L139'">security/apparmor/domain.c:__attach_match</a> (192 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L336'">security/apparmor/domain.c:apparmor_bprm_set_creds</a> (2672 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/file.c.html#L107'">security/apparmor/file.c:aa_audit_file</a> (304 bytes)<br />
 <br /><br />
-<strong> Compartment 92 accesses 4 objects:</strong><br />
-1. Global var intel_pstate <br />
-2. KMEM_CACHE alloc from drivers/cpufreq/cpufreq.c:cpufreq_online <br />
-3. KMEM_CACHE alloc from drivers/cpufreq/intel_pstate.c:intel_pstate_init_cpu <br />
-4. VMALLOC alloc from drivers/cpufreq/intel_pstate.c:intel_pstate_init <br />
+<strong> Compartment 92 accesses 11 objects:</strong><br />
+1. Global var aa_g_audit <br />
+2. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
+3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+5. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+6. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+7. KMEM_CACHE alloc from security/apparmor/context.c:aa_alloc_task_context <br />
+8. KMEM_CACHE alloc from security/apparmor/path.c:aa_path_name <br />
+9. KMEM_CACHE alloc from security/apparmor/policy.c:aa_alloc_profile <br />
+10. KMEM_CACHE alloc from security/apparmor/policy.c:alloc_namespace <br />
+11. STACK <br />
 </html>

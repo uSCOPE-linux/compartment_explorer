@@ -5,24 +5,38 @@ Viewing compartment: 60 of 1153<br />
 <a href='C2048_59.html'> Prev</a>
 <a href='C2048_61.html'> Next</a>
 <br /><br />
-<strong> Compartment 60 is 1088 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/interval_tree.c.html#L76'">mm/interval_tree.c:anon_vma_interval_tree_insert</a> (144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2499'">mm/mmap.c:__split_vma</a> (432 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/rmap.c.html#L256'">mm/rmap.c:anon_vma_clone</a> (512 bytes)<br />
+<strong> Compartment 60 is 1824 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/file_table.c.html#L158'">fs/file_table.c:alloc_file</a> (176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L619'">fs/pipe.c:alloc_pipe_info</a> (352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L735'">fs/pipe.c:create_pipe_files</a> (512 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L882'">fs/pipe.c:fifo_open</a> (688 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L865'">fs/pipe.c:wait_for_partner</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 60 accesses 14 objects:</strong><br />
-1. Global var ext4_file_vm_ops <br />
-2. Global var shmem_vm_ops <br />
-3. Global var vm_area_cachep <br />
-4. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-6. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-7. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
-8. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
-9. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-10. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
-11. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
-12. KMEM_CACHE alloc from mm/rmap.c:anon_vma_clone <br />
-13. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
-14. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
+<strong> Compartment 60 accesses 26 objects:</strong><br />
+1. Global var aio_ring_fops <br />
+2. Global var eventfd_fops <br />
+3. Global var eventpoll_fops <br />
+4. Global var fanotify_fops <br />
+5. Global var hugetlbfs_file_operations <br />
+6. Global var inotify_fops <br />
+7. Global var perf_fops <br />
+8. Global var pipefifo_fops <br />
+9. Global var shm_file_operations <br />
+10. Global var shmem_file_operations <br />
+11. Global var signalfd_fops <br />
+12. Global var socket_file_ops <br />
+13. Global var timerfd_fops <br />
+14. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+15. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+16. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+17. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
+18. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+19. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+20. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+21. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+22. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+23. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+24. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+25. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+26. STACK <br />
 </html>

@@ -5,16 +5,111 @@ Viewing compartment: 57 of 1503<br />
 <a href='C1024_56.html'> Prev</a>
 <a href='C1024_58.html'> Next</a>
 <br /><br />
-<strong> Compartment 57 is 672 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/checkpoint.c.html#L386'">fs/jbd2/checkpoint.c:jbd2_cleanup_journal_tail</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L902'">fs/jbd2/journal.c:__jbd2_update_log_tail</a> (208 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L864'">fs/jbd2/journal.c:jbd2_journal_get_log_tail</a> (112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L1378'">fs/jbd2/journal.c:jbd2_journal_update_sb_log_tail</a> (128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L944'">fs/jbd2/journal.c:jbd2_update_log_tail</a> (96 bytes)<br />
+<strong> Compartment 57 is 1024 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/dir.c.html#L611'">fs/ext4/dir.c:ext4_dir_open</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L701'">fs/open.c:do_dentry_open</a> (768 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L776'">fs/proc/base.c:proc_single_open</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/module.c.html#L1084'">kernel/module.c:try_module_get</a> (176 bytes)<br />
 <br /><br />
-<strong> Compartment 57 accesses 4 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-4. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+<strong> Compartment 57 accesses 100 objects:</strong><br />
+1. Global var aa_fs_profile_load <br />
+2. Global var aa_fs_profile_remove <br />
+3. Global var aa_fs_profile_replace <br />
+4. Global var aa_fs_profiles_fops <br />
+5. Global var aa_fs_seq_file_ops <br />
+6. Global var console_fops <br />
+7. Global var debugfs_open_proxy_file_operations <br />
+8. Global var def_blk_fops <br />
+9. Global var def_chr_fops <br />
+10. Global var empty_dir_operations <br />
+11. Global var evdev_fops <br />
+12. Global var evm_key_ops <br />
+13. Global var ext4_dir_operations <br />
+14. Global var ext4_file_operations <br />
+15. Global var fops_bool <br />
+16. Global var full_fops <br />
+17. Global var fuse_dev_operations <br />
+18. Global var ima_ascii_measurements_ops <br />
+19. Global var ima_htable_violations_ops <br />
+20. Global var ima_measure_policy_ops <br />
+21. Global var ima_measurements_count_ops <br />
+22. Global var ima_measurements_ops <br />
+23. Global var kernfs_dir_fops <br />
+24. Global var kernfs_file_fops <br />
+25. Global var kmsg_fops <br />
+26. Global var loop_ctl_fops <br />
+27. Global var mousedev_fops <br />
+28. Global var mqueue_file_operations <br />
+29. Global var ns_file_operations <br />
+30. Global var null_fops <br />
+31. Global var pipefifo_fops <br />
+32. Global var pm_qos_power_fops <br />
+33. Global var proc_attr_dir_operations <br />
+34. Global var proc_auxv_operations <br />
+35. Global var proc_clear_refs_operations <br />
+36. Global var proc_coredump_filter_operations <br />
+37. Global var proc_dir_operations <br />
+38. Global var proc_environ_operations <br />
+39. Global var proc_fd_operations <br />
+40. Global var proc_fdinfo_file_operations <br />
+41. Global var proc_fdinfo_operations <br />
+42. Global var proc_gid_map_operations <br />
+43. Global var proc_loginuid_operations <br />
+44. Global var proc_map_files_operations <br />
+45. Global var proc_mem_operations <br />
+46. Global var proc_mountinfo_operations <br />
+47. Global var proc_mounts_operations <br />
+48. Global var proc_mountstats_operations <br />
+49. Global var proc_net_operations <br />
+50. Global var proc_ns_dir_operations <br />
+51. Global var proc_oom_adj_operations <br />
+52. Global var proc_oom_score_adj_operations <br />
+53. Global var proc_pagemap_operations <br />
+54. Global var proc_pid_attr_operations <br />
+55. Global var proc_pid_cmdline_ops <br />
+56. Global var proc_pid_maps_operations <br />
+57. Global var proc_pid_sched_autogroup_operations <br />
+58. Global var proc_pid_sched_operations <br />
+59. Global var proc_pid_set_comm_operations <br />
+60. Global var proc_pid_set_timerslack_ns_operations <br />
+61. Global var proc_pid_smaps_operations <br />
+62. Global var proc_projid_map_operations <br />
+63. Global var proc_reg_file_ops <br />
+64. Global var proc_reg_file_ops_no_compat <br />
+65. Global var proc_root_operations <br />
+66. Global var proc_sessionid_operations <br />
+67. Global var proc_setgroups_operations <br />
+68. Global var proc_single_file_operations <br />
+69. Global var proc_sys_dir_file_operations <br />
+70. Global var proc_sys_file_operations <br />
+71. Global var proc_task_operations <br />
+72. Global var proc_tgid_base_operations <br />
+73. Global var proc_tid_base_operations <br />
+74. Global var proc_tid_children_operations <br />
+75. Global var proc_tid_maps_operations <br />
+76. Global var proc_tid_smaps_operations <br />
+77. Global var proc_timers_operations <br />
+78. Global var proc_uid_map_operations <br />
+79. Global var ptmx_fops <br />
+80. Global var random_fops <br />
+81. Global var rb_simple_fops <br />
+82. Global var rfkill_fops <br />
+83. Global var rtc_dev_fops <br />
+84. Global var shmem_file_operations <br />
+85. Global var simple_dir_operations <br />
+86. Global var tty_fops <br />
+87. Global var tun_fops <br />
+88. Global var uinput_fops <br />
+89. Global var urandom_fops <br />
+90. Global var zero_fops <br />
+91. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+92. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+93. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+94. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+95. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
+96. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+97. KMEM_CACHE alloc from fs/locks.c:locks_get_lock_context <br />
+98. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+99. KMEM_CACHE alloc from ipc/mqueue.c:mqueue_alloc_inode <br />
+100. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

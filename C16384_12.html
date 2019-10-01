@@ -5,14 +5,18 @@ Viewing compartment: 12 of 483<br />
 <a href='C16384_11.html'> Prev</a>
 <a href='C16384_13.html'> Next</a>
 <br /><br />
-<strong> Compartment 12 is 304 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2738'">net/unix/af_unix.c:unix_next_socket</a> (224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2777'">net/unix/af_unix.c:unix_seq_next</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2764'">net/unix/af_unix.c:unix_seq_start</a> (48 bytes)<br />
+<strong> Compartment 12 is 480 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L1171'">fs/ext4/extents_status.c:ext4_es_unregister_shrinker</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1814'">fs/ext4/xattr.c:ext4_xattr_destroy_cache</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/mbcache.c.html#L386'">fs/mbcache.c:mb_cache_destroy</a> (320 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmscan.c.html#L278'">mm/vmscan.c:unregister_shrinker</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 12 accesses 4 objects:</strong><br />
-1. Global var unix_socket_table <br />
-2. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 12 accesses 7 objects:</strong><br />
+1. Global var shrinker_list <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+3. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
+4. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
+5. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_entry_create <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+7. KMEM_CACHE alloc from mm/vmscan.c:register_shrinker <br />
 </html>

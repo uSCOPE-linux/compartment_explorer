@@ -5,17 +5,22 @@ Viewing compartment: 76 of 377<br />
 <a href='C65536_75.html'> Prev</a>
 <a href='C65536_77.html'> Next</a>
 <br /><br />
-<strong> Compartment 76 is 3888 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L265'">drivers/net/virtio_net.c:page_to_skb</a> (736 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L978'">drivers/net/virtio_net.c:virtnet_receive</a> (3136 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L1136'">drivers/virtio/virtio_ring.c:virtqueue_get_vring_size</a> (16 bytes)<br />
+<strong> Compartment 76 is 1056 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L330'">block/blk-mq-tag.c:blk_mq_queue_tag_busy_iter</a> (464 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L217'">block/blk-mq-tag.c:bt_iter</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L676'">block/blk-mq.c:blk_mq_check_expired</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L701'">block/blk-mq.c:blk_mq_timeout_work</a> (336 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-timeout.c.html#L174'">block/blk-timeout.c:blk_rq_timeout</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 76 accesses 7 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. ALLOC_PAGES alloc from net/core/sock.c:skb_page_frag_refill <br />
-3. KMEM_CACHE alloc from drivers/net/virtio_net.c:init_vqs <br />
-4. KMEM_CACHE alloc from drivers/virtio/virtio_pci_common.c:virtio_pci_probe <br />
-5. KMEM_CACHE alloc from drivers/virtio/virtio_ring.c:__vring_new_virtqueue <br />
-6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-7. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+<strong> Compartment 76 accesses 10 objects:</strong><br />
+1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+2. Global var jiffies_64 <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+5. KMEM_CACHE alloc from block/blk-mq-tag.c:blk_mq_init_tags <br />
+6. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br />
+7. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+8. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br />
+9. KMEM_CACHE alloc from lib/sbitmap.c:sbitmap_init_node <br />
+10. STACK <br />
 </html>

@@ -5,23 +5,18 @@ Viewing compartment: 37 of 483<br />
 <a href='C16384_36.html'> Prev</a>
 <a href='C16384_38.html'> Next</a>
 <br /><br />
-<strong> Compartment 37 is 528 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/mem.c.html#L830'">drivers/char/mem.c:memory_open</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L896'">kernel/printk/printk.c:devkmsg_open</a> (224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L1037'">mm/slab_common.c:kmalloc_order</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L1052'">mm/slab_common.c:kmalloc_order_trace</a> (144 bytes)<br />
+<strong> Compartment 37 is 1152 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L1902'">fs/namespace.c:count_mounts</a> (176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pnode.c.html#L164'">fs/pnode.c:next_group</a> (208 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pnode.c.html#L276'">fs/pnode.c:propagate_mnt</a> (304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pnode.c.html#L207'">fs/pnode.c:propagate_one</a> (464 bytes)<br />
 <br /><br />
-<strong> Compartment 37 accesses 12 objects:</strong><br />
-1. Global var devlist <br />
-2. Global var full_fops <br />
-3. Global var kmsg_fops <br />
-4. Global var null_fops <br />
-5. Global var random_fops <br />
-6. Global var urandom_fops <br />
-7. Global var zero_fops <br />
-8. KMALLOC alloc from kernel/printk/printk.c:devkmsg_open <br />
-9. KMALLOC alloc from mm/slub.c:__kmalloc <br />
-10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-11. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-12. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+<strong> Compartment 37 accesses 7 objects:</strong><br />
+1. Global var init_nsproxy <br />
+2. KMEM_CACHE alloc from fs/namespace.c:alloc_mnt_ns <br />
+3. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+4. KMEM_CACHE alloc from fs/namespace.c:lock_mount <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+6. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
+7. STACK <br />
 </html>

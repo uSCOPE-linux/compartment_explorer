@@ -5,17 +5,20 @@ Viewing compartment: 49 of 1503<br />
 <a href='C1024_48.html'> Prev</a>
 <a href='C1024_50.html'> Next</a>
 <br /><br />
-<strong> Compartment 49 is 976 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2281'">fs/fs-writeback.c:__writeback_inodes_sb_nr</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L786'">fs/fs-writeback.c:bdi_split_work_to_wbs</a> (624 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2364'">fs/fs-writeback.c:try_to_writeback_inodes_sb</a> (64 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2345'">fs/fs-writeback.c:try_to_writeback_inodes_sb_nr</a> (96 bytes)<br />
+<strong> Compartment 49 is 880 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inline.c.html#L129'">fs/ext4/inline.c:ext4_find_inline_data_nolock</a> (240 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L246'">fs/ext4/xattr.c:__xattr_check_inode</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L277'">fs/ext4/xattr.c:ext4_xattr_find_entry</a> (304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1059'">fs/ext4/xattr.c:ext4_xattr_ibody_find</a> (208 bytes)<br />
 <br /><br />
-<strong> Compartment 49 accesses 6 objects:</strong><br />
-1. Global var noop_backing_dev_info <br />
-2. Global var vm_node_stat <br />
-3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-4. KMEM_CACHE alloc from fs/9p/vfs_super.c:v9fs_mount <br />
-5. KMEM_CACHE alloc from fs/fs-writeback.c:bdi_split_work_to_wbs <br />
-6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 49 accesses 9 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+6. STACK <br />
+7. String constant *.LC0 <br />
+8. String constant *.LC0 <br />
+9. String constant *.LC3 <br />
 </html>

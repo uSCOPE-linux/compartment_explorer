@@ -5,17 +5,27 @@ Viewing compartment: 18 of 1153<br />
 <a href='C2048_17.html'> Prev</a>
 <a href='C2048_19.html'> Next</a>
 <br /><br />
-<strong> Compartment 18 is 976 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L7417'">net/core/dev.c:netdev_wait_allrefs</a> (304 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L168'">net/core/link_watch.c:__linkwatch_run_queue</a> (336 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L143'">net/core/link_watch.c:linkwatch_do_dev</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L210'">net/core/link_watch.c:linkwatch_forget_dev</a> (128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L52'">net/core/link_watch.c:rfc2863_policy</a> (128 bytes)<br />
+<strong> Compartment 18 is 1264 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L506'">arch/x86/kernel/apic/io_apic.c:__eoi_ioapic_pin</a> (304 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L530'">arch/x86/kernel/apic/io_apic.c:eoi_ioapic_pin</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L1830'">arch/x86/kernel/apic/io_apic.c:ioapic_ir_ack_level</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/vector.c.html#L512'">arch/x86/kernel/apic/vector.c:apic_ack_edge</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq_64.c.html#L67'">arch/x86/kernel/irq_64.c:handle_irq</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/iommu/irq_remapping.c.html#L158'">drivers/iommu/irq_remapping.c:ir_ack_apic_edge</a> (32 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L620'">kernel/irq/chip.c:handle_edge_irq</a> (272 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L566'">kernel/irq/chip.c:handle_fasteoi_irq</a> (288 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L1014'">kernel/irq/chip.c:irq_chip_ack_parent</a> (32 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L369'">kernel/irq/chip.c:irq_may_run</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 18 accesses 5 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
-2. Global var jiffies_64 <br />
-3. Global var lweventlist <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+<strong> Compartment 18 accesses 10 objects:</strong><br />
+1. Global var apic <br />
+2. Global var intel_ir_chip <br />
+3. Global var ioapics <br />
+4. Global var lapic_controller <br />
+5. Global var pci_msi_controller <br />
+6. Global var pci_msi_ir_controller <br />
+7. KMEM_CACHE alloc from arch/x86/kernel/apic/io_apic.c:__add_pin_to_irq_node <br />
+8. KMEM_CACHE alloc from arch/x86/kernel/apic/io_apic.c:mp_irqdomain_alloc <br />
+9. KMEM_CACHE alloc from kernel/irq/irqdesc.c:alloc_desc <br />
+10. KMEM_CACHE alloc from kernel/irq/irqdomain.c:__irq_domain_alloc_irqs <br />
 </html>

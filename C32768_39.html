@@ -5,15 +5,22 @@ Viewing compartment: 39 of 408<br />
 <a href='C32768_38.html'> Prev</a>
 <a href='C32768_40.html'> Next</a>
 <br /><br />
-<strong> Compartment 39 is 704 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L913'">net/core/rtnetlink.c:if_nlmsg_size</a> (624 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/devinet.c.html#L1673'">net/ipv4/devinet.c:inet_get_link_af_size</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L5114'">net/ipv6/addrconf.c:inet6_get_link_af_size</a> (48 bytes)<br />
+<strong> Compartment 39 is 8112 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/asymmetric_keys/x509_public_key.c.html#L26'">crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params</a> (368 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L256'">crypto/sha256_generic.c:crypto_sha256_finup</a> (352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L249'">crypto/sha256_generic.c:sha256_final</a> (352 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L234'">crypto/sha256_generic.c:sha256_generic_block_fn</a> (80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L70'">crypto/sha256_generic.c:sha256_transform</a> (6912 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L154'">crypto/shash.c:crypto_shash_finup</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 39 accesses 5 objects:</strong><br />
-1. Global var loopback_ops <br />
-2. Global var tap_netdev_ops <br />
-3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. String constant *.LC0 <br />
+<strong> Compartment 39 accesses 9 objects:</strong><br />
+1. Global var sha256_algs <br />
+2. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+3. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_cert_parser.c:x509_cert_parse <br />
+4. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_cert_parser.c:x509_cert_parse <br />
+5. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_cert_parser.c:x509_cert_parse <br />
+6. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br />
+7. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br />
+8. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br />
+9. STACK <br />
 </html>

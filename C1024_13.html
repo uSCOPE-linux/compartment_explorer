@@ -5,15 +5,22 @@ Viewing compartment: 13 of 1503<br />
 <a href='C1024_12.html'> Prev</a>
 <a href='C1024_14.html'> Next</a>
 <br /><br />
-<strong> Compartment 13 is 416 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L260'">net/ipv4/inet_timewait_sock.c:inet_twsk_purge</a> (320 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L2466'">net/ipv4/tcp_ipv4.c:tcp_sk_exit_batch</a> (48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/tcp_ipv6.c.html#L1955'">net/ipv6/tcp_ipv6.c:tcpv6_net_exit_batch</a> (48 bytes)<br />
+<strong> Compartment 13 is 736 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L661'">drivers/tty/pty.c:pty_unix98_remove</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1648'">drivers/tty/tty_io.c:queue_release_one_tty</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1685'">drivers/tty/tty_io.c:release_tty</a> (432 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2910'">drivers/tty/vt/vt.c:con_shutdown</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/devpts/inode.c.html#L506'">fs/devpts/inode.c:devpts_kill_index</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 13 accesses 5 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:alloc_large_system_hash <br />
-2. Global var init_net <br />
-3. Global var tcp_hashinfo <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-5. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
+<strong> Compartment 13 accesses 10 objects:</strong><br />
+1. Global var con_ops <br />
+2. Global var ptm_unix98_ops <br />
+3. Global var pty_unix98_ops <br />
+4. Global var system_wq <br />
+5. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+6. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+7. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+8. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+9. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+10. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
 </html>

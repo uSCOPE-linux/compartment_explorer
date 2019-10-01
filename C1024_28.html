@@ -5,17 +5,34 @@ Viewing compartment: 28 of 1503<br />
 <a href='C1024_27.html'> Prev</a>
 <a href='C1024_29.html'> Next</a>
 <br /><br />
-<strong> Compartment 28 is 944 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L331'">arch/x86/entry/common.c:do_int80_syscall_32</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64_compat.S.html#L295'">arch/x86/entry/entry_64_compat.S:entry_INT80_compat</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/ia32/sys_ia32.c.html#L69'">arch/x86/ia32/sys_ia32.c:cp_stat64</a> (528 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/ia32/sys_ia32.c.html#L118'">arch/x86/ia32/sys_ia32.c:sys32_fstat64</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/tls.c.html#L187'">arch/x86/kernel/tls.c:SyS_set_thread_area</a> (48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/compat.c.html#L1002'">fs/compat.c:compat_SyS_open</a> (32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/read_write.c.html#L1260'">fs/read_write.c:compat_SyS_writev</a> (16 bytes)<br />
+<strong> Compartment 28 is 976 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2377'">fs/fs-writeback.c:sync_inodes_sb</a> (528 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/super.c.html#L574'">fs/super.c:iterate_supers</a> (224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L75'">fs/sync.c:sync_fs_one_sb</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L69'">fs/sync.c:sync_inodes_one_sb</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L106'">fs/sync.c:sys_sync</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 28 accesses 3 objects:</strong><br />
-1. Global var ia32_sys_call_table <br />
-2. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 28 accesses 22 objects:</strong><br />
+1. Global var bdev_sops <br />
+2. Global var debugfs_super_operations <br />
+3. Global var devpts_sops <br />
+4. Global var drm_fs_sops <br />
+5. Global var ext4_sops <br />
+6. Global var hugetlbfs_ops <br />
+7. Global var kernfs_sops <br />
+8. Global var laptop_mode <br />
+9. Global var mqueue_super_ops <br />
+10. Global var nsfs_ops <br />
+11. Global var pipefs_ops <br />
+12. Global var proc_sops <br />
+13. Global var pstore_ops <br />
+14. Global var ramfs_ops <br />
+15. Global var shmem_ops <br />
+16. Global var simple_super_operations <br />
+17. Global var sockfs_ops <br />
+18. Global var tracefs_super_operations <br />
+19. Global var v9fs_super_ops_dotl <br />
+20. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+21. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+22. STACK <br />
 </html>

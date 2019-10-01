@@ -5,20 +5,15 @@ Viewing compartment: 59 of 1503<br />
 <a href='C1024_58.html'> Prev</a>
 <a href='C1024_60.html'> Next</a>
 <br /><br />
-<strong> Compartment 59 is 938 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L339'">arch/x86/entry/common.c:do_fast_syscall_32</a> (368 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64_compat.S.html#L48'">arch/x86/entry/entry_64_compat.S:entry_SYSENTER_compat</a> (90 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/compat.c.html#L496'">kernel/compat.c:compat_SyS_getrlimit</a> (160 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/futex_compat.c.html#L118'">kernel/futex_compat.c:compat_SyS_set_robust_list</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L1139'">kernel/sys.c:SyS_newuname</a> (256 bytes)<br />
+<strong> Compartment 59 is 304 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/mount.c.html#L282'">fs/kernfs/mount.c:kernfs_kill_sb</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/mount.c.html#L208'">fs/kernfs/mount.c:kernfs_super_ns</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/super.c.html#L977'">fs/super.c:kill_anon_super</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/mount.c.html#L48'">fs/sysfs/mount.c:sysfs_kill_sb</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 59 accesses 8 objects:</strong><br />
-1. Global var futex_cmpxchg_enabled <br />
-2. Global var ia32_sys_call_table <br />
-3. Global var init_nsproxy <br />
-4. Global var init_uts_ns <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-6. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-7. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
-8. KMEM_CACHE alloc from kernel/utsname.c:copy_utsname <br />
+<strong> Compartment 59 accesses 4 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+2. KMEM_CACHE alloc from fs/kernfs/dir.c:kernfs_create_root <br />
+3. KMEM_CACHE alloc from fs/kernfs/mount.c:kernfs_mount_ns <br />
+4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

@@ -5,54 +5,14 @@ Viewing compartment: 15 of 824<br />
 <a href='C4096_14.html'> Prev</a>
 <a href='C4096_16.html'> Next</a>
 <br /><br />
-<strong> Compartment 15 is 2688 bytes and has 15 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L683'">drivers/base/power/wakeup.c:__pm_relax</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L703'">drivers/base/power/wakeup.c:pm_relax</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L626'">drivers/base/power/wakeup.c:wakeup_source_deactivate</a> (240 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L401'">fs/eventpoll.c:ep_call_nested</a> (240 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1707'">fs/eventpoll.c:ep_loop_check_proc</a> (288 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L840'">fs/eventpoll.c:ep_poll_readyevents_proc</a> (32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L493'">fs/eventpoll.c:ep_poll_wakeup_proc</a> (48 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L595'">fs/eventpoll.c:ep_scan_ready_list</a> (480 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1495'">fs/eventpoll.c:ep_send_events_proc</a> (368 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1190'">fs/eventpoll.c:reverse_path_check_proc</a> (224 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/proc_sysctl.c.html#L585'">fs/proc/proc_sysctl.c:proc_sys_poll</a> (224 bytes)<br />
-12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/signalfd.c.html#L59'">fs/signalfd.c:signalfd_poll</a> (160 bytes)<br />
-13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L218'">fs/timerfd.c:timerfd_poll</a> (96 bytes)<br />
-14. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L873'">kernel/printk/printk.c:devkmsg_poll</a> (112 bytes)<br />
-15. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/signal.c.html#L170'">kernel/signal.c:next_signal</a> (48 bytes)<br />
+<strong> Compartment 15 is 448 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L359'">kernel/kthread.c:__kthread_bind_mask</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L381'">kernel/kthread.c:kthread_bind_mask</a> (16 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1754'">kernel/workqueue.c:create_worker</a> (384 bytes)<br />
 <br /><br />
-<strong> Compartment 15 accesses 32 objects:</strong><br />
-1. Global var eventpoll_fops <br />
-2. Global var hostname_poll <br />
-3. Global var inotify_fops <br />
-4. Global var kmsg_fops <br />
-5. Global var path_count <br />
-6. Global var path_limits <br />
-7. Global var pipefifo_fops <br />
-8. Global var poll_loop_ncalls <br />
-9. Global var poll_readywalk_ncalls <br />
-10. Global var poll_safewake_ncalls <br />
-11. Global var proc_mountinfo_operations <br />
-12. Global var proc_reg_file_ops_no_compat <br />
-13. Global var proc_sys_file_operations <br />
-14. Global var signalfd_fops <br />
-15. Global var socket_file_ops <br />
-16. Global var tfile_check_list <br />
-17. Global var timerfd_fops <br />
-18. Global var uts_kern_table <br />
-19. Global var visited_list <br />
-20. KMALLOC alloc from kernel/printk/printk.c:devkmsg_open <br />
-21. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
-22. KMEM_CACHE alloc from drivers/pnp/core.c:pnp_alloc_dev <br />
-23. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-24. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-25. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-26. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
-27. KMEM_CACHE alloc from fs/proc/proc_sysctl.c:__register_sysctl_table <br />
-28. KMEM_CACHE alloc from fs/signalfd.c:SyS_signalfd4 <br />
-29. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
-30. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
-31. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-32. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 15 accesses 4 objects:</strong><br />
+1. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+2. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
+3. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
+4. KMEM_CACHE alloc from kernel/workqueue.c:init_worker_pool <br />
 </html>

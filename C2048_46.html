@@ -5,14 +5,20 @@ Viewing compartment: 46 of 1153<br />
 <a href='C2048_45.html'> Prev</a>
 <a href='C2048_47.html'> Next</a>
 <br /><br />
-<strong> Compartment 46 is 512 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L424'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock</a> (224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L481'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all_ctx</a> (176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/mutex.c.html#L1017'">kernel/locking/mutex.c:__ww_mutex_lock</a> (112 bytes)<br />
+<strong> Compartment 46 is 1984 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L2398'">net/ipv6/addrconf.c:addrconf_prefix_rcv_add_addr</a> (592 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L1857'">net/ipv6/addrconf.c:ipv6_get_ifaddr</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L2323'">net/ipv6/addrconf.c:manage_tempaddrs</a> (384 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ndisc.c.html#L923'">net/ipv6/ndisc.c:ndisc_recv_na</a> (832 bytes)<br />
 <br /><br />
-<strong> Compartment 46 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/gpu/drm/ast/ast_mode.c:ast_mode_init <br />
-2. KMEM_CACHE alloc from drivers/gpu/drm/drm_drv.c:drm_dev_alloc <br />
-3. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_helper.c:drm_crtc_init <br />
-4. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all <br />
+<strong> Compartment 46 accesses 9 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
+2. Global var inet6_addr_lst <br />
+3. Global var jiffies_64 <br />
+4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+5. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+6. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+7. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
+8. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
+9. STACK <br />
 </html>

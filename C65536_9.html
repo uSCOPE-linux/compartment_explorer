@@ -5,16 +5,16 @@ Viewing compartment: 9 of 377<br />
 <a href='C65536_8.html'> Prev</a>
 <a href='C65536_10.html'> Next</a>
 <br /><br />
-<strong> Compartment 9 is 2048 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L585'">fs/block_dev.c:blkdev_write_begin</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1992'">fs/buffer.c:__block_write_begin_int</a> (1440 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L2128'">fs/buffer.c:block_write_begin</a> (160 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1900'">fs/buffer.c:page_zero_new_buffers</a> (400 bytes)<br />
+<strong> Compartment 9 is 544 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L566'">drivers/base/power/wakeup.c:__pm_stay_awake</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L594'">drivers/base/power/wakeup.c:pm_stay_awake</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L549'">drivers/base/power/wakeup.c:wakeup_source_report_event</a> (240 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/rtc/interface.c.html#L572'">drivers/rtc/interface.c:rtc_update_irq</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/suspend.c.html#L102'">kernel/power/suspend.c:freeze_wake</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 9 accesses 5 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/filemap.c:grab_cache_page_write_begin <br />
-2. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
-3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 9 accesses 4 objects:</strong><br />
+1. Global var system_wq <br />
+2. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
+3. KMEM_CACHE alloc from drivers/pnp/core.c:pnp_alloc_dev <br />
+4. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
 </html>

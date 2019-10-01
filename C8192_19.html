@@ -5,16 +5,15 @@ Viewing compartment: 19 of 594<br />
 <a href='C8192_18.html'> Prev</a>
 <a href='C8192_20.html'> Next</a>
 <br /><br />
-<strong> Compartment 19 is 208 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/bpf/core.c.html#L1085'">kernel/bpf/core.c:bpf_prog_free</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/filter.c.html#L894'">net/core/filter.c:__bpf_prog_release</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/filter.c.html#L914'">net/core/filter.c:sk_filter_release_rcu</a> (48 bytes)<br />
+<strong> Compartment 19 is 304 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L4881'">kernel/sched/core.c:sys_sched_yield</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6364'">kernel/sched/fair.c:yield_task_fair</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1368'">kernel/sched/rt.c:yield_task_rt</a> (112 bytes)<br />
 <br /><br />
-<strong> Compartment 19 accesses 6 objects:</strong><br />
-1. Global var system_wq <br />
-2. KMEM_CACHE alloc from kernel/bpf/core.c:bpf_prog_alloc <br />
-3. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
-4. KMEM_CACHE alloc from net/core/filter.c:__sk_attach_prog <br />
-5. KMEM_CACHE alloc from net/core/filter.c:bpf_prog_store_orig_filter <br />
-6. VMALLOC alloc from kernel/bpf/core.c:bpf_prog_alloc <br />
+<strong> Compartment 19 accesses 5 objects:</strong><br />
+1. Global var fair_sched_class <br />
+2. Global var rt_sched_class <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+4. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+5. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
 </html>

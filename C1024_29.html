@@ -5,14 +5,32 @@ Viewing compartment: 29 of 1503<br />
 <a href='C1024_28.html'> Prev</a>
 <a href='C1024_30.html'> Next</a>
 <br /><br />
-<strong> Compartment 29 is 528 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L618'">block/blk-core.c:blk_init_rl</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L120'">mm/mempool.c:add_element</a> (16 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L184'">mm/mempool.c:mempool_create_node</a> (320 bytes)<br />
+<strong> Compartment 29 is 960 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L804'">fs/exec.c:do_open_execat</a> (320 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L848'">fs/exec.c:open_exec</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L211'">fs/namei.c:getname_kernel</a> (352 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L2380'">fs/namei.c:kern_path</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L3601'">fs/namei.c:kern_path_create</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L993'">fs/open.c:filp_open</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 29 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
-2. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-3. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
-4. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
+<strong> Compartment 29 accesses 19 objects:</strong><br />
+1. Global var modprobe_path <br />
+2. Global var names_cachep <br />
+3. KMEM_CACHE alloc from fs/binfmt_elf.c:load_elf_binary <br />
+4. KMEM_CACHE alloc from fs/binfmt_elf.c:load_elf_binary <br />
+5. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+8. KMEM_CACHE alloc from fs/namei.c:getname_flags <br />
+9. KMEM_CACHE alloc from fs/namei.c:getname_kernel <br />
+10. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+11. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+12. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+13. KMEM_CACHE alloc from kernel/sysctl_binary.c:do_sysctl <br />
+14. KMEM_CACHE alloc from lib/kasprintf.c:kvasprintf <br />
+15. KMEM_CACHE alloc from mm/slab_common.c:krealloc <br />
+16. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+17. KMEM_CACHE alloc from mm/util.c:memdup_user <br />
+18. STACK <br />
+19. String constant *.LC6 <br />
 </html>

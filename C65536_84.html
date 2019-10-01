@@ -5,19 +5,26 @@ Viewing compartment: 84 of 377<br />
 <a href='C65536_83.html'> Prev</a>
 <a href='C65536_85.html'> Next</a>
 <br /><br />
-<strong> Compartment 84 is 800 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8386'">kernel/sched/core.c:cpu_cgroup_css_alloc</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7885'">kernel/sched/core.c:sched_create_group</a> (112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7906'">kernel/sched/core.c:sched_online_group</a> (208 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9214'">kernel/sched/fair.c:alloc_fair_sched_group</a> (384 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L262'">kernel/sched/rt.c:alloc_rt_sched_group</a> (16 bytes)<br />
+<strong> Compartment 84 is 10752 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L2721'">net/core/sock.c:sock_common_setsockopt</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_sockglue.c.html#L597'">net/ipv4/ip_sockglue.c:do_ip_setsockopt</a> (3664 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_sockglue.c.html#L1251'">net/ipv4/ip_sockglue.c:ip_setsockopt</a> (176 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2400'">net/ipv4/tcp.c:do_tcp_setsockopt</a> (2048 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L2693'">net/ipv4/tcp.c:tcp_setsockopt</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L2231'">net/ipv4/udp.c:udp_setsockopt</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ipv6_sockglue.c.html#L139'">net/ipv6/ipv6_sockglue.c:do_ipv6_setsockopt</a> (4368 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ipv6_sockglue.c.html#L900'">net/ipv6/ipv6_sockglue.c:ipv6_setsockopt</a> (192 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L1329'">net/ipv6/udp.c:udpv6_setsockopt</a> (48 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netfilter/nf_sockopt.c.html#L111'">net/netfilter/nf_sockopt.c:nf_setsockopt</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 84 accesses 7 objects:</strong><br />
-1. Global var root_task_group <br />
-2. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
-3. KMEM_CACHE alloc from kernel/sched/core.c:sched_init <br />
-4. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
-5. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
-6. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
-7. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+<strong> Compartment 84 accesses 9 objects:</strong><br />
+1. Global var ip_tos2prio <br />
+2. Global var ipv4_specific <br />
+3. Global var ipv6_specific <br />
+4. Global var tcp_prot <br />
+5. Global var tcpv6_prot <br />
+6. Global var udp_prot <br />
+7. Global var udpv6_prot <br />
+8. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+9. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
 </html>

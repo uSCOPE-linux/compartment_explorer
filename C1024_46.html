@@ -5,15 +5,15 @@ Viewing compartment: 46 of 1503<br />
 <a href='C1024_45.html'> Prev</a>
 <a href='C1024_47.html'> Next</a>
 <br /><br />
-<strong> Compartment 46 is 928 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/madvise.c.html#L179'">mm/madvise.c:force_swapin_readahead</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mincore.c.html#L220'">mm/mincore.c:SyS_mincore</a> (608 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/pagewalk.c.html#L239'">mm/pagewalk.c:walk_page_range</a> (240 bytes)<br />
+<strong> Compartment 46 is 824 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dsutils.c.html#L460'">drivers/acpi/acpica/dsutils.c:acpi_ds_create_operand</a> (534 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dsutils.c.html#L709'">drivers/acpi/acpica/dsutils.c:acpi_ds_create_operands</a> (203 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L309'">drivers/acpi/acpica/dswstate.c:acpi_ds_obj_stack_push</a> (87 bytes)<br />
 <br /><br />
 <strong> Compartment 46 accesses 5 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/mincore.c:SyS_mincore <br />
-2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-4. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-5. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+1. Global var acpi_gbl_aml_op_info <br />
+2. KMEM_CACHE alloc from drivers/acpi/acpica/dswstate.c:acpi_ds_create_walk_state <br />
+3. KMEM_CACHE alloc from drivers/acpi/acpica/exnames.c:acpi_ex_allocate_name_string <br />
+4. KMEM_CACHE alloc from include/acpi/platform/aclinuxex.h:acpi_os_acquire_object <br />
+5. STACK <br />
 </html>

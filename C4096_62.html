@@ -5,19 +5,40 @@ Viewing compartment: 62 of 824<br />
 <a href='C4096_61.html'> Prev</a>
 <a href='C4096_63.html'> Next</a>
 <br /><br />
-<strong> Compartment 62 is 4096 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L1026'">drivers/base/power/runtime.c:__pm_runtime_resume</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L674'">drivers/base/power/runtime.c:rpm_resume</a> (1472 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_main.c.html#L4375'">drivers/net/ethernet/intel/igb/igb_main.c:igb_has_link</a> (192 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_main.c.html#L4461'">drivers/net/ethernet/intel/igb/igb_main.c:igb_watchdog_task</a> (1936 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_ptp.c.html#L681'">drivers/net/ethernet/intel/igb/igb_ptp.c:igb_ptp_rx_hang</a> (176 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/pci/pci.c.html#L2189'">drivers/pci/pci.c:pci_config_pm_runtime_get</a> (96 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L359'">kernel/time/timer.c:round_jiffies</a> (96 bytes)<br />
+<strong> Compartment 62 is 3968 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3879'">block/cfq-iosched.c:__cfq_update_io_thinktime</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2371'">block/cfq-iosched.c:cfq_add_cfqq_rr</a> (272 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2435'">block/cfq-iosched.c:cfq_add_rq_rb</a> (192 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L1090'">block/cfq-iosched.c:cfq_choose_req</a> (272 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L4138'">block/cfq-iosched.c:cfq_insert_request</a> (1296 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2328'">block/cfq-iosched.c:cfq_prio_tree_add</a> (192 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3934'">block/cfq-iosched.c:cfq_update_idle_window</a> (400 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L296'">block/elevator.c:elv_rb_add</a> (112 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L198'">fs/kernfs/dir.c:kernfs_path_from_node</a> (64 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L118'">fs/kernfs/dir.c:kernfs_path_from_node_locked</a> (1040 bytes)<br />
 <br /><br />
-<strong> Compartment 62 accesses 5 objects:</strong><br />
-1. Global var jiffies_64 <br />
-2. KMEM_CACHE alloc from drivers/net/ethernet/intel/igb/igb_main.c:igb_alloc_q_vector <br />
-3. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br />
-4. KMEM_CACHE alloc from drivers/pci/probe.c:pci_create_root_bus_msi <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+<strong> Compartment 62 accesses 23 objects:</strong><br />
+1. Global var blkcg_root <br />
+2. Global var group_path <br />
+3. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+4. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
+5. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+6. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+7. KMEM_CACHE alloc from block/blk-ioc.c:create_task_io_context <br />
+8. KMEM_CACHE alloc from block/blk-ioc.c:ioc_create_icq <br />
+9. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
+10. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
+11. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
+12. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+13. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+14. KMEM_CACHE alloc from fs/kernfs/dir.c:kernfs_create_root <br />
+15. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+16. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+17. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_release_agent <br />
+18. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_show_path <br />
+19. KMEM_CACHE alloc from kernel/cgroup.c:proc_cgroup_show <br />
+20. KMEM_CACHE alloc from kernel/cpuset.c:proc_cpuset_show <br />
+21. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+22. STACK <br />
+23. String constant *.LC2 <br />
 </html>

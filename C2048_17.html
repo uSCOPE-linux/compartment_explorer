@@ -5,19 +5,23 @@ Viewing compartment: 17 of 1153<br />
 <a href='C2048_16.html'> Prev</a>
 <a href='C2048_18.html'> Next</a>
 <br /><br />
-<strong> Compartment 17 is 464 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L1303'">kernel/audit.c:audit_net_exit</a> (96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L438'">lib/kobject_uevent.c:uevent_net_exit</a> (176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L4109'">net/core/rtnetlink.c:rtnetlink_net_exit</a> (48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock_diag.c.html#L328'">net/core/sock_diag.c:diag_net_exit</a> (48 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1985'">net/netlink/af_netlink.c:netlink_kernel_release</a> (48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/genetlink.c.html#L1022'">net/netlink/genetlink.c:genl_pernet_exit</a> (48 bytes)<br />
+<strong> Compartment 17 is 2032 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L2790'">fs/ext4/mballoc.c:ext4_free_data_callback</a> (544 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1112'">fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp</a> (1024 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1796'">fs/ext4/mballoc.c:ext4_mb_try_best_found</a> (240 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1255'">fs/ext4/mballoc.c:ext4_mb_unload_buddy</a> (96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L365'">fs/ext4/super.c:ext4_journal_commit_callback</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 17 accesses 6 objects:</strong><br />
-1. Global var uevent_sock_list <br />
-2. KMEM_CACHE alloc from lib/kobject_uevent.c:uevent_net_init <br />
-3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-4. KMEM_CACHE alloc from net/core/net_namespace.c:net_alloc_generic <br />
-5. KMEM_CACHE alloc from net/core/net_namespace.c:ops_init <br />
-6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 17 accesses 11 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_free_blocks <br />
+2. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+3. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+4. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_new_blocks <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvzalloc <br />
+8. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+9. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+10. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+11. STACK <br />
 </html>

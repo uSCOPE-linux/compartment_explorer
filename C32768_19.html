@@ -5,27 +5,21 @@ Viewing compartment: 19 of 408<br />
 <a href='C32768_18.html'> Prev</a>
 <a href='C32768_20.html'> Next</a>
 <br /><br />
-<strong> Compartment 19 is 3152 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/af_inet.c.html#L847'">net/ipv4/af_inet.c:inet_ioctl</a> (112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/devinet.c.html#L917'">net/ipv4/devinet.c:devinet_ioctl</a> (1776 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L548'">net/ipv4/tcp.c:tcp_ioctl</a> (384 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1358'">net/ipv4/udp.c:first_packet_length</a> (464 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1388'">net/ipv4/udp.c:udp_ioctl</a> (96 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1053'">net/netlink/af_netlink.c:netlink_ioctl</a> (16 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L891'">net/socket.c:sock_do_ioctl</a> (80 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2564'">net/unix/af_unix.c:unix_inq_len</a> (128 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2594'">net/unix/af_unix.c:unix_ioctl</a> (96 bytes)<br />
+<strong> Compartment 19 is 304 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-cgroup.c.html#L63'">block/blk-cgroup.c:blkg_free</a> (96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L639'">block/blk-core.c:blk_exit_rl</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-throttle.c.html#L394'">block/blk-throttle.c:throtl_pd_free</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L1676'">block/cfq-iosched.c:cfq_pd_free</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L146'">mm/mempool.c:mempool_destroy</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L127'">mm/mempool.c:remove_element</a> (16 bytes)<br />
 <br /><br />
-<strong> Compartment 19 accesses 11 objects:</strong><br />
-1. Global var inet_dgram_ops <br />
-2. Global var inet_stream_ops <br />
-3. Global var netlink_ops <br />
-4. Global var tcp_prot <br />
-5. Global var udp_prot <br />
-6. Global var unix_dgram_ops <br />
-7. Global var unix_stream_ops <br />
-8. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-9. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
-10. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-11. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+<strong> Compartment 19 accesses 8 objects:</strong><br />
+1. Global var blkcg_policy <br />
+2. Global var blkcg_policy_cfq <br />
+3. Global var blkcg_policy_throtl <br />
+4. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
+5. KMEM_CACHE alloc from block/blk-throttle.c:throtl_pd_alloc <br />
+6. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
+7. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
+8. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
 </html>

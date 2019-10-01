@@ -5,17 +5,41 @@ Viewing compartment: 72 of 381<br />
 <a href='C131072_71.html'> Prev</a>
 <a href='C131072_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 1216 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmscan.c.html#L230'">mm/vmscan.c:pgdat_reclaimable</a> (112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmstat.c.html#L1155'">mm/vmstat.c:frag_show</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmstat.c.html#L1205'">mm/vmstat.c:pagetypeinfo_showblockcount_print</a> (384 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmstat.c.html#L1123'">mm/vmstat.c:walk_zones_in_node</a> (128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmstat.c.html#L1431'">mm/vmstat.c:zoneinfo_show</a> (32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmstat.c.html#L1358'">mm/vmstat.c:zoneinfo_show_print</a> (528 bytes)<br />
+<strong> Compartment 72 is 416 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1310'">drivers/base/core.c:class_dir_child_ns_type</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L820'">drivers/base/core.c:device_namespace</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L1008'">lib/kobject.c:kobj_ns_ops</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L29'">lib/kobject.c:kobject_namespace</a> (80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L89'">lib/kobject_uevent.c:kobj_bcast_filter</a> (128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-sysfs.c.html#L1503'">net/core/net-sysfs.c:net_namespace</a> (16 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-sysfs.c.html#L1455'">net/core/net-sysfs.c:net_netlink_ns</a> (16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-sysfs.c.html#L1307'">net/core/net-sysfs.c:netdev_queue_namespace</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 4 objects:</strong><br />
-1. Global var mem_section <br />
-2. Global var nr_swap_pages <br />
-3. Global var vm_node_stat <br />
-4. Global var vmstat_text <br />
+<strong> Compartment 72 accesses 26 objects:</strong><br />
+1. Global var block_class <br />
+2. Global var class_dir_ktype <br />
+3. Global var device_ktype <br />
+4. Global var ext4_kset <br />
+5. Global var ext4_ktype <br />
+6. Global var input_class <br />
+7. Global var kset_ktype <br />
+8. Global var net_class <br />
+9. Global var net_ns_type_operations <br />
+10. Global var netdev_queue_ktype <br />
+11. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+12. KMEM_CACHE alloc from drivers/base/class.c:__class_create <br />
+13. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+14. KMEM_CACHE alloc from drivers/base/core.c:get_device_parent <br />
+15. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+16. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+17. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+18. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+19. KMEM_CACHE alloc from lib/kobject.c:kobject_create <br />
+20. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+21. KMEM_CACHE alloc from mm/slab_common.c:create_cache <br />
+22. KMEM_CACHE alloc from mm/slab_common.c:create_kmalloc_cache <br />
+23. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+24. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+25. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+26. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

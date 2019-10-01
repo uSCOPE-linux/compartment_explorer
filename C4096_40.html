@@ -5,26 +5,30 @@ Viewing compartment: 40 of 824<br />
 <a href='C4096_39.html'> Prev</a>
 <a href='C4096_41.html'> Next</a>
 <br /><br />
-<strong> Compartment 40 is 3600 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi.c.html#L559'">drivers/scsi/scsi.c:scsi_finish_command</a> (288 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi.c.html#L278'">drivers/scsi/scsi.c:scsi_put_command</a> (192 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L283'">drivers/scsi/scsi_lib.c:scsi_device_unbusy</a> (128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L608'">drivers/scsi/scsi_lib.c:scsi_end_request</a> (448 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L737'">drivers/scsi/scsi_lib.c:scsi_io_completion</a> (1632 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L587'">drivers/scsi/scsi_lib.c:scsi_release_buffers</a> (112 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/sd.c.html#L1788'">drivers/scsi/sd.c:sd_done</a> (800 bytes)<br />
+<strong> Compartment 40 is 4080 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/process_64.c.html#L263'">arch/x86/kernel/process_64.c:__switch_to</a> (1200 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/tlb.c.html#L74'">arch/x86/mm/tlb.c:switch_mm_irqs_off</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L85'">kernel/rcu/tiny.c:rcu_sched_qs</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3333'">kernel/sched/core.c:__schedule</a> (1488 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2731'">kernel/sched/core.c:finish_task_switch</a> (464 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/deadline.c.html#L1120'">kernel/sched/deadline.c:pick_next_task_dl</a> (176 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle_task.c.html#L26'">kernel/sched/idle_task.c:pick_next_task_idle</a> (64 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1525'">kernel/sched/rt.c:pick_next_task_rt</a> (176 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/stop_task.c.html#L26'">kernel/sched/stop_task.c:pick_next_task_stop</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 40 accesses 12 objects:</strong><br />
-1. Global var scsi_logging_level <br />
-2. Global var sd_template <br />
-3. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-5. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
-6. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-7. KMEM_CACHE alloc from drivers/scsi/hosts.c:scsi_host_alloc <br />
-8. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
-9. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
-10. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
-11. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_target <br />
-12. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+<strong> Compartment 40 accesses 14 objects:</strong><br />
+1. Global var __start_init_task <br />
+2. Global var alternatives_patched <br />
+3. Global var dl_sched_class <br />
+4. Global var fair_sched_class <br />
+5. Global var idle_sched_class <br />
+6. Global var init_task <br />
+7. Global var prof_on <br />
+8. Global var rt_sched_class <br />
+9. Global var stop_sched_class <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+12. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+13. KMEM_CACHE alloc from kernel/tracepoint.c:tracepoint_probe_register_prio <br />
+14. STACK <br />
 </html>

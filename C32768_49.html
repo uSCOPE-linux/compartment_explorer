@@ -5,15 +5,26 @@ Viewing compartment: 49 of 408<br />
 <a href='C32768_48.html'> Prev</a>
 <a href='C32768_50.html'> Next</a>
 <br /><br />
-<strong> Compartment 49 is 352 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L210'">net/core/net-procfs.c:ptype_get_idx</a> (144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L239'">net/core/net-procfs.c:ptype_seq_next</a> (160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/net-procfs.c.html#L233'">net/core/net-procfs.c:ptype_seq_start</a> (48 bytes)<br />
+<strong> Compartment 49 is 976 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L1344'">block/blk-core.c:blk_requeue_request</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-wbt.c.html#L644'">block/blk-wbt.c:wbt_requeue</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2502'">block/cfq-iosched.c:cfq_deactivate_request</a> (272 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L555'">block/elevator.c:elv_requeue_request</a> (160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L105'">drivers/scsi/scsi_lib.c:__scsi_queue_insert</a> (336 bytes)<br />
 <br /><br />
-<strong> Compartment 49 accesses 5 objects:</strong><br />
-1. Global var arp_packet_type <br />
-2. Global var ip_packet_type <br />
-3. Global var ipv6_packet_type <br />
-4. Global var ptype_all <br />
-5. Global var ptype_base <br />
+<strong> Compartment 49 accesses 14 objects:</strong><br />
+1. Global var iosched_cfq <br />
+2. Global var scsi_logging_level <br />
+3. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+4. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
+5. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+6. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+8. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
+9. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
+10. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
+11. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+12. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
+13. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+14. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
 </html>

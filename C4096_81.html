@@ -5,23 +5,30 @@ Viewing compartment: 81 of 824<br />
 <a href='C4096_80.html'> Prev</a>
 <a href='C4096_82.html'> Next</a>
 <br /><br />
-<strong> Compartment 81 is 1376 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1204'">fs/buffer.c:__bforget</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L185'">fs/ext4/ext4_jbd2.c:__ext4_forget</a> (464 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L137'">fs/jbd2/revoke.c:insert_revoke_hash</a> (144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L324'">fs/jbd2/revoke.c:jbd2_journal_revoke</a> (304 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1471'">fs/jbd2/transaction.c:jbd2_journal_forget</a> (384 bytes)<br />
+<strong> Compartment 81 is 4096 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3232'">fs/buffer.c:__sync_dirty_buffer</a> (272 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/block_validity.c.html#L179'">fs/ext4/block_validity.c:ext4_release_system_zone</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L597'">fs/ext4/super.c:__ext4_abort</a> (304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L4560'">fs/ext4/super.c:ext4_commit_super</a> (560 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L823'">fs/ext4/super.c:ext4_put_super</a> (800 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1814'">fs/ext4/xattr.c:ext4_xattr_destroy_cache</a> (32 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/mbcache.c.html#L386'">fs/mbcache.c:mb_cache_destroy</a> (320 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L2092'">fs/quota/dquot.c:dquot_disable</a> (1696 bytes)<br />
 <br /><br />
-<strong> Compartment 81 accesses 11 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-4. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
-5. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-6. KMEM_CACHE alloc from fs/jbd2/revoke.c:insert_revoke_hash <br />
-7. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
-8. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
-9. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
-10. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
-11. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 81 accesses 15 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. Global var blockdev_superblock <br />
+4. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+5. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+6. KMEM_CACHE alloc from block/partition-generic.c:add_partition <br />
+7. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+8. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+9. KMEM_CACHE alloc from fs/ext4/block_validity.c:add_system_zone <br />
+10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+11. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvmalloc <br />
+12. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
+13. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
+14. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_entry_create <br />
+15. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

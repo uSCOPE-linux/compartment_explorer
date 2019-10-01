@@ -5,19 +5,29 @@ Viewing compartment: 55 of 1153<br />
 <a href='C2048_54.html'> Prev</a>
 <a href='C2048_56.html'> Next</a>
 <br /><br />
-<strong> Compartment 55 is 1248 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L1750'">net/ipv6/addrconf.c:ipv6_chk_addr</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L1758'">net/ipv6/addrconf.c:ipv6_chk_addr_and_flags</a> (224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/af_inet6.c.html#L277'">net/ipv6/af_inet6.c:inet6_bind</a> (992 bytes)<br />
+<strong> Compartment 55 is 2032 bytes and has 10 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L812'">fs/buffer.c:invalidate_inode_buffers</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/crypto/keyinfo.c.html#L304'">fs/crypto/keyinfo.c:fscrypt_put_encryption_info</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ialloc.c.html#L252'">fs/ext4/ialloc.c:ext4_free_inode</a> (1296 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L1014'">fs/ext4/super.c:ext4_clear_inode</a> (144 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L233'">fs/ext4/super.c:ext4_free_inodes_count</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L289'">fs/ext4/super.c:ext4_free_inodes_set</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L1219'">fs/ext4/super.c:ext4_get_dquots</a> (32 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L297'">fs/ext4/super.c:ext4_used_dirs_set</a> (48 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1610'">fs/ext4/xattr.c:ext4_xattr_delete_inode</a> (192 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1536'">fs/quota/dquot.c:dquot_drop</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 55 accesses 9 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. Global var inet6_addr_lst <br />
-3. Global var init_net <br />
-4. Global var udpv6_prot <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-7. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
-8. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
-9. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+<strong> Compartment 55 accesses 12 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. Global var ext4_sops <br />
+4. Global var jbd2_inode_cache <br />
+5. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+6. KMEM_CACHE alloc from fs/ext4/inode.c:ext4_inode_attach_jinode <br />
+7. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+8. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+11. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvzalloc <br />
+12. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

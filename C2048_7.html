@@ -5,23 +5,20 @@ Viewing compartment: 7 of 1153<br />
 <a href='C2048_6.html'> Prev</a>
 <a href='C2048_8.html'> Next</a>
 <br /><br />
-<strong> Compartment 7 is 2032 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2841'">drivers/tty/vt/vt.c:con_flush_chars</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2859'">drivers/tty/vt/vt.c:con_install</a> (224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2910'">drivers/tty/vt/vt.c:con_shutdown</a> (48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2768'">drivers/tty/vt/vt.c:con_write</a> (96 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L744'">drivers/tty/vt/vt.c:vc_allocate</a> (448 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/consoles.c.html#L62'">fs/proc/consoles.c:c_start</a> (64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/consoles.c.html#L82'">fs/proc/consoles.c:c_stop</a> (16 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2085'">kernel/printk/printk.c:console_lock</a> (64 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2179'">kernel/printk/printk.c:console_unlock</a> (1008 bytes)<br />
+<strong> Compartment 7 is 2032 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1565'">block/genhd.c:disk_flush_events</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L61'">block/genhd.c:disk_get_part</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1354'">block/genhd.c:put_disk</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/loop.c.html#L1534'">drivers/block/loop.c:lo_open</a> (80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1492'">fs/block_dev.c:__blkdev_get</a> (960 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1830'">fs/block_dev.c:__blkdev_put</a> (576 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1875'">fs/block_dev.c:blkdev_put</a> (240 bytes)<br />
 <br /><br />
-<strong> Compartment 7 accesses 7 objects:</strong><br />
-1. Global var __log_buf <br />
-2. Global var console_drivers <br />
-3. Global var hvc_console <br />
-4. Global var vc_cons <br />
-5. Global var vgacon_uni_pagedir <br />
-6. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-7. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
+<strong> Compartment 7 accesses 6 objects:</strong><br />
+1. Global var brd_fops <br />
+2. Global var lo_fops <br />
+3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+4. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+5. KMEM_CACHE alloc from block/genhd.c:disk_expand_part_tbl <br />
+6. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
 </html>

@@ -5,16 +5,37 @@ Viewing compartment: 98 of 824<br />
 <a href='C4096_97.html'> Prev</a>
 <a href='C4096_99.html'> Next</a>
 <br /><br />
-<strong> Compartment 98 is 416 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1019'">net/ipv4/ping.c:ping_get_first</a> (112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1061'">net/ipv4/ping.c:ping_get_idx</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1089'">net/ipv4/ping.c:ping_seq_next</a> (64 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1072'">net/ipv4/ping.c:ping_seq_start</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1084'">net/ipv4/ping.c:ping_v4_seq_start</a> (64 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ping.c.html#L206'">net/ipv6/ping.c:ping_v6_seq_start</a> (32 bytes)<br />
+<strong> Compartment 98 is 4080 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L446'">block/blk-mq.c:blk_mq_complete_request</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/virtio_blk.c.html#L135'">drivers/block/virtio_blk.c:virtblk_done</a> (208 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L998'">drivers/net/virtio_net.c:virtnet_poll</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/virtio_net.c.html#L978'">drivers/net/virtio_net.c:virtnet_receive</a> (3136 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L805'">drivers/virtio/virtio_ring.c:virtqueue_enable_cb</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L753'">drivers/virtio/virtio_ring.c:virtqueue_enable_cb_prepare</a> (64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L1136'">drivers/virtio/virtio_ring.c:virtqueue_get_vring_size</a> (16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L1145'">drivers/virtio/virtio_ring.c:virtqueue_is_broken</a> (16 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L785'">drivers/virtio/virtio_ring.c:virtqueue_poll</a> (32 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/virtio/virtio_ring.c.html#L894'">drivers/virtio/virtio_ring.c:vring_interrupt</a> (128 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ethernet/eth.c.html#L155'">net/ethernet/eth.c:eth_type_trans</a> (272 bytes)<br />
 <br /><br />
-<strong> Compartment 98 accesses 3 objects:</strong><br />
-1. Global var ping_table <br />
-2. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+<strong> Compartment 98 accesses 19 objects:</strong><br />
+1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br />
+2. ALLOC_PAGES alloc from drivers/virtio/virtio_ring.c:vring_alloc_queue <br />
+3. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
+4. ALLOC_PAGES alloc from net/core/sock.c:skb_page_frag_refill <br />
+5. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
+6. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+7. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+8. KMEM_CACHE alloc from drivers/block/virtio_blk.c:init_vq <br />
+9. KMEM_CACHE alloc from drivers/block/virtio_blk.c:virtblk_probe <br />
+10. KMEM_CACHE alloc from drivers/net/virtio_net.c:init_vqs <br />
+11. KMEM_CACHE alloc from drivers/virtio/virtio_pci_common.c:virtio_pci_probe <br />
+12. KMEM_CACHE alloc from drivers/virtio/virtio_ring.c:__vring_new_virtqueue <br />
+13. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+14. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+15. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br />
+16. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+17. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+18. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+19. STACK <br />
 </html>

@@ -5,18 +5,162 @@ Viewing compartment: 96 of 824<br />
 <a href='C4096_95.html'> Prev</a>
 <a href='C4096_97.html'> Next</a>
 <br /><br />
-<strong> Compartment 96 is 3152 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/signal.c.html#L155'">arch/x86/kernel/fpu/signal.c:copy_fpstate_to_sigframe</a> (496 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/signal.c.html#L386'">arch/x86/kernel/fpu/signal.c:fpu__alloc_mathframe</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/signal.c.html#L236'">arch/x86/kernel/signal.c:get_sigframe</a> (416 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/lib/usercopy_64.c.html#L14'">arch/x86/lib/usercopy_64.c:__clear_user</a> (80 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/lib/usercopy_64.c.html#L48'">arch/x86/lib/usercopy_64.c:clear_user</a> (48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/signalfd.c.html#L204'">fs/signalfd.c:signalfd_read</a> (1136 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/iov_iter.c.html#L697'">lib/iov_iter.c:iov_iter_zero</a> (896 bytes)<br />
+<strong> Compartment 96 is 4032 bytes and has 13 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L963'">drivers/base/power/runtime.c:__pm_runtime_idle</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L235'">drivers/base/power/runtime.c:rpm_check_suspend_allowed</a> (160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/runtime.c.html#L375'">drivers/base/power/runtime.c:rpm_idle</a> (528 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/pci/pci.c.html#L2211'">drivers/pci/pci.c:pci_config_pm_runtime_put</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/pci/proc.c.html#L26'">drivers/pci/proc.c:proc_bus_pci_read</a> (608 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L206'">fs/proc/inode.c:proc_reg_read</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/kcore.c.html#L74'">fs/proc/kcore.c:get_kcore_size</a> (176 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/kcore.c.html#L430'">fs/proc/kcore.c:read_kcore</a> (1024 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/kmsg.c.html#L33'">fs/proc/kmsg.c:kmsg_read</a> (96 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/page.c.html#L245'">fs/proc/page.c:kpagecgroup_read</a> (320 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/page.c.html#L28'">fs/proc/page.c:kpagecount_read</a> (400 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/page.c.html#L201'">fs/proc/page.c:kpageflags_read</a> (304 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L357'">mm/memcontrol.c:page_cgroup_ino</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 96 accesses 4 objects:</strong><br />
-1. Global var fpu_user_xstate_size <br />
-2. Global var fx_sw_reserved <br />
-3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 96 accesses 142 objects:</strong><br />
+1. Global var ac6_seq_fops <br />
+2. Global var acpi_system_wakeup_device_fops <br />
+3. Global var adio_fops <br />
+4. Global var arch_task_struct_size <br />
+5. Global var arp_seq_fops <br />
+6. Global var cmdline_proc_fops <br />
+7. Global var cn_file_ops <br />
+8. Global var debug_fops <br />
+9. Global var dev_fops <br />
+10. Global var dev_mc_seq_fops <br />
+11. Global var dev_seq_fops <br />
+12. Global var devhdr_fops <br />
+13. Global var devstrs_fops <br />
+14. Global var dressz_fops <br />
+15. Global var execdomains_proc_fops <br />
+16. Global var ext4_seq_es_shrinker_info_fops <br />
+17. Global var ext4_seq_mb_groups_fops <br />
+18. Global var ext4_seq_options_fops <br />
+19. Global var fb_proc_fops <br />
+20. Global var fib_route_fops <br />
+21. Global var fib_trie_fops <br />
+22. Global var fib_triestat_fops <br />
+23. Global var filesystems_proc_fops <br />
+24. Global var fragmentation_file_operations <br />
+25. Global var if6_fops <br />
+26. Global var igmp6_mc_seq_fops <br />
+27. Global var igmp6_mcf_seq_fops <br />
+28. Global var igmp_mc_seq_fops <br />
+29. Global var igmp_mcf_seq_fops <br />
+30. Global var input_devices_fileops <br />
+31. Global var input_handlers_fileops <br />
+32. Global var ip6fl_seq_fops <br />
+33. Global var ip6mr_mfc_fops <br />
+34. Global var ip6mr_vif_fops <br />
+35. Global var ipmr_mfc_fops <br />
+36. Global var ipmr_vif_fops <br />
+37. Global var ipv6_route_proc_fops <br />
+38. Global var irq_spurious_proc_fops <br />
+39. Global var jbd2_seq_info_fops <br />
+40. Global var jfs_lmstats_proc_fops <br />
+41. Global var jfs_mpstat_proc_fops <br />
+42. Global var jfs_txstats_proc_fops <br />
+43. Global var jfs_xtstat_proc_fops <br />
+44. Global var kallsyms_operations <br />
+45. Global var kcore_modules <br />
+46. Global var kcore_text <br />
+47. Global var kcore_vmalloc <br />
+48. Global var kcore_vsyscall <br />
+49. Global var loadavg_proc_fops <br />
+50. Global var max_pfn <br />
+51. Global var md_seq_fops <br />
+52. Global var mem_section <br />
+53. Global var meminfo_proc_fops <br />
+54. Global var misc_proc_fops <br />
+55. Global var mtrr_fops <br />
+56. Global var neigh_stat_seq_fops <br />
+57. Global var netlink_seq_fops <br />
+58. Global var netstat_seq_fops <br />
+59. Global var nflog_file_ops <br />
+60. Global var packet_seq_fops <br />
+61. Global var pagetypeinfo_file_ops <br />
+62. Global var ping_seq_fops <br />
+63. Global var proc_bus_pci_dev_operations <br />
+64. Global var proc_bus_pci_operations <br />
+65. Global var proc_cgroupstats_operations <br />
+66. Global var proc_consoles_operations <br />
+67. Global var proc_cpuinfo_operations <br />
+68. Global var proc_crypto_ops <br />
+69. Global var proc_devinfo_operations <br />
+70. Global var proc_diskstats_operations <br />
+71. Global var proc_dma_operations <br />
+72. Global var proc_interrupts_operations <br />
+73. Global var proc_iomem_operations <br />
+74. Global var proc_ioports_operations <br />
+75. Global var proc_kcore_operations <br />
+76. Global var proc_key_users_fops <br />
+77. Global var proc_keys_fops <br />
+78. Global var proc_kmsg_operations <br />
+79. Global var proc_kpagecgroup_operations <br />
+80. Global var proc_kpagecount_operations <br />
+81. Global var proc_kpageflags_operations <br />
+82. Global var proc_locks_operations <br />
+83. Global var proc_modules_operations <br />
+84. Global var proc_partitions_operations <br />
+85. Global var proc_schedstat_operations <br />
+86. Global var proc_scsi_operations <br />
+87. Global var proc_softirqs_operations <br />
+88. Global var proc_stat_operations <br />
+89. Global var proc_swaps_operations <br />
+90. Global var proc_sysrq_trigger_operations <br />
+91. Global var proc_tty_drivers_operations <br />
+92. Global var proc_vmalloc_operations <br />
+93. Global var proc_vmstat_file_operations <br />
+94. Global var proc_zoneinfo_file_operations <br />
+95. Global var proto_seq_fops <br />
+96. Global var psched_fops <br />
+97. Global var ptype_seq_fops <br />
+98. Global var raw6_seq_fops <br />
+99. Global var raw_seq_fops <br />
+100. Global var rt6_stats_seq_fops <br />
+101. Global var rt_cache_seq_fops <br />
+102. Global var rt_cpu_seq_fops <br />
+103. Global var rtc_proc_fops <br />
+104. Global var sched_debug_fops <br />
+105. Global var scsi_devinfo_proc_fops <br />
+106. Global var snmp6_dev_seq_fops <br />
+107. Global var snmp6_seq_fops <br />
+108. Global var snmp_seq_fops <br />
+109. Global var sockstat6_seq_fops <br />
+110. Global var sockstat_seq_fops <br />
+111. Global var softnet_seq_fops <br />
+112. Global var sysvipc_proc_fops <br />
+113. Global var tcp6_afinfo_seq_fops <br />
+114. Global var tcp_afinfo_seq_fops <br />
+115. Global var timer_list_fops <br />
+116. Global var tstats_fops <br />
+117. Global var tty_ldiscs_proc_fops <br />
+118. Global var uart_proc_fops <br />
+119. Global var udp6_afinfo_seq_fops <br />
+120. Global var udp_afinfo_seq_fops <br />
+121. Global var udplite6_afinfo_seq_fops <br />
+122. Global var udplite_afinfo_seq_fops <br />
+123. Global var unix_seq_fops <br />
+124. Global var uptime_proc_fops <br />
+125. Global var version_fops <br />
+126. Global var version_proc_fops <br />
+127. Global var xqm_proc_fops <br />
+128. Global var xqmstat_proc_fops <br />
+129. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br />
+130. KMEM_CACHE alloc from drivers/pci/probe.c:pci_create_root_bus_msi <br />
+131. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+132. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+133. KMEM_CACHE alloc from fs/proc/generic.c:__proc_create <br />
+134. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+135. KMEM_CACHE alloc from fs/proc/kcore.c:kclist_add_private <br />
+136. KMEM_CACHE alloc from fs/proc/kcore.c:kclist_add_private <br />
+137. KMEM_CACHE alloc from fs/proc/kcore.c:read_kcore <br />
+138. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+139. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
+140. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+141. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+142. STACK <br />
 </html>

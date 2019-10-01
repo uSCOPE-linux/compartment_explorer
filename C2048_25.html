@@ -5,37 +5,14 @@ Viewing compartment: 25 of 1153<br />
 <a href='C2048_24.html'> Prev</a>
 <a href='C2048_26.html'> Next</a>
 <br /><br />
-<strong> Compartment 25 is 2032 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L585'">drivers/tty/tty_buffer.c:tty_buffer_cancel_work</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L4986'">kernel/cgroup.c:css_free_work_fn</a> (896 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup_pids.c.html#L84'">kernel/cgroup_pids.c:pids_css_free</a> (16 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cpuacct.c.html#L98'">kernel/sched/cpuacct.c:cpuacct_css_free</a> (48 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2880'">kernel/workqueue.c:__cancel_work_timer</a> (432 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3046'">kernel/workqueue.c:cancel_delayed_work_sync</a> (32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2962'">kernel/workqueue.c:cancel_work_sync</a> (32 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/rhashtable.c.html#L975'">lib/rhashtable.c:rhashtable_free_and_destroy</a> (224 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L4297'">mm/memcontrol.c:mem_cgroup_css_free</a> (288 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/device_cgroup.c.html#L228'">security/device_cgroup.c:devcgroup_css_free</a> (32 bytes)<br />
+<strong> Compartment 25 is 352 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L719'">kernel/watchdog.c:proc_nmi_watchdog</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L729'">kernel/watchdog.c:proc_soft_watchdog</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L641'">kernel/watchdog.c:proc_watchdog_common</a> (256 bytes)<br />
 <br /><br />
-<strong> Compartment 25 accesses 20 objects:</strong><br />
-1. Global var cpu_cgrp_subsys <br />
-2. Global var cpuacct_cgrp_subsys <br />
-3. Global var devices_cgrp_subsys <br />
-4. Global var io_cgrp_subsys <br />
-5. Global var pids_cgrp_subsys <br />
-6. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-7. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-8. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-9. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
-10. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-11. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
-12. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
-13. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
-14. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
-15. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
-16. KMEM_CACHE alloc from lib/rhashtable.c:bucket_table_alloc <br />
-17. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-18. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-19. KMEM_CACHE alloc from net/ipv6/seg6.c:seg6_net_init <br />
-20. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
+<strong> Compartment 25 accesses 4 objects:</strong><br />
+1. Global var nmi_watchdog_enabled <br />
+2. Global var soft_watchdog_enabled <br />
+3. Global var watchdog_user_enabled <br />
+4. KMEM_CACHE alloc from fs/proc/proc_sysctl.c:register_leaf_sysctl_tables <br />
 </html>

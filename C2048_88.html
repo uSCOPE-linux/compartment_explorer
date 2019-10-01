@@ -5,29 +5,23 @@ Viewing compartment: 88 of 1153<br />
 <a href='C2048_87.html'> Prev</a>
 <a href='C2048_89.html'> Next</a>
 <br /><br />
-<strong> Compartment 88 is 1968 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L597'">fs/buffer.c:mark_buffer_dirty_inode</a> (144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L254'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_metadata</a> (512 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L312'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_super</a> (144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L164'">fs/ext4/extents.c:__ext4_ext_dirty</a> (144 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L60'">fs/ext4/extents.c:ext4_extent_block_csum</a> (96 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L86'">fs/ext4/extents.c:ext4_extent_block_csum_set</a> (160 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L170'">fs/ext4/super.c:ext4_superblock_csum_set</a> (176 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1869'">fs/inode.c:inode_needs_sync</a> (80 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1315'">fs/jbd2/transaction.c:jbd2_journal_dirty_metadata</a> (512 bytes)<br />
+<strong> Compartment 88 is 1872 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-softirq.c.html#L95'">block/blk-softirq.c:__blk_complete_request</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-softirq.c.html#L156'">block/blk-softirq.c:blk_complete_request</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5044'">drivers/ata/libata-core.c:__ata_qc_complete</a> (288 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5027'">drivers/ata/libata-core.c:ata_qc_free</a> (96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L4826'">drivers/ata/libata-core.c:ata_sg_clean</a> (176 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-scsi.c.html#L1936'">drivers/ata/libata-scsi.c:ata_scsi_qc_complete</a> (1072 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1671'">drivers/scsi/scsi_lib.c:scsi_done</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 88 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
-4. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-5. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_ext_remove_space <br />
-6. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_find_extent <br />
-7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-9. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
-10. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-11. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
-12. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
-13. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 88 accesses 9 objects:</strong><br />
+1. Global var blk_cpu_done <br />
+2. Global var dma_ops <br />
+3. Global var swiotlb_dma_ops <br />
+4. KMALLOC alloc from drivers/ata/libata-core.c:ata_port_alloc <br />
+5. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+6. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+7. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+8. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br />
+9. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
 </html>

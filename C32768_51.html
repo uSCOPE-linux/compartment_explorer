@@ -5,16 +5,24 @@ Viewing compartment: 51 of 408<br />
 <a href='C32768_50.html'> Prev</a>
 <a href='C32768_52.html'> Next</a>
 <br /><br />
-<strong> Compartment 51 is 544 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L566'">drivers/base/power/wakeup.c:__pm_stay_awake</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L594'">drivers/base/power/wakeup.c:pm_stay_awake</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L549'">drivers/base/power/wakeup.c:wakeup_source_report_event</a> (240 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/rtc/interface.c.html#L572'">drivers/rtc/interface.c:rtc_update_irq</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/suspend.c.html#L102'">kernel/power/suspend.c:freeze_wake</a> (96 bytes)<br />
+<strong> Compartment 51 is 2016 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L410'">drivers/tty/serial/8250/8250_port.c:io_serial_in</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L1917'">drivers/tty/serial/8250/8250_port.c:serial8250_do_get_mctrl</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L1940'">drivers/tty/serial/8250/8250_port.c:serial8250_get_mctrl</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L1768'">drivers/tty/serial/8250/8250_port.c:serial8250_modem_status</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L2733'">drivers/tty/serial/8250/8250_port.c:serial8250_pm</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L672'">drivers/tty/serial/8250/8250_port.c:serial8250_set_sleep</a> (320 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/8250/8250_port.c.html#L3033'">drivers/tty/serial/8250/8250_port.c:serial8250_type</a> (48 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/serial/serial_core.c.html#L1812'">drivers/tty/serial/serial_core.c:uart_proc_show</a> (1216 bytes)<br />
 <br /><br />
-<strong> Compartment 51 accesses 4 objects:</strong><br />
-1. Global var system_wq <br />
-2. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
-3. KMEM_CACHE alloc from drivers/pnp/core.c:pnp_alloc_dev <br />
-4. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
+<strong> Compartment 51 accesses 9 objects:</strong><br />
+1. Global var max310x_uart <br />
+2. Global var serial8250_ports <br />
+3. Global var serial8250_reg <br />
+4. Global var uart_config <br />
+5. Global var univ8250_port_ops <br />
+6. KMEM_CACHE alloc from drivers/tty/serial/serial_core.c:uart_register_driver <br />
+7. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+8. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+9. STACK <br />
 </html>

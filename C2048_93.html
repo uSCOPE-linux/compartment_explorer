@@ -5,20 +5,40 @@ Viewing compartment: 93 of 1153<br />
 <a href='C2048_92.html'> Prev</a>
 <a href='C2048_94.html'> Next</a>
 <br /><br />
-<strong> Compartment 93 is 1728 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_main.c.html#L2113'">drivers/net/ethernet/intel/igb/igb_main.c:igb_features_check</a> (128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2846'">net/core/dev.c:netif_skb_features</a> (560 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2599'">net/core/dev.c:skb_network_protocol</a> (272 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2931'">net/core/dev.c:validate_xmit_skb</a> (656 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2981'">net/core/dev.c:validate_xmit_skb_list</a> (112 bytes)<br />
+<strong> Compartment 93 is 2032 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/char_dev.c.html#L492'">fs/char_dev.c:cdev_default_release</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/sysfs.c.html#L323'">fs/ext4/sysfs.c:ext4_sb_release</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1178'">fs/kernfs/dir.c:__kernfs_remove</a> (576 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L494'">fs/kernfs/dir.c:kernfs_put</a> (416 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1251'">fs/kernfs/dir.c:kernfs_remove</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L377'">fs/kernfs/dir.c:kernfs_unlink_sibling</a> (96 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/file.c.html#L748'">fs/kernfs/file.c:kernfs_unmap_bin_file</a> (160 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/dir.c.html#L74'">fs/sysfs/dir.c:sysfs_remove_dir</a> (96 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L571'">lib/kobject.c:kobject_del</a> (112 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L662'">lib/kobject.c:kobject_release</a> (368 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/util.c.html#L31'">mm/util.c:kfree_const</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 93 accesses 8 objects:</strong><br />
-1. Global var igb_netdev_ops <br />
-2. Global var loopback_ops <br />
-3. Global var virtnet_netdev <br />
-4. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-7. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-8. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+<strong> Compartment 93 accesses 22 objects:</strong><br />
+1. Global var device_ktype <br />
+2. Global var ext4_kset <br />
+3. Global var ext4_sb_ktype <br />
+4. Global var kernfs_node_cache <br />
+5. Global var kset_ktype <br />
+6. Global var ktype_cdev_default <br />
+7. Global var netdev_queue_ktype <br />
+8. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+9. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+10. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+11. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+12. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+13. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+14. KMEM_CACHE alloc from fs/kernfs/inode.c:kernfs_iattrs <br />
+15. KMEM_CACHE alloc from fs/xattr.c:simple_xattr_alloc <br />
+16. KMEM_CACHE alloc from lib/kasprintf.c:kvasprintf <br />
+17. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
+18. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+19. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+20. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+21. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+22. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

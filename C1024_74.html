@@ -5,14 +5,24 @@ Viewing compartment: 74 of 1503<br />
 <a href='C1024_73.html'> Prev</a>
 <a href='C1024_75.html'> Next</a>
 <br /><br />
-<strong> Compartment 74 is 1024 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L181'">kernel/sched/loadavg.c:calc_load_enter_idle</a> (96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L902'">kernel/time/tick-sched.c:__tick_nohz_idle_enter</a> (832 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L938'">kernel/time/tick-sched.c:tick_nohz_idle_enter</a> (96 bytes)<br />
+<strong> Compartment 74 is 960 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1002'">fs/block_dev.c:nr_blockdev_pages</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/loadavg.c.html#L12'">fs/proc/loadavg.c:loadavg_proc_show</a> (224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2911'">kernel/sched/core.c:nr_running</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L73'">kernel/sched/loadavg.c:get_avenrun</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L2349'">kernel/sys.c:SYSC_sysinfo</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L2287'">kernel/sys.c:do_sysinfo</a> (240 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page_alloc.c.html#L4223'">mm/page_alloc.c:si_meminfo</a> (96 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L2598'">mm/swapfile.c:si_swapinfo</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 74 accesses 4 objects:</strong><br />
-1. Global var init_task <br />
-2. Global var jiffies_64 <br />
-3. Global var jiffies_lock <br />
-4. Global var tick_do_timer_cpu <br />
+<strong> Compartment 74 accesses 9 objects:</strong><br />
+1. Global var init_pid_ns <br />
+2. Global var nr_threads <br />
+3. Global var swap_info <br />
+4. Global var vm_node_stat <br />
+5. Global var vm_zone_stat <br />
+6. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+8. KMEM_CACHE alloc from mm/swapfile.c:SyS_swapon <br />
+9. STACK <br />
 </html>

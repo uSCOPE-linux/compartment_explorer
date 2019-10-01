@@ -5,39 +5,15 @@ Viewing compartment: 76 of 1503<br />
 <a href='C1024_75.html'> Prev</a>
 <a href='C1024_77.html'> Next</a>
 <br /><br />
-<strong> Compartment 76 is 1024 bytes and has 11 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1177'">fs/fs-writeback.c:__inode_wait_for_writeback</a> (160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1194'">fs/fs-writeback.c:inode_wait_for_writeback</a> (16 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L258'">fs/inode.c:destroy_inode</a> (96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L531'">fs/inode.c:evict</a> (400 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L224'">fs/inode.c:free_inode_nonrcu</a> (32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/inode.c.html#L281'">fs/kernfs/inode.c:kernfs_evict_inode</a> (64 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/generic.c.html#L539'">fs/proc/generic.c:pde_put</a> (32 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L79'">fs/proc/inode.c:proc_destroy_inode</a> (32 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/inode.c.html#L30'">fs/proc/inode.c:proc_evict_inode</a> (96 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L3667'">mm/shmem.c:shmem_destroy_inode</a> (32 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/truncate.c.html#L442'">mm/truncate.c:truncate_inode_pages_final</a> (64 bytes)<br />
+<strong> Compartment 76 is 704 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L2419'">drivers/tty/n_tty.c:n_tty_ioctl</a> (224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L1073'">drivers/tty/tty_ioctl.c:__tty_perform_flush</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L1115'">drivers/tty/tty_ioctl.c:n_tty_ioctl_helper</a> (256 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L132'">drivers/tty/tty_ioctl.c:tty_unthrottle</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 76 accesses 21 objects:</strong><br />
-1. Global var devpts_sops <br />
-2. Global var ext4_sops <br />
-3. Global var hugetlbfs_ops <br />
-4. Global var kernfs_sops <br />
-5. Global var mqueue_super_ops <br />
-6. Global var nsfs_ops <br />
-7. Global var ovl_super_operations <br />
-8. Global var pipefs_ops <br />
-9. Global var proc_sops <br />
-10. Global var shmem_ops <br />
-11. Global var simple_super_operations <br />
-12. Global var sockfs_ops <br />
-13. KMEM_CACHE alloc from fs/9p/vfs_inode.c:v9fs_alloc_inode <br />
-14. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-15. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
-16. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-17. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
-18. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-19. KMEM_CACHE alloc from ipc/mqueue.c:mqueue_alloc_inode <br />
-20. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-21. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+<strong> Compartment 76 accesses 4 objects:</strong><br />
+1. Global var con_ops <br />
+2. Global var n_tty_ops <br />
+3. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+4. KMEM_CACHE alloc from drivers/tty/tty_ldisc.c:tty_ldisc_get <br />
 </html>

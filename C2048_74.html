@@ -5,16 +5,31 @@ Viewing compartment: 74 of 1153<br />
 <a href='C2048_73.html'> Prev</a>
 <a href='C2048_75.html'> Next</a>
 <br /><br />
-<strong> Compartment 74 is 512 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_common.c.html#L43'">drivers/scsi/scsi_common.c:scsi_device_type</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_proc.c.html#L411'">drivers/scsi/scsi_proc.c:scsi_seq_show</a> (416 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_sysfs.c.html#L1475'">drivers/scsi/scsi_sysfs.c:scsi_is_sdev_device</a> (32 bytes)<br />
+<strong> Compartment 74 is 1943 bytes and has 13 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/acpi/boot.c.html#L1703'">arch/x86/kernel/acpi/boot.c:__acpi_release_global_lock</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evglock.c.html#L299'">drivers/acpi/acpica/evglock.c:acpi_ev_release_global_lock</a> (133 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exfield.c.html#L130'">drivers/acpi/acpica/exfield.c:acpi_ex_read_data_from_field</a> (395 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exfldio.c.html#L682'">drivers/acpi/acpica/exfldio.c:acpi_ex_extract_from_field</a> (539 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exmutex.c.html#L316'">drivers/acpi/acpica/exmutex.c:acpi_ex_release_mutex_object</a> (103 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exutils.c.html#L127'">drivers/acpi/acpica/exutils.c:acpi_ex_exit_interpreter</a> (84 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exutils.c.html#L240'">drivers/acpi/acpica/exutils.c:acpi_ex_release_global_lock</a> (59 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/nsutils.c.html#L765'">drivers/acpi/acpica/nsutils.c:acpi_ns_get_node</a> (88 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/nsutils.c.html#L684'">drivers/acpi/acpica/nsutils.c:acpi_ns_get_node_unlocked</a> (197 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utmutex.c.html#L307'">drivers/acpi/acpica/utmutex.c:acpi_ut_release_mutex</a> (97 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/osl.c.html#L1255'">drivers/acpi/osl.c:acpi_os_signal_semaphore</a> (56 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/semaphore.c.html#L254'">kernel/locking/semaphore.c:__up</a> (80 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/semaphore.c.html#L177'">kernel/locking/semaphore.c:up</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 74 accesses 6 objects:</strong><br />
-1. Global var scsi_device_types <br />
-2. KMEM_CACHE alloc from drivers/scsi/hosts.c:scsi_host_alloc <br />
-3. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
-4. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_target <br />
-5. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-6. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
+<strong> Compartment 74 accesses 11 objects:</strong><br />
+1. Global var acpi_gbl_FACS <br />
+2. Global var acpi_gbl_global_lock_acquired <br />
+3. Global var acpi_gbl_global_lock_mutex <br />
+4. Global var acpi_gbl_global_lock_present <br />
+5. Global var acpi_gbl_integer_byte_width <br />
+6. Global var acpi_gbl_mutex_info <br />
+7. Global var console_sem <br />
+8. KMEM_CACHE alloc from drivers/acpi/acpica/evgpe.c:acpi_ev_asynch_execute_gpe_method <br />
+9. KMEM_CACHE alloc from drivers/acpi/acpica/utobject.c:acpi_ut_allocate_object_desc_dbg <br />
+10. KMEM_CACHE alloc from drivers/acpi/osl.c:acpi_os_create_semaphore <br />
+11. STACK <br />
 </html>

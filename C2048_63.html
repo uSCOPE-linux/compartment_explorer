@@ -5,23 +5,24 @@ Viewing compartment: 63 of 1153<br />
 <a href='C2048_62.html'> Prev</a>
 <a href='C2048_64.html'> Next</a>
 <br /><br />
-<strong> Compartment 63 is 1392 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L217'">security/integrity/ima/ima_fs.c:ima_ascii_measurements_show</a> (304 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L128'">security/integrity/ima/ima_fs.c:ima_measurements_show</a> (576 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L208'">security/integrity/ima/ima_fs.c:ima_print_digest</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_fs.c.html#L114'">security/integrity/ima/ima_fs.c:ima_putc</a> (64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_template_lib.c.html#L143'">security/integrity/ima/ima_template_lib.c:ima_show_template_digest_ng</a> (32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_template_lib.c.html#L120'">security/integrity/ima/ima_template_lib.c:ima_show_template_field_data</a> (304 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_template_lib.c.html#L150'">security/integrity/ima/ima_template_lib.c:ima_show_template_string</a> (32 bytes)<br />
+<strong> Compartment 63 is 2032 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2841'">drivers/tty/vt/vt.c:con_flush_chars</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2859'">drivers/tty/vt/vt.c:con_install</a> (224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2910'">drivers/tty/vt/vt.c:con_shutdown</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L2768'">drivers/tty/vt/vt.c:con_write</a> (96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L744'">drivers/tty/vt/vt.c:vc_allocate</a> (448 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/consoles.c.html#L62'">fs/proc/consoles.c:c_start</a> (64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/consoles.c.html#L82'">fs/proc/consoles.c:c_stop</a> (16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2085'">kernel/printk/printk.c:console_lock</a> (64 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2179'">kernel/printk/printk.c:console_unlock</a> (1008 bytes)<br />
 <br /><br />
-<strong> Compartment 63 accesses 9 objects:</strong><br />
-1. Global var builtin_templates <br />
-2. Global var supported_fields <br />
-3. KMEM_CACHE alloc from security/integrity/ima/ima_api.c:ima_alloc_init_template <br />
-4. KMEM_CACHE alloc from security/integrity/ima/ima_queue.c:ima_add_digest_entry <br />
-5. KMEM_CACHE alloc from security/integrity/ima/ima_template.c:template_desc_init_fields <br />
-6. KMEM_CACHE alloc from security/integrity/ima/ima_template_lib.c:ima_write_template_field_data <br />
-7. KMEM_CACHE alloc from security/integrity/ima/ima_template_lib.c:ima_write_template_field_data <br />
-8. String constant *.LC1 <br />
-9. String constant *.LC1 <br />
+<strong> Compartment 63 accesses 8 objects:</strong><br />
+1. Global var __log_buf <br />
+2. Global var console_drivers <br />
+3. Global var hvc_console <br />
+4. Global var vc_cons <br />
+5. Global var vgacon_uni_pagedir <br />
+6. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+7. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
+8. STACK <br />
 </html>

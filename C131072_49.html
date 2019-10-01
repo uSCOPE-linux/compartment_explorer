@@ -5,17 +5,56 @@ Viewing compartment: 49 of 381<br />
 <a href='C131072_48.html'> Prev</a>
 <a href='C131072_50.html'> Next</a>
 <br /><br />
-<strong> Compartment 49 is 320 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/loop.c.html#L1820'">drivers/block/loop.c:find_free_cb</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/sg.c.html#L2226'">drivers/scsi/sg.c:sg_idr_max_id</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/idr.c.html#L686'">lib/idr.c:idr_for_each</a> (240 bytes)<br />
+<strong> Compartment 49 is 1248 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/ablkcipher.c.html#L397'">crypto/ablkcipher.c:crypto_ablkcipher_show</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/aead.c.html#L135'">crypto/aead.c:crypto_aead_show</a> (160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/ahash.c.html#L496'">crypto/ahash.c:crypto_ahash_show</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L51'">crypto/akcipher.c:crypto_akcipher_show</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/proc.c.html#L40'">crypto/proc.c:c_show</a> (432 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/scompress.c.html#L61'">crypto/scompress.c:crypto_scomp_show</a> (32 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L406'">crypto/shash.c:crypto_shash_show</a> (80 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/skcipher.c.html#L810'">crypto/skcipher.c:crypto_skcipher_show</a> (176 bytes)<br />
 <br /><br />
-<strong> Compartment 49 accesses 7 objects:</strong><br />
-1. Global var init_net <br />
-2. Global var loop_index_idr <br />
-3. Global var sg_index_idr <br />
-4. KMEM_CACHE alloc from drivers/block/loop.c:loop_add <br />
-5. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
-6. KMEM_CACHE alloc from lib/idr.c:idr_layer_alloc <br />
-7. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+<strong> Compartment 49 accesses 41 objects:</strong><br />
+1. Global var aes_alg <br />
+2. Global var aes_alg <br />
+3. Global var aesni_aead_algs <br />
+4. Global var aesni_algs <br />
+5. Global var aesni_skciphers <br />
+6. Global var alg <br />
+7. Global var alg <br />
+8. Global var alg <br />
+9. Global var alg <br />
+10. Global var alg <br />
+11. Global var alg <br />
+12. Global var alg <br />
+13. Global var alg <br />
+14. Global var alg1024 <br />
+15. Global var alg256 <br />
+16. Global var alg512 <br />
+17. Global var camellia_algs <br />
+18. Global var cmll_algs <br />
+19. Global var crypto_ablkcipher_type <br />
+20. Global var crypto_aead_type <br />
+21. Global var crypto_ahash_type <br />
+22. Global var crypto_akcipher_type <br />
+23. Global var crypto_blkcipher_type <br />
+24. Global var crypto_rng_type <br />
+25. Global var crypto_scomp_type <br />
+26. Global var crypto_shash_type <br />
+27. Global var crypto_skcipher_type2 <br />
+28. Global var digest_null <br />
+29. Global var drbg_algs <br />
+30. Global var ghash_alg <br />
+31. Global var ghash_async_alg <br />
+32. Global var jent_alg <br />
+33. Global var null_algs <br />
+34. Global var rsa <br />
+35. Global var scomp <br />
+36. Global var sha256_algs <br />
+37. Global var sha512_algs <br />
+38. KMEM_CACHE alloc from crypto/algapi.c:crypto_alloc_instance2 <br />
+39. KMEM_CACHE alloc from crypto/cbc.c:crypto_cbc_create <br />
+40. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
+41. KMEM_CACHE alloc from crypto/simd.c:simd_skcipher_create_compat <br />
 </html>

@@ -5,14 +5,19 @@ Viewing compartment: 96 of 408<br />
 <a href='C32768_95.html'> Prev</a>
 <a href='C32768_97.html'> Next</a>
 <br /><br />
-<strong> Compartment 96 is 288 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ialloc.c.html#L1271'">fs/ext4/ialloc.c:ext4_count_dirs</a> (112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ialloc.c.html#L395'">fs/ext4/ialloc.c:get_orlov_stats</a> (128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L241'">fs/ext4/super.c:ext4_used_dirs_count</a> (48 bytes)<br />
+<strong> Compartment 96 is 1232 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L376'">drivers/tty/pty.c:pty_common_install</a> (768 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L655'">drivers/tty/pty.c:pty_unix98_install</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L542'">drivers/tty/tty_buffer.c:tty_buffer_init</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L565'">drivers/tty/tty_buffer.c:tty_buffer_set_limit</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L575'">drivers/tty/tty_buffer.c:tty_buffer_set_lock_subclass</a> (16 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_mutex.c.html#L55'">drivers/tty/tty_mutex.c:tty_set_lock_subclass</a> (16 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_port.c.html#L19'">drivers/tty/tty_port.c:tty_port_init</a> (208 bytes)<br />
 <br /><br />
-<strong> Compartment 96 accesses 4 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 96 accesses 5 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+2. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+3. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+4. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+5. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
 </html>

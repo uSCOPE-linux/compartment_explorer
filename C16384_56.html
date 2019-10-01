@@ -5,24 +5,32 @@ Viewing compartment: 56 of 483<br />
 <a href='C16384_55.html'> Prev</a>
 <a href='C16384_57.html'> Next</a>
 <br /><br />
-<strong> Compartment 56 is 3520 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L1747'">net/core/sock.c:sock_i_ino</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L2296'">net/ipv4/tcp_ipv4.c:tcp4_seq_show</a> (1136 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L2547'">net/ipv4/udp.c:udp4_seq_show</a> (352 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/tcp_ipv6.c.html#L1830'">net/ipv6/tcp_ipv6.c:tcp6_seq_show</a> (1232 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2453'">net/netlink/af_netlink.c:netlink_seq_show</a> (192 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/packet/af_packet.c.html#L4411'">net/packet/af_packet.c:packet_seq_show</a> (208 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2789'">net/unix/af_unix.c:unix_seq_show</a> (336 bytes)<br />
+<strong> Compartment 56 is 4288 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L829'">mm/memory-failure.c:action_result</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L528'">mm/memory-failure.c:delete_from_lru_cache</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L568'">mm/memory-failure.c:me_pagecache_clean</a> (224 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L634'">mm/memory-failure.c:me_pagecache_dirty</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L1028'">mm/memory-failure.c:memory_failure</a> (3376 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L219'">mm/memory-failure.c:shake_page</a> (160 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory-failure.c.html#L380'">mm/memory-failure.c:task_early_kill</a> (128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/rmap.c.html#L564'">mm/rmap.c:page_unlock_anon_vma_read</a> (32 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/truncate.c.html#L199'">mm/truncate.c:generic_error_remove_page</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 56 accesses 10 objects:</strong><br />
-1. Global var jiffies_64 <br />
-2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-3. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-4. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-5. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-6. KMEM_CACHE alloc from mm/slab_common.c:krealloc <br />
-7. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-8. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-9. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
-10. KMEM_CACHE alloc from net/unix/af_unix.c:unix_bind <br />
+<strong> Compartment 56 accesses 16 objects:</strong><br />
+1. Global var action_name <br />
+2. Global var action_page_types <br />
+3. Global var blockdev_superblock <br />
+4. Global var error_states <br />
+5. Global var init_task <br />
+6. Global var mem_section <br />
+7. Global var noop_backing_dev_info <br />
+8. Global var shmem_aops <br />
+9. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+12. KMEM_CACHE alloc from mm/memory-failure.c:memory_failure <br />
+13. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
+14. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
+15. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+16. STACK <br />
 </html>

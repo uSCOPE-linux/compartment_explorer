@@ -5,16 +5,17 @@ Viewing compartment: 52 of 1153<br />
 <a href='C2048_51.html'> Prev</a>
 <a href='C2048_53.html'> Next</a>
 <br /><br />
-<strong> Compartment 52 is 736 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L224'">drivers/base/power/wakeup.c:wakeup_source_unregister</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L738'">fs/eventpoll.c:ep_free</a> (224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L696'">fs/eventpoll.c:ep_remove</a> (176 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L536'">fs/eventpoll.c:ep_unregister_pollwait</a> (144 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L911'">fs/eventpoll.c:eventpoll_release_file</a> (144 bytes)<br />
+<strong> Compartment 52 is 1168 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/events/uprobes.c.html#L1401'">kernel/events/uprobes.c:uprobe_free_utask</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/fork.c.html#L1071'">kernel/fork.c:mm_release</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/futex.c.html#L3121'">kernel/futex.c:exit_robust_list</a> (272 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/futex.c.html#L3050'">kernel/futex.c:handle_futex_death</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/futex_compat.c.html#L49'">kernel/futex_compat.c:compat_exit_robust_list</a> (288 bytes)<br />
 <br /><br />
-<strong> Compartment 52 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-2. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-3. KMEM_CACHE alloc from fs/eventpoll.c:ep_ptable_queue_proc <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+<strong> Compartment 52 accesses 5 objects:</strong><br />
+1. Global var futex_cmpxchg_enabled <br />
+2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
 </html>

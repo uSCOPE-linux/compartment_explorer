@@ -5,13 +5,22 @@ Viewing compartment: 65 of 381<br />
 <a href='C131072_64.html'> Prev</a>
 <a href='C131072_66.html'> Next</a>
 <br /><br />
-<strong> Compartment 65 is 144 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-merge.c.html#L740'">block/blk-merge.c:attempt_back_merge</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L680'">block/elevator.c:elv_latter_request</a> (32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L1036'">block/elevator.c:elv_rb_latter_request</a> (48 bytes)<br />
+<strong> Compartment 65 is 1328 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-lib.c.html#L26'">block/blk-lib.c:__blkdev_issue_discard</a> (464 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-lib.c.html#L117'">block/blk-lib.c:blkdev_issue_discard</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-lib.c.html#L354'">block/blk-lib.c:blkdev_issue_zeroout</a> (304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-lib.c.html#L12'">block/blk-lib.c:next_bio</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/ioctl.c.html#L200'">block/ioctl.c:blk_ioctl_discard</a> (160 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L3139'">fs/ext4/extents.c:ext4_ext_zeroout</a> (64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L396'">fs/ext4/inode.c:ext4_issue_zeroout</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 65 accesses 3 objects:</strong><br />
-1. Global var iosched_cfq <br />
+<strong> Compartment 65 accesses 8 objects:</strong><br />
+1. Global var fs_bio_set <br />
 2. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-3. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
+3. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+7. KMEM_CACHE alloc from mm/mempool.c:mempool_alloc_slab <br />
+8. STACK <br />
 </html>

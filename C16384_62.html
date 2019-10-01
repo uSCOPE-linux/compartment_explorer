@@ -5,18 +5,18 @@ Viewing compartment: 62 of 483<br />
 <a href='C16384_61.html'> Prev</a>
 <a href='C16384_63.html'> Next</a>
 <br /><br />
-<strong> Compartment 62 is 304 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L447'">drivers/tty/pty.c:pty_cleanup</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L166'">drivers/tty/tty_io.c:free_tty_struct</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1625'">drivers/tty/tty_io.c:release_one_tty</a> (160 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ldisc.c.html#L820'">drivers/tty/tty_ldisc.c:tty_ldisc_deinit</a> (48 bytes)<br />
+<strong> Compartment 62 is 144 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1229'">drivers/base/core.c:klist_children_get</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L108'">lib/klist.c:klist_node_init</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 62 accesses 7 objects:</strong><br />
-1. Global var con_ops <br />
-2. Global var ptm_unix98_ops <br />
-3. Global var pty_unix98_ops <br />
-4. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
-5. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-6. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
-7. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
+<strong> Compartment 62 accesses 8 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+2. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+3. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

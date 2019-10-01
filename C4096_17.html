@@ -5,16 +5,31 @@ Viewing compartment: 17 of 824<br />
 <a href='C4096_16.html'> Prev</a>
 <a href='C4096_18.html'> Next</a>
 <br /><br />
-<strong> Compartment 17 is 512 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_common.c.html#L43'">drivers/scsi/scsi_common.c:scsi_device_type</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_proc.c.html#L411'">drivers/scsi/scsi_proc.c:scsi_seq_show</a> (416 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_sysfs.c.html#L1475'">drivers/scsi/scsi_sysfs.c:scsi_is_sdev_device</a> (32 bytes)<br />
+<strong> Compartment 17 is 4064 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_fb_helper.c.html#L587'">drivers/gpu/drm/drm_fb_helper.c:drm_fb_helper_blank</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/bitblit.c.html#L236'">drivers/video/console/bitblit.c:bit_cursor</a> (1648 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L361'">drivers/video/console/fbcon.c:fb_flashcursor</a> (272 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L2321'">drivers/video/console/fbcon.c:fbcon_blank</a> (816 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L1301'">drivers/video/console/fbcon.c:fbcon_cursor</a> (464 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L283'">drivers/video/console/fbcon.c:get_color</a> (272 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/fbdev/core/fb_notify.c.html#L42'">drivers/video/fbdev/core/fb_notify.c:fb_notifier_call_chain</a> (32 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/fbdev/core/fbmem.c.html#L1055'">drivers/video/fbdev/core/fbmem.c:fb_blank</a> (176 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/fbdev/core/fbmem.c.html#L92'">drivers/video/fbdev/core/fbmem.c:fb_get_color_depth</a> (80 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/semaphore.c.html#L129'">kernel/locking/semaphore.c:down_trylock</a> (64 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2105'">kernel/printk/printk.c:console_trylock</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 17 accesses 6 objects:</strong><br />
-1. Global var scsi_device_types <br />
-2. KMEM_CACHE alloc from drivers/scsi/hosts.c:scsi_host_alloc <br />
-3. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
-4. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_target <br />
-5. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-6. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
+<strong> Compartment 17 accesses 13 objects:</strong><br />
+1. Global var astfb_ops <br />
+2. Global var con2fb_map <br />
+3. Global var console_blanked <br />
+4. Global var console_sem <br />
+5. Global var fb_display <br />
+6. Global var master_display_fg <br />
+7. Global var oops_in_progress <br />
+8. Global var registered_fb <br />
+9. Global var vc_cons <br />
+10. KMALLOC alloc from drivers/tty/vt/vt.c:vc_do_resize <br />
+11. KMEM_CACHE alloc from drivers/video/console/fbcon.c:fbcon_startup <br />
+12. KMEM_CACHE alloc from drivers/video/fbdev/core/fbsysfs.c:framebuffer_alloc <br />
+13. KMEM_CACHE alloc from slab.h:kzalloc <br />
 </html>
