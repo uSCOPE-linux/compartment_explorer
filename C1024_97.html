@@ -5,16 +5,23 @@ Viewing compartment: 97 of 1503<br />
 <a href='C1024_96.html'> Prev</a>
 <a href='C1024_98.html'> Next</a>
 <br /><br />
-<strong> Compartment 97 is 672 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/checkpoint.c.html#L386'">fs/jbd2/checkpoint.c:jbd2_cleanup_journal_tail</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L902'">fs/jbd2/journal.c:__jbd2_update_log_tail</a>(208 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L864'">fs/jbd2/journal.c:jbd2_journal_get_log_tail</a>(112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L1378'">fs/jbd2/journal.c:jbd2_journal_update_sb_log_tail</a>(128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L944'">fs/jbd2/journal.c:jbd2_update_log_tail</a>(96 bytes)<br />
+<strong> Compartment 97 is 1024 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L1068'">security/keys/key.c:generic_key_instantiate</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L366'">security/keys/key.c:key_payload_reserve</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L1007'">security/keys/key.c:key_revoke</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L536'">security/keys/keyctl.c:keyctl_keyring_unlink</a> (160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1098'">security/keys/keyring.c:__key_link_begin</a> (272 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1290'">security/keys/keyring.c:key_unlink</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/user_defined.c.html#L123'">security/keys/user_defined.c:user_revoke</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 97 accesses 4 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-4. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+<strong> Compartment 97 accesses 9 objects:</strong><br />
+1. Global var key_gc_delay <br />
+2. Global var key_type_keyring <br />
+3. Global var key_type_request_key_auth <br />
+4. Global var key_type_user <br />
+5. Global var root_key_user <br />
+6. KMEM_CACHE alloc from lib/assoc_array.c:assoc_array_insert <br />
+7. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+8. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+9. KMEM_CACHE alloc from security/keys/key.c:key_user_lookup <br />
 </html>

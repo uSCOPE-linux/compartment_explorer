@@ -5,15 +5,24 @@ Viewing compartment: 59 of 824<br />
 <a href='C4096_58.html'> Prev</a>
 <a href='C4096_60.html'> Next</a>
 <br /><br />
-<strong> Compartment 59 is 736 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L92'">block/blk-mq-tag.c:__bt_get</a>(96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L187'">block/blk-mq-tag.c:blk_mq_get_tag</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq-tag.c.html#L98'">block/blk-mq-tag.c:bt_get</a>(496 bytes)<br />
+<strong> Compartment 59 is 4096 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/loopback.c.html#L136'">drivers/net/loopback.c:loopback_dev_init</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/tun.c.html#L921'">drivers/net/tun.c:tun_net_fix_features</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L725'">net/core/dev.c:__dev_get_by_name</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L6983'">net/core/dev.c:__netdev_update_features</a> (1792 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L1118'">net/core/dev.c:dev_get_valid_name</a> (368 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L6745'">net/core/dev.c:dev_new_index</a> (80 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L224'">net/core/dev.c:list_netdevice</a> (304 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L7190'">net/core/dev.c:register_netdevice</a> (1280 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L78'">net/core/link_watch.c:linkwatch_init_dev</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 59 accesses 5 objects:</strong><br />
-1. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-2. KMEM_CACHE alloc from block/blk-mq-tag.c:blk_mq_init_tags <br />
-3. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_alloc_tag_set <br />
-4. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br />
-5. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br />
+<strong> Compartment 59 accesses 8 objects:</strong><br />
+1. Global var init_net <br />
+2. Global var loopback_ops <br />
+3. Global var tap_netdev_ops <br />
+4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+6. KMEM_CACHE alloc from net/core/dev.c:netdev_create_hash <br />
+7. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br />
+8. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
 </html>

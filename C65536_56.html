@@ -5,23 +5,17 @@ Viewing compartment: 56 of 377<br />
 <a href='C65536_55.html'> Prev</a>
 <a href='C65536_57.html'> Next</a>
 <br /><br />
-<strong> Compartment 56 is 816 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L464'">drivers/input/evdev.c:evdev_release</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L541'">drivers/input/input.c:__input_release_device</a>(112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L645'">drivers/input/input.c:input_close_device</a>(112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L568'">drivers/input/input.c:input_release_device</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L486'">drivers/input/mousedev.c:mixdev_close_devices</a>(128 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L441'">drivers/input/mousedev.c:mousedev_close_device</a>(80 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L522'">drivers/input/mousedev.c:mousedev_release</a>(96 bytes)<br />
+<strong> Compartment 56 is 1024 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L966'">arch/x86/events/core.c:collect_events</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L1190'">arch/x86/events/core.c:x86_pmu_add</a> (208 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/intel/core.c.html#L1990'">arch/x86/events/intel/core.c:intel_pmu_add_event</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/events/core.c.html#L2039'">kernel/events/core.c:event_sched_in</a> (592 bytes)<br />
 <br /><br />
-<strong> Compartment 56 accesses 9 objects:</strong><br />
-1. Globar var evdev_handler <br />
-2. Globar var kbd_handler <br />
-3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
-5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-7. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_open <br />
-8. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
-9. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+<strong> Compartment 56 accesses 6 objects:</strong><br />
+1. Global var active_ctx_list <br />
+2. Global var perf_cpu_clock <br />
+3. Global var perf_task_clock <br />
+4. Global var pmu <br />
+5. KMEM_CACHE alloc from kernel/events/core.c:alloc_perf_context <br />
+6. KMEM_CACHE alloc from kernel/events/core.c:perf_event_alloc <br />
 </html>

@@ -5,25 +5,14 @@ Viewing compartment: 68 of 824<br />
 <a href='C4096_67.html'> Prev</a>
 <a href='C4096_69.html'> Next</a>
 <br /><br />
-<strong> Compartment 68 is 4064 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/frontswap.c.html#L331'">mm/frontswap.c:__frontswap_invalidate_page</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L625'">mm/shmem.c:shmem_free_swap</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L232'">mm/shmem.c:shmem_recalc_inode</a>(96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L749'">mm/shmem.c:shmem_undo_range</a>(2560 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L1009'">mm/swapfile.c:free_swap_and_cache</a>(352 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L770'">mm/swapfile.c:swap_entry_free</a>(800 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swapfile.c.html#L838'">mm/swapfile.c:swap_free</a>(48 bytes)<br />
+<strong> Compartment 68 is 704 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L836'">fs/ext4/inode.c:ext4_dio_get_block</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L852'">fs/ext4/inode.c:ext4_dio_get_block_unwritten_async</a> (192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L891'">fs/ext4/inode.c:ext4_dio_get_block_unwritten_sync</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L809'">fs/ext4/inode.c:ext4_get_block_trans</a> (240 bytes)<br />
 <br /><br />
-<strong> Compartment 68 accesses 11 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/shmem.c:shmem_getpage_gfp <br />
-2. Globar var swap_info <br />
-3. Globar var virtblk_fops <br />
-4. Globar var vm_committed_as <br />
-5. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-6. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
-7. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-10. KMEM_CACHE alloc from mm/shmem.c:shmem_fill_super <br />
-11. KMEM_CACHE alloc from mm/swapfile.c:SyS_swapon <br />
+<strong> Compartment 68 accesses 3 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/ext4/page-io.c:ext4_init_io_end <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

@@ -5,14 +5,24 @@ Viewing compartment: 25 of 408<br />
 <a href='C32768_24.html'> Prev</a>
 <a href='C32768_26.html'> Next</a>
 <br /><br />
-<strong> Compartment 25 is 608 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L432'">net/ipv4/tcp_input.c:tcp_init_buffer_space</a>(384 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L309'">net/ipv4/tcp_input.c:tcp_sndbuf_expand</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L183'">net/ipv4/tcp_output.c:tcp_default_init_rwnd</a>(48 bytes)<br />
+<strong> Compartment 25 is 512 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/bpf/cgroup.c.html#L25'">kernel/bpf/cgroup.c:cgroup_bpf_put</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5042'">kernel/cgroup.c:css_release_work_fn</a> (320 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8405'">kernel/sched/core.c:cpu_cgroup_css_released</a> (16 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L4290'">mm/memcontrol.c:mem_cgroup_css_released</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 25 accesses 4 objects:</strong><br />
-1. Globar var jiffies_64 <br />
-2. Globar var sysctl_tcp_rmem <br />
-3. Globar var sysctl_tcp_wmem <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 25 accesses 13 objects:</strong><br />
+1. Global var cpu_cgrp_subsys <br />
+2. Global var cpuacct_cgrp_subsys <br />
+3. Global var devices_cgrp_subsys <br />
+4. Global var io_cgrp_subsys <br />
+5. Global var pids_cgrp_subsys <br />
+6. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+7. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+8. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+9. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
+10. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
+11. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
+12. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+13. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
 </html>

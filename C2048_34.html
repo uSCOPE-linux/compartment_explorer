@@ -5,14 +5,26 @@ Viewing compartment: 34 of 1153<br />
 <a href='C2048_33.html'> Prev</a>
 <a href='C2048_35.html'> Next</a>
 <br /><br />
-<strong> Compartment 34 is 512 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L424'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/gpu/drm/drm_modeset_lock.c.html#L481'">drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all_ctx</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/mutex.c.html#L1017'">kernel/locking/mutex.c:__ww_mutex_lock</a>(112 bytes)<br />
+<strong> Compartment 34 is 176 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L61'">kernel/resource.c:next_resource</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L75'">kernel/resource.c:r_next</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L87'">kernel/resource.c:r_start</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 34 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/gpu/drm/ast/ast_mode.c:ast_mode_init <br />
-2. KMEM_CACHE alloc from drivers/gpu/drm/drm_drv.c:drm_dev_alloc <br />
-3. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_helper.c:drm_crtc_init <br />
-4. KMEM_CACHE alloc from drivers/gpu/drm/drm_modeset_lock.c:drm_modeset_lock_all <br />
+<strong> Compartment 34 accesses 16 objects:</strong><br />
+1. Global var adapter_rom_resources <br />
+2. Global var bss_resource <br />
+3. Global var code_resource <br />
+4. Global var data_resource <br />
+5. Global var iomem_resource <br />
+6. Global var ioport_resource <br />
+7. Global var lapic_resource <br />
+8. Global var standard_io_resources <br />
+9. Global var system_rom_resource <br />
+10. Global var vga_console_resource.29819 <br />
+11. Global var video_rom_resource <br />
+12. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br />
+13. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+14. KMEM_CACHE alloc from kernel/resource.c:alloc_resource <br />
+15. KMEM_CACHE alloc from kernel/resource.c:resource_list_create_entry <br />
+16. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
 </html>

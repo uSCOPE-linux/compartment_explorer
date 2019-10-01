@@ -5,20 +5,21 @@ Viewing compartment: 13 of 483<br />
 <a href='C16384_12.html'> Prev</a>
 <a href='C16384_14.html'> Next</a>
 <br /><br />
-<strong> Compartment 13 is 4539 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3710'">fs/ext4/namei.c:ext4_cross_rename</a>(1296 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3503'">fs/ext4/namei.c:ext4_rename</a>(2192 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3343'">fs/ext4/namei.c:ext4_rename_dir_finish</a>(496 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3327'">fs/ext4/namei.c:ext4_rename_dir_prepare</a>(208 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3370'">fs/ext4/namei.c:ext4_setent</a>(272 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L3448'">fs/ext4/namei.c:ext4_update_dir_count</a>(75 bytes)<br />
+<strong> Compartment 13 is 1584 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pgtable.c.html#L635'">arch/x86/mm/pgtable.c:pmd_clear_huge</a> (96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pgtable.c.html#L620'">arch/x86/mm/pgtable.c:pud_clear_huge</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1460'">mm/vmalloc.c:__vunmap</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L688'">mm/vmalloc.c:free_vmap_area_noflush</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1436'">mm/vmalloc.c:remove_vm_area</a> (128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1276'">mm/vmalloc.c:unmap_kernel_range_noflush</a> (32 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L104'">mm/vmalloc.c:vunmap_page_range</a> (912 bytes)<br />
 <br /><br />
 <strong> Compartment 13 accesses 7 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-7. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+1. ALLOC_PAGES alloc from arch/x86/mm/pgtable.c:pte_alloc_one_kernel <br />
+2. ALLOC_PAGES alloc from mm/memory.c:__pmd_alloc <br />
+3. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
+4. Global var init_mm <br />
+5. KMEM_CACHE alloc from mm/vmalloc.c:__get_vm_area_node <br />
+6. KMEM_CACHE alloc from mm/vmalloc.c:__vmalloc_node_range <br />
+7. KMEM_CACHE alloc from mm/vmalloc.c:alloc_vmap_area <br />
 </html>

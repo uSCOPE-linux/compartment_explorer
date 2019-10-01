@@ -5,13 +5,18 @@ Viewing compartment: 37 of 377<br />
 <a href='C65536_36.html'> Prev</a>
 <a href='C65536_38.html'> Next</a>
 <br /><br />
-<strong> Compartment 37 is 672 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L901'">net/sched/sch_generic.c:dev_deactivate_many</a>(496 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L845'">net/sched/sch_generic.c:dev_deactivate_queue</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L668'">net/sched/sch_generic.c:qdisc_reset</a>(96 bytes)<br />
+<strong> Compartment 37 is 144 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1229'">drivers/base/core.c:klist_children_get</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L108'">lib/klist.c:klist_node_init</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 37 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-3. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
+<strong> Compartment 37 accesses 8 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+2. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+3. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

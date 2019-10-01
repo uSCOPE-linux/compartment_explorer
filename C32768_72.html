@@ -5,17 +5,217 @@ Viewing compartment: 72 of 408<br />
 <a href='C32768_71.html'> Prev</a>
 <a href='C32768_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 1376 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L37'">kernel/time/tick-sched.c:tick_get_tick_sched</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer_list.c.html#L89'">kernel/time/timer_list.c:print_active_timers</a>(448 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer_list.c.html#L142'">kernel/time/timer_list.c:print_cpu</a>(896 bytes)<br />
+<strong> Compartment 72 is 32762 bytes and has 117 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L262'">arch/x86/entry/common.c:do_syscall_64</a> (192 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L133'">arch/x86/entry/common.c:exit_to_usermode_loop</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L176'">arch/x86/entry/common.c:prepare_exit_to_usermode</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/common.c.html#L239'">arch/x86/entry/common.c:syscall_return_slowpath</a> (96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64.S.html#L247'">arch/x86/entry/entry_64.S:return_from_SYSCALL_64</a> (106 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/mem.c.html#L634'">drivers/char/mem.c:read_iter_zero</a> (160 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/attr.c.html#L154'">fs/attr.c:setattr_copy</a> (256 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L2013'">fs/block_dev.c:blkdev_writepages</a> (64 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3422'">fs/buffer.c:alloc_buffer_head</a> (96 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L866'">fs/buffer.c:alloc_page_buffers</a> (224 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1627'">fs/buffer.c:clean_bdev_aliases</a> (528 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L1578'">fs/buffer.c:create_empty_buffers</a> (208 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3024'">fs/buffer.c:generic_block_bmap</a> (80 bytes)<br />
+14. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L1885'">fs/exec.c:SyS_execve</a> (80 bytes)<br />
+15. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/exec.c.html#L437'">fs/exec.c:count</a> (208 bytes)<br />
+16. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L585'">fs/ext4/balloc.c:ext4_claim_free_clusters</a> (48 bytes)<br />
+17. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L537'">fs/ext4/balloc.c:ext4_has_free_clusters</a> (208 bytes)<br />
+18. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/block_validity.c.html#L196'">fs/ext4/block_validity.c:ext4_data_block_valid</a> (128 bytes)<br />
+19. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L450'">fs/ext4/extents.c:__ext4_ext_check</a> (992 bytes)<br />
+20. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L2355'">fs/ext4/extents.c:ext4_ext_put_gap_in_cache</a> (112 bytes)<br />
+21. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L631'">fs/ext4/extents_status.c:__es_insert_extent</a> (736 bytes)<br />
+22. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L839'">fs/ext4/extents_status.c:__es_remove_extent</a> (688 bytes)<br />
+23. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L207'">fs/ext4/extents_status.c:__es_tree_search</a> (112 bytes)<br />
+24. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L380'">fs/ext4/extents_status.c:ext4_es_can_be_merged</a> (192 bytes)<br />
+25. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L245'">fs/ext4/extents_status.c:ext4_es_find_delayed_extent_range</a> (320 bytes)<br />
+26. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L355'">fs/ext4/extents_status.c:ext4_es_free_extent</a> (240 bytes)<br />
+27. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L691'">fs/ext4/extents_status.c:ext4_es_insert_extent</a> (336 bytes)<br />
+28. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L779'">fs/ext4/extents_status.c:ext4_es_lookup_extent</a> (384 bytes)<br />
+29. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L944'">fs/ext4/extents_status.c:ext4_es_remove_extent</a> (128 bytes)<br />
+30. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L57'">fs/ext4/file.c:ext4_file_read_iter</a> (176 bytes)<br />
+31. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L207'">fs/ext4/file.c:ext4_file_write_iter</a> (832 bytes)<br />
+32. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L149'">fs/ext4/file.c:ext4_write_checks</a> (128 bytes)<br />
+33. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/fsync.c.html#L93'">fs/ext4/fsync.c:ext4_sync_file</a> (848 bytes)<br />
+34. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L379'">fs/ext4/inode.c:__check_block_validity</a> (112 bytes)<br />
+35. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L754'">fs/ext4/inode.c:_ext4_get_block</a> (256 bytes)<br />
+36. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L1093'">fs/ext4/inode.c:ext4_block_write_begin</a> (1264 bytes)<br />
+37. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L3138'">fs/ext4/inode.c:ext4_bmap</a> (224 bytes)<br />
+38. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L994'">fs/ext4/inode.c:ext4_bread</a> (144 bytes)<br />
+39. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L1851'">fs/ext4/inode.c:ext4_da_get_block_prep</a> (1040 bytes)<br />
+40. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2886'">fs/ext4/inode.c:ext4_da_write_begin</a> (864 bytes)<br />
+41. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L3008'">fs/ext4/inode.c:ext4_da_write_end</a> (656 bytes)<br />
+42. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L780'">fs/ext4/inode.c:ext4_get_block</a> (32 bytes)<br />
+43. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L325'">fs/ext4/inode.c:ext4_get_reserved_space</a> (32 bytes)<br />
+44. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L937'">fs/ext4/inode.c:ext4_getblk</a> (368 bytes)<br />
+45. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L481'">fs/ext4/inode.c:ext4_map_blocks</a> (1440 bytes)<br />
+46. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2837'">fs/ext4/inode.c:ext4_nonda_switch</a> (96 bytes)<br />
+47. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2511'">fs/ext4/inode.c:mpage_prepare_extent_to_map</a> (720 bytes)<br />
+48. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2197'">fs/ext4/inode.c:mpage_process_page_bufs</a> (272 bytes)<br />
+49. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L2790'">fs/ext4/mballoc.c:ext4_free_data_callback</a> (544 bytes)<br />
+50. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1112'">fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp</a> (1024 bytes)<br />
+51. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1255'">fs/ext4/mballoc.c:ext4_mb_unload_buddy</a> (96 bytes)<br />
+52. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L92'">fs/ext4/namei.c:__ext4_read_dirblock</a> (848 bytes)<br />
+53. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L4704'">fs/ext4/super.c:ext4_force_commit</a> (48 bytes)<br />
+54. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1293'">fs/fs-writeback.c:__writeback_single_inode</a> (624 bytes)<br />
+55. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L518'">fs/fs-writeback.c:wbc_attach_and_unlock_inode</a> (256 bytes)<br />
+56. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L583'">fs/fs-writeback.c:wbc_detach_inode</a> (400 bytes)<br />
+57. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1664'">fs/inode.c:__atime_needs_update</a> (416 bytes)<br />
+58. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1557'">fs/inode.c:bmap</a> (48 bytes)<br />
+59. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L2112'">fs/inode.c:current_time</a> (112 bytes)<br />
+60. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1798'">fs/inode.c:file_remove_privs</a> (192 bytes)<br />
+61. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1834'">fs/inode.c:file_update_time</a> (240 bytes)<br />
+62. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1620'">fs/inode.c:generic_update_time</a> (144 bytes)<br />
+63. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1699'">fs/inode.c:touch_atime</a> (176 bytes)<br />
+64. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L548'">fs/jbd2/journal.c:__jbd2_journal_force_commit</a> (128 bytes)<br />
+65. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L725'">fs/jbd2/journal.c:jbd2_complete_transaction</a> (112 bytes)<br />
+66. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L601'">fs/jbd2/journal.c:jbd2_journal_force_commit</a> (48 bytes)<br />
+67. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L650'">fs/jbd2/journal.c:jbd2_trans_will_send_data_barrier</a> (96 bytes)<br />
+68. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L2467'">fs/jbd2/transaction.c:jbd2_journal_file_inode</a> (192 bytes)<br />
+69. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L2536'">fs/jbd2/transaction.c:jbd2_journal_inode_add_wait</a> (32 bytes)<br />
+70. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L458'">fs/namespace.c:__mnt_drop_write</a> (16 bytes)<br />
+71. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L480'">fs/namespace.c:__mnt_drop_write_file</a> (32 bytes)<br />
+72. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L341'">fs/namespace.c:__mnt_want_write</a> (80 bytes)<br />
+73. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L423'">fs/namespace.c:__mnt_want_write_file</a> (48 bytes)<br />
+74. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L404'">fs/namespace.c:mnt_clone_write</a> (48 bytes)<br />
+75. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1650'">fs/quota/dquot.c:__dquot_alloc_space</a> (448 bytes)<br />
+76. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1804'">fs/quota/dquot.c:__dquot_free_space</a> (688 bytes)<br />
+77. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1744'">fs/quota/dquot.c:dquot_claim_space_nodirty</a> (304 bytes)<br />
+78. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1582'">fs/quota/dquot.c:inode_claim_rsv_space</a> (48 bytes)<br />
+79. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/quota/dquot.c.html#L1566'">fs/quota/dquot.c:inode_reserved_space</a> (32 bytes)<br />
+80. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/stat.c.html#L448'">fs/stat.c:__inode_add_bytes</a> (96 bytes)<br />
+81. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/stat.c.html#L481'">fs/stat.c:inode_sub_bytes</a> (80 bytes)<br />
+82. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L104'">kernel/kthread.c:kthread_should_park</a> (64 bytes)<br />
+83. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L87'">kernel/kthread.c:kthread_should_stop</a> (64 bytes)<br />
+84. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/rwsem.c.html#L18'">kernel/locking/rwsem.c:down_read</a> (48 bytes)<br />
+85. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L4903'">kernel/sched/core.c:_cond_resched</a> (64 bytes)<br />
+86. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3450'">kernel/sched/core.c:schedule</a> (128 bytes)<br />
+87. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3487'">kernel/sched/core.c:schedule_preempt_disabled</a> (16 bytes)<br />
+88. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/smpboot.c.html#L104'">kernel/smpboot.c:smpboot_thread_fn</a> (288 bytes)<br />
+89. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L662'">kernel/softirq.c:ksoftirqd_should_run</a> (32 bytes)<br />
+90. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L667'">kernel/softirq.c:run_ksoftirqd</a> (64 bytes)<br />
+91. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/task_work.c.html#L88'">kernel/task_work.c:task_work_run</a> (128 bytes)<br />
+92. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L296'">kernel/time/time.c:timespec_trunc</a> (128 bytes)<br />
+93. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L2171'">kernel/time/timekeeping.c:current_kernel_time64</a> (64 bytes)<br />
+94. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L425'">kernel/watchdog.c:watchdog</a> (64 bytes)<br />
+95. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L411'">kernel/watchdog.c:watchdog_should_run</a> (48 bytes)<br />
+96. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L378'">mm/filemap.c:__filemap_fdatawait_range</a> (368 bytes)<br />
+97. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L326'">mm/filemap.c:__filemap_fdatawrite_range</a> (224 bytes)<br />
+98. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2890'">mm/filemap.c:__generic_file_write_iter</a> (448 bytes)<br />
+99. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L296'">mm/filemap.c:filemap_check_errors</a> (64 bytes)<br />
+100. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L429'">mm/filemap.c:filemap_fdatawait_range</a> (48 bytes)<br />
+101. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L371'">mm/filemap.c:filemap_flush</a> (32 bytes)<br />
+102. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L524'">mm/filemap.c:filemap_write_and_wait_range</a> (144 bytes)<br />
+103. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1171'">mm/filemap.c:find_get_entry</a> (160 bytes)<br />
+104. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1449'">mm/filemap.c:find_get_pages</a> (400 bytes)<br />
+105. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1595'">mm/filemap.c:find_get_pages_tag</a> (496 bytes)<br />
+106. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2018'">mm/filemap.c:generic_file_read_iter</a> (2304 bytes)<br />
+107. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2784'">mm/filemap.c:generic_perform_write</a> (400 bytes)<br />
+108. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2766'">mm/filemap.c:grab_cache_page_write_begin</a> (64 bytes)<br />
+109. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1282'">mm/filemap.c:pagecache_get_page</a> (576 bytes)<br />
+110. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L1849'">mm/memcontrol.c:mem_cgroup_handle_over_high</a> (128 bytes)<br />
+111. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L1863'">mm/page-writeback.c:balance_dirty_pages_ratelimited</a> (976 bytes)<br />
+112. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2348'">mm/page-writeback.c:do_writepages</a> (48 bytes)<br />
+113. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2331'">mm/page-writeback.c:generic_writepages</a> (96 bytes)<br />
+114. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2824'">mm/page-writeback.c:mapping_tagged</a> (32 bytes)<br />
+115. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L2838'">mm/page-writeback.c:wait_for_stable_page</a> (112 bytes)<br />
+116. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L951'">mm/swap.c:pagevec_lookup</a> (48 bytes)<br />
+117. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/swap.c.html#L959'">mm/swap.c:pagevec_lookup_tag</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 7 objects:</strong><br />
-1. Globar var def_rt_bandwidth <br />
-2. Globar var hrtimer_resolution <br />
-3. Globar var jiffies_64 <br />
-4. Globar var watchdog_hrtimer <br />
-5. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
-6. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
-7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 72 accesses 93 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/aio.c:ioctx_alloc <br />
+2. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+3. ALLOC_PAGES alloc from fs/buffer.c:__getblk_gfp <br />
+4. ALLOC_PAGES alloc from fs/ext4/inode.c:ext4_block_zero_page_range <br />
+5. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_init_group <br />
+6. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_init_group <br />
+7. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp <br />
+8. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp <br />
+9. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp <br />
+10. ALLOC_PAGES alloc from fs/ext4/mballoc.c:ext4_mb_load_buddy_gfp <br />
+11. ALLOC_PAGES alloc from mm/filemap.c:do_read_cache_page <br />
+12. ALLOC_PAGES alloc from mm/filemap.c:filemap_fault <br />
+13. ALLOC_PAGES alloc from mm/filemap.c:filemap_fault <br />
+14. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+15. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+16. ALLOC_PAGES alloc from mm/filemap.c:grab_cache_page_write_begin <br />
+17. ALLOC_PAGES alloc from mm/hugetlb.c:hugetlb_fault <br />
+18. ALLOC_PAGES alloc from mm/mincore.c:mincore_page <br />
+19. ALLOC_PAGES alloc from mm/swap_state.c:__read_swap_cache_async <br />
+20. ALLOC_PAGES alloc from mm/swap_state.c:lookup_swap_cache <br />
+21. ALLOC_PAGES alloc from mm/swapfile.c:free_swap_and_cache <br />
+22. ALLOC_PAGES alloc from mm/truncate.c:pagecache_isize_extended <br />
+23. ALLOC_PAGES alloc from mm/truncate.c:truncate_inode_pages_range <br />
+24. Global var blockdev_superblock <br />
+25. Global var def_blk_aops <br />
+26. Global var empty_aops <br />
+27. Global var empty_dir_inode_operations <br />
+28. Global var empty_iops.41343 <br />
+29. Global var ext4_aops <br />
+30. Global var ext4_da_aops <br />
+31. Global var ext4_dir_inode_operations <br />
+32. Global var ext4_fast_symlink_inode_operations <br />
+33. Global var ext4_file_inode_operations <br />
+34. Global var ext4_journalled_aops <br />
+35. Global var ext4_quota_operations <br />
+36. Global var ext4_sops <br />
+37. Global var ext4_special_inode_operations <br />
+38. Global var ext4_symlink_inode_operations <br />
+39. Global var hugetlbfs_dir_inode_operations <br />
+40. Global var init_task <br />
+41. Global var kernfs_dir_iops <br />
+42. Global var kernfs_symlink_iops <br />
+43. Global var mqueue_dir_inode_operations <br />
+44. Global var noop_backing_dev_info <br />
+45. Global var ovl_dentry_operations <br />
+46. Global var ovl_file_inode_operations <br />
+47. Global var proc_link_inode_operations <br />
+48. Global var proc_ns_link_inode_operations <br />
+49. Global var proc_pid_link_inode_operations <br />
+50. Global var pstore_dir_inode_operations <br />
+51. Global var shmem_aops <br />
+52. Global var shmem_dir_inode_operations <br />
+53. Global var shmem_inode_operations <br />
+54. Global var shmem_short_symlink_operations <br />
+55. Global var shmem_special_inode_operations <br />
+56. Global var simple_dir_inode_operations <br />
+57. Global var softirq_threads <br />
+58. Global var sys_call_table <br />
+59. Global var tracefs_dir_inode_operations <br />
+60. Global var watchdog_threads <br />
+61. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+62. KMEM_CACHE alloc from fs/aio.c:do_io_submit <br />
+63. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+64. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+65. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+66. KMEM_CACHE alloc from fs/ext4/block_validity.c:add_system_zone <br />
+67. KMEM_CACHE alloc from fs/ext4/extents_status.c:__es_insert_extent <br />
+68. KMEM_CACHE alloc from fs/ext4/inode.c:ext4_inode_attach_jinode <br />
+69. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_free_blocks <br />
+70. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+71. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+72. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+73. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+74. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvzalloc <br />
+75. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+76. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
+77. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+78. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+79. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+80. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+81. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+82. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+83. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+84. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br />
+85. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+86. KMEM_CACHE alloc from ipc/mqueue.c:mqueue_alloc_inode <br />
+87. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+88. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+89. KMEM_CACHE alloc from kernel/kthread.c:kthread <br />
+90. KMEM_CACHE alloc from kernel/smpboot.c:__smpboot_create_thread <br />
+91. KMEM_CACHE alloc from lib/radix-tree.c:__radix_tree_preload <br />
+92. KMEM_CACHE alloc from lib/radix-tree.c:radix_tree_node_alloc <br />
+93. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

@@ -5,15 +5,51 @@ Viewing compartment: 73 of 381<br />
 <a href='C131072_72.html'> Prev</a>
 <a href='C131072_74.html'> Next</a>
 <br /><br />
-<strong> Compartment 73 is 992 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L786'">fs/fs-writeback.c:bdi_split_work_to_wbs</a>(624 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L176'">fs/fs-writeback.c:wb_queue_work</a>(192 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L922'">fs/fs-writeback.c:wb_start_writeback</a>(176 bytes)<br />
+<strong> Compartment 73 is 1056 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L64'">crypto/akcipher.c:crypto_akcipher_init_tfm</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L244'">crypto/algapi.c:crypto_alg_tested</a> (544 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L323'">crypto/algapi.c:crypto_remove_final</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L650'">crypto/algapi.c:crypto_spawn_alg</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L698'">crypto/algapi.c:crypto_spawn_tfm2</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algboss.c.html#L210'">crypto/algboss.c:cryptomgr_test</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/api.c.html#L38'">crypto/api.c:crypto_mod_get</a> (48 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa-pkcs1pad.c.html#L577'">crypto/rsa-pkcs1pad.c:pkcs1pad_init_tfm</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 73 accesses 5 objects:</strong><br />
-1. Globar var bdi_wq <br />
-2. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-3. KMEM_CACHE alloc from fs/9p/vfs_super.c:v9fs_mount <br />
-4. KMEM_CACHE alloc from fs/fs-writeback.c:bdi_split_work_to_wbs <br />
-5. KMEM_CACHE alloc from fs/fs-writeback.c:wb_start_writeback <br />
+<strong> Compartment 73 accesses 36 objects:</strong><br />
+1. Global var aes_alg <br />
+2. Global var aes_alg <br />
+3. Global var aesni_aead_algs <br />
+4. Global var aesni_algs <br />
+5. Global var aesni_skciphers <br />
+6. Global var alg <br />
+7. Global var alg <br />
+8. Global var alg <br />
+9. Global var alg <br />
+10. Global var alg <br />
+11. Global var alg <br />
+12. Global var alg <br />
+13. Global var alg <br />
+14. Global var alg1024 <br />
+15. Global var alg256 <br />
+16. Global var alg512 <br />
+17. Global var camellia_algs <br />
+18. Global var cmll_algs <br />
+19. Global var crypto_alg_list <br />
+20. Global var digest_null <br />
+21. Global var drbg_algs <br />
+22. Global var ghash_alg <br />
+23. Global var ghash_async_alg <br />
+24. Global var jent_alg <br />
+25. Global var null_algs <br />
+26. Global var rsa <br />
+27. Global var scomp <br />
+28. Global var sha256_algs <br />
+29. Global var sha512_algs <br />
+30. KMEM_CACHE alloc from crypto/algapi.c:crypto_alloc_instance2 <br />
+31. KMEM_CACHE alloc from crypto/algboss.c:cryptomgr_notify <br />
+32. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+33. KMEM_CACHE alloc from crypto/api.c:crypto_larval_alloc <br />
+34. KMEM_CACHE alloc from crypto/cbc.c:crypto_cbc_create <br />
+35. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
+36. KMEM_CACHE alloc from crypto/simd.c:simd_skcipher_create_compat <br />
 </html>

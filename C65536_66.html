@@ -5,13 +5,17 @@ Viewing compartment: 66 of 377<br />
 <a href='C65536_65.html'> Prev</a>
 <a href='C65536_67.html'> Next</a>
 <br /><br />
-<strong> Compartment 66 is 144 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L56'">crypto/akcipher.c:crypto_akcipher_exit_tfm</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa.c.html#L346'">crypto/rsa.c:rsa_exit_tfm</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa.c.html#L242'">crypto/rsa.c:rsa_free_mpi_key</a>(80 bytes)<br />
+<strong> Compartment 66 is 464 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L164'">fs/ext4/inode.c:ext4_truncate_restart_trans</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L632'">fs/jbd2/transaction.c:jbd2__journal_restart</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L681'">fs/jbd2/transaction.c:jbd2_journal_restart</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 66 accesses 3 objects:</strong><br />
-1. Globar var rsa <br />
-2. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
-3. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
+<strong> Compartment 66 accesses 7 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+3. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+4. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+5. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

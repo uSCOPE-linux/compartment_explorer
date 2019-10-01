@@ -5,14 +5,29 @@ Viewing compartment: 88 of 1153<br />
 <a href='C2048_87.html'> Prev</a>
 <a href='C2048_89.html'> Next</a>
 <br /><br />
-<strong> Compartment 88 is 1760 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_offload.c.html#L161'">net/ipv6/ip6_offload.c:ipv6_gro_receive</a>(848 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_offload.c.html#L22'">net/ipv6/ip6_offload.c:ipv6_gso_pull_exthdrs</a>(224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp_offload.c.html#L122'">net/ipv6/udp_offload.c:udp6_gro_receive</a>(688 bytes)<br />
+<strong> Compartment 88 is 1968 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L597'">fs/buffer.c:mark_buffer_dirty_inode</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L254'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_metadata</a> (512 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L312'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_super</a> (144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L164'">fs/ext4/extents.c:__ext4_ext_dirty</a> (144 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L60'">fs/ext4/extents.c:ext4_extent_block_csum</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L86'">fs/ext4/extents.c:ext4_extent_block_csum_set</a> (160 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L170'">fs/ext4/super.c:ext4_superblock_csum_set</a> (176 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1869'">fs/inode.c:inode_needs_sync</a> (80 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1315'">fs/jbd2/transaction.c:jbd2_journal_dirty_metadata</a> (512 bytes)<br />
 <br /><br />
-<strong> Compartment 88 accesses 4 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. Globar var udpv6_offload <br />
-3. KMEM_CACHE alloc from drivers/net/ethernet/intel/igb/igb_main.c:igb_alloc_q_vector <br />
-4. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+<strong> Compartment 88 accesses 13 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+4. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+5. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_ext_remove_space <br />
+6. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_find_extent <br />
+7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+9. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
+10. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+11. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+12. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+13. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

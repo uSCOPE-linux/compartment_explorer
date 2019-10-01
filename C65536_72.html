@@ -5,13 +5,22 @@ Viewing compartment: 72 of 377<br />
 <a href='C65536_71.html'> Prev</a>
 <a href='C65536_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 384 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L607'">net/ipv4/fib_trie.c:replace</a>(176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L587'">net/ipv4/fib_trie.c:tnode_free</a>(128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L544'">net/ipv4/fib_trie.c:update_children</a>(80 bytes)<br />
+<strong> Compartment 72 is 640 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/crypto/crc32c-intel_glue.c.html#L160'">arch/x86/crypto/crc32c-intel_glue.c:crc32c_intel_cra_init</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L64'">crypto/akcipher.c:crypto_akcipher_init_tfm</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L993'">crypto/algapi.c:crypto_alg_extsize</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L650'">crypto/algapi.c:crypto_spawn_alg</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/algapi.c.html#L698'">crypto/algapi.c:crypto_spawn_tfm2</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/api.c.html#L442'">crypto/api.c:crypto_create_tfm</a> (224 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/rsa-pkcs1pad.c.html#L577'">crypto/rsa-pkcs1pad.c:pkcs1pad_init_tfm</a> (48 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L370'">crypto/shash.c:crypto_shash_init_tfm</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_insert_alias <br />
-2. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_trie_table <br />
-3. KMEM_CACHE alloc from net/ipv4/fib_trie.c:tnode_new <br />
+<strong> Compartment 72 accesses 7 objects:</strong><br />
+1. Global var alg <br />
+2. Global var crypto_akcipher_type <br />
+3. Global var crypto_shash_type <br />
+4. Global var rsa <br />
+5. Global var sha256_algs <br />
+6. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
+7. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
 </html>

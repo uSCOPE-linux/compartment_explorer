@@ -5,18 +5,13 @@ Viewing compartment: 58 of 1153<br />
 <a href='C2048_57.html'> Prev</a>
 <a href='C2048_59.html'> Next</a>
 <br /><br />
-<strong> Compartment 58 is 1840 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L2003'">fs/eventpoll.c:SyS_epoll_wait</a>(240 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1614'">fs/eventpoll.c:ep_poll</a>(768 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/select.c.html#L272'">fs/select.c:poll_select_set_timeout</a>(112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/select.c.html#L72'">fs/select.c:select_estimate_accuracy</a>(256 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L227'">kernel/time/posix-timers.c:posix_ktime_get_ts</a>(32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L367'">kernel/time/time.c:set_normalized_timespec</a>(80 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L778'">kernel/time/time.c:timespec64_add_safe</a>(96 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L828'">kernel/time/timekeeping.c:ktime_get_ts64</a>(256 bytes)<br />
+<strong> Compartment 58 is 1376 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/dcache.c.html#L2769'">fs/dcache.c:__d_move</a> (1168 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/dcache.c.html#L2853'">fs/dcache.c:d_exchange</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/dcache.c.html#L2840'">fs/dcache.c:d_move</a> (32 bytes)<br />
 <br /><br />
 <strong> Compartment 58 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

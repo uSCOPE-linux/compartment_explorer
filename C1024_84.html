@@ -5,30 +5,25 @@ Viewing compartment: 84 of 1503<br />
 <a href='C1024_83.html'> Prev</a>
 <a href='C1024_85.html'> Next</a>
 <br /><br />
-<strong> Compartment 84 is 944 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L620'">fs/block_dev.c:blkdev_fsync</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L1051'">fs/libfs.c:noop_fsync</a>(16 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L228'">fs/sync.c:SyS_fdatasync</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L223'">fs/sync.c:SyS_fsync</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L212'">fs/sync.c:do_fsync</a>(112 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L206'">fs/sync.c:vfs_fsync</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sync.c.html#L182'">fs/sync.c:vfs_fsync_range</a>(128 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/msync.c.html#L29'">mm/msync.c:SyS_msync</a>(512 bytes)<br />
+<strong> Compartment 84 is 1008 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs_struct.c.html#L109'">fs/fs_struct.c:copy_fs_struct</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs_struct.c.html#L31'">fs/fs_struct.c:set_fs_pwd</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L484'">fs/namei.c:path_get</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L1693'">fs/namei.c:pick_link</a> (544 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namei.c.html#L812'">fs/namei.c:set_root</a> (128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/namespace.c.html#L1175'">fs/namespace.c:mntget</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 84 accesses 15 objects:</strong><br />
-1. Globar var def_blk_fops <br />
-2. Globar var ext4_dir_operations <br />
-3. Globar var ext4_file_operations <br />
-4. Globar var null_fops <br />
-5. Globar var pipefifo_fops <br />
-6. Globar var shmem_file_operations <br />
-7. Globar var simple_dir_operations <br />
-8. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
-9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-10. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+<strong> Compartment 84 accesses 12 objects:</strong><br />
+1. Global var fs_cachep <br />
+2. Global var init_fs <br />
+3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+5. KMEM_CACHE alloc from fs/fs_struct.c:copy_fs_struct <br />
+6. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+7. KMEM_CACHE alloc from fs/namei.c:__nd_alloc_stack <br />
+8. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
+9. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
+10. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
 11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-12. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-13. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
-14. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-15. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+12. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

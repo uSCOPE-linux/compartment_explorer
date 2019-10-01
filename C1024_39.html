@@ -5,16 +5,22 @@ Viewing compartment: 39 of 1503<br />
 <a href='C1024_38.html'> Prev</a>
 <a href='C1024_40.html'> Next</a>
 <br /><br />
-<strong> Compartment 39 is 960 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L1028'">mm/shmem.c:shmem_evict_inode</a>(368 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L965'">mm/shmem.c:shmem_setattr</a>(528 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L943'">mm/shmem.c:shmem_truncate_range</a>(64 bytes)<br />
+<strong> Compartment 39 is 992 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L1440'">drivers/input/evdev.c:evdev_disconnect</a> (96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2013'">drivers/input/input.c:__input_unregister_device</a> (336 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L672'">drivers/input/input.c:input_dev_release_keys</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2409'">drivers/input/input.c:input_free_minor</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2183'">drivers/input/input.c:input_unregister_device</a> (112 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L2351'">drivers/input/input.c:input_unregister_handle</a> (112 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L927'">drivers/input/mousedev.c:mousedev_destroy</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 39 accesses 6 objects:</strong><br />
-1. Globar var shmem_swaplist <br />
-2. Globar var vm_committed_as <br />
-3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-5. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-6. KMEM_CACHE alloc from mm/shmem.c:shmem_fill_super <br />
+<strong> Compartment 39 accesses 8 objects:</strong><br />
+1. Global var evdev_handler <br />
+2. Global var input_dev_list <br />
+3. Global var kbd_handler <br />
+4. Global var mousedev_handler <br />
+5. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+6. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+7. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+8. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
 </html>

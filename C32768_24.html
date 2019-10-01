@@ -5,17 +5,22 @@ Viewing compartment: 24 of 408<br />
 <a href='C32768_23.html'> Prev</a>
 <a href='C32768_25.html'> Next</a>
 <br /><br />
-<strong> Compartment 24 is 1152 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L1381'">net/core/dev.c:__dev_close_many</a>(208 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L1439'">net/core/dev.c:dev_close_many</a>(272 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L901'">net/sched/sch_generic.c:dev_deactivate_many</a>(496 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L845'">net/sched/sch_generic.c:dev_deactivate_queue</a>(80 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L668'">net/sched/sch_generic.c:qdisc_reset</a>(96 bytes)<br />
+<strong> Compartment 24 is 2112 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L744'">kernel/sys.c:SyS_setfsuid</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L578'">kernel/sys.c:SyS_setresuid</a> (496 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L460'">kernel/sys.c:SyS_setreuid</a> (448 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L419'">kernel/sys.c:set_user</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/user.c.html#L170'">kernel/user.c:alloc_uid</a> (336 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L766'">security/commoncap.c:cap_task_fix_setuid</a> (400 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L958'">security/security.c:security_task_fix_setuid</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 24 accesses 5 objects:</strong><br />
-1. Globar var loopback_ops <br />
-2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
+<strong> Compartment 24 accesses 8 objects:</strong><br />
+1. Global var __cap_empty_set <br />
+2. Global var capability_hooks <br />
+3. Global var root_user <br />
+4. Global var uidhash_table <br />
+5. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+8. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
 </html>

@@ -5,29 +5,19 @@ Viewing compartment: 37 of 381<br />
 <a href='C131072_36.html'> Prev</a>
 <a href='C131072_38.html'> Next</a>
 <br /><br />
-<strong> Compartment 37 is 2032 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2692'">fs/ext4/namei.c:ext4_empty_dir</a>(624 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2929'">fs/ext4/namei.c:ext4_rmdir</a>(656 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L296'">fs/inode.c:clear_nlink</a>(48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L4002'">mm/shmem.c:__shmem_file_setup</a>(448 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L4067'">mm/shmem.c:shmem_kernel_file_setup</a>(32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L4088'">mm/shmem.c:shmem_zero_setup</a>(224 bytes)<br />
+<strong> Compartment 37 is 560 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/alarmtimer.c.html#L541'">kernel/time/alarmtimer.c:alarm_clock_getres</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/alarmtimer.c.html#L66'">kernel/time/alarmtimer.c:alarmtimer_get_rtcdev</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L142'">kernel/time/posix-cpu-timers.c:posix_cpu_clock_getres</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1412'">kernel/time/posix-cpu-timers.c:process_cpu_clock_getres</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1437'">kernel/time/posix-cpu-timers.c:thread_cpu_clock_getres</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L1066'">kernel/time/posix-timers.c:SyS_clock_getres</a> (208 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L256'">kernel/time/posix-timers.c:posix_get_coarse_res</a> (48 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L274'">kernel/time/posix-timers.c:posix_get_hrtimer_res</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 37 accesses 16 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. Globar var *.LC34 <br />
-4. Globar var *.LC41 <br />
-5. Globar var *.LC42 <br />
-6. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-7. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-10. KMEM_CACHE alloc from fs/hugetlbfs/inode.c:hugetlbfs_alloc_inode <br />
-11. KMEM_CACHE alloc from fs/namespace.c:alloc_vfsmnt <br />
-12. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-14. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-15. KMEM_CACHE alloc from mm/shmem.c:SyS_memfd_create <br />
-16. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+<strong> Compartment 37 accesses 4 objects:</strong><br />
+1. Global var clock_posix_cpu <br />
+2. Global var hrtimer_resolution <br />
+3. Global var posix_clocks <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

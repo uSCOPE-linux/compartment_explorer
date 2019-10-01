@@ -5,17 +5,18 @@ Viewing compartment: 62 of 483<br />
 <a href='C16384_61.html'> Prev</a>
 <a href='C16384_63.html'> Next</a>
 <br /><br />
-<strong> Compartment 62 is 640 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/fib_rules.c.html#L167'">net/core/fib_rules.c:fib_rules_unregister</a>(192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L152'">net/ipv4/fib_frontend.c:fib_unmerge</a>(240 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_rules.c.html#L237'">net/ipv4/fib_rules.c:fib4_rule_delete</a>(80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_rules.c.html#L378'">net/ipv4/fib_rules.c:fib4_rules_exit</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L189'">net/ipv4/fib_trie.c:call_fib_notifiers</a>(48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/fib6_rules.c.html#L325'">net/ipv6/fib6_rules.c:fib6_rules_net_exit</a>(48 bytes)<br />
+<strong> Compartment 62 is 304 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L447'">drivers/tty/pty.c:pty_cleanup</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L166'">drivers/tty/tty_io.c:free_tty_struct</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1625'">drivers/tty/tty_io.c:release_one_tty</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ldisc.c.html#L820'">drivers/tty/tty_ldisc.c:tty_ldisc_deinit</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 62 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
-2. KMEM_CACHE alloc from net/core/fib_rules.c:fib_default_rule_add <br />
-3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-4. KMEM_CACHE alloc from net/ipv4/fib_frontend.c:fib_net_init <br />
+<strong> Compartment 62 accesses 7 objects:</strong><br />
+1. Global var con_ops <br />
+2. Global var ptm_unix98_ops <br />
+3. Global var pty_unix98_ops <br />
+4. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+5. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+6. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
+7. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
 </html>

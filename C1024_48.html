@@ -5,24 +5,20 @@ Viewing compartment: 48 of 1503<br />
 <a href='C1024_47.html'> Prev</a>
 <a href='C1024_49.html'> Next</a>
 <br /><br />
-<strong> Compartment 48 is 1008 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fanotify/fanotify.c.html#L142'">fs/notify/fanotify/fanotify.c:fanotify_alloc_event</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/inotify/inotify_fsnotify.c.html#L69'">fs/notify/inotify/inotify_fsnotify.c:inotify_handle_event</a>(368 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/inotify/inotify_fsnotify.c.html#L56'">fs/notify/inotify/inotify_fsnotify.c:inotify_merge</a>(112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/notification.c.html#L99'">fs/notify/notification.c:fsnotify_add_event</a>(272 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/notification.c.html#L209'">fs/notify/notification.c:fsnotify_init_event</a>(32 bytes)<br />
+<strong> Compartment 48 is 832 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L6082'">kernel/cgroup.c:cgroup_release_agent</a> (272 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kmod.c.html#L615'">kernel/kmod.c:call_usermodehelper</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kmod.c.html#L554'">kernel/kmod.c:call_usermodehelper_exec</a> (304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kmod.c.html#L62'">kernel/kmod.c:free_modprobe_argv</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/request_key.c.html#L65'">security/keys/request_key.c:umh_keys_cleanup</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 48 accesses 12 objects:</strong><br />
-1. Globar var fanotify_event_cachep <br />
-2. Globar var fanotify_perm_event_cachep <br />
-3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
-6. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
-7. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
-8. KMEM_CACHE alloc from fs/notify/inotify/inotify_fsnotify.c:inotify_handle_event <br />
-9. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:SyS_inotify_add_watch <br />
-10. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:inotify_new_group <br />
-11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-12. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+<strong> Compartment 48 accesses 8 objects:</strong><br />
+1. Global var system_unbound_wq <br />
+2. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+3. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_release_agent <br />
+4. KMEM_CACHE alloc from kernel/kmod.c:__request_module <br />
+5. KMEM_CACHE alloc from kernel/kmod.c:__request_module <br />
+6. KMEM_CACHE alloc from kernel/kmod.c:call_usermodehelper <br />
+7. KMEM_CACHE alloc from kernel/kmod.c:call_usermodehelper_setup <br />
+8. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
 </html>

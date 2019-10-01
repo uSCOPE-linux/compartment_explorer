@@ -5,19 +5,19 @@ Viewing compartment: 55 of 1503<br />
 <a href='C1024_54.html'> Prev</a>
 <a href='C1024_56.html'> Next</a>
 <br /><br />
-<strong> Compartment 55 is 992 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L202'">kernel/sched/core.c:task_rq_lock</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3032'">kernel/sched/core.c:task_sched_runtime</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L609'">kernel/sched/cputime.c:cputime_adjust</a>(304 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L314'">kernel/sched/cputime.c:thread_group_cputime</a>(304 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L692'">kernel/sched/cputime.c:thread_group_cputime_adjusted</a>(80 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L876'">kernel/sched/fair.c:update_curr_fair</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L748'">kernel/time/time.c:nsecs_to_jiffies</a>(48 bytes)<br />
+<strong> Compartment 55 is 1024 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L68'">fs/pipe.c:pipe_lock</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L77'">fs/pipe.c:pipe_unlock</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L636'">fs/splice.c:__splice_from_pipe</a> (416 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L100'">fs/splice.c:page_cache_pipe_buf_confirm</a> (176 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L89'">fs/splice.c:page_cache_pipe_buf_release</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L669'">fs/splice.c:splice_from_pipe</a> (112 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L557'">fs/splice.c:splice_from_pipe_next</a> (208 bytes)<br />
 <br /><br />
 <strong> Compartment 55 accesses 5 objects:</strong><br />
-1. Globar var fair_sched_class <br />
-2. Globar var rt_sched_class <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-5. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+1. Global var anon_pipe_buf_ops <br />
+2. Global var page_cache_pipe_buf_ops <br />
+3. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+4. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

@@ -4,12 +4,34 @@ Selected compartmentalization: <strong>C2048</strong><br />
 Viewing compartment: 100 of 1153<br />
 <a href='C2048_99.html'> Prev</a>
  (only 100 compartments shown due to hosting limitations)<br /><br />
-<strong> Compartment 100 is 288 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/mount.c.html#L193'">fs/kernfs/mount.c:kernfs_set_super</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/super.c.html#L927'">fs/super.c:get_anon_bdev</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/super.c.html#L1000'">fs/super.c:ns_set_super</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/super.c.html#L970'">fs/super.c:set_anon_super</a>(32 bytes)<br />
+<strong> Compartment 100 is 1728 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/setup.c.html#L1323'">arch/x86/kernel/setup.c:arch_show_smap</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L814'">fs/proc/task_mmu.c:show_pid_smap</a> (16 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L717'">fs/proc/task_mmu.c:show_smap</a> (640 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L812'">fs/proc/task_mmu.c:show_tid_smap</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/radix-tree.c.html#L1062'">lib/radix-tree.c:__radix_tree_replace</a> (304 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/hugetlb.c.html#L635'">mm/hugetlb.c:vma_kernel_pagesize</a> (64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/hugetlb.c.html#L655'">mm/hugetlb.c:vma_mmu_pagesize</a> (64 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mincore.c.html#L85'">mm/mincore.c:__mincore_unmapped_range</a> (192 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mincore.c.html#L48'">mm/mincore.c:mincore_page</a> (208 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L2175'">mm/shmem.c:shmem_mapping</a> (48 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/workingset.c.html#L339'">mm/workingset.c:workingset_update_node</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 100 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 100 accesses 16 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/mincore.c:SyS_mincore <br />
+2. Global var gate_vma <br />
+3. Global var mnemonics.35848 <br />
+4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+7. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+8. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+9. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+10. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+11. KMEM_CACHE alloc from lib/radix-tree.c:radix_tree_node_alloc <br />
+12. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
+13. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
+14. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
+15. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+16. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

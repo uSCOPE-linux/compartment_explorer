@@ -5,14 +5,15 @@ Viewing compartment: 26 of 377<br />
 <a href='C65536_25.html'> Prev</a>
 <a href='C65536_27.html'> Next</a>
 <br /><br />
-<strong> Compartment 26 is 1168 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/utimes.c.html#L187'">fs/utimes.c:SyS_futimesat</a>(176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/utimes.c.html#L25'">fs/utimes.c:SyS_utime</a>(112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/utimes.c.html#L215'">fs/utimes.c:SyS_utimes</a>(176 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/utimes.c.html#L122'">fs/utimes.c:do_utimes</a>(304 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/utimes.c.html#L50'">fs/utimes.c:utimes_common</a>(400 bytes)<br />
+<strong> Compartment 26 is 352 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L399'">fs/ext4/super.c:ext4_handle_error</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2049'">fs/jbd2/journal.c:__jbd2_journal_abort_hard</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2069'">fs/jbd2/journal.c:__journal_abort_soft</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2133'">fs/jbd2/journal.c:jbd2_journal_abort</a> (16 bytes)<br />
 <br /><br />
-<strong> Compartment 26 accesses 2 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+<strong> Compartment 26 accesses 4 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+2. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+3. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

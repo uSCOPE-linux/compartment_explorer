@@ -5,23 +5,16 @@ Viewing compartment: 79 of 1503<br />
 <a href='C1024_78.html'> Prev</a>
 <a href='C1024_80.html'> Next</a>
 <br /><br />
-<strong> Compartment 79 is 992 bytes and has 11 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/base.c.html#L3115'">fs/proc/base.c:next_tgid</a>(160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L555'">kernel/pid.c:find_ge_pid</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L487'">kernel/pid.c:find_get_pid</a>(64 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L365'">kernel/pid.c:find_pid_ns</a>(128 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L451'">kernel/pid.c:find_task_by_pid_ns</a>(48 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L458'">kernel/pid.c:find_task_by_vpid</a>(80 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L379'">kernel/pid.c:find_vpid</a>(64 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L215'">kernel/pid.c:next_pidmap</a>(160 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L499'">kernel/pid.c:pid_nr_ns</a>(64 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L434'">kernel/pid.c:pid_task</a>(64 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/signal.c.html#L1293'">kernel/signal.c:kill_pid_info</a>(80 bytes)<br />
+<strong> Compartment 79 is 864 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L1891'">arch/x86/events/core.c:x86_pmu_cancel_txn</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L1919'">arch/x86/events/core.c:x86_pmu_commit_txn</a> (240 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L1872'">arch/x86/events/core.c:x86_pmu_start_txn</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/events/core.c.html#L2109'">kernel/events/core.c:group_sched_in</a> (400 bytes)<br />
 <br /><br />
 <strong> Compartment 79 accesses 5 objects:</strong><br />
-1. Globar var init_pid_ns <br />
-2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-4. KMEM_CACHE alloc from kernel/pid.c:alloc_pid <br />
-5. KMEM_CACHE alloc from kernel/pid_namespace.c:copy_pid_ns <br />
+1. Global var perf_cpu_clock <br />
+2. Global var perf_task_clock <br />
+3. Global var pmu <br />
+4. KMEM_CACHE alloc from kernel/events/core.c:alloc_perf_context <br />
+5. KMEM_CACHE alloc from kernel/events/core.c:perf_event_alloc <br />
 </html>

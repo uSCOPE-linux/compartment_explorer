@@ -5,23 +5,17 @@ Viewing compartment: 93 of 594<br />
 <a href='C8192_92.html'> Prev</a>
 <a href='C8192_94.html'> Next</a>
 <br /><br />
-<strong> Compartment 93 is 1296 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L597'">fs/ext4/super.c:__ext4_abort</a>(304 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L455'">fs/ext4/super.c:__ext4_error_inode</a>(336 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L314'">fs/ext4/super.c:__save_error_info</a>(304 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L399'">fs/ext4/super.c:ext4_handle_error</a>(160 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2049'">fs/jbd2/journal.c:__jbd2_journal_abort_hard</a>(96 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2069'">fs/jbd2/journal.c:__journal_abort_soft</a>(80 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2133'">fs/jbd2/journal.c:jbd2_journal_abort</a>(16 bytes)<br />
+<strong> Compartment 93 is 912 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/proc_sysctl.c.html#L43'">fs/proc/proc_sysctl.c:proc_sys_poll_notify</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L1264'">kernel/sys.c:SyS_setdomainname</a> (416 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L1213'">kernel/sys.c:SyS_sethostname</a> (416 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/utsname_sysctl.c.html#L123'">kernel/utsname_sysctl.c:uts_proc_notify</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 93 accesses 9 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-2. Globar var __func__.49562 <br />
-3. Globar var __func__.50691 <br />
-4. Globar var jiffies_64 <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-7. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-8. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
-9. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 93 accesses 6 objects:</strong><br />
+1. Global var init_nsproxy <br />
+2. Global var init_uts_ns <br />
+3. Global var uts_kern_table <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
+6. KMEM_CACHE alloc from kernel/utsname.c:copy_utsname <br />
 </html>

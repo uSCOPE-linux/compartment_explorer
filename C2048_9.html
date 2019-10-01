@@ -5,20 +5,24 @@ Viewing compartment: 9 of 1153<br />
 <a href='C2048_8.html'> Prev</a>
 <a href='C2048_10.html'> Next</a>
 <br /><br />
-<strong> Compartment 9 is 2032 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1565'">block/genhd.c:disk_flush_events</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L61'">block/genhd.c:disk_get_part</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1354'">block/genhd.c:put_disk</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/loop.c.html#L1534'">drivers/block/loop.c:lo_open</a>(80 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1492'">fs/block_dev.c:__blkdev_get</a>(960 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1830'">fs/block_dev.c:__blkdev_put</a>(576 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L1875'">fs/block_dev.c:blkdev_put</a>(240 bytes)<br />
+<strong> Compartment 9 is 2000 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L52'">fs/ext4/balloc.c:ext4_get_group_no_and_offset</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L34'">fs/ext4/balloc.c:ext4_get_group_number</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L4234'">fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations</a> (512 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L4180'">fs/ext4/mballoc.c:ext4_mb_initialize_context</a> (368 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L3816'">fs/ext4/mballoc.c:ext4_mb_release_group_pa</a> (272 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L3282'">fs/ext4/mballoc.c:ext4_mb_use_inode_pa</a> (208 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L3364'">fs/ext4/mballoc.c:ext4_mb_use_preallocated</a> (480 bytes)<br />
 <br /><br />
-<strong> Compartment 9 accesses 6 objects:</strong><br />
-1. Globar var brd_fops <br />
-2. Globar var lo_fops <br />
-3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-4. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-5. KMEM_CACHE alloc from block/genhd.c:disk_expand_part_tbl <br />
-6. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+<strong> Compartment 9 accesses 10 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
+4. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
+5. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_new_blocks <br />
+6. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_new_group_pa <br />
+7. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_new_inode_pa <br />
+8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+10. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

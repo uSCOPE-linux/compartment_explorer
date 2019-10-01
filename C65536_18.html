@@ -5,17 +5,28 @@ Viewing compartment: 18 of 377<br />
 <a href='C65536_17.html'> Prev</a>
 <a href='C65536_19.html'> Next</a>
 <br /><br />
-<strong> Compartment 18 is 272 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L166'">drivers/tty/tty_io.c:free_tty_struct</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L1625'">drivers/tty/tty_io.c:release_one_tty</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ldisc.c.html#L820'">drivers/tty/tty_ldisc.c:tty_ldisc_deinit</a>(48 bytes)<br />
+<strong> Compartment 18 is 1408 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/rbtree.c.html#L411'">lib/rbtree.c:__rb_erase_color</a> (608 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/rbtree.c.html#L455'">lib/rbtree.c:__rb_insert_augmented</a> (528 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/interval_tree.c.html#L70'">mm/interval_tree.c:__anon_vma_interval_tree_augment_rotate</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/interval_tree.c.html#L22'">mm/interval_tree.c:vma_interval_tree_augment_rotate</a> (96 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L377'">mm/mmap.c:vma_gap_callbacks_rotate</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 18 accesses 7 objects:</strong><br />
-1. Globar var con_ops <br />
-2. Globar var ptm_unix98_ops <br />
-3. Globar var pty_unix98_ops <br />
-4. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
-5. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-6. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
-7. KMEM_CACHE alloc from drivers/tty/tty_io.c:tty_write <br />
+<strong> Compartment 18 accesses 16 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+6. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
+7. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
+8. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
+9. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
+10. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
+11. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
+12. KMEM_CACHE alloc from mm/rmap.c:__anon_vma_prepare <br />
+13. KMEM_CACHE alloc from mm/rmap.c:anon_vma_clone <br />
+14. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
+15. KMEM_CACHE alloc from mm/rmap.c:anon_vma_fork <br />
+16. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

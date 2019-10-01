@@ -5,13 +5,15 @@ Viewing compartment: 70 of 1503<br />
 <a href='C1024_69.html'> Prev</a>
 <a href='C1024_71.html'> Next</a>
 <br /><br />
-<strong> Compartment 70 is 768 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/handle.c.html#L193'">kernel/irq/handle.c:handle_irq_event</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/handle.c.html#L179'">kernel/irq/handle.c:handle_irq_event_percpu</a>(96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/spurious.c.html#L270'">kernel/irq/spurious.c:note_interrupt</a>(624 bytes)<br />
+<strong> Compartment 70 is 928 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L5147'">kernel/sched/core.c:SyS_sched_rr_get_interval</a> (240 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L2313'">kernel/sched/rt.c:get_rr_interval_rt</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L144'">kernel/time/itimer.c:set_cpu_itimer</a> (496 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L581'">kernel/time/time.c:jiffies_to_timespec64</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L611'">kernel/time/time.c:timeval_to_jiffies</a> (96 bytes)<br />
 <br /><br />
 <strong> Compartment 70 accesses 3 objects:</strong><br />
-1. Globar var jiffies_64 <br />
-2. Globar var noirqdebug <br />
-3. KMEM_CACHE alloc from kernel/irq/irqdesc.c:alloc_desc <br />
+1. Global var rt_sched_class <br />
+2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

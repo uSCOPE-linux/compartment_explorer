@@ -5,14 +5,29 @@ Viewing compartment: 26 of 1503<br />
 <a href='C1024_25.html'> Prev</a>
 <a href='C1024_27.html'> Next</a>
 <br /><br />
-<strong> Compartment 26 is 416 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/super.c.html#L461'">fs/overlayfs/super.c:ovl_mount_dir</a>(176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/super.c.html#L431'">fs/overlayfs/super.c:ovl_mount_dir_noesc</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L52'">fs/overlayfs/util.c:ovl_dentry_remote</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/util.c.html#L59'">fs/overlayfs/util.c:ovl_dentry_weird</a>(32 bytes)<br />
+<strong> Compartment 26 is 1024 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L641'">drivers/char/random.c:credit_entropy_bits</a> (592 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fcntl.c.html#L723'">fs/fcntl.c:kill_fasync</a> (144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L563'">fs/pipe.c:pipe_release</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L474'">fs/splice.c:wakeup_pipe_writers</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 26 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-2. KMEM_CACHE alloc from fs/overlayfs/super.c:ovl_fill_super <br />
-3. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+<strong> Compartment 26 accesses 18 objects:</strong><br />
+1. Global var blocking_pool <br />
+2. Global var fasync <br />
+3. Global var input_pool <br />
+4. Global var poolinfo_table <br />
+5. Global var system_wq <br />
+6. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
+7. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_open <br />
+8. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
+9. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+11. KMEM_CACHE alloc from fs/fcntl.c:fasync_alloc <br />
+12. KMEM_CACHE alloc from fs/fcntl.c:fasync_helper <br />
+13. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+14. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+15. KMEM_CACHE alloc from fs/locks.c:locks_alloc_lock <br />
+16. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
+17. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+18. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

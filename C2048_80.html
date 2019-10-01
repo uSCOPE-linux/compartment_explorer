@@ -5,29 +5,25 @@ Viewing compartment: 80 of 1153<br />
 <a href='C2048_79.html'> Prev</a>
 <a href='C2048_81.html'> Next</a>
 <br /><br />
-<strong> Compartment 80 is 1968 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L597'">fs/buffer.c:mark_buffer_dirty_inode</a>(144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L254'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_metadata</a>(512 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L312'">fs/ext4/ext4_jbd2.c:__ext4_handle_dirty_super</a>(144 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L164'">fs/ext4/extents.c:__ext4_ext_dirty</a>(144 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L60'">fs/ext4/extents.c:ext4_extent_block_csum</a>(96 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L86'">fs/ext4/extents.c:ext4_extent_block_csum_set</a>(160 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L170'">fs/ext4/super.c:ext4_superblock_csum_set</a>(176 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1869'">fs/inode.c:inode_needs_sync</a>(80 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/transaction.c.html#L1315'">fs/jbd2/transaction.c:jbd2_journal_dirty_metadata</a>(512 bytes)<br />
+<strong> Compartment 80 is 2032 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L1877'">drivers/tty/n_tty.c:n_tty_open</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L1762'">drivers/tty/n_tty.c:n_tty_set_termios</a> (736 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1335'">mm/vmalloc.c:__get_vm_area_node</a> (336 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1695'">mm/vmalloc.c:__vmalloc_node_range</a> (560 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1784'">mm/vmalloc.c:vmalloc</a> (96 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmalloc.c.html#L1801'">mm/vmalloc.c:vzalloc</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 80 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
-4. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-5. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_ext_remove_space <br />
-6. KMEM_CACHE alloc from fs/ext4/extents.c:ext4_find_extent <br />
-7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-9. KMEM_CACHE alloc from fs/jbd2/journal.c:jbd2_journal_add_journal_head <br />
-10. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
-11. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
-12. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
-13. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 80 accesses 12 objects:</strong><br />
+1. Global var jiffies_64 <br />
+2. Global var totalram_pages <br />
+3. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+4. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+5. KMEM_CACHE alloc from mm/vmalloc.c:__get_vm_area_node <br />
+6. KMEM_CACHE alloc from mm/vmalloc.c:__vmalloc_node_range <br />
+7. KMEM_CACHE alloc from mm/vmalloc.c:alloc_vmap_area <br />
+8. VMALLOC alloc from drivers/tty/n_tty.c:n_tty_open <br />
+9. VMALLOC alloc from fs/binfmt_elf.c:elf_core_dump <br />
+10. VMALLOC alloc from fs/binfmt_elf.c:elf_core_dump <br />
+11. VMALLOC alloc from mm/swapfile.c:SyS_swapon <br />
+12. VMALLOC alloc from mm/swapfile.c:SyS_swapon <br />
 </html>

@@ -5,13 +5,30 @@ Viewing compartment: 87 of 824<br />
 <a href='C4096_86.html'> Prev</a>
 <a href='C4096_88.html'> Next</a>
 <br /><br />
-<strong> Compartment 87 is 368 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/assoc_array.c.html#L26'">lib/assoc_array.c:assoc_array_subtree_iterate</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1384'">security/keys/keyring.c:keyring_gc_check_iterator</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L423'">security/keys/keyring.c:keyring_read_iterator</a>(80 bytes)<br />
+<strong> Compartment 87 is 4064 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L3296'">net/core/dev.c:__dev_queue_xmit</a> (1264 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L3402'">net/core/dev.c:dev_queue_xmit</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L3243'">net/core/dev.c:netdev_pick_tx</a> (176 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L955'">net/core/neighbour.c:__neigh_event_send</a> (608 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L1287'">net/core/neighbour.c:neigh_resolve_output</a> (432 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ethernet/eth.c.html#L83'">net/ethernet/eth.c:eth_header</a> (192 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ethernet/eth.c.html#L227'">net/ethernet/eth.c:eth_header_cache</a> (96 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/arp.c.html#L523'">net/ipv4/arp.c:arp_create</a> (944 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L167'">net/sched/sch_generic.c:sch_direct_xmit</a> (320 bytes)<br />
 <br /><br />
-<strong> Compartment 87 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from lib/assoc_array.c:assoc_array_insert <br />
-2. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
-3. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
+<strong> Compartment 87 accesses 14 objects:</strong><br />
+1. Global var arp_tbl <br />
+2. Global var eth_header_ops <br />
+3. Global var jiffies_64 <br />
+4. Global var nd_tbl <br />
+5. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
+6. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+9. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+10. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br />
+11. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+12. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+13. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+14. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
 </html>

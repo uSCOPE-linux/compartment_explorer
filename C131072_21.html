@@ -5,15 +5,34 @@ Viewing compartment: 21 of 381<br />
 <a href='C131072_20.html'> Prev</a>
 <a href='C131072_22.html'> Next</a>
 <br /><br />
-<strong> Compartment 21 is 416 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L260'">net/ipv4/inet_timewait_sock.c:inet_twsk_purge</a>(320 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L2466'">net/ipv4/tcp_ipv4.c:tcp_sk_exit_batch</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/tcp_ipv6.c.html#L1955'">net/ipv6/tcp_ipv6.c:tcpv6_net_exit_batch</a>(48 bytes)<br />
+<strong> Compartment 21 is 5216 bytes and has 13 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1076'">drivers/char/random.c:add_input_randomness</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L302'">drivers/input/evdev.c:evdev_events</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/evdev.c.html#L259'">drivers/input/evdev.c:evdev_pass_values</a> (496 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L428'">drivers/input/input.c:input_event</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L369'">drivers/input/input.c:input_handle_event</a> (1296 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L129'">drivers/input/input.c:input_pass_values</a> (304 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L181'">drivers/input/input.c:input_repeat_key</a> (192 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L96'">drivers/input/input.c:input_to_handler</a> (240 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L349'">drivers/input/mousedev.c:mousedev_event</a> (1184 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/mousedev.c.html#L263'">drivers/input/mousedev.c:mousedev_notify_readers</a> (464 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L374'">fs/timerfd.c:SyS_timerfd_create</a> (416 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L93'">fs/timerfd.c:timerfd_clock_was_set</a> (192 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L784'">kernel/time/timekeeping.c:ktime_mono_to_any</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 21 accesses 5 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:alloc_large_system_hash <br />
-2. Globar var init_net <br />
-3. Globar var tcp_hashinfo <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-5. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
+<strong> Compartment 21 accesses 14 objects:</strong><br />
+1. Global var counts.31327 <br />
+2. Global var evdev_handler <br />
+3. Global var jiffies_64 <br />
+4. Global var mousedev_handler <br />
+5. Global var offsets <br />
+6. Global var tk_core <br />
+7. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+8. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
+9. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+10. KMEM_CACHE alloc from drivers/input/input.c:input_register_device <br />
+11. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+12. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_open <br />
+13. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+14. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
 </html>

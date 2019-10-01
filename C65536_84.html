@@ -5,11 +5,19 @@ Viewing compartment: 84 of 377<br />
 <a href='C65536_83.html'> Prev</a>
 <a href='C65536_85.html'> Next</a>
 <br /><br />
-<strong> Compartment 84 is 208 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1507'">net/ipv4/ip_output.c:__ip_flush_pending_frames</a>(128 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_output.c.html#L1520'">net/ipv4/ip_output.c:ip_flush_pending_frames</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/raw.c.html#L685'">net/ipv4/raw.c:raw_destroy</a>(48 bytes)<br />
+<strong> Compartment 84 is 800 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8386'">kernel/sched/core.c:cpu_cgroup_css_alloc</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7885'">kernel/sched/core.c:sched_create_group</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7906'">kernel/sched/core.c:sched_online_group</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9214'">kernel/sched/fair.c:alloc_fair_sched_group</a> (384 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L262'">kernel/sched/rt.c:alloc_rt_sched_group</a> (16 bytes)<br />
 <br /><br />
-<strong> Compartment 84 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+<strong> Compartment 84 accesses 7 objects:</strong><br />
+1. Global var root_task_group <br />
+2. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
+3. KMEM_CACHE alloc from kernel/sched/core.c:sched_init <br />
+4. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+5. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+6. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+7. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
 </html>

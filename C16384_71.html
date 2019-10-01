@@ -5,17 +5,20 @@ Viewing compartment: 71 of 483<br />
 <a href='C16384_70.html'> Prev</a>
 <a href='C16384_72.html'> Next</a>
 <br /><br />
-<strong> Compartment 71 is 352 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L541'">drivers/input/input.c:__input_release_device</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/input/input.c.html#L568'">drivers/input/input.c:input_release_device</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/keyboard.c.html#L1538'">drivers/tty/vt/keyboard.c:kbd_start</a>(48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/keyboard.c.html#L1041'">drivers/tty/vt/keyboard.c:kbd_update_leds_helper</a>(128 bytes)<br />
+<strong> Compartment 71 is 912 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4_jbd2.c.html#L185'">fs/ext4/ext4_jbd2.c:__ext4_forget</a> (464 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L137'">fs/jbd2/revoke.c:insert_revoke_hash</a> (144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/revoke.c.html#L324'">fs/jbd2/revoke.c:jbd2_journal_revoke</a> (304 bytes)<br />
 <br /><br />
-<strong> Compartment 71 accesses 6 objects:</strong><br />
-1. Globar var evdev_handler <br />
-2. Globar var kbd_handler <br />
-3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-4. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-5. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-6. KMEM_CACHE alloc from drivers/tty/vt/keyboard.c:kbd_connect <br />
+<strong> Compartment 71 accesses 10 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+4. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+5. KMEM_CACHE alloc from fs/jbd2/revoke.c:insert_revoke_hash <br />
+6. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
+7. KMEM_CACHE alloc from fs/jbd2/revoke.c:jbd2_journal_init_revoke_table <br />
+8. KMEM_CACHE alloc from fs/jbd2/transaction.c:jbd2__journal_start <br />
+9. KMEM_CACHE alloc from fs/jbd2/transaction.c:start_this_handle <br />
+10. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

@@ -5,19 +5,18 @@ Viewing compartment: 20 of 594<br />
 <a href='C8192_19.html'> Prev</a>
 <a href='C8192_21.html'> Next</a>
 <br /><br />
-<strong> Compartment 20 is 960 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/posix_acl.c.html#L710'">fs/posix_acl.c:posix_acl_fix_xattr_to_user</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/xattr.c.html#L586'">fs/xattr.c:SyS_fgetxattr</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/xattr.c.html#L574'">fs/xattr.c:SyS_getxattr</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/xattr.c.html#L580'">fs/xattr.c:SyS_lgetxattr</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/xattr.c.html#L515'">fs/xattr.c:getxattr</a>(528 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/xattr.c.html#L558'">fs/xattr.c:path_getxattr</a>(144 bytes)<br />
+<strong> Compartment 20 is 1200 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L376'">drivers/tty/pty.c:pty_common_install</a> (768 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L542'">drivers/tty/tty_buffer.c:tty_buffer_init</a> (160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L565'">drivers/tty/tty_buffer.c:tty_buffer_set_limit</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L575'">drivers/tty/tty_buffer.c:tty_buffer_set_lock_subclass</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_mutex.c.html#L55'">drivers/tty/tty_mutex.c:tty_set_lock_subclass</a> (16 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_port.c.html#L19'">drivers/tty/tty_port.c:tty_port_init</a> (208 bytes)<br />
 <br /><br />
-<strong> Compartment 20 accesses 6 objects:</strong><br />
-1. Globar var *.LC8 <br />
-2. Globar var *.LC9 <br />
-3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-4. KMEM_CACHE alloc from fs/xattr.c:getxattr <br />
-5. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 20 accesses 5 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+2. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+3. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
+4. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+5. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
 </html>

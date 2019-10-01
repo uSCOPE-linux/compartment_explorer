@@ -5,26 +5,15 @@ Viewing compartment: 46 of 377<br />
 <a href='C65536_45.html'> Prev</a>
 <a href='C65536_47.html'> Next</a>
 <br /><br />
-<strong> Compartment 46 is 4192 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/dir.c.html#L498'">fs/ext4/dir.c:call_filldir</a>(304 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/dir.c.html#L101'">fs/ext4/dir.c:ext4_readdir</a>(2544 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/dir.c.html#L38'">fs/ext4/dir.c:is_dx_dir</a>(96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L1048'">fs/ext4/namei.c:ext4_htree_fill_tree</a>(736 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/overlayfs/readdir.c.html#L575'">fs/overlayfs/readdir.c:ovl_check_d_type</a>(112 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/readdir.c.html#L252'">fs/readdir.c:filldir64</a>(400 bytes)<br />
+<strong> Compartment 46 is 960 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L779'">arch/x86/kernel/fpu/xstate.c:__raw_xsave_addr</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L1019'">arch/x86/kernel/fpu/xstate.c:copyin_to_xsaves</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L947'">arch/x86/kernel/fpu/xstate.c:copyout_from_xsaves</a> (544 bytes)<br />
 <br /><br />
-<strong> Compartment 46 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. Globar var *.LC1 <br />
-4. Globar var *.LC2 <br />
-5. Globar var ext4_filetype_table <br />
-6. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-7. KMEM_CACHE alloc from fs/ext4/dir.c:ext4_htree_store_dirent <br />
-8. KMEM_CACHE alloc from fs/ext4/dir.c:ext4_readdir <br />
-9. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-11. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-12. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 46 accesses 5 objects:</strong><br />
+1. Global var xstate_comp_offsets <br />
+2. Global var xstate_offsets <br />
+3. Global var xstate_sizes <br />
+4. KMEM_CACHE alloc from fs/binfmt_elf.c:elf_core_dump <br />
+5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
 </html>

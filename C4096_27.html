@@ -5,14 +5,23 @@ Viewing compartment: 27 of 824<br />
 <a href='C4096_26.html'> Prev</a>
 <a href='C4096_28.html'> Next</a>
 <br /><br />
-<strong> Compartment 27 is 464 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs_struct.c.html#L12'">fs/fs_struct.c:set_fs_root</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/open.c.html#L484'">fs/open.c:SyS_chroot</a>(272 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L511'">security/security.c:security_path_chroot</a>(80 bytes)<br />
+<strong> Compartment 27 is 1968 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/check.c.html#L146'">arch/x86/kernel/check.c:check_corruption</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/check.c.html#L118'">arch/x86/kernel/check.c:check_for_bios_corruption</a> (272 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L1374'">arch/x86/kernel/cpu/mcheck/mce.c:__start_timer</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L701'">arch/x86/kernel/cpu/mcheck/mce.c:machine_check_poll</a> (672 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L509'">arch/x86/kernel/cpu/mcheck/mce.c:mce_available</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L439'">arch/x86/kernel/cpu/mcheck/mce.c:mce_rdmsrl</a> (128 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L126'">arch/x86/kernel/cpu/mcheck/mce.c:mce_setup</a> (224 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce.c.html#L1388'">arch/x86/kernel/cpu/mcheck/mce.c:mce_timer_fn</a> (192 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/cpu/mcheck/mce_intel.c.html#L125'">arch/x86/kernel/cpu/mcheck/mce_intel.c:mce_intel_cmci_poll</a> (80 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/apei/ghes.c.html#L667'">drivers/acpi/apei/ghes.c:ghes_add_timer</a> (80 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L380'">kernel/time/timer.c:round_jiffies_relative</a> (112 bytes)<br />
 <br /><br />
-<strong> Compartment 27 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-2. KMEM_CACHE alloc from fs/fs_struct.c:copy_fs_struct <br />
-3. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 27 accesses 5 objects:</strong><br />
+1. Global var jiffies_64 <br />
+2. Global var scan_areas <br />
+3. Global var system_wq <br />
+4. KMEM_CACHE alloc from arch/x86/kernel/cpu/mcheck/mce.c:mcheck_cpu_init <br />
+5. KMEM_CACHE alloc from drivers/acpi/apei/ghes.c:ghes_probe <br />
 </html>

@@ -5,16 +5,13 @@ Viewing compartment: 80 of 408<br />
 <a href='C32768_79.html'> Prev</a>
 <a href='C32768_81.html'> Next</a>
 <br /><br />
-<strong> Compartment 80 is 384 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/apic.c.html#L242'">arch/x86/kernel/apic/apic.c:native_apic_wait_icr_idle</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/ipi.c.html#L19'">arch/x86/kernel/apic/ipi.c:__default_send_IPI_shortcut</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/probe_64.c.html#L50'">arch/x86/kernel/apic/probe_64.c:apic_send_IPI_self</a>(32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq_work.c.html#L34'">arch/x86/kernel/irq_work.c:arch_irq_work_raise</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq_work.c.html#L86'">kernel/irq_work.c:irq_work_queue</a>(144 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L497'">kernel/time/tick-sched.c:tick_nohz_tick_stopped</a>(32 bytes)<br />
+<strong> Compartment 80 is 992 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_appraise.c.html#L38'">security/integrity/ima/ima_appraise.c:ima_must_appraise</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_main.c.html#L331'">security/integrity/ima/ima_main.c:ima_post_path_mknod</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_policy.c.html#L336'">security/integrity/ima/ima_policy.c:ima_match_policy</a> (880 bytes)<br />
 <br /><br />
 <strong> Compartment 80 accesses 3 objects:</strong><br />
-1. Globar var apic <br />
-2. Globar var perf_duration_work <br />
-3. Globar var wake_up_klogd_work <br />
+1. Global var ima_appraise <br />
+2. Global var ima_default_rules <br />
+3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
 </html>

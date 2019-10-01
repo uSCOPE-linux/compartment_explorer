@@ -5,23 +5,16 @@ Viewing compartment: 55 of 381<br />
 <a href='C131072_54.html'> Prev</a>
 <a href='C131072_56.html'> Next</a>
 <br /><br />
-<strong> Compartment 55 is 1904 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L2402'">fs/ext4/mballoc.c:ext4_mb_add_groupinfo</a>(528 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L2371'">fs/ext4/mballoc.c:ext4_mb_alloc_groupinfo</a>(208 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L2582'">fs/ext4/mballoc.c:ext4_mb_init</a>(1168 bytes)<br />
+<strong> Compartment 55 is 480 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L153'">fs/block_dev.c:sb_min_blocksize</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L140'">fs/block_dev.c:sb_set_blocksize</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L118'">fs/block_dev.c:set_blocksize</a> (176 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L487'">mm/filemap.c:filemap_write_and_wait</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 55 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
-4. Globar var ext4_groupinfo_caches <br />
-5. Globar var ext4_groupinfo_slab_names <br />
-6. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
-7. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br />
-8. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_init <br />
-9. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_init <br />
-10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-11. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-12. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvzalloc <br />
-13. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 55 accesses 5 objects:</strong><br />
+1. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+2. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+3. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

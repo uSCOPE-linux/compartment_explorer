@@ -5,63 +5,17 @@ Viewing compartment: 11 of 594<br />
 <a href='C8192_10.html'> Prev</a>
 <a href='C8192_12.html'> Next</a>
 <br /><br />
-<strong> Compartment 11 is 1152 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1153'">drivers/base/core.c:device_create_file</a>(144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/dir.c.html#L40'">fs/sysfs/dir.c:sysfs_create_dir_ns</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/file.c.html#L327'">fs/sysfs/file.c:sysfs_create_file_ns</a>(48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject.c.html#L199'">lib/kobject.c:kobject_add_internal</a>(816 bytes)<br />
+<strong> Compartment 11 is 6128 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L1712'">fs/ext4/namei.c:do_split</a> (2208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L1223'">fs/ext4/namei.c:dx_insert_block</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2181'">fs/ext4/namei.c:ext4_dx_add_entry</a> (2304 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L1960'">fs/ext4/namei.c:make_indexed_dir</a> (1504 bytes)<br />
 <br /><br />
-<strong> Compartment 11 accesses 52 objects:</strong><br />
-1. Globar var *.LC121 <br />
-2. Globar var *.LC23 <br />
-3. Globar var *.LC63 <br />
-4. Globar var dev_attr_dev <br />
-5. Globar var dev_attr_uevent <br />
-6. Globar var device_ktype <br />
-7. Globar var ext4_attr_delayed_allocation_blocks <br />
-8. Globar var ext4_attr_err_ratelimit_burst <br />
-9. Globar var ext4_attr_err_ratelimit_interval_ms <br />
-10. Globar var ext4_attr_errors_count <br />
-11. Globar var ext4_attr_extent_max_zeroout_kb <br />
-12. Globar var ext4_attr_first_error_time <br />
-13. Globar var ext4_attr_inode_goal <br />
-14. Globar var ext4_attr_inode_readahead_blks <br />
-15. Globar var ext4_attr_last_error_time <br />
-16. Globar var ext4_attr_lifetime_write_kbytes <br />
-17. Globar var ext4_attr_max_writeback_mb_bump <br />
-18. Globar var ext4_attr_mb_group_prealloc <br />
-19. Globar var ext4_attr_mb_max_to_scan <br />
-20. Globar var ext4_attr_mb_min_to_scan <br />
-21. Globar var ext4_attr_mb_order2_req <br />
-22. Globar var ext4_attr_mb_stats <br />
-23. Globar var ext4_attr_mb_stream_req <br />
-24. Globar var ext4_attr_msg_ratelimit_burst <br />
-25. Globar var ext4_attr_msg_ratelimit_interval_ms <br />
-26. Globar var ext4_attr_reserved_clusters <br />
-27. Globar var ext4_attr_session_write_kbytes <br />
-28. Globar var ext4_attr_trigger_fs_error <br />
-29. Globar var ext4_attr_warning_ratelimit_burst <br />
-30. Globar var ext4_attr_warning_ratelimit_interval_ms <br />
-31. Globar var ext4_attrs <br />
-32. Globar var ext4_kset <br />
-33. Globar var ext4_sb_ktype <br />
-34. Globar var kset_ktype <br />
-35. Globar var netdev_queue_default_attrs <br />
-36. Globar var netdev_queue_ktype <br />
-37. Globar var queue_traffic_class <br />
-38. Globar var queue_trans_timeout <br />
-39. KMALLOC alloc from mm/util.c:kstrdup_const <br />
-40. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
-41. KMEM_CACHE alloc from drivers/base/core.c:get_device_parent <br />
-42. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
-43. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
-44. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
-45. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-46. KMEM_CACHE alloc from lib/kasprintf.c:kvasprintf <br />
-47. KMEM_CACHE alloc from lib/kobject.c:kset_create_and_add <br />
-48. KMEM_CACHE alloc from mm/slab_common.c:create_cache <br />
-49. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
-50. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-51. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-52. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+<strong> Compartment 11 accesses 6 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

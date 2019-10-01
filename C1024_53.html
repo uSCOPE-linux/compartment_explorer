@@ -5,15 +5,28 @@ Viewing compartment: 53 of 1503<br />
 <a href='C1024_52.html'> Prev</a>
 <a href='C1024_54.html'> Next</a>
 <br /><br />
-<strong> Compartment 53 is 816 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L1010'">kernel/time/posix-timers.c:SyS_clock_settime</a>(160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-timers.c.html#L213'">kernel/time/posix-timers.c:posix_clock_realtime_set</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L191'">kernel/time/time.c:SyS_settimeofday</a>(224 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L162'">kernel/time/time.c:do_sys_settimeofday64</a>(240 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L113'">security/commoncap.c:cap_settime</a>(32 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L211'">security/security.c:security_settime64</a>(80 bytes)<br />
+<strong> Compartment 53 is 1008 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L241'">block/bio.c:__bio_free</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L2046'">block/bio.c:bio_disassociate_task</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L249'">block/bio.c:bio_free</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L540'">block/bio.c:bio_put</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/bio.c.html#L160'">block/bio.c:bvec_free</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-flush.c.html#L496'">block/blk-flush.c:blkdev_issue_flush</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L3036'">fs/buffer.c:end_bio_bh_io_sync</a> (64 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L340'">fs/buffer.c:end_buffer_async_write</a> (224 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L167'">fs/buffer.c:end_buffer_read_sync</a> (48 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L174'">fs/buffer.c:end_buffer_write_sync</a> (64 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ialloc.c.html#L103'">fs/ext4/ialloc.c:ext4_end_bitmap_read</a> (48 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/commit.c.html#L34'">fs/jbd2/commit.c:journal_end_buffer_io_sync</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 53 accesses 2 objects:</strong><br />
-1. Globar var capability_hooks <br />
-2. Globar var posix_clocks <br />
+<strong> Compartment 53 accesses 9 objects:</strong><br />
+1. Global var fs_bio_set <br />
+2. KMEM_CACHE alloc from block/bio.c:__bioset_create <br />
+3. KMEM_CACHE alloc from block/bio.c:bio_alloc_bioset <br />
+4. KMEM_CACHE alloc from block/bio.c:bvec_alloc <br />
+5. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+6. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+7. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+8. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+9. KMEM_CACHE alloc from mm/mempool.c:mempool_alloc_slab <br />
 </html>

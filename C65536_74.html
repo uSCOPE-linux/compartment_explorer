@@ -5,14 +5,16 @@ Viewing compartment: 74 of 377<br />
 <a href='C65536_73.html'> Prev</a>
 <a href='C65536_75.html'> Next</a>
 <br /><br />
-<strong> Compartment 74 is 704 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sys.c.html#L744'">kernel/sys.c:SyS_setfsuid</a>(208 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L766'">security/commoncap.c:cap_task_fix_setuid</a>(400 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L958'">security/security.c:security_task_fix_setuid</a>(96 bytes)<br />
+<strong> Compartment 74 is 368 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L438'">lib/kobject_uevent.c:uevent_net_exit</a> (176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L4109'">net/core/rtnetlink.c:rtnetlink_net_exit</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock_diag.c.html#L328'">net/core/sock_diag.c:diag_net_exit</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1985'">net/netlink/af_netlink.c:netlink_kernel_release</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/genetlink.c.html#L1022'">net/netlink/genetlink.c:genl_pernet_exit</a> (48 bytes)<br />
 <br /><br />
 <strong> Compartment 74 accesses 4 objects:</strong><br />
-1. Globar var __cap_empty_set <br />
-2. Globar var capability_hooks <br />
-3. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+1. Global var uevent_sock_list <br />
+2. KMEM_CACHE alloc from lib/kobject_uevent.c:uevent_net_init <br />
+3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

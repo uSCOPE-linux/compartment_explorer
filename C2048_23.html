@@ -5,14 +5,58 @@ Viewing compartment: 23 of 1153<br />
 <a href='C2048_22.html'> Prev</a>
 <a href='C2048_24.html'> Next</a>
 <br /><br />
-<strong> Compartment 23 is 352 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L257'">block/genhd.c:blkdev_show</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/char_dev.c.html#L47'">fs/char_dev.c:chrdev_show</a>(112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/devices.c.html#L5'">fs/proc/devices.c:devinfo_show</a>(128 bytes)<br />
+<strong> Compartment 23 is 2048 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L428'">drivers/base/class.c:class_find_device</a> (192 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/class.c.html#L151'">drivers/base/class.c:klist_class_dev_get</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1786'">drivers/base/core.c:get_device</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L1229'">drivers/base/core.c:klist_children_get</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi.c.html#L230'">drivers/scsi/scsi.c:scsi_get_command</a> (368 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi.c.html#L153'">drivers/scsi/scsi.c:scsi_host_alloc_command</a> (192 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1297'">drivers/scsi/scsi_lib.c:scsi_prep_fn</a> (368 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1207'">drivers/scsi/scsi_lib.c:scsi_prep_state_check</a> (128 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1186'">drivers/scsi/scsi_lib.c:scsi_setup_cmnd</a> (336 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L811'">kernel/time/timer.c:init_timer_key</a> (128 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/klist.c.html#L108'">lib/klist.c:klist_node_init</a> (80 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_connection_sock.c.html#L370'">net/ipv4/inet_connection_sock.c:inet_csk_init_xmit_timers</a> (160 bytes)<br />
 <br /><br />
-<strong> Compartment 23 accesses 4 objects:</strong><br />
-1. Globar var chrdevs <br />
-2. Globar var major_names <br />
-3. KMEM_CACHE alloc from block/genhd.c:register_blkdev <br />
-4. KMEM_CACHE alloc from fs/char_dev.c:__register_chrdev_region <br />
+<strong> Compartment 23 accesses 39 objects:</strong><br />
+1. Global var jiffies_64 <br />
+2. Global var scsi_cmd_pool <br />
+3. Global var sd_template <br />
+4. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+5. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+6. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+7. KMEM_CACHE alloc from block/blk-throttle.c:throtl_pd_alloc <br />
+8. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
+9. KMEM_CACHE alloc from drivers/base/class.c:__class_create <br />
+10. KMEM_CACHE alloc from drivers/base/class.c:__class_register <br />
+11. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+12. KMEM_CACHE alloc from drivers/base/core.c:device_private_init <br />
+13. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+14. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+15. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+16. KMEM_CACHE alloc from drivers/scsi/hosts.c:scsi_host_alloc <br />
+17. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
+18. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+19. KMEM_CACHE alloc from drivers/scsi/sd.c:sd_probe <br />
+20. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+21. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+22. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+23. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
+24. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+25. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+26. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+27. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+28. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+29. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+30. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+31. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_init <br />
+32. KMEM_CACHE alloc from net/ipv4/igmp.c:ip_mc_inc_group <br />
+33. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
+34. KMEM_CACHE alloc from net/ipv4/ipmr.c:ipmr_net_init <br />
+35. KMEM_CACHE alloc from net/ipv4/tcp_input.c:inet_reqsk_alloc <br />
+36. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
+37. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
+38. KMEM_CACHE alloc from net/ipv6/ip6mr.c:ip6mr_new_table <br />
+39. KMEM_CACHE alloc from net/ipv6/mcast.c:ipv6_dev_mc_inc <br />
 </html>

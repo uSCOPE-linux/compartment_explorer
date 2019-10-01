@@ -5,30 +5,17 @@ Viewing compartment: 45 of 381<br />
 <a href='C131072_44.html'> Prev</a>
 <a href='C131072_46.html'> Next</a>
 <br /><br />
-<strong> Compartment 45 is 3648 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1847'">fs/eventpoll.c:SyS_epoll_ctl</a>(3376 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L808'">fs/eventpoll.c:ep_read_events_proc</a>(176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc_namespace.c.html#L17'">fs/proc_namespace.c:mounts_poll</a>(96 bytes)<br />
+<strong> Compartment 45 is 1728 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L751'">fs/ext4/balloc.c:ext4_bg_has_super</a> (336 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L807'">fs/ext4/balloc.c:ext4_bg_num_gdb</a> (160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/balloc.c.html#L825'">fs/ext4/balloc.c:ext4_num_base_meta_clusters</a> (144 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/super.c.html#L3228'">fs/ext4/super.c:ext4_calculate_overhead</a> (1088 bytes)<br />
 <br /><br />
-<strong> Compartment 45 accesses 20 objects:</strong><br />
-1. Globar var eventpoll_fops <br />
-2. Globar var inotify_fops <br />
-3. Globar var kmsg_fops <br />
-4. Globar var pipefifo_fops <br />
-5. Globar var proc_mountinfo_operations <br />
-6. Globar var proc_reg_file_ops_no_compat <br />
-7. Globar var proc_sys_file_operations <br />
-8. Globar var root_user <br />
-9. Globar var signalfd_fops <br />
-10. Globar var socket_file_ops <br />
-11. Globar var tfile_check_list <br />
-12. Globar var timerfd_fops <br />
-13. Globar var visited_list <br />
-14. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-15. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-16. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-17. KMEM_CACHE alloc from fs/namespace.c:alloc_mnt_ns <br />
-18. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-19. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-20. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
+<strong> Compartment 45 accesses 6 objects:</strong><br />
+1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
+2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
+3. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
+4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+5. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

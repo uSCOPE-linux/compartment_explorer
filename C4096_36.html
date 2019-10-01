@@ -5,17 +5,25 @@ Viewing compartment: 36 of 824<br />
 <a href='C4096_35.html'> Prev</a>
 <a href='C4096_37.html'> Next</a>
 <br /><br />
-<strong> Compartment 36 is 400 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L3061'">net/core/sock.c:sock_no_listen</a>(16 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L1426'">net/socket.c:SyS_listen</a>(144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L601'">net/unix/af_unix.c:unix_listen</a>(160 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1268'">security/security.c:security_socket_listen</a>(80 bytes)<br />
+<strong> Compartment 36 is 4016 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L6224'">net/ipv4/tcp_input.c:inet_reqsk_alloc</a> (256 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L6296'">net/ipv4/tcp_input.c:tcp_conn_request</a> (2752 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L3772'">net/ipv4/tcp_input.c:tcp_parse_options</a> (784 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L96'">net/ipv4/tcp_ipv4.c:tcp_v4_init_sequence</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_ipv4.c.html#L1206'">net/ipv4/tcp_ipv4.c:tcp_v4_route_req</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1369'">security/security.c:security_inet_conn_request</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 36 accesses 6 objects:</strong><br />
-1. Globar var inet_dgram_ops <br />
-2. Globar var inet_stream_ops <br />
-3. Globar var init_net <br />
-4. Globar var unix_stream_ops <br />
-5. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-6. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+<strong> Compartment 36 accesses 12 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
+2. Global var init_net <br />
+3. Global var jiffies_64 <br />
+4. Global var tcp_death_row <br />
+5. Global var tcp_request_sock_ipv4_ops <br />
+6. Global var tcp_request_sock_ipv6_ops <br />
+7. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
+8. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+9. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+10. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+11. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+12. KMEM_CACHE alloc from net/ipv4/tcp_input.c:inet_reqsk_alloc <br />
 </html>

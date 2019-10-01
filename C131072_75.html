@@ -5,13 +5,15 @@ Viewing compartment: 75 of 381<br />
 <a href='C131072_74.html'> Prev</a>
 <a href='C131072_76.html'> Next</a>
 <br /><br />
-<strong> Compartment 75 is 368 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L152'">net/ipv4/fib_frontend.c:fib_unmerge</a>(240 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_rules.c.html#L237'">net/ipv4/fib_rules.c:fib4_rule_delete</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L189'">net/ipv4/fib_trie.c:call_fib_notifiers</a>(48 bytes)<br />
+<strong> Compartment 75 is 1200 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/gup.c.html#L183'">arch/x86/mm/gup.c:gup_huge_pmd</a> (320 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/gup.c.html#L105'">arch/x86/mm/gup.c:gup_pte_range</a> (416 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/gup.c.html#L273'">arch/x86/mm/gup.c:gup_pud_range</a> (464 bytes)<br />
 <br /><br />
-<strong> Compartment 75 accesses 3 objects:</strong><br />
-1. KMEM_CACHE alloc from net/core/fib_rules.c:fib_default_rule_add <br />
-2. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-3. KMEM_CACHE alloc from net/ipv4/fib_frontend.c:fib_net_init <br />
+<strong> Compartment 75 accesses 5 objects:</strong><br />
+1. ALLOC_PAGES alloc from arch/x86/mm/pgtable.c:pte_alloc_one <br />
+2. ALLOC_PAGES alloc from mm/memory.c:__pmd_alloc <br />
+3. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
+4. KMEM_CACHE alloc from fs/block_dev.c:__blkdev_direct_IO_simple <br />
+5. KMEM_CACHE alloc from fs/direct-io.c:do_blockdev_direct_IO <br />
 </html>

@@ -5,16 +5,21 @@ Viewing compartment: 99 of 1503<br />
 <a href='C1024_98.html'> Prev</a>
 <a href='C1024_100.html'> Next</a>
 <br /><br />
-<strong> Compartment 99 is 448 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fcntl.c.html#L686'">fs/fcntl.c:fasync_helper</a>(144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fcntl.c.html#L575'">fs/fcntl.c:fasync_remove_entry</a>(128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/pipe.c.html#L585'">fs/pipe.c:pipe_fasync</a>(176 bytes)<br />
+<strong> Compartment 99 is 944 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/nlattr.c.html#L342'">lib/nlattr.c:__nla_reserve</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1429'">net/core/skbuff.c:skb_put</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L4594'">net/ipv6/addrconf.c:inet6_fill_ifaddr</a> (528 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L4560'">net/ipv6/addrconf.c:put_cacheinfo</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L2050'">net/netlink/af_netlink.c:__nlmsg_put</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 99 accesses 6 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-2. KMEM_CACHE alloc from fs/fcntl.c:fasync_alloc <br />
-3. KMEM_CACHE alloc from fs/fcntl.c:fasync_helper <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from fs/locks.c:locks_alloc_lock <br />
-6. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+<strong> Compartment 99 accesses 9 objects:</strong><br />
+1. Global var jiffies_64 <br />
+2. KMALLOC alloc from net/core/skbuff.c:__alloc_skb <br />
+3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+5. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+6. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+7. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+8. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
+9. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
 </html>

@@ -5,17 +5,20 @@ Viewing compartment: 61 of 1153<br />
 <a href='C2048_60.html'> Prev</a>
 <a href='C2048_62.html'> Next</a>
 <br /><br />
-<strong> Compartment 61 is 1904 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/crypto/fname.c.html#L406'">fs/crypto/fname.c:fscrypt_free_filename</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4.h.html#L2299'">fs/ext4/ext4.h:ext4_fname_free_filename</a>(80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L1357'">fs/ext4/namei.c:ext4_find_entry</a>(1776 bytes)<br />
+<strong> Compartment 61 is 935 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/glue.c.html#L171'">drivers/acpi/glue.c:acpi_bind_one</a> (618 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/glue.c.html#L67'">drivers/acpi/glue.c:acpi_get_bus_type</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/glue.c.html#L300'">drivers/acpi/glue.c:acpi_platform_notify</a> (157 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/pci/pci-acpi.c.html#L802'">drivers/pci/pci-acpi.c:pci_acpi_bus_match</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/usb/core/usb-acpi.c.html#L208'">drivers/usb/core/usb-acpi.c:usb_acpi_bus_match</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 61 accesses 7 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-7. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 61 accesses 8 objects:</strong><br />
+1. Global var acpi_pci_bus <br />
+2. Global var usb_acpi_bus <br />
+3. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+4. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_connect <br />
+5. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+6. KMEM_CACHE alloc from drivers/input/mousedev.c:mousedev_create <br />
+7. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+8. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
 </html>

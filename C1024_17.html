@@ -5,15 +5,17 @@ Viewing compartment: 17 of 1503<br />
 <a href='C1024_16.html'> Prev</a>
 <a href='C1024_18.html'> Next</a>
 <br /><br />
-<strong> Compartment 17 is 576 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents_status.c.html#L1134'">fs/ext4/extents_status.c:ext4_es_register_shrinker</a>(144 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1809'">fs/ext4/xattr.c:ext4_xattr_create_cache</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/mbcache.c.html#L339'">fs/mbcache.c:mb_cache_create</a>(272 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/vmscan.c.html#L257'">mm/vmscan.c:register_shrinker</a>(128 bytes)<br />
+<strong> Compartment 17 is 608 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L395'">kernel/pid.c:__change_pid</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L420'">kernel/pid.c:change_pid</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L414'">kernel/pid.c:detach_pid</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid.c.html#L258'">kernel/pid.c:free_pid</a> (352 bytes)<br />
 <br /><br />
-<strong> Compartment 17 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-2. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
-3. KMEM_CACHE alloc from fs/mbcache.c:mb_cache_create <br />
-4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 17 accesses 6 objects:</strong><br />
+1. Global var init_pid_ns <br />
+2. Global var init_struct_pid <br />
+3. Global var system_wq <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/pid.c:alloc_pid <br />
+6. KMEM_CACHE alloc from kernel/pid_namespace.c:copy_pid_ns <br />
 </html>

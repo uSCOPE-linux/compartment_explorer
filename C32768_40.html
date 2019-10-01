@@ -5,17 +5,17 @@ Viewing compartment: 40 of 408<br />
 <a href='C32768_39.html'> Prev</a>
 <a href='C32768_41.html'> Next</a>
 <br /><br />
-<strong> Compartment 40 is 2144 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/lwtunnel.c.html#L203'">net/core/lwtunnel.c:lwtunnel_fill_encap</a>(352 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L734'">net/core/rtnetlink.c:rtnl_put_cacheinfo</a>(224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/route.c.html#L3176'">net/ipv6/route.c:rt6_fill_node</a>(1568 bytes)<br />
+<strong> Compartment 40 is 320 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/loop.c.html#L1820'">drivers/block/loop.c:find_free_cb</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/sg.c.html#L2226'">drivers/scsi/sg.c:sg_idr_max_id</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/idr.c.html#L686'">lib/idr.c:idr_for_each</a> (240 bytes)<br />
 <br /><br />
 <strong> Compartment 40 accesses 7 objects:</strong><br />
-1. Globar var dst_default_metrics <br />
-2. Globar var jiffies_64 <br />
-3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-4. KMEM_CACHE alloc from net/core/dst.c:dst_alloc <br />
-5. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-6. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-7. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_net_init <br />
+1. Global var init_net <br />
+2. Global var loop_index_idr <br />
+3. Global var sg_index_idr <br />
+4. KMEM_CACHE alloc from drivers/block/loop.c:loop_add <br />
+5. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
+6. KMEM_CACHE alloc from lib/idr.c:idr_layer_alloc <br />
+7. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
 </html>

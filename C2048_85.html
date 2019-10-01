@@ -5,11 +5,26 @@ Viewing compartment: 85 of 1153<br />
 <a href='C2048_84.html'> Prev</a>
 <a href='C2048_86.html'> Next</a>
 <br /><br />
-<strong> Compartment 85 is 336 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/statfs.c.html#L192'">fs/statfs.c:SYSC_fstatfs</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/statfs.c.html#L105'">fs/statfs.c:do_statfs_native</a>(192 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/statfs.c.html#L94'">fs/statfs.c:fd_statfs</a>(96 bytes)<br />
+<strong> Compartment 85 is 1787 bytes and has 12 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dsmethod.c.html#L619'">drivers/acpi/acpica/dsmethod.c:acpi_ds_restart_control_method</a> (123 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dsmethod.c.html#L709'">drivers/acpi/acpica/dsmethod.c:acpi_ds_terminate_control_method</a> (306 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswscope.c.html#L62'">drivers/acpi/acpica/dswscope.c:acpi_ds_scope_stack_clear</a> (45 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L703'">drivers/acpi/acpica/dswstate.c:acpi_ds_delete_walk_state</a> (201 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L446'">drivers/acpi/acpica/dswstate.c:acpi_ds_get_current_walk_state</a> (22 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L499'">drivers/acpi/acpica/dswstate.c:acpi_ds_pop_walk_state</a> (27 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L475'">drivers/acpi/acpica/dswstate.c:acpi_ds_push_walk_state</a> (22 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exmutex.c.html#L494'">drivers/acpi/acpica/exmutex.c:acpi_ex_release_all_mutexes</a> (114 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psparse.c.html#L440'">drivers/acpi/acpica/psparse.c:acpi_ps_parse_aml</a> (635 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psscope.c.html#L246'">drivers/acpi/acpica/psscope.c:acpi_ps_cleanup_scope</a> (55 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utownerid.c.html#L169'">drivers/acpi/acpica/utownerid.c:acpi_ut_release_owner_id</a> (153 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utstate.c.html#L148'">drivers/acpi/acpica/utstate.c:acpi_ut_create_thread_state</a> (84 bytes)<br />
 <br /><br />
-<strong> Compartment 85 accesses 1 objects:</strong><br />
-1. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 85 accesses 7 objects:</strong><br />
+1. Global var acpi_gbl_current_walk_list <br />
+2. Global var acpi_gbl_enable_interpreter_slack <br />
+3. Global var acpi_gbl_owner_id_mask <br />
+4. KMEM_CACHE alloc from drivers/acpi/acpica/dswstate.c:acpi_ds_create_walk_state <br />
+5. KMEM_CACHE alloc from drivers/acpi/acpica/evgpe.c:acpi_ev_asynch_execute_gpe_method <br />
+6. KMEM_CACHE alloc from drivers/acpi/acpica/utobject.c:acpi_ut_allocate_object_desc_dbg <br />
+7. KMEM_CACHE alloc from drivers/acpi/acpica/utstate.c:acpi_ut_create_generic_state <br />
 </html>

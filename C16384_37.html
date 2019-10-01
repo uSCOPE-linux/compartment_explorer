@@ -5,19 +5,23 @@ Viewing compartment: 37 of 483<br />
 <a href='C16384_36.html'> Prev</a>
 <a href='C16384_38.html'> Next</a>
 <br /><br />
-<strong> Compartment 37 is 2720 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L175'">net/core/neighbour.c:neigh_del_timer</a>(96 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L1074'">net/core/neighbour.c:neigh_update</a>(1696 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ndisc.c.html#L923'">net/ipv6/ndisc.c:ndisc_recv_na</a>(832 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ndisc.c.html#L732'">net/ipv6/ndisc.c:ndisc_update</a>(96 bytes)<br />
+<strong> Compartment 37 is 528 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/mem.c.html#L830'">drivers/char/mem.c:memory_open</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L896'">kernel/printk/printk.c:devkmsg_open</a> (224 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L1037'">mm/slab_common.c:kmalloc_order</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slab_common.c.html#L1052'">mm/slab_common.c:kmalloc_order_trace</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 37 accesses 8 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br />
-2. Globar var arp_hh_ops <br />
-3. Globar var jiffies_64 <br />
-4. Globar var ndisc_hh_ops <br />
-5. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
-6. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-7. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
-8. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br />
+<strong> Compartment 37 accesses 12 objects:</strong><br />
+1. Global var devlist <br />
+2. Global var full_fops <br />
+3. Global var kmsg_fops <br />
+4. Global var null_fops <br />
+5. Global var random_fops <br />
+6. Global var urandom_fops <br />
+7. Global var zero_fops <br />
+8. KMALLOC alloc from kernel/printk/printk.c:devkmsg_open <br />
+9. KMALLOC alloc from mm/slub.c:__kmalloc <br />
+10. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+11. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+12. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
 </html>

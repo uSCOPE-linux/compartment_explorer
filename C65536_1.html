@@ -4,16 +4,572 @@ Selected compartmentalization: <strong>C65536</strong><br />
 Viewing compartment: 1 of 377<br />
  Prev<a href='C65536_2.html'> Next</a>
 <br /><br />
-<strong> Compartment 1 is 544 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L566'">drivers/base/power/wakeup.c:__pm_stay_awake</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L594'">drivers/base/power/wakeup.c:pm_stay_awake</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/power/wakeup.c.html#L549'">drivers/base/power/wakeup.c:wakeup_source_report_event</a>(240 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/rtc/interface.c.html#L572'">drivers/rtc/interface.c:rtc_update_irq</a>(64 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/suspend.c.html#L102'">kernel/power/suspend.c:freeze_wake</a>(96 bytes)<br />
+<strong> Compartment 1 is 65524 bytes and has 321 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64.S.html#L895'">arch/x86/entry/entry_64.S:do_softirq_own_stack</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64.S.html#L732'">arch/x86/entry/entry_64.S:irq_work_interrupt</a> (144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64.S.html#L410'">arch/x86/entry/entry_64.S:ret_from_fork</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/entry_64.S.html#L519'">arch/x86/entry/entry_64.S:ret_from_intr</a> (26 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/entry/vsyscall/vsyscall_gtod.c.html#L28'">arch/x86/entry/vsyscall/vsyscall_gtod.c:update_vsyscall</a> (320 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/apic.c.html#L471'">arch/x86/kernel/apic/apic.c:lapic_next_deadline</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/apic.c.html#L907'">arch/x86/kernel/apic/apic.c:local_apic_timer_interrupt</a> (80 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/apic.c.html#L946'">arch/x86/kernel/apic/apic.c:smp_apic_timer_interrupt</a> (80 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L506'">arch/x86/kernel/apic/io_apic.c:__eoi_ioapic_pin</a> (304 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L530'">arch/x86/kernel/apic/io_apic.c:eoi_ioapic_pin</a> (96 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/apic/io_apic.c.html#L1830'">arch/x86/kernel/apic/io_apic.c:ioapic_ir_ack_level</a> (64 bytes)<br />
+12. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/check.c.html#L146'">arch/x86/kernel/check.c:check_corruption</a> (64 bytes)<br />
+13. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/hpet.c.html#L852'">arch/x86/kernel/hpet.c:read_hpet</a> (32 bytes)<br />
+14. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq.c.html#L211'">arch/x86/kernel/irq.c:do_IRQ</a> (192 bytes)<br />
+15. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq_64.c.html#L67'">arch/x86/kernel/irq_64.c:handle_irq</a> (48 bytes)<br />
+16. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/irq_work.c.html#L18'">arch/x86/kernel/irq_work.c:smp_irq_work_interrupt</a> (64 bytes)<br />
+17. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/nmi.c.html#L560'">arch/x86/kernel/nmi.c:local_touch_nmi</a> (32 bytes)<br />
+18. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/process.c.html#L235'">arch/x86/kernel/process.c:arch_cpu_idle_enter</a> (32 bytes)<br />
+19. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/process_64.c.html#L263'">arch/x86/kernel/process_64.c:__switch_to</a> (1200 bytes)<br />
+20. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/tsc_sync.c.html#L32'">arch/x86/kernel/tsc_sync.c:tsc_verify_tsc_adjust</a> (176 bytes)<br />
+21. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kvm/x86.c.html#L5966'">arch/x86/kvm/x86.c:pvclock_gtod_notify</a> (160 bytes)<br />
+22. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/tlb.c.html#L64'">arch/x86/mm/tlb.c:switch_mm</a> (48 bytes)<br />
+23. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/tlb.c.html#L74'">arch/x86/mm/tlb.c:switch_mm_irqs_off</a> (304 bytes)<br />
+24. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L685'">block/blk-core.c:blk_rq_timed_out_timer</a> (48 bytes)<br />
+25. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L354'">block/blk-core.c:blk_run_queue_async</a> (64 bytes)<br />
+26. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L3087'">block/blk-core.c:kblockd_schedule_work</a> (48 bytes)<br />
+27. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-softirq.c.html#L95'">block/blk-softirq.c:__blk_complete_request</a> (128 bytes)<br />
+28. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-softirq.c.html#L156'">block/blk-softirq.c:blk_complete_request</a> (32 bytes)<br />
+29. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L4508'">block/cfq-iosched.c:cfq_idle_slice_timer</a> (240 bytes)<br />
+30. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/apei/ghes.c.html#L667'">drivers/acpi/apei/ghes.c:ghes_add_timer</a> (80 bytes)<br />
+31. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/apei/ghes.c.html#L682'">drivers/acpi/apei/ghes.c:ghes_poll_func</a> (48 bytes)<br />
+32. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libahci.c.html#L1782'">drivers/ata/libahci.c:ahci_handle_port_interrupt</a> (1456 bytes)<br />
+33. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libahci.c.html#L1896'">drivers/ata/libahci.c:ahci_handle_port_intr</a> (176 bytes)<br />
+34. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libahci.c.html#L1924'">drivers/ata/libahci.c:ahci_single_level_irq_intr</a> (64 bytes)<br />
+35. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5044'">drivers/ata/libata-core.c:__ata_qc_complete</a> (288 bytes)<br />
+36. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5119'">drivers/ata/libata-core.c:ata_qc_complete</a> (672 bytes)<br />
+37. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5234'">drivers/ata/libata-core.c:ata_qc_complete_multiple</a> (224 bytes)<br />
+38. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L5027'">drivers/ata/libata-core.c:ata_qc_free</a> (96 bytes)<br />
+39. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L4826'">drivers/ata/libata-core.c:ata_sg_clean</a> (176 bytes)<br />
+40. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-core.c.html#L7009'">drivers/ata/libata-core.c:sata_lpm_ignore_phy_events</a> (64 bytes)<br />
+41. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-scsi.c.html#L1936'">drivers/ata/libata-scsi.c:ata_scsi_qc_complete</a> (1072 bytes)<br />
+42. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/ata/libata-sff.c.html#L1301'">drivers/ata/libata-sff.c:ata_sff_queue_pio_task</a> (112 bytes)<br />
+43. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/random.c.html#L1125'">drivers/char/random.c:add_interrupt_randomness</a> (496 bytes)<br />
+44. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1429'">drivers/cpufreq/intel_pstate.c:core_get_val</a> (64 bytes)<br />
+45. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1555'">drivers/cpufreq/intel_pstate.c:intel_pstate_get_min_max</a> (128 bytes)<br />
+46. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1755'">drivers/cpufreq/intel_pstate.c:intel_pstate_prepare_request</a> (160 bytes)<br />
+47. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1765'">drivers/cpufreq/intel_pstate.c:intel_pstate_update_pstate</a> (64 bytes)<br />
+48. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpufreq/intel_pstate.c.html#L1802'">drivers/cpufreq/intel_pstate.c:intel_pstate_update_util</a> (672 bytes)<br />
+49. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/cpuidle.c.html#L280'">drivers/cpuidle/cpuidle.c:cpuidle_enter</a> (32 bytes)<br />
+50. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/cpuidle.c.html#L186'">drivers/cpuidle/cpuidle.c:cpuidle_enter_state</a> (640 bytes)<br />
+51. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/cpuidle.c.html#L47'">drivers/cpuidle/cpuidle.c:cpuidle_not_available</a> (64 bytes)<br />
+52. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/cpuidle.c.html#L295'">drivers/cpuidle/cpuidle.c:cpuidle_reflect</a> (48 bytes)<br />
+53. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/cpuidle.c.html#L264'">drivers/cpuidle/cpuidle.c:cpuidle_select</a> (32 bytes)<br />
+54. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/driver.c.html#L338'">drivers/cpuidle/driver.c:cpuidle_get_cpu_driver</a> (32 bytes)<br />
+55. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/governors/menu.c.html#L377'">drivers/cpuidle/governors/menu.c:menu_reflect</a> (32 bytes)<br />
+56. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/cpuidle/governors/menu.c.html#L279'">drivers/cpuidle/governors/menu.c:menu_select</a> (1024 bytes)<br />
+57. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/idle/intel_idle.c.html#L908'">drivers/idle/intel_idle.c:intel_idle</a> (218 bytes)<br />
+58. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/infiniband/core/addr.c.html#L791'">drivers/infiniband/core/addr.c:netevent_callback</a> (48 bytes)<br />
+59. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/infiniband/core/addr.c.html#L296'">drivers/infiniband/core/addr.c:set_timeout</a> (64 bytes)<br />
+60. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/iommu/irq_remapping.c.html#L158'">drivers/iommu/irq_remapping.c:ir_ack_apic_edge</a> (32 bytes)<br />
+61. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/leds/led-triggers.c.html#L329'">drivers/leds/led-triggers.c:led_trigger_blink_oneshot</a> (112 bytes)<br />
+62. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/leds/trigger/ledtrig-disk.c.html#L22'">drivers/leds/trigger/ledtrig-disk.c:ledtrig_disk_activity</a> (80 bytes)<br />
+63. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_main.c.html#L5781'">drivers/net/ethernet/intel/igb/igb_main.c:igb_msix_ring</a> (112 bytes)<br />
+64. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/net/ethernet/intel/igb/igb_main.c.html#L4454'">drivers/net/ethernet/intel/igb/igb_main.c:igb_watchdog</a> (48 bytes)<br />
+65. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/scsi/scsi_lib.c.html#L1671'">drivers/scsi/scsi_lib.c:scsi_done</a> (80 bytes)<br />
+66. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L395'">drivers/video/console/fbcon.c:cursor_timer_handler</a> (80 bytes)<br />
+67. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2364'">fs/fs-writeback.c:try_to_writeback_inodes_sb</a> (64 bytes)<br />
+68. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1901'">fs/fs-writeback.c:wb_workfn</a> (896 bytes)<br />
+69. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L95'">fs/inode.c:get_nr_dirty_inodes</a> (64 bytes)<br />
+70. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L166'">fs/jbd2/journal.c:commit_timeout</a> (16 bytes)<br />
+71. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L148'">fs/timerfd.c:timerfd_get_remaining</a> (80 bytes)<br />
+72. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L70'">fs/timerfd.c:timerfd_tmrproc</a> (32 bytes)<br />
+73. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/timerfd.c.html#L59'">fs/timerfd.c:timerfd_triggered</a> (80 bytes)<br />
+74. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5389'">kernel/cgroup.c:css_killed_ref_fn</a> (96 bytes)<br />
+75. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5085'">kernel/cgroup.c:css_release</a> (96 bytes)<br />
+76. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/delayacct.c.html#L69'">kernel/delayacct.c:__delayacct_blkio_end</a> (80 bytes)<br />
+77. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/delayacct.c.html#L64'">kernel/delayacct.c:__delayacct_blkio_start</a> (48 bytes)<br />
+78. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/delayacct.c.html#L51'">kernel/delayacct.c:delayacct_end</a> (80 bytes)<br />
+79. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/exit.c.html#L1519'">kernel/exit.c:child_wait_callback</a> (96 bytes)<br />
+80. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L620'">kernel/irq/chip.c:handle_edge_irq</a> (272 bytes)<br />
+81. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L566'">kernel/irq/chip.c:handle_fasteoi_irq</a> (288 bytes)<br />
+82. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L1014'">kernel/irq/chip.c:irq_chip_ack_parent</a> (32 bytes)<br />
+83. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/chip.c.html#L369'">kernel/irq/chip.c:irq_may_run</a> (80 bytes)<br />
+84. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/handle.c.html#L134'">kernel/irq/handle.c:__handle_irq_event_percpu</a> (368 bytes)<br />
+85. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/handle.c.html#L193'">kernel/irq/handle.c:handle_irq_event</a> (48 bytes)<br />
+86. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/handle.c.html#L179'">kernel/irq/handle.c:handle_irq_event_percpu</a> (96 bytes)<br />
+87. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/irq/spurious.c.html#L270'">kernel/irq/spurious.c:note_interrupt</a> (624 bytes)<br />
+88. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kprobes.c.html#L1143'">kernel/kprobes.c:kprobe_flush_task</a> (288 bytes)<br />
+89. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L143'">kernel/kthread.c:kthread_data</a> (64 bytes)<br />
+90. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/notifier.c.html#L190'">kernel/notifier.c:atomic_notifier_call_chain</a> (32 bytes)<br />
+91. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/notifier.c.html#L75'">kernel/notifier.c:notifier_call_chain</a> (112 bytes)<br />
+92. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/notifier.c.html#L398'">kernel/notifier.c:raw_notifier_call_chain</a> (32 bytes)<br />
+93. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L394'">kernel/power/qos.c:pm_qos_request</a> (32 bytes)<br />
+94. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/profile.c.html#L398'">kernel/profile.c:profile_tick</a> (80 bytes)<br />
+95. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L99'">kernel/rcu/tiny.c:rcu_bh_qs</a> (80 bytes)<br />
+96. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L115'">kernel/rcu/tiny.c:rcu_check_callbacks</a> (48 bytes)<br />
+97. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L85'">kernel/rcu/tiny.c:rcu_sched_qs</a> (128 bytes)<br />
+98. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/auto_group.c.html#L109'">kernel/sched/auto_group.c:task_wants_autogroup</a> (48 bytes)<br />
+99. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/clock.c.html#L356'">kernel/sched/clock.c:sched_clock_idle_wakeup_event</a> (32 bytes)<br />
+100. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2196'">kernel/sched/core.c:__sched_fork</a> (320 bytes)<br />
+101. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3333'">kernel/sched/core.c:__schedule</a> (1488 bytes)<br />
+102. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L770'">kernel/sched/core.c:activate_task</a> (128 bytes)<br />
+103. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L949'">kernel/sched/core.c:check_preempt_curr</a> (144 bytes)<br />
+104. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8426'">kernel/sched/core.c:cpu_cgroup_fork</a> (64 bytes)<br />
+105. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L778'">kernel/sched/core.c:deactivate_task</a> (160 bytes)<br />
+106. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3624'">kernel/sched/core.c:default_wake_function</a> (32 bytes)<br />
+107. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2731'">kernel/sched/core.c:finish_task_switch</a> (464 bytes)<br />
+108. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2967'">kernel/sched/core.c:get_iowait_load</a> (32 bytes)<br />
+109. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3856'">kernel/sched/core.c:idle_cpu</a> (48 bytes)<br />
+110. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L5063'">kernel/sched/core.c:io_schedule_timeout</a> (240 bytes)<br />
+111. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2961'">kernel/sched/core.c:nr_iowait_cpu</a> (32 bytes)<br />
+112. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L480'">kernel/sched/core.c:resched_curr</a> (48 bytes)<br />
+113. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7949'">kernel/sched/core.c:sched_change_group</a> (160 bytes)<br />
+114. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2370'">kernel/sched/core.c:sched_fork</a> (432 bytes)<br />
+115. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L7978'">kernel/sched/core.c:sched_move_task</a> (320 bytes)<br />
+116. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2837'">kernel/sched/core.c:schedule_tail</a> (64 bytes)<br />
+117. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3075'">kernel/sched/core.c:scheduler_tick</a> (96 bytes)<br />
+118. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L202'">kernel/sched/core.c:task_rq_lock</a> (80 bytes)<br />
+119. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3032'">kernel/sched/core.c:task_sched_runtime</a> (144 bytes)<br />
+120. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2008'">kernel/sched/core.c:try_to_wake_up</a> (448 bytes)<br />
+121. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L1639'">kernel/sched/core.c:ttwu_stat</a> (80 bytes)<br />
+122. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L98'">kernel/sched/core.c:update_rq_clock</a> (96 bytes)<br />
+123. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2561'">kernel/sched/core.c:wake_up_new_task</a> (208 bytes)<br />
+124. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2163'">kernel/sched/core.c:wake_up_process</a> (32 bytes)<br />
+125. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2169'">kernel/sched/core.c:wake_up_state</a> (32 bytes)<br />
+126. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cpuacct.c.html#L369'">kernel/sched/cpuacct.c:cpuacct_account_field</a> (64 bytes)<br />
+127. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cpuacct.c.html#L347'">kernel/sched/cpuacct.c:cpuacct_charge</a> (96 bytes)<br />
+128. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L524'">kernel/sched/cputime.c:account_idle_ticks</a> (128 bytes)<br />
+129. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L491'">kernel/sched/cputime.c:account_process_tick</a> (224 bytes)<br />
+130. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L199'">kernel/sched/cputime.c:account_system_time</a> (272 bytes)<br />
+131. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/cputime.c.html#L131'">kernel/sched/cputime.c:account_user_time</a> (112 bytes)<br />
+132. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/deadline.c.html#L1120'">kernel/sched/deadline.c:pick_next_task_dl</a> (176 bytes)<br />
+133. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/deadline.c.html#L1176'">kernel/sched/deadline.c:put_prev_task_dl</a> (16 bytes)<br />
+134. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L228'">kernel/sched/fair.c:__calc_delta</a> (256 bytes)<br />
+135. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L544'">kernel/sched/fair.c:__enqueue_entity</a> (112 bytes)<br />
+136. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9060'">kernel/sched/fair.c:attach_entity_cfs_rq</a> (112 bytes)<br />
+137. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9096'">kernel/sched/fair.c:attach_task_cfs_rq</a> (96 bytes)<br />
+138. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L4492'">kernel/sched/fair.c:check_cfs_rq_runtime</a> (80 bytes)<br />
+139. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6131'">kernel/sched/fair.c:check_preempt_wakeup</a> (544 bytes)<br />
+140. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3461'">kernel/sched/fair.c:check_spread</a> (32 bytes)<br />
+141. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3638'">kernel/sched/fair.c:clear_buddies</a> (240 bytes)<br />
+142. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3653'">kernel/sched/fair.c:dequeue_entity</a> (880 bytes)<br />
+143. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L4779'">kernel/sched/fair.c:dequeue_task_fair</a> (288 bytes)<br />
+144. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9079'">kernel/sched/fair.c:detach_task_cfs_rq</a> (144 bytes)<br />
+145. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3561'">kernel/sched/fair.c:enqueue_entity</a> (1344 bytes)<br />
+146. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L4723'">kernel/sched/fair.c:enqueue_task_fair</a> (272 bytes)<br />
+147. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9197'">kernel/sched/fair.c:free_fair_sched_group</a> (128 bytes)<br />
+148. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L4696'">kernel/sched/fair.c:hrtick_update</a> (80 bytes)<br />
+149. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L647'">kernel/sched/fair.c:init_entity_runnable_average</a> (16 bytes)<br />
+150. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9255'">kernel/sched/fair.c:online_fair_sched_group</a> (112 bytes)<br />
+151. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3778'">kernel/sched/fair.c:pick_next_entity</a> (304 bytes)<br />
+152. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6215'">kernel/sched/fair.c:pick_next_task_fair</a> (432 bytes)<br />
+153. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3476'">kernel/sched/fair.c:place_entity</a> (128 bytes)<br />
+154. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L830'">kernel/sched/fair.c:post_init_entity_util_avg</a> (16 bytes)<br />
+155. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9028'">kernel/sched/fair.c:propagate_entity_cfs_rq</a> (96 bytes)<br />
+156. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3830'">kernel/sched/fair.c:put_prev_entity</a> (256 bytes)<br />
+157. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6348'">kernel/sched/fair.c:put_prev_task_fair</a> (64 bytes)<br />
+158. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L683'">kernel/sched/fair.c:sched_slice</a> (160 bytes)<br />
+159. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9134'">kernel/sched/fair.c:set_curr_task_fair</a> (96 bytes)<br />
+160. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6113'">kernel/sched/fair.c:set_next_buddy</a> (64 bytes)<br />
+161. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3736'">kernel/sched/fair.c:set_next_entity</a> (432 bytes)<br />
+162. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L9184'">kernel/sched/fair.c:task_change_group_fair</a> (144 bytes)<br />
+163. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L8945'">kernel/sched/fair.c:task_fork_fair</a> (208 bytes)<br />
+164. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L8926'">kernel/sched/fair.c:task_tick_fair</a> (288 bytes)<br />
+165. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L2691'">kernel/sched/fair.c:update_cfs_shares</a> (256 bytes)<br />
+166. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L841'">kernel/sched/fair.c:update_curr</a> (352 bytes)<br />
+167. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L876'">kernel/sched/fair.c:update_curr_fair</a> (32 bytes)<br />
+168. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L509'">kernel/sched/fair.c:update_min_vruntime</a> (96 bytes)<br />
+169. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L6089'">kernel/sched/fair.c:wakeup_preempt_entity</a> (80 bytes)<br />
+170. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle.c.html#L39'">kernel/sched/idle.c:arch_cpu_idle_exit</a> (64 bytes)<br />
+171. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle.c.html#L101'">kernel/sched/idle.c:call_cpuidle</a> (64 bytes)<br />
+172. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle.c.html#L324'">kernel/sched/idle.c:cpu_startup_entry</a> (32 bytes)<br />
+173. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle.c.html#L207'">kernel/sched/idle.c:do_idle</a> (416 bytes)<br />
+174. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle.c.html#L25'">kernel/sched/idle.c:sched_idle_set_state</a> (32 bytes)<br />
+175. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle_task.c.html#L26'">kernel/sched/idle_task.c:pick_next_task_idle</a> (64 bytes)<br />
+176. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle_task.c.html#L47'">kernel/sched/idle_task.c:put_prev_task_idle</a> (16 bytes)<br />
+177. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle_task.c.html#L52'">kernel/sched/idle_task.c:task_tick_idle</a> (16 bytes)<br />
+178. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L351'">kernel/sched/loadavg.c:calc_global_load</a> (528 bytes)<br />
+179. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L384'">kernel/sched/loadavg.c:calc_global_load_tick</a> (144 bytes)<br />
+180. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L181'">kernel/sched/loadavg.c:calc_load_enter_idle</a> (96 bytes)<br />
+181. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/loadavg.c.html#L198'">kernel/sched/loadavg.c:calc_load_exit_idle</a> (80 bytes)<br />
+182. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1270'">kernel/sched/rt.c:dequeue_rt_stack</a> (336 bytes)<br />
+183. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1329'">kernel/sched/rt.c:dequeue_task_rt</a> (48 bytes)<br />
+184. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L989'">kernel/sched/rt.c:dequeue_top_rt_rq</a> (64 bytes)<br />
+185. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1316'">kernel/sched/rt.c:enqueue_task_rt</a> (448 bytes)<br />
+186. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1005'">kernel/sched/rt.c:enqueue_top_rt_rq</a> (64 bytes)<br />
+187. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1525'">kernel/sched/rt.c:pick_next_task_rt</a> (176 bytes)<br />
+188. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1572'">kernel/sched/rt.c:put_prev_task_rt</a> (16 bytes)<br />
+189. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L16'">kernel/sched/rt.c:sched_rt_period_timer</a> (480 bytes)<br />
+190. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L946'">kernel/sched/rt.c:update_curr_rt</a> (384 bytes)<br />
+191. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/stop_task.c.html#L26'">kernel/sched/stop_task.c:pick_next_task_stop</a> (80 bytes)<br />
+192. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L240'">kernel/softirq.c:__do_softirq</a> (640 bytes)<br />
+193. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L137'">kernel/softirq.c:__local_bh_enable</a> (80 bytes)<br />
+194. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L440'">kernel/softirq.c:__raise_softirq_irqoff</a> (80 bytes)<br />
+195. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L151'">kernel/softirq.c:_local_bh_enable</a> (80 bytes)<br />
+196. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L335'">kernel/softirq.c:irq_enter</a> (80 bytes)<br />
+197. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L393'">kernel/softirq.c:irq_exit</a> (176 bytes)<br />
+198. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/softirq.c.html#L431'">kernel/softirq.c:raise_softirq</a> (160 bytes)<br />
+199. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/clockevents.c.html#L306'">kernel/time/clockevents.c:clockevents_program_event</a> (288 bytes)<br />
+200. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/clockevents.c.html#L240'">kernel/time/clockevents.c:clockevents_program_min_delta</a> (256 bytes)<br />
+201. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/clocksource.c.html#L169'">kernel/time/clocksource.c:clocksource_watchdog</a> (672 bytes)<br />
+202. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1075'">kernel/time/hrtimer.c:__hrtimer_get_remaining</a> (64 bytes)<br />
+203. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1266'">kernel/time/hrtimer.c:__hrtimer_run_queues</a> (512 bytes)<br />
+204. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L889'">kernel/time/hrtimer.c:__remove_hrtimer</a> (112 bytes)<br />
+205. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1470'">kernel/time/hrtimer.c:do_nanosleep</a> (208 bytes)<br />
+206. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L866'">kernel/time/hrtimer.c:enqueue_hrtimer</a> (112 bytes)<br />
+207. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1159'">kernel/time/hrtimer.c:hrtimer_active</a> (80 bytes)<br />
+208. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1058'">kernel/time/hrtimer.c:hrtimer_cancel</a> (32 bytes)<br />
+209. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L554'">kernel/time/hrtimer.c:hrtimer_force_reprogram</a> (144 bytes)<br />
+210. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L822'">kernel/time/hrtimer.c:hrtimer_forward</a> (320 bytes)<br />
+211. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1097'">kernel/time/hrtimer.c:hrtimer_get_next_event</a> (144 bytes)<br />
+212. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1312'">kernel/time/hrtimer.c:hrtimer_interrupt</a> (400 bytes)<br />
+213. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1535'">kernel/time/hrtimer.c:hrtimer_nanosleep</a> (464 bytes)<br />
+214. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1421'">kernel/time/hrtimer.c:hrtimer_run_queues</a> (160 bytes)<br />
+215. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L971'">kernel/time/hrtimer.c:hrtimer_start_range_ns</a> (544 bytes)<br />
+216. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1023'">kernel/time/hrtimer.c:hrtimer_try_to_cancel</a> (208 bytes)<br />
+217. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/hrtimer.c.html#L1450'">kernel/time/hrtimer.c:hrtimer_wakeup</a> (48 bytes)<br />
+218. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L282'">kernel/time/itimer.c:SyS_alarm</a> (112 bytes)<br />
+219. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L189'">kernel/time/itimer.c:do_setitimer</a> (480 bytes)<br />
+220. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L26'">kernel/time/itimer.c:itimer_get_remtime</a> (80 bytes)<br />
+221. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/ntp.c.html#L377'">kernel/time/ntp.c:ntp_get_next_leap</a> (80 bytes)<br />
+222. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/ntp.c.html#L366'">kernel/time/ntp.c:ntp_tick_length</a> (32 bytes)<br />
+223. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/ntp.c.html#L397'">kernel/time/ntp.c:second_overflow</a> (736 bytes)<br />
+224. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1151'">kernel/time/posix-cpu-timers.c:run_posix_cpu_timers</a> (1968 bytes)<br />
+225. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-broadcast.c.html#L537'">kernel/time/tick-broadcast.c:tick_check_broadcast_expired</a> (32 bytes)<br />
+226. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-broadcast.c.html#L577'">kernel/time/tick-broadcast.c:tick_check_oneshot_broadcast_this_cpu</a> (64 bytes)<br />
+227. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-oneshot.c.html#L26'">kernel/time/tick-oneshot.c:tick_program_event</a> (112 bytes)<br />
+228. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L902'">kernel/time/tick-sched.c:__tick_nohz_idle_enter</a> (832 bytes)<br />
+229. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L50'">kernel/time/tick-sched.c:tick_do_update_jiffies64</a> (208 bytes)<br />
+230. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L1129'">kernel/time/tick-sched.c:tick_irq_enter</a> (176 bytes)<br />
+231. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L984'">kernel/time/tick-sched.c:tick_nohz_get_sleep_length</a> (32 bytes)<br />
+232. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L938'">kernel/time/tick-sched.c:tick_nohz_idle_enter</a> (96 bytes)<br />
+233. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L1019'">kernel/time/tick-sched.c:tick_nohz_idle_exit</a> (304 bytes)<br />
+234. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L969'">kernel/time/tick-sched.c:tick_nohz_irq_exit</a> (32 bytes)<br />
+235. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L645'">kernel/time/tick-sched.c:tick_nohz_restart</a> (144 bytes)<br />
+236. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L132'">kernel/time/tick-sched.c:tick_sched_handle</a> (96 bytes)<br />
+237. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L1143'">kernel/time/tick-sched.c:tick_sched_timer</a> (160 bytes)<br />
+238. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/tick-sched.c.html#L528'">kernel/time/tick-sched.c:update_ts_time_stats</a> (128 bytes)<br />
+239. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L529'">kernel/time/time.c:__usecs_to_jiffies</a> (64 bytes)<br />
+240. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L268'">kernel/time/time.c:jiffies_to_usecs</a> (32 bytes)<br />
+241. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L420'">kernel/time/time.c:ns_to_timeval</a> (128 bytes)<br />
+242. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L2210'">kernel/time/timekeeping.c:do_timer</a> (32 bytes)<br />
+243. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L715'">kernel/time/timekeeping.c:ktime_get</a> (176 bytes)<br />
+244. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L2230'">kernel/time/timekeeping.c:ktime_get_update_offsets_now</a> (256 bytes)<br />
+245. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L1430'">kernel/time/timekeeping.c:timekeeping_max_deferment</a> (80 bytes)<br />
+246. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L612'">kernel/time/timekeeping.c:timekeeping_update</a> (336 bytes)<br />
+247. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L342'">kernel/time/timekeeping.c:update_fast_timekeeper</a> (144 bytes)<br />
+248. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timekeeping.c.html#L2050'">kernel/time/timekeeping.c:update_wall_time</a> (1856 bytes)<br />
+249. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L522'">kernel/time/timer.c:__internal_add_timer</a> (96 bytes)<br />
+250. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1402'">kernel/time/timer.c:__next_timer_interrupt</a> (224 bytes)<br />
+251. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1113'">kernel/time/timer.c:add_timer</a> (416 bytes)<br />
+252. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1127'">kernel/time/timer.c:add_timer_on</a> (336 bytes)<br />
+253. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L473'">kernel/time/timer.c:calc_wheel_index</a> (304 bytes)<br />
+254. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1283'">kernel/time/timer.c:call_timer_fn</a> (256 bytes)<br />
+255. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1170'">kernel/time/timer.c:del_timer</a> (96 bytes)<br />
+256. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L831'">kernel/time/timer.c:detach_if_pending</a> (176 bytes)<br />
+257. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1503'">kernel/time/timer.c:get_next_timer_interrupt</a> (224 bytes)<br />
+258. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L935'">kernel/time/timer.c:lock_timer_base</a> (112 bytes)<br />
+259. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1093'">kernel/time/timer.c:mod_timer</a> (624 bytes)<br />
+260. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1679'">kernel/time/timer.c:process_timeout</a> (16 bytes)<br />
+261. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L380'">kernel/time/timer.c:round_jiffies_relative</a> (112 bytes)<br />
+262. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1662'">kernel/time/timer.c:run_local_timers</a> (80 bytes)<br />
+263. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1650'">kernel/time/timer.c:run_timer_softirq</a> (1040 bytes)<br />
+264. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1713'">kernel/time/timer.c:schedule_timeout</a> (656 bytes)<br />
+265. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1768'">kernel/time/timer.c:schedule_timeout_interruptible</a> (32 bytes)<br />
+266. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1555'">kernel/time/timer.c:timer_clear_idle</a> (32 bytes)<br />
+267. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L530'">kernel/time/timer.c:trigger_dyntick_cpu</a> (48 bytes)<br />
+268. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/timer.c.html#L1604'">kernel/time/timer.c:update_process_times</a> (96 bytes)<br />
+269. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/tsacct.c.html#L125'">kernel/tsacct.c:__acct_update_integrals</a> (144 bytes)<br />
+270. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/tsacct.c.html#L170'">kernel/tsacct.c:acct_account_cputime</a> (32 bytes)<br />
+271. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/tsacct.c.html#L155'">kernel/tsacct.c:acct_update_integrals</a> (64 bytes)<br />
+272. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L650'">kernel/watchdog.c:touch_softlockup_watchdog_sched</a> (32 bytes)<br />
+273. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/watchdog.c.html#L257'">kernel/watchdog.c:watchdog_timer_fn</a> (464 bytes)<br />
+274. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2990'">kernel/workqueue.c:__cancel_work</a> (192 bytes)<br />
+275. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1504'">kernel/workqueue.c:__queue_delayed_work</a> (384 bytes)<br />
+276. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1363'">kernel/workqueue.c:__queue_work</a> (848 bytes)<br />
+277. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3031'">kernel/workqueue.c:cancel_delayed_work</a> (32 bytes)<br />
+278. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L4147'">kernel/workqueue.c:current_is_workqueue_rescuer</a> (64 bytes)<br />
+279. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1494'">kernel/workqueue.c:delayed_work_timer_fn</a> (32 bytes)<br />
+280. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1059'">kernel/workqueue.c:get_pwq</a> (64 bytes)<br />
+281. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L706'">kernel/workqueue.c:get_work_pool</a> (96 bytes)<br />
+282. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1293'">kernel/workqueue.c:insert_work</a> (192 bytes)<br />
+283. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1587'">kernel/workqueue.c:mod_delayed_work_on</a> (112 bytes)<br />
+284. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1549'">kernel/workqueue.c:queue_delayed_work_on</a> (80 bytes)<br />
+285. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1477'">kernel/workqueue.c:queue_work_on</a> (64 bytes)<br />
+286. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L4238'">kernel/workqueue.c:set_worker_desc</a> (144 bytes)<br />
+287. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1206'">kernel/workqueue.c:try_to_grab_pending</a> (336 bytes)<br />
+288. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L875'">kernel/workqueue.c:wq_worker_sleeping</a> (128 bytes)<br />
+289. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L851'">kernel/workqueue.c:wq_worker_waking_up</a> (112 bytes)<br />
+290. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/random32.c.html#L218'">lib/random32.c:__prandom_timer</a> (112 bytes)<br />
+291. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/backing-dev.c.html#L272'">mm/backing-dev.c:wb_wakeup_delayed</a> (112 bytes)<br />
+292. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page-writeback.c.html#L626'">mm/page-writeback.c:writeout_period</a> (144 bytes)<br />
+293. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slub.c.html#L3102'">mm/slub.c:kmem_cache_free_bulk</a> (736 bytes)<br />
+294. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L4877'">net/core/dev.c:__napi_schedule</a> (80 bytes)<br />
+295. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2363'">net/core/dev.c:__netif_reschedule</a> (96 bytes)<br />
+296. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L1639'">net/core/dev.c:call_netdevice_notifiers_info</a> (96 bytes)<br />
+297. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L5244'">net/core/dev.c:net_rx_action</a> (784 bytes)<br />
+298. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2393'">net/core/dev.c:netif_schedule_queue</a> (32 bytes)<br />
+299. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L2427'">net/core/dev.c:netif_tx_wake_queue</a> (64 bytes)<br />
+300. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L165'">net/core/neighbour.c:neigh_add_timer</a> (64 bytes)<br />
+301. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L175'">net/core/neighbour.c:neigh_del_timer</a> (96 bytes)<br />
+302. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L740'">net/core/neighbour.c:neigh_periodic_work</a> (464 bytes)<br />
+303. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/neighbour.c.html#L111'">net/core/neighbour.c:neigh_rand_reach_time</a> (80 bytes)<br />
+304. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/netevent.c.html#L62'">net/core/netevent.c:call_netevent_notifiers</a> (32 bytes)<br />
+305. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L113'">net/core/rtnetlink.c:rtnl_is_locked</a> (32 bytes)<br />
+306. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L67'">net/core/rtnetlink.c:rtnl_lock</a> (32 bytes)<br />
+307. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L760'">net/core/skbuff.c:__kfree_skb_flush</a> (64 bytes)<br />
+308. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L2435'">net/core/sock.c:sk_reset_timer</a> (48 bytes)<br />
+309. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L2442'">net/core/sock.c:sk_stop_timer</a> (48 bytes)<br />
+310. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_connection_sock.c.html#L383'">net/ipv4/inet_connection_sock.c:inet_csk_clear_xmit_timers</a> (80 bytes)<br />
+311. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_connection_sock.c.html#L401'">net/ipv4/inet_connection_sock.c:inet_csk_reset_keepalive_timer</a> (48 bytes)<br />
+312. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L3009'">net/ipv4/tcp_input.c:tcp_rearm_rto</a> (240 bytes)<br />
+313. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L68'">net/ipv4/tcp_output.c:tcp_event_new_data_sent</a> (144 bytes)<br />
+314. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L2284'">net/ipv4/tcp_output.c:tcp_schedule_loss_probe</a> (416 bytes)<br />
+315. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_timer.c.html#L301'">net/ipv4/tcp_timer.c:tcp_delack_timer</a> (112 bytes)<br />
+316. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_timer.c.html#L585'">net/ipv4/tcp_timer.c:tcp_write_timer</a> (80 bytes)<br />
+317. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L4219'">net/ipv6/addrconf.c:addrconf_verify_rtnl</a> (880 bytes)<br />
+318. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L4334'">net/ipv6/addrconf.c:addrconf_verify_work</a> (32 bytes)<br />
+319. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_fib.c.html#L1813'">net/ipv6/ip6_fib.c:fib6_gc_timer_cb</a> (32 bytes)<br />
+320. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_fib.c.html#L1784'">net/ipv6/ip6_fib.c:fib6_run_gc</a> (160 bytes)<br />
+321. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L286'">net/sched/sch_generic.c:dev_watchdog</a> (464 bytes)<br />
 <br /><br />
-<strong> Compartment 1 accesses 4 objects:</strong><br />
-1. Globar var system_wq <br />
-2. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
-3. KMEM_CACHE alloc from drivers/pnp/core.c:pnp_alloc_dev <br />
-4. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
+<strong> Compartment 1 accesses 244 objects:</strong><br />
+1. ALLOC_PAGES alloc from arch/x86/kernel/pci-dma.c:dma_generic_alloc_coherent <br />
+2. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
+3. Global var __start_init_task <br />
+4. Global var addr_chk_work <br />
+5. Global var ahci_ops <br />
+6. Global var alternatives_patched <br />
+7. Global var apic <br />
+8. Global var arp_netdev_notifier <br />
+9. Global var arp_tbl <br />
+10. Global var autogroup_default <br />
+11. Global var bios_check_work <br />
+12. Global var blk_cpu_done <br />
+13. Global var blocking_pool <br />
+14. Global var calc_load_idle <br />
+15. Global var check_lifetime_work <br />
+16. Global var clocksource_hpet <br />
+17. Global var clocksource_tsc <br />
+18. Global var cma_nb <br />
+19. Global var cnic_netdev_notifier <br />
+20. Global var console_timer <br />
+21. Global var console_work <br />
+22. Global var cpu_dma_constraints <br />
+23. Global var cpu_dma_pm_qos <br />
+24. Global var cpufreq_update_util_data <br />
+25. Global var cpuidle_curr_governor <br />
+26. Global var crypto_chain <br />
+27. Global var cryptomgr_notifier <br />
+28. Global var cxgb4_inet6addr_notifier <br />
+29. Global var def_rt_bandwidth <br />
+30. Global var delayed_fput_work <br />
+31. Global var die_chain <br />
+32. Global var dirty_writeback_interval <br />
+33. Global var dl_sched_class <br />
+34. Global var dma_ops <br />
+35. Global var dst_dev_notifier <br />
+36. Global var fair_sched_class <br />
+37. Global var fb_notifier_list <br />
+38. Global var fbcon_event_notifier <br />
+39. Global var fib_chain <br />
+40. Global var fib_inetaddr_notifier <br />
+41. Global var fib_netdev_notifier <br />
+42. Global var fib_rules_notifier <br />
+43. Global var flush_works <br />
+44. Global var force_irqthreads <br />
+45. Global var fsnotify_mark_srcu <br />
+46. Global var global_wb_domain <br />
+47. Global var hw_breakpoint_exceptions_nb <br />
+48. Global var idle_sched_class <br />
+49. Global var igmp_notifier <br />
+50. Global var inet6_addr_lst <br />
+51. Global var inet6addr_chain <br />
+52. Global var inetaddr_chain <br />
+53. Global var init_css_set <br />
+54. Global var init_net <br />
+55. Global var init_signals <br />
+56. Global var init_task <br />
+57. Global var intel_idle_driver <br />
+58. Global var intel_ir_chip <br />
+59. Global var ioapics <br />
+60. Global var ip6_mr_notifier <br />
+61. Global var ip6_route_dev_notifier <br />
+62. Global var ip_mr_notifier <br />
+63. Global var ip_netdev_notifier <br />
+64. Global var ipv6_dev_notf <br />
+65. Global var jiffies_64 <br />
+66. Global var jiffies_lock <br />
+67. Global var key_gc_timer <br />
+68. Global var key_gc_work <br />
+69. Global var kprobe_exceptions_nb <br />
+70. Global var kretprobe_inst_table <br />
+71. Global var kvm_clock <br />
+72. Global var lapic_controller <br />
+73. Global var linkwatch_work <br />
+74. Global var lru_add_drain_work <br />
+75. Global var menu_governor <br />
+76. Global var nb <br />
+77. Global var nb_inet6addr <br />
+78. Global var nb_inetaddr <br />
+79. Global var nb_netdevice <br />
+80. Global var nd_tbl <br />
+81. Global var ndisc_netdev_notifier <br />
+82. Global var net_cleanup_work <br />
+83. Global var netdev_chain <br />
+84. Global var netevent_notif_chain <br />
+85. Global var netlbl_unlhsh_netdev_notifier <br />
+86. Global var netprio_device_notifier <br />
+87. Global var netstamp_work <br />
+88. Global var noirqdebug <br />
+89. Global var noop_qdisc <br />
+90. Global var packet_netdev_notifier <br />
+91. Global var pci_msi_controller <br />
+92. Global var pci_msi_ir_controller <br />
+93. Global var pci_pme_work <br />
+94. Global var perf_sched_work <br />
+95. Global var piix_pata_ops <br />
+96. Global var pm_qos_array <br />
+97. Global var powersave_limits <br />
+98. Global var prof_on <br />
+99. Global var pvclock_gtod_chain <br />
+100. Global var pvclock_gtod_notifier <br />
+101. Global var reaper_work <br />
+102. Global var root_cpuacct <br />
+103. Global var root_cpuacct_cpuusage <br />
+104. Global var root_task_group <br />
+105. Global var rt_sched_class <br />
+106. Global var rtnetlink_dev_notifier <br />
+107. Global var sched_rr_timeslice <br />
+108. Global var seed_timer <br />
+109. Global var shadow_timekeeper <br />
+110. Global var softirq_vec <br />
+111. Global var softnet_data <br />
+112. Global var stop_sched_class <br />
+113. Global var suspend_freeze_state <br />
+114. Global var swiotlb_dma_ops <br />
+115. Global var sync_cmos_work <br />
+116. Global var sysctl_sched_autogroup_enabled <br />
+117. Global var sysctl_sched_rt_runtime <br />
+118. Global var sysctl_tcp_early_retrans <br />
+119. Global var system_freezing_cnt <br />
+120. Global var system_power_efficient_wq <br />
+121. Global var system_wq <br />
+122. Global var task_free_notifier <br />
+123. Global var tick_do_timer_cpu <br />
+124. Global var tick_next_period <br />
+125. Global var tick_period <br />
+126. Global var timekeeping_suspended <br />
+127. Global var timer_stats_active <br />
+128. Global var tk_core <br />
+129. Global var tk_fast_mono <br />
+130. Global var tk_fast_raw <br />
+131. Global var uprobe_exception_nb <br />
+132. Global var vm_node_stat <br />
+133. Global var vt_notifier_list <br />
+134. Global var watchdog_hrtimer <br />
+135. Global var watchdog_timer <br />
+136. Global var work <br />
+137. KMALLOC alloc from drivers/ata/libata-core.c:ata_port_alloc <br />
+138. KMEM_CACHE alloc from arch/x86/kernel/apic/io_apic.c:__add_pin_to_irq_node <br />
+139. KMEM_CACHE alloc from arch/x86/kernel/apic/io_apic.c:mp_irqdomain_alloc <br />
+140. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
+141. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
+142. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+143. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br />
+144. KMEM_CACHE alloc from block/blk-ioc.c:create_task_io_context <br />
+145. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br />
+146. KMEM_CACHE alloc from block/blk-throttle.c:throtl_pd_alloc <br />
+147. KMEM_CACHE alloc from block/blk-wbt.c:wbt_init <br />
+148. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br />
+149. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br />
+150. KMEM_CACHE alloc from block/genhd.c:device_add_disk <br />
+151. KMEM_CACHE alloc from drivers/acpi/apei/ghes.c:ghes_probe <br />
+152. KMEM_CACHE alloc from drivers/acpi/osl.c:acpi_os_execute <br />
+153. KMEM_CACHE alloc from drivers/base/core.c:device_create_groups_vargs <br />
+154. KMEM_CACHE alloc from drivers/base/devres.c:devm_kmalloc <br />
+155. KMEM_CACHE alloc from drivers/base/devres.c:devres_alloc_node <br />
+156. KMEM_CACHE alloc from drivers/base/power/wakeup.c:wakeup_source_create <br />
+157. KMEM_CACHE alloc from drivers/cpufreq/intel_pstate.c:intel_pstate_init_cpu <br />
+158. KMEM_CACHE alloc from drivers/infiniband/core/roce_gid_mgmt.c:netdevice_event <br />
+159. KMEM_CACHE alloc from drivers/input/input.c:input_allocate_device <br />
+160. KMEM_CACHE alloc from drivers/leds/led-triggers.c:led_trigger_register_simple <br />
+161. KMEM_CACHE alloc from drivers/net/ethernet/intel/igb/igb_main.c:igb_alloc_q_vector <br />
+162. KMEM_CACHE alloc from drivers/net/virtio_net.c:init_vqs <br />
+163. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br />
+164. KMEM_CACHE alloc from drivers/rtc/class.c:rtc_device_register <br />
+165. KMEM_CACHE alloc from drivers/scsi/scsi.c:scsi_host_alloc_command <br />
+166. KMEM_CACHE alloc from drivers/scsi/scsi_scan.c:scsi_alloc_sdev <br />
+167. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+168. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
+169. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
+170. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
+171. KMEM_CACHE alloc from drivers/video/console/fbcon.c:fbcon_startup <br />
+172. KMEM_CACHE alloc from drivers/video/fbdev/core/fbsysfs.c:framebuffer_alloc <br />
+173. KMEM_CACHE alloc from fs/aio.c:ioctx_alloc <br />
+174. KMEM_CACHE alloc from fs/direct-io.c:do_blockdev_direct_IO <br />
+175. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
+176. KMEM_CACHE alloc from fs/fs-writeback.c:bdi_split_work_to_wbs <br />
+177. KMEM_CACHE alloc from fs/fs-writeback.c:wb_start_writeback <br />
+178. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br />
+179. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+180. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+181. KMEM_CACHE alloc from fs/timerfd.c:SyS_timerfd_create <br />
+182. KMEM_CACHE alloc from kernel/acct.c:SyS_acct <br />
+183. KMEM_CACHE alloc from kernel/bpf/core.c:bpf_prog_alloc <br />
+184. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
+185. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+186. KMEM_CACHE alloc from kernel/cgroup.c:find_css_set <br />
+187. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
+188. KMEM_CACHE alloc from kernel/delayacct.c:__delayacct_tsk_init <br />
+189. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+190. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+191. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+192. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
+193. KMEM_CACHE alloc from kernel/irq/irqdesc.c:alloc_desc <br />
+194. KMEM_CACHE alloc from kernel/irq/irqdomain.c:__irq_domain_alloc_irqs <br />
+195. KMEM_CACHE alloc from kernel/irq/manage.c:request_threaded_irq <br />
+196. KMEM_CACHE alloc from kernel/kmod.c:__request_module <br />
+197. KMEM_CACHE alloc from kernel/kmod.c:call_usermodehelper <br />
+198. KMEM_CACHE alloc from kernel/kmod.c:call_usermodehelper_setup <br />
+199. KMEM_CACHE alloc from kernel/kthread.c:kthread <br />
+200. KMEM_CACHE alloc from kernel/pid_namespace.c:copy_pid_ns <br />
+201. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
+202. KMEM_CACHE alloc from kernel/sched/auto_group.c:sched_autogroup_create_attach <br />
+203. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
+204. KMEM_CACHE alloc from kernel/sched/core.c:sched_init <br />
+205. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
+206. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+207. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+208. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+209. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br />
+210. KMEM_CACHE alloc from kernel/time/posix-timers.c:SyS_timer_create <br />
+211. KMEM_CACHE alloc from kernel/tracepoint.c:tracepoint_probe_register_prio <br />
+212. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
+213. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
+214. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
+215. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
+216. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
+217. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
+218. KMEM_CACHE alloc from lib/idr.c:idr_layer_alloc <br />
+219. KMEM_CACHE alloc from lib/once.c:__do_once_done <br />
+220. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
+221. KMEM_CACHE alloc from mm/memcontrol.c:memcg_kmem_get_cache <br />
+222. KMEM_CACHE alloc from mm/swapfile.c:SyS_swapon <br />
+223. KMEM_CACHE alloc from mm/util.c:kmemdup <br />
+224. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+225. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+226. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+227. KMEM_CACHE alloc from net/core/neighbour.c:__neigh_create <br />
+228. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+229. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+230. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+231. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+232. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_init <br />
+233. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
+234. KMEM_CACHE alloc from net/ipv4/ipmr.c:ipmr_net_init <br />
+235. KMEM_CACHE alloc from net/ipv4/tcp_input.c:inet_reqsk_alloc <br />
+236. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_addr <br />
+237. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
+238. KMEM_CACHE alloc from net/ipv6/ip6mr.c:ip6mr_new_table <br />
+239. KMEM_CACHE alloc from net/ipv6/seg6.c:seg6_net_init <br />
+240. KMEM_CACHE alloc from net/netlink/af_netlink.c:netlink_proto_init <br />
+241. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
+242. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
+243. KMEM_CACHE alloc from slab.h:kzalloc <br />
+244. VMALLOC alloc from drivers/cpufreq/intel_pstate.c:intel_pstate_init <br />
 </html>

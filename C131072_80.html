@@ -5,56 +5,17 @@ Viewing compartment: 80 of 381<br />
 <a href='C131072_79.html'> Prev</a>
 <a href='C131072_81.html'> Next</a>
 <br /><br />
-<strong> Compartment 80 is 1248 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/ablkcipher.c.html#L397'">crypto/ablkcipher.c:crypto_ablkcipher_show</a>(208 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/aead.c.html#L135'">crypto/aead.c:crypto_aead_show</a>(160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/ahash.c.html#L496'">crypto/ahash.c:crypto_ahash_show</a>(128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/akcipher.c.html#L51'">crypto/akcipher.c:crypto_akcipher_show</a>(32 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/proc.c.html#L40'">crypto/proc.c:c_show</a>(432 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/scompress.c.html#L61'">crypto/scompress.c:crypto_scomp_show</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L406'">crypto/shash.c:crypto_shash_show</a>(80 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/skcipher.c.html#L810'">crypto/skcipher.c:crypto_skcipher_show</a>(176 bytes)<br />
+<strong> Compartment 80 is 1024 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L966'">arch/x86/events/core.c:collect_events</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/core.c.html#L1190'">arch/x86/events/core.c:x86_pmu_add</a> (208 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/events/intel/core.c.html#L1990'">arch/x86/events/intel/core.c:intel_pmu_add_event</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/events/core.c.html#L2039'">kernel/events/core.c:event_sched_in</a> (592 bytes)<br />
 <br /><br />
-<strong> Compartment 80 accesses 41 objects:</strong><br />
-1. Globar var aes_alg <br />
-2. Globar var aes_alg <br />
-3. Globar var aesni_aead_algs <br />
-4. Globar var aesni_algs <br />
-5. Globar var aesni_skciphers <br />
-6. Globar var alg <br />
-7. Globar var alg <br />
-8. Globar var alg <br />
-9. Globar var alg <br />
-10. Globar var alg <br />
-11. Globar var alg <br />
-12. Globar var alg <br />
-13. Globar var alg <br />
-14. Globar var alg1024 <br />
-15. Globar var alg256 <br />
-16. Globar var alg512 <br />
-17. Globar var camellia_algs <br />
-18. Globar var cmll_algs <br />
-19. Globar var crypto_ablkcipher_type <br />
-20. Globar var crypto_aead_type <br />
-21. Globar var crypto_ahash_type <br />
-22. Globar var crypto_akcipher_type <br />
-23. Globar var crypto_blkcipher_type <br />
-24. Globar var crypto_rng_type <br />
-25. Globar var crypto_scomp_type <br />
-26. Globar var crypto_shash_type <br />
-27. Globar var crypto_skcipher_type2 <br />
-28. Globar var digest_null <br />
-29. Globar var drbg_algs <br />
-30. Globar var ghash_alg <br />
-31. Globar var ghash_async_alg <br />
-32. Globar var jent_alg <br />
-33. Globar var null_algs <br />
-34. Globar var rsa <br />
-35. Globar var scomp <br />
-36. Globar var sha256_algs <br />
-37. Globar var sha512_algs <br />
-38. KMEM_CACHE alloc from crypto/algapi.c:crypto_alloc_instance2 <br />
-39. KMEM_CACHE alloc from crypto/cbc.c:crypto_cbc_create <br />
-40. KMEM_CACHE alloc from crypto/rsa-pkcs1pad.c:pkcs1pad_create <br />
-41. KMEM_CACHE alloc from crypto/simd.c:simd_skcipher_create_compat <br />
+<strong> Compartment 80 accesses 6 objects:</strong><br />
+1. Global var active_ctx_list <br />
+2. Global var perf_cpu_clock <br />
+3. Global var perf_task_clock <br />
+4. Global var pmu <br />
+5. KMEM_CACHE alloc from kernel/events/core.c:alloc_perf_context <br />
+6. KMEM_CACHE alloc from kernel/events/core.c:perf_event_alloc <br />
 </html>

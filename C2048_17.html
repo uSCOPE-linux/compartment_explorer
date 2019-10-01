@@ -5,14 +5,19 @@ Viewing compartment: 17 of 1153<br />
 <a href='C2048_16.html'> Prev</a>
 <a href='C2048_18.html'> Next</a>
 <br /><br />
-<strong> Compartment 17 is 288 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L271'">security/keys/proc.c:__key_user_next</a>(80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L319'">security/keys/proc.c:proc_key_users_next</a>(64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/proc.c.html#L303'">security/keys/proc.c:proc_key_users_start</a>(144 bytes)<br />
+<strong> Compartment 17 is 464 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L1303'">kernel/audit.c:audit_net_exit</a> (96 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L438'">lib/kobject_uevent.c:uevent_net_exit</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L4109'">net/core/rtnetlink.c:rtnetlink_net_exit</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock_diag.c.html#L328'">net/core/sock_diag.c:diag_net_exit</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1985'">net/netlink/af_netlink.c:netlink_kernel_release</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/genetlink.c.html#L1022'">net/netlink/genetlink.c:genl_pernet_exit</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 17 accesses 4 objects:</strong><br />
-1. Globar var root_key_user <br />
-2. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-4. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+<strong> Compartment 17 accesses 6 objects:</strong><br />
+1. Global var uevent_sock_list <br />
+2. KMEM_CACHE alloc from lib/kobject_uevent.c:uevent_net_init <br />
+3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
+4. KMEM_CACHE alloc from net/core/net_namespace.c:net_alloc_generic <br />
+5. KMEM_CACHE alloc from net/core/net_namespace.c:ops_init <br />
+6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
 </html>

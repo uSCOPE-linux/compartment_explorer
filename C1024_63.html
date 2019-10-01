@@ -5,20 +5,48 @@ Viewing compartment: 63 of 1503<br />
 <a href='C1024_62.html'> Prev</a>
 <a href='C1024_64.html'> Next</a>
 <br /><br />
-<strong> Compartment 63 is 1024 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_semantics.c.html#L238'">net/ipv4/fib_semantics.c:fib_release_info</a>(272 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L199'">net/ipv4/fib_trie.c:call_fib_entry_notifiers</a>(96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L1917'">net/ipv4/fib_trie.c:fib_table_flush</a>(528 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_trie.c.html#L806'">net/ipv4/fib_trie.c:update_suffix</a>(128 bytes)<br />
+<strong> Compartment 63 is 1017 bytes and has 11 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L703'">drivers/acpi/acpica/dswstate.c:acpi_ds_delete_walk_state</a> (201 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/osl.c.html#L812'">drivers/acpi/osl.c:acpi_os_execute_deferred</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/crypto/fname.c.html#L253'">fs/crypto/fname.c:fscrypt_fname_free_buffer</a> (48 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/crypto/fname.c.html#L406'">fs/crypto/fname.c:fscrypt_free_filename</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/ext4.h.html#L2299'">fs/ext4/ext4.h:ext4_fname_free_filename</a> (80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/file.c.html#L735'">fs/kernfs/file.c:kernfs_fop_release</a> (96 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L1058'">fs/libfs.c:kfree_link</a> (16 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/seq_file.c.html#L374'">fs/seq_file.c:seq_release</a> (48 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/seq_file.c.html#L611'">fs/seq_file.c:single_release</a> (64 bytes)<br />
+10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/slub.c.html#L3903'">mm/slub.c:kfree</a> (320 bytes)<br />
+11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/util.c.html#L326'">mm/util.c:kvfree</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 63 accesses 9 objects:</strong><br />
-1. Globar var fib_info_devhash <br />
-2. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-3. KMEM_CACHE alloc from net/ipv4/fib_semantics.c:fib_create_info <br />
-4. KMEM_CACHE alloc from net/ipv4/fib_semantics.c:fib_info_hash_alloc <br />
-5. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_insert_alias <br />
-6. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_table_insert <br />
-7. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_trie_table <br />
-8. KMEM_CACHE alloc from net/ipv4/fib_trie.c:fib_trie_table <br />
-9. KMEM_CACHE alloc from net/ipv4/fib_trie.c:tnode_new <br />
+<strong> Compartment 63 accesses 30 objects:</strong><br />
+1. KMEM_CACHE alloc from drivers/acpi/acpica/dswstate.c:acpi_ds_create_walk_state <br />
+2. KMEM_CACHE alloc from drivers/acpi/osl.c:acpi_os_execute <br />
+3. KMEM_CACHE alloc from drivers/input/evdev.c:evdev_open <br />
+4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvmalloc <br />
+6. KMEM_CACHE alloc from fs/ext4/super.c:ext4_kvzalloc <br />
+7. KMEM_CACHE alloc from fs/file.c:alloc_fdmem <br />
+8. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+9. KMEM_CACHE alloc from fs/kernfs/file.c:kernfs_fop_open <br />
+10. KMEM_CACHE alloc from fs/kernfs/symlink.c:kernfs_iop_get_link <br />
+11. KMEM_CACHE alloc from fs/proc/self.c:proc_self_get_link <br />
+12. KMEM_CACHE alloc from fs/proc/self.c:proc_self_get_link <br />
+13. KMEM_CACHE alloc from fs/seq_file.c:seq_buf_alloc <br />
+14. KMEM_CACHE alloc from fs/seq_file.c:seq_buf_alloc <br />
+15. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
+16. KMEM_CACHE alloc from fs/seq_file.c:single_open <br />
+17. KMEM_CACHE alloc from fs/xattr.c:getxattr <br />
+18. KMEM_CACHE alloc from fs/xattr.c:listxattr <br />
+19. KMEM_CACHE alloc from fs/xattr.c:setxattr <br />
+20. KMEM_CACHE alloc from ipc/util.c:ipc_alloc <br />
+21. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_pidlist_start <br />
+22. KMEM_CACHE alloc from kernel/groups.c:groups_alloc <br />
+23. KMEM_CACHE alloc from lib/rhashtable.c:bucket_table_alloc <br />
+24. KMEM_CACHE alloc from mm/percpu.c:pcpu_mem_zalloc <br />
+25. KMEM_CACHE alloc from mm/vmalloc.c:__vmalloc_node_range <br />
+26. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+27. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+28. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
+29. KMEM_CACHE alloc from net/ipv4/fib_trie.c:tnode_new <br />
+30. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br />
 </html>

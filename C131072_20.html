@@ -5,20 +5,19 @@ Viewing compartment: 20 of 381<br />
 <a href='C131072_19.html'> Prev</a>
 <a href='C131072_21.html'> Next</a>
 <br /><br />
-<strong> Compartment 20 is 2336 bytes and has 7 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L2419'">drivers/tty/n_tty.c:n_tty_ioctl</a>(224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L1073'">drivers/tty/tty_ioctl.c:__tty_perform_flush</a>(128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L643'">drivers/tty/tty_ioctl.c:copy_termios</a>(128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L657'">drivers/tty/tty_ioctl.c:get_termio</a>(192 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L1115'">drivers/tty/tty_ioctl.c:n_tty_ioctl_helper</a>(256 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L929'">drivers/tty/tty_ioctl.c:tty_mode_ioctl</a>(1312 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_ioctl.c.html#L132'">drivers/tty/tty_ioctl.c:tty_unthrottle</a>(96 bytes)<br />
+<strong> Compartment 20 is 448 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3704'">kernel/workqueue.c:apply_wqattrs_commit</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3500'">kernel/workqueue.c:link_pwq</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3441'">kernel/workqueue.c:pwq_adjust_max_active</a> (208 bytes)<br />
 <br /><br />
-<strong> Compartment 20 accesses 6 objects:</strong><br />
-1. Globar var con_ops <br />
-2. Globar var n_tty_ops <br />
-3. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
-4. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-5. KMEM_CACHE alloc from drivers/tty/tty_ldisc.c:tty_ldisc_get <br />
-6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 20 accesses 9 objects:</strong><br />
+1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br />
+2. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
+3. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
+4. KMEM_CACHE alloc from kernel/workqueue.c:__alloc_workqueue_key <br />
+5. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
+6. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
+7. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
+8. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
+9. KMEM_CACHE alloc from kernel/workqueue.c:apply_wqattrs_prepare <br />
 </html>

@@ -5,29 +5,166 @@ Viewing compartment: 58 of 1503<br />
 <a href='C1024_57.html'> Prev</a>
 <a href='C1024_59.html'> Next</a>
 <br /><br />
-<strong> Compartment 58 is 1009 bytes and has 11 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/acpi/boot.c.html#L1692'">arch/x86/kernel/acpi/boot.c:__acpi_acquire_global_lock</a>(64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/genhd.c.html#L1453'">block/genhd.c:disk_events_poll_jiffies</a>(48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evglock.c.html#L203'">drivers/acpi/acpica/evglock.c:acpi_ev_acquire_global_lock</a>(220 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exmutex.c.html#L161'">drivers/acpi/acpica/exmutex.c:acpi_ex_acquire_mutex_object</a>(102 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exsystem.c.html#L109'">drivers/acpi/acpica/exsystem.c:acpi_ex_system_wait_mutex</a>(77 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exutils.c.html#L201'">drivers/acpi/acpica/exutils.c:acpi_ex_acquire_global_lock</a>(72 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/exutils.c.html#L85'">drivers/acpi/acpica/exutils.c:acpi_ex_enter_interpreter</a>(84 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utmutex.c.html#L222'">drivers/acpi/acpica/utmutex.c:acpi_ut_acquire_mutex</a>(127 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/osl.c.html#L1210'">drivers/acpi/osl.c:acpi_os_wait_semaphore</a>(103 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/semaphore.c.html#L154'">kernel/locking/semaphore.c:down_timeout</a>(64 bytes)<br />
-11. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L518'">kernel/time/time.c:__msecs_to_jiffies</a>(48 bytes)<br />
+<strong> Compartment 58 is 976 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1157'">fs/kernfs/dir.c:kernfs_activate</a> (224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L670'">fs/kernfs/dir.c:kernfs_add_one</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L335'">fs/kernfs/dir.c:kernfs_link_sibling</a> (176 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L286'">fs/kernfs/dir.c:kernfs_name_hash</a> (128 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L1121'">fs/kernfs/dir.c:kernfs_next_descendant_post</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 58 accesses 11 objects:</strong><br />
-1. Globar var acpi_gbl_FACS <br />
-2. Globar var acpi_gbl_global_lock_acquired <br />
-3. Globar var acpi_gbl_global_lock_handle <br />
-4. Globar var acpi_gbl_global_lock_mutex <br />
-5. Globar var acpi_gbl_global_lock_pending <br />
-6. Globar var acpi_gbl_global_lock_pending_lock <br />
-7. Globar var acpi_gbl_global_lock_present <br />
-8. Globar var acpi_gbl_mutex_info <br />
-9. KMEM_CACHE alloc from block/genhd.c:device_add_disk <br />
-10. KMEM_CACHE alloc from drivers/acpi/acpica/utobject.c:acpi_ut_allocate_object_desc_dbg <br />
-11. KMEM_CACHE alloc from drivers/acpi/osl.c:acpi_os_create_semaphore <br />
+<strong> Compartment 58 accesses 154 objects:</strong><br />
+1. Global var power_group_name <br />
+2. KMALLOC alloc from lib/kasprintf.c:kasprintf <br />
+3. KMALLOC alloc from mm/util.c:kstrdup_const <br />
+4. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+5. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+6. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
+7. KMEM_CACHE alloc from fs/kernfs/dir.c:kernfs_create_root <br />
+8. KMEM_CACHE alloc from fs/kernfs/inode.c:kernfs_iattrs <br />
+9. KMEM_CACHE alloc from lib/kasprintf.c:kvasprintf <br />
+10. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
+11. String constant *.LC0 <br />
+12. String constant *.LC12 <br />
+13. String constant *.LC121 <br />
+14. String constant *.LC13 <br />
+15. String constant *.LC21 <br />
+16. String constant *.LC22 <br />
+17. String constant *.LC23 <br />
+18. String constant *.LC23 <br />
+19. String constant *.LC24 <br />
+20. String constant *.LC25 <br />
+21. String constant *.LC25 <br />
+22. String constant *.LC25 <br />
+23. String constant *.LC25 <br />
+24. String constant *.LC26 <br />
+25. String constant *.LC26 <br />
+26. String constant *.LC26 <br />
+27. String constant *.LC26 <br />
+28. String constant *.LC27 <br />
+29. String constant *.LC27 <br />
+30. String constant *.LC27 <br />
+31. String constant *.LC27 <br />
+32. String constant *.LC28 <br />
+33. String constant *.LC28 <br />
+34. String constant *.LC28 <br />
+35. String constant *.LC28 <br />
+36. String constant *.LC29 <br />
+37. String constant *.LC29 <br />
+38. String constant *.LC29 <br />
+39. String constant *.LC29 <br />
+40. String constant *.LC29 <br />
+41. String constant *.LC30 <br />
+42. String constant *.LC30 <br />
+43. String constant *.LC30 <br />
+44. String constant *.LC30 <br />
+45. String constant *.LC30 <br />
+46. String constant *.LC31 <br />
+47. String constant *.LC31 <br />
+48. String constant *.LC31 <br />
+49. String constant *.LC31 <br />
+50. String constant *.LC32 <br />
+51. String constant *.LC32 <br />
+52. String constant *.LC32 <br />
+53. String constant *.LC33 <br />
+54. String constant *.LC33 <br />
+55. String constant *.LC33 <br />
+56. String constant *.LC34 <br />
+57. String constant *.LC34 <br />
+58. String constant *.LC34 <br />
+59. String constant *.LC35 <br />
+60. String constant *.LC35 <br />
+61. String constant *.LC35 <br />
+62. String constant *.LC36 <br />
+63. String constant *.LC36 <br />
+64. String constant *.LC36 <br />
+65. String constant *.LC37 <br />
+66. String constant *.LC37 <br />
+67. String constant *.LC37 <br />
+68. String constant *.LC38 <br />
+69. String constant *.LC38 <br />
+70. String constant *.LC38 <br />
+71. String constant *.LC39 <br />
+72. String constant *.LC39 <br />
+73. String constant *.LC39 <br />
+74. String constant *.LC40 <br />
+75. String constant *.LC40 <br />
+76. String constant *.LC40 <br />
+77. String constant *.LC41 <br />
+78. String constant *.LC41 <br />
+79. String constant *.LC41 <br />
+80. String constant *.LC42 <br />
+81. String constant *.LC42 <br />
+82. String constant *.LC42 <br />
+83. String constant *.LC43 <br />
+84. String constant *.LC43 <br />
+85. String constant *.LC43 <br />
+86. String constant *.LC44 <br />
+87. String constant *.LC44 <br />
+88. String constant *.LC44 <br />
+89. String constant *.LC45 <br />
+90. String constant *.LC45 <br />
+91. String constant *.LC46 <br />
+92. String constant *.LC46 <br />
+93. String constant *.LC47 <br />
+94. String constant *.LC48 <br />
+95. String constant *.LC49 <br />
+96. String constant *.LC50 <br />
+97. String constant *.LC51 <br />
+98. String constant *.LC52 <br />
+99. String constant *.LC53 <br />
+100. String constant *.LC54 <br />
+101. String constant *.LC55 <br />
+102. String constant *.LC56 <br />
+103. String constant *.LC57 <br />
+104. String constant *.LC58 <br />
+105. String constant *.LC59 <br />
+106. String constant *.LC60 <br />
+107. String constant *.LC61 <br />
+108. String constant *.LC62 <br />
+109. String constant *.LC63 <br />
+110. String constant *.LC63 <br />
+111. String constant *.LC64 <br />
+112. String constant *.LC65 <br />
+113. String constant *.LC66 <br />
+114. String constant *.LC67 <br />
+115. String constant *.LC67 <br />
+116. String constant *.LC68 <br />
+117. String constant *.LC69 <br />
+118. String constant *.LC72 <br />
+119. String constant *.LC73 <br />
+120. String constant *.LC74 <br />
+121. String constant *.LC75 <br />
+122. String constant *.LC76 <br />
+123. String constant *.LC76 <br />
+124. String constant *.LC77 <br />
+125. String constant *.LC77 <br />
+126. String constant *.LC78 <br />
+127. String constant *.LC78 <br />
+128. String constant *.LC79 <br />
+129. String constant *.LC79 <br />
+130. String constant *.LC80 <br />
+131. String constant *.LC80 <br />
+132. String constant *.LC81 <br />
+133. String constant *.LC81 <br />
+134. String constant *.LC82 <br />
+135. String constant *.LC82 <br />
+136. String constant *.LC83 <br />
+137. String constant *.LC83 <br />
+138. String constant *.LC84 <br />
+139. String constant *.LC84 <br />
+140. String constant *.LC85 <br />
+141. String constant *.LC85 <br />
+142. String constant *.LC86 <br />
+143. String constant *.LC86 <br />
+144. String constant *.LC87 <br />
+145. String constant *.LC87 <br />
+146. String constant *.LC88 <br />
+147. String constant *.LC88 <br />
+148. String constant *.LC89 <br />
+149. String constant *.LC89 <br />
+150. String constant *.LC90 <br />
+151. String constant *.LC91 <br />
+152. String constant *.LC92 <br />
+153. String constant *.LC93 <br />
+154. String constant *.LC94 <br />
 </html>

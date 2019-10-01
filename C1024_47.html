@@ -5,18 +5,17 @@ Viewing compartment: 47 of 1503<br />
 <a href='C1024_46.html'> Prev</a>
 <a href='C1024_48.html'> Next</a>
 <br /><br />
-<strong> Compartment 47 is 352 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/lsm.c.html#L259'">security/apparmor/lsm.c:apparmor_path_rmdir</a>(32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/lsm.c.html#L247'">security/apparmor/lsm.c:apparmor_path_unlink</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/lsm.c.html#L210'">security/apparmor/lsm.c:common_perm_rm</a>(96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L439'">security/security.c:security_path_rmdir</a>(96 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L446'">security/security.c:security_path_unlink</a>(96 bytes)<br />
+<strong> Compartment 47 is 1008 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L553'">ipc/msg.c:SyS_msgctl</a> (128 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L443'">ipc/msg.c:msgctl_nolock</a> (640 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/util.c.html#L182'">ipc/util.c:ipc_get_maxid</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1091'">security/security.c:security_msg_queue_msgctl</a> (80 bytes)<br />
 <br /><br />
 <strong> Compartment 47 accesses 6 objects:</strong><br />
-1. Globar var apparmor_hooks <br />
-2. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
-5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-6. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+1. Global var init_ipc_ns <br />
+2. Global var init_nsproxy <br />
+3. KMEM_CACHE alloc from ipc/util.c:ipc_alloc <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
+6. KMEM_CACHE alloc from lib/idr.c:idr_layer_alloc <br />
 </html>

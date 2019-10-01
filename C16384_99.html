@@ -5,15 +5,19 @@ Viewing compartment: 99 of 483<br />
 <a href='C16384_98.html'> Prev</a>
 <a href='C16384_100.html'> Next</a>
 <br /><br />
-<strong> Compartment 99 is 960 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L779'">arch/x86/kernel/fpu/xstate.c:__raw_xsave_addr</a>(112 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L1019'">arch/x86/kernel/fpu/xstate.c:copyin_to_xsaves</a>(304 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/fpu/xstate.c.html#L947'">arch/x86/kernel/fpu/xstate.c:copyout_from_xsaves</a>(544 bytes)<br />
+<strong> Compartment 99 is 1472 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/buffer.c.html#L568'">fs/buffer.c:sync_mapping_buffers</a> (688 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2460'">fs/fs-writeback.c:sync_inode_metadata</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L2417'">fs/fs-writeback.c:write_inode_now</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L1380'">fs/fs-writeback.c:writeback_single_inode</a> (400 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/libfs.c.html#L969'">fs/libfs.c:__generic_file_fsync</a> (160 bytes)<br />
 <br /><br />
-<strong> Compartment 99 accesses 5 objects:</strong><br />
-1. Globar var xstate_comp_offsets <br />
-2. Globar var xstate_offsets <br />
-3. Globar var xstate_sizes <br />
-4. KMEM_CACHE alloc from fs/binfmt_elf.c:elf_core_dump <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+<strong> Compartment 99 accesses 7 objects:</strong><br />
+1. Global var blockdev_superblock <br />
+2. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
+3. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br />
+4. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
+5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+6. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+7. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
 </html>

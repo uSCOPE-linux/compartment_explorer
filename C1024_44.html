@@ -5,16 +5,18 @@ Viewing compartment: 44 of 1503<br />
 <a href='C1024_43.html'> Prev</a>
 <a href='C1024_45.html'> Next</a>
 <br /><br />
-<strong> Compartment 44 is 208 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L695'">drivers/base/core.c:dev_attr_store</a>(48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/base/core.c.html#L980'">drivers/base/core.c:uevent_store</a>(96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/sysfs/file.c.html#L130'">fs/sysfs/file.c:sysfs_kf_write</a>(64 bytes)<br />
+<strong> Compartment 44 is 544 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L659'">security/commoncap.c:cap_inode_setxattr</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/evm/evm_main.c.html#L338'">security/integrity/evm/evm_main.c:evm_inode_setxattr</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/integrity/ima/ima_appraise.c.html#L381'">security/integrity/ima/ima_appraise.c:ima_inode_setxattr</a> (112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L632'">security/security.c:security_inode_setxattr</a> (224 bytes)<br />
 <br /><br />
-<strong> Compartment 44 accesses 6 objects:</strong><br />
-1. Globar var dev_attr_uevent <br />
-2. Globar var dev_sysfs_ops <br />
-3. Globar var device_ktype <br />
-4. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br />
-5. KMEM_CACHE alloc from fs/kernfs/dir.c:__kernfs_new_node <br />
-6. KMEM_CACHE alloc from fs/kernfs/file.c:kernfs_fop_open <br />
+<strong> Compartment 44 accesses 7 objects:</strong><br />
+1. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
+2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
+3. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br />
+4. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
+5. String constant *.LC0 <br />
+6. String constant *.LC2 <br />
+7. String constant *.LC9 <br />
 </html>

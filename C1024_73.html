@@ -5,16 +5,24 @@ Viewing compartment: 73 of 1503<br />
 <a href='C1024_72.html'> Prev</a>
 <a href='C1024_74.html'> Next</a>
 <br /><br />
-<strong> Compartment 73 is 896 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dscontrol.c.html#L69'">drivers/acpi/acpica/dscontrol.c:acpi_ds_exec_begin_control_op</a>(178 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswexec.c.html#L214'">drivers/acpi/acpica/dswexec.c:acpi_ds_exec_begin_op</a>(286 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/dswstate.c.html#L146'">drivers/acpi/acpica/dswstate.c:acpi_ds_result_push</a>(289 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/psscope.c.html#L146'">drivers/acpi/acpica/psscope.c:acpi_ps_push_scope</a>(123 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/utstate.c.html#L63'">drivers/acpi/acpica/utstate.c:acpi_ut_push_generic_state</a>(20 bytes)<br />
+<strong> Compartment 73 is 976 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/msg.c.html#L263'">ipc/msg.c:SyS_msgget</a> (80 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/sem.c.html#L543'">ipc/sem.c:SyS_semget</a> (96 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/shm.c.html#L655'">ipc/shm.c:SyS_shmget</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/util.c.html#L635'">ipc/util.c:ipcget</a> (400 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/util.c.html#L478'">ipc/util.c:ipcperms</a> (240 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1055'">security/security.c:security_ipc_permission</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 73 accesses 4 objects:</strong><br />
-1. Globar var acpi_gbl_aml_op_info <br />
-2. KMEM_CACHE alloc from drivers/acpi/acpica/dswstate.c:acpi_ds_create_walk_state <br />
-3. KMEM_CACHE alloc from drivers/acpi/acpica/utstate.c:acpi_ut_create_generic_state <br />
-4. KMEM_CACHE alloc from include/acpi/platform/aclinuxex.h:acpi_os_acquire_object <br />
+<strong> Compartment 73 accesses 11 objects:</strong><br />
+1. Global var init_ipc_ns <br />
+2. Global var init_nsproxy <br />
+3. Global var msg_ops.37197 <br />
+4. Global var sem_ops.37182 <br />
+5. Global var shm_ops.41108 <br />
+6. KMEM_CACHE alloc from ipc/namespace.c:copy_ipcs <br />
+7. KMEM_CACHE alloc from ipc/util.c:ipc_alloc <br />
+8. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
+9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+10. KMEM_CACHE alloc from kernel/nsproxy.c:create_new_namespaces <br />
+11. KMEM_CACHE alloc from lib/idr.c:idr_layer_alloc <br />
 </html>

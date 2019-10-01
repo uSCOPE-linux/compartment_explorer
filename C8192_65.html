@@ -5,14 +5,25 @@ Viewing compartment: 65 of 594<br />
 <a href='C8192_64.html'> Prev</a>
 <a href='C8192_66.html'> Next</a>
 <br /><br />
-<strong> Compartment 65 is 512 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/pty.c.html#L40'">drivers/tty/pty.c:pty_close</a>(368 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_io.c.html#L804'">drivers/tty/tty_io.c:tty_vhangup</a>(32 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/devpts/inode.c.html#L579'">fs/devpts/inode.c:devpts_pty_kill</a>(112 bytes)<br />
+<strong> Compartment 65 is 3920 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L183'">fs/splice.c:splice_to_pipe</a> (288 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1918'">net/core/skbuff.c:__skb_splice_bits</a> (512 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1876'">net/core/skbuff.c:__splice_segment</a> (576 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1970'">net/core/skbuff.c:skb_splice_bits</a> (160 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L2493'">net/core/skbuff.c:skb_unlink</a> (80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2464'">net/unix/af_unix.c:unix_stream_read_actor</a> (48 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2262'">net/unix/af_unix.c:unix_stream_read_generic</a> (2128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2474'">net/unix/af_unix.c:unix_stream_recvmsg</a> (80 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2489'">net/unix/af_unix.c:unix_stream_splice_actor</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 65 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br />
-2. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br />
-3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
+<strong> Compartment 65 accesses 9 objects:</strong><br />
+1. Global var system_freezing_cnt <br />
+2. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+3. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
+4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
+5. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+6. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
+7. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+8. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
+9. KMEM_CACHE alloc from net/unix/af_unix.c:unix_bind <br />
 </html>

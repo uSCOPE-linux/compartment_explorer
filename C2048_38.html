@@ -5,30 +5,27 @@ Viewing compartment: 38 of 1153<br />
 <a href='C2048_37.html'> Prev</a>
 <a href='C2048_39.html'> Next</a>
 <br /><br />
-<strong> Compartment 38 is 2048 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/asymmetric_keys/asymmetric_type.c.html#L368'">crypto/asymmetric_keys/asymmetric_type.c:asymmetric_key_preparse</a>(208 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L410'">security/keys/key.c:__key_instantiate_and_link</a>(288 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L797'">security/keys/key.c:key_create_or_update</a>(1088 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L1098'">security/keys/keyring.c:__key_link_begin</a>(272 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L138'">security/keys/keyring.c:keyring_free_preparse</a>(16 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyring.c.html#L130'">security/keys/keyring.c:keyring_preparse</a>(32 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/user_defined.c.html#L86'">security/keys/user_defined.c:user_free_preparse</a>(32 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/user_defined.c.html#L62'">security/keys/user_defined.c:user_preparse</a>(112 bytes)<br />
+<strong> Compartment 38 is 1648 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/af_inet.c.html#L847'">net/ipv4/af_inet.c:inet_ioctl</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp.c.html#L548'">net/ipv4/tcp.c:tcp_ioctl</a> (384 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L1388'">net/ipv4/udp.c:udp_ioctl</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1053'">net/netlink/af_netlink.c:netlink_ioctl</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L891'">net/socket.c:sock_do_ioctl</a> (80 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/socket.c.html#L918'">net/socket.c:sock_ioctl</a> (736 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2564'">net/unix/af_unix.c:unix_inq_len</a> (128 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2594'">net/unix/af_unix.c:unix_ioctl</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 38 accesses 15 objects:</strong><br />
-1. Globar var key_type_asymmetric <br />
-2. Globar var key_type_encrypted <br />
-3. Globar var key_type_keyring <br />
-4. Globar var key_type_request_key_auth <br />
-5. Globar var key_type_trusted <br />
-6. Globar var key_type_user <br />
-7. Globar var x509_key_parser <br />
-8. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-10. KMEM_CACHE alloc from lib/assoc_array.c:assoc_array_insert <br />
-11. KMEM_CACHE alloc from mm/util.c:memdup_user <br />
-12. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
-13. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
-14. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br />
-15. KMEM_CACHE alloc from security/keys/user_defined.c:user_preparse <br />
+<strong> Compartment 38 accesses 12 objects:</strong><br />
+1. Global var inet_dgram_ops <br />
+2. Global var inet_stream_ops <br />
+3. Global var netlink_ops <br />
+4. Global var tcp_prot <br />
+5. Global var udp_prot <br />
+6. Global var unix_dgram_ops <br />
+7. Global var unix_stream_ops <br />
+8. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
+9. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
+10. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+11. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
+12. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
 </html>
