@@ -1,19 +1,73 @@
 <html>
 
 	<head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css"><body onload='selectComp()'>
 	</head>
 	<h1>uSCOPE Linux Compartment Explorer</h1>
 	<script type='text/javascript'>
-	function selectObject(){
-	newpage=document.getElementById('comppick').value + '_1.html';
-	document.getElementById('comp_panel').src=newpage;
-	document.getElementById('linux_panel').src='blank.html';
+	overheads = new Array();
+	overheads["C1024"]=[13401.0,1241.0,272.0,229.0,227.0];
+	overheads["C2048"]=[13234.0,865.0,190.0,164.0,159.0];
+	overheads["C4096"]=[13122.0,776.0,137.0,108.0,103.0];
+	overheads["C8192"]=[13081.0,779.0,112.0,71.0,66.0];
+	overheads["C16384"]=[13039.0,960.0,121.0,51.0,45.0];
+	overheads["C32768"]=[13006.0,1138.0,117.0,36.0,28.0];
+	overheads["C65536"]=[12998.0,1262.0,96.0,34.0,24.0];
+	overheads["C131072"]=[12991.0,3425.0,233.0,29.0,19.0];
+	pmrs = new Array();
+	pmrs["C1024"]=[1.16,1.29,1.84,2.66,7.89];
+	pmrs["C2048"]=[1.21,1.45,2.39,3.28,10.3];
+	pmrs["C4096"]=[1.33,1.71,2.91,4.27,15.64];
+	pmrs["C8192"]=[1.56,2.06,3.94,6.33,26.46];
+	pmrs["C16384"]=[2.0,2.64,4.98,9.54,44.6];
+	pmrs["C32768"]=[2.86,3.7,6.39,12.82,76.77];
+	pmrs["C65536"]=[4.52,5.72,10.19,20.27,131.19];
+	pmrs["C131072"]=[8.03,8.82,13.07,32.97,180.64];
+	function selectComp(){
+		comp=document.getElementById('comppick').value;
+		newpage=comp + '_1.html';
+		document.getElementById('comp_panel').src=newpage;
+		document.getElementById('linux_panel').src='blank.html';
+		this_overhead = overheads[comp];
+		this_pmr = pmrs[comp];
+		document.getElementById("mediation").options[0].innerHTML = 'All Mediated (' + this_overhead[0] + '% overhead, ' + this_pmr[0] + 'X overprivilege)';
+		document.getElementById("mediation").options[1].innerHTML = '10.0% Unmediated (' + this_overhead[1] + '% overhead, ' + this_pmr[1] + 'X overprivilege)';
+		document.getElementById("mediation").options[2].innerHTML = '25.0% Unmediated (' + this_overhead[2] + '% overhead, ' + this_pmr[2] + 'X overprivilege)';
+		document.getElementById("mediation").options[3].innerHTML = '50.0% Unmediated (' + this_overhead[3] + '% overhead, ' + this_pmr[3] + 'X overprivilege)';
+		document.getElementById("mediation").options[4].innerHTML = 'All Unmediated (' + this_overhead[4] + '% overhead, ' + this_pmr[4] + 'X overprivilege)';
+	}
+	function setColors(numObjs, minObjs, excessObjs){
+	var medSelect = document.getElementById("mediation");
+	medLevel = medSelect.value;
+	chosenExcess=excessObjs[medLevel];
+	for (i = 1; i <= numObjs; i++){
+		document.getElementById('comp_panel').contentWindow.document.getElementById('obj' + i).style.color='black';
+	}
+	if (medLevel != 0 && medLevel != medSelect.options.length -1){
+		for (i = 0; i < chosenExcess.length; i++){
+			obj_num = chosenExcess[i];
+			document.getElementById('comp_panel').contentWindow.document.getElementById('obj' + obj_num).style.color='red';
+		}
+	}
+	if (medLevel == medSelect.options.length -1){
+		for (i = 1; i <= numObjs; i++){
+			document.getElementById('comp_panel').contentWindow.document.getElementById('obj' + i).style.color='red';
+		}
+	}
+	for (i = 0; i < minObjs.length; i++){
+		obj_num = minObjs[i];
+		document.getElementById('comp_panel').contentWindow.document.getElementById('obj' + obj_num).style.color='blue';
+	}
+	}
+	function clearObjects(){
+		for (i = 1; i < 1000; i++){
+			document.getElementById('comp_panel').contentWindow.document.getElementById('obj' + i).style.color='black';
+		}
 	}
 	</script>
 
-	<form oninput='selectObject()'>
-	<label for='comppick'>Select a compartmentalization:</label>
+	<form oninput='selectComp()'>
+	<label for='comppick'>Select Subject Domains:</label>
 	<select id='comppick' name='object'>
 		<option value='C1024'>C1024</option>
 		<option value='C2048'>C2048</option>
@@ -25,8 +79,17 @@
 		<option value='C131072'>C131072</option>
 	</select>
 	</form>
-	The number following the "C" is the maximum number of bytes allowed in a code cluster. <br /><br />
-
-	<iframe src="C1024_1.html" id='comp_panel' width='550' height='750'></iframe>
-	<iframe src="blank.html" id='linux_panel' width='550' height='750'></iframe>
+	The number following the "C" is the maximum number of bytes allowed in a compartment by the code clustering algorithm. <br /><br />
+	<form name="mediation" oninput='clearObjects()'>
+	<label for='mediation'>Select a mediation level: </label><select id="mediation">
+	<option value="0" checked="checked"></option>
+	<option value="1"></option>
+	<option value="2"></option>
+	<option value="3"></option>
+	<option value="4"></option></select>
+	</form>
+	Overhead estimates are for kernel time only and are calculated for the page table + EPT enforcment mechanism.<br />
+	Click on a function to view its source. Objects accessed by that function turn blue, and accessible objects exposed by unmediation (overprivilege) turn red. <br /><br />
+	<iframe src="C1024_1.html" id='comp_panel' width='49%' height='750'></iframe>
+	<iframe src="blank.html" id='linux_panel' width='49%' height='750'></iframe>
 </html>

@@ -1,16 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 42 of 1503<br />
+Viewing C1024 compartment 42 of 1479<br />
 <a href='C1024_41.html'> Prev</a>
 <a href='C1024_43.html'> Next</a>
 <br /><br />
-<strong> Compartment 42 is 432 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L256'">kernel/audit.c:audit_log_lost</a> (176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L202'">kernel/audit.c:audit_panic</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/audit.c.html#L401'">kernel/audit.c:kauditd_hold_skb</a> (160 bytes)<br />
+<strong> Compartment 42 is 720 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,3,5,7],[[],[2,3,4,6,7],[2,3,4,5,6,7],[2,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L1548'">block/blk-core.c:blk_attempt_plug_merge</a> (272 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,6],[[],[2,3,4,6,7],[2,3,4,5,6,7],[2,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-integrity.c.html#L210'">block/blk-integrity.c:blk_integrity_merge_bio</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,3,4,6],[[],[2,3,4,6,7],[2,3,4,5,6,7],[2,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-merge.c.html#L772'">block/blk-merge.c:blk_rq_merge_ok</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,6],[[],[2,3,4,6,7],[2,3,4,5,6,7],[2,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-merge.c.html#L800'">block/blk-merge.c:blk_try_merge</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 42 accesses 2 objects:</strong><br />
-1. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-2. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-</html>
+<strong> Compartment 42 accesses 7 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from mm/mempool.c:mempool_alloc_slab <br /></span>
+<span id='obj7'>7. STACK <br /></span>
+</body></html>

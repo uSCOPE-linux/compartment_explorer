@@ -1,36 +1,21 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 82 of 1503<br />
+Viewing C1024 compartment 82 of 1479<br />
 <a href='C1024_81.html'> Prev</a>
 <a href='C1024_83.html'> Next</a>
 <br /><br />
-<strong> Compartment 82 is 1008 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-cgroup.c.html#L936'">block/blk-cgroup.c:blkcg_css_offline</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L5371'">kernel/cgroup.c:css_killed_work_fn</a> (224 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/list_lru.c.html#L513'">mm/list_lru.c:memcg_drain_all_list_lrus</a> (256 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L4267'">mm/memcontrol.c:mem_cgroup_css_offline</a> (176 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L4067'">mm/memcontrol.c:mem_cgroup_id_put_many</a> (80 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L2842'">mm/memcontrol.c:memcg_offline_kmem</a> (192 bytes)<br />
+<strong> Compartment 82 is 992 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/block_dev.c.html#L118'">fs/block_dev.c:set_blocksize</a> (176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[5],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L378'">mm/filemap.c:__filemap_fdatawait_range</a> (368 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L296'">mm/filemap.c:filemap_check_errors</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L476'">mm/filemap.c:filemap_fdatawait</a> (48 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L429'">mm/filemap.c:filemap_fdatawait_range</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L487'">mm/filemap.c:filemap_write_and_wait</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[3],[3,4,5],[3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L524'">mm/filemap.c:filemap_write_and_wait_range</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 82 accesses 19 objects:</strong><br />
-1. Global var cpu_cgrp_subsys <br />
-2. Global var cpuacct_cgrp_subsys <br />
-3. Global var devices_cgrp_subsys <br />
-4. Global var io_cgrp_subsys <br />
-5. Global var pids_cgrp_subsys <br />
-6. Global var shadow_nodes <br />
-7. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-8. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-9. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-10. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-11. KMEM_CACHE alloc from kernel/cgroup_pids.c:pids_css_alloc <br />
-12. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br />
-13. KMEM_CACHE alloc from kernel/sched/cpuacct.c:cpuacct_css_alloc <br />
-14. KMEM_CACHE alloc from mm/list_lru.c:__list_lru_init <br />
-15. KMEM_CACHE alloc from mm/list_lru.c:__list_lru_init <br />
-16. KMEM_CACHE alloc from mm/list_lru.c:__memcg_init_list_lru_node <br />
-17. KMEM_CACHE alloc from mm/list_lru.c:memcg_update_all_list_lrus <br />
-18. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-19. KMEM_CACHE alloc from security/device_cgroup.c:devcgroup_css_alloc <br />
-</html>
+<strong> Compartment 82 accesses 5 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj5'>5. STACK <br /></span>
+</body></html>

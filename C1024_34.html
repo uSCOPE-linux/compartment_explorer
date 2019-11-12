@@ -1,20 +1,25 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 34 of 1503<br />
+Viewing C1024 compartment 34 of 1479<br />
 <a href='C1024_33.html'> Prev</a>
 <a href='C1024_35.html'> Next</a>
 <br /><br />
-<strong> Compartment 34 is 992 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2886'">fs/ext4/inode.c:ext4_da_write_begin</a> (864 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inode.c.html#L2837'">fs/ext4/inode.c:ext4_nonda_switch</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/truncate.c.html#L427'">mm/truncate.c:truncate_inode_pages</a> (32 bytes)<br />
+<strong> Compartment 34 is 848 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,3,6,7,8,9],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/setup.c.html#L1323'">arch/x86/kernel/setup.c:arch_show_smap</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(10,[],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L814'">fs/proc/task_mmu.c:show_pid_smap</a> (16 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,2,3,4,5,6,7,8,9,10],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L717'">fs/proc/task_mmu.c:show_smap</a> (640 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(10,[],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc/task_mmu.c.html#L812'">fs/proc/task_mmu.c:show_tid_smap</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,3,6,7,8,9],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/hugetlb.c.html#L635'">mm/hugetlb.c:vma_kernel_pagesize</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,3,6,7,8,9],[[],[10],[10],[1,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/hugetlb.c.html#L655'">mm/hugetlb.c:vma_mmu_pagesize</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 34 accesses 6 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-6. STACK <br />
-</html>
+<strong> Compartment 34 accesses 10 objects:</strong><br />
+<span id='obj1'>1. Global var gate_vma <br /></span>
+<span id='obj2'>2. Global var mnemonics.35848 <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from mm/mmap.c:do_brk <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br /></span>
+<span id='obj10'>10. STACK <br /></span>
+</body></html>

@@ -1,32 +1,17 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 84 of 1503<br />
+Viewing C1024 compartment 84 of 1479<br />
 <a href='C1024_83.html'> Prev</a>
 <a href='C1024_85.html'> Next</a>
 <br /><br />
-<strong> Compartment 84 is 1024 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/vt/vt.c.html#L3913'">drivers/tty/vt/vt.c:unblank_screen</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L361'">drivers/video/console/fbcon.c:fb_flashcursor</a> (272 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/console/fbcon.c.html#L283'">drivers/video/console/fbcon.c:get_color</a> (272 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/video/fbdev/core/fbmem.c.html#L92'">drivers/video/fbdev/core/fbmem.c:fb_get_color_depth</a> (80 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/locking/semaphore.c.html#L129'">kernel/locking/semaphore.c:down_trylock</a> (64 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2105'">kernel/printk/printk.c:console_trylock</a> (96 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2323'">kernel/printk/printk.c:console_unblank</a> (112 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/printk/printk.c.html#L2714'">kernel/printk/printk.c:wake_up_klogd</a> (48 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/bust_spinlocks.c.html#L18'">lib/bust_spinlocks.c:bust_spinlocks</a> (48 bytes)<br />
+<strong> Compartment 84 is 944 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3,4,5],[[],[],[2,3],[1,2,3,4],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1687'">fs/ext4/mballoc.c:ext4_mb_check_limits</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3,4,5],[[],[],[2,3],[1,2,3,4],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1936'">fs/ext4/mballoc.c:ext4_mb_complex_scan_group</a> (592 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3,4,5],[[],[],[2,3],[1,2,3,4],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/mballoc.c.html#L1641'">fs/ext4/mballoc.c:ext4_mb_use_best_found</a> (208 bytes)<br />
 <br /><br />
-<strong> Compartment 84 accesses 12 objects:</strong><br />
-1. Global var con2fb_map <br />
-2. Global var console_blanked <br />
-3. Global var console_sem <br />
-4. Global var hvc_console <br />
-5. Global var master_display_fg <br />
-6. Global var oops_in_progress <br />
-7. Global var registered_fb <br />
-8. Global var vc_cons <br />
-9. KMALLOC alloc from drivers/tty/vt/vt.c:vc_do_resize <br />
-10. KMEM_CACHE alloc from drivers/video/console/fbcon.c:fbcon_startup <br />
-11. KMEM_CACHE alloc from drivers/video/fbdev/core/fbsysfs.c:framebuffer_alloc <br />
-12. KMEM_CACHE alloc from slab.h:kzalloc <br />
-</html>
+<strong> Compartment 84 accesses 5 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_add_groupinfo <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/ext4/mballoc.c:ext4_mb_new_blocks <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+<span id='obj5'>5. STACK <br /></span>
+</body></html>

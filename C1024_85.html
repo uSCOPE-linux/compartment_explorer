@@ -1,23 +1,21 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 85 of 1503<br />
+Viewing C1024 compartment 85 of 1479<br />
 <a href='C1024_84.html'> Prev</a>
 <a href='C1024_86.html'> Next</a>
 <br /><br />
-<strong> Compartment 85 is 864 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/cgroup.c.html#L6317'">kernel/cgroup.c:cgroup_sk_alloc</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memcontrol.c.html#L5653'">mm/memcontrol.c:mem_cgroup_sk_alloc</a> (240 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock.c.html#L1391'">net/core/sock.c:sk_alloc</a> (432 bytes)<br />
+<strong> Compartment 85 is 848 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/fib_rules.c.html#L167'">net/core/fib_rules.c:fib_rules_unregister</a> (192 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L152'">net/ipv4/fib_frontend.c:fib_unmerge</a> (240 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_rules.c.html#L237'">net/ipv4/fib_rules.c:fib4_rule_delete</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_rules.c.html#L378'">net/ipv4/fib_rules.c:fib4_rules_exit</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/fib6_rules.c.html#L325'">net/ipv6/fib6_rules.c:fib6_rules_net_exit</a> (48 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(5,[3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6mr.c.html#L1386'">net/ipv6/ip6mr.c:ip6mr_net_exit</a> (64 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,5],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6mr.c.html#L257'">net/ipv6/ip6mr.c:ip6mr_rules_exit</a> (192 bytes)<br />
 <br /><br />
-<strong> Compartment 85 accesses 9 objects:</strong><br />
-1. Global var cgrp_dfl_root <br />
-2. Global var init_css_set <br />
-3. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br />
-4. KMEM_CACHE alloc from kernel/cgroup.c:find_css_set <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-6. KMEM_CACHE alloc from net/core/netclassid_cgroup.c:cgrp_css_alloc <br />
-7. KMEM_CACHE alloc from net/core/netprio_cgroup.c:cgrp_css_alloc <br />
-8. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-9. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-</html>
+<strong> Compartment 85 accesses 5 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from mm/util.c:kmemdup <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from net/core/fib_rules.c:fib_default_rule_add <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/ipv4/fib_frontend.c:fib_net_init <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/ipv6/ip6mr.c:ip6mr_new_table <br /></span>
+</body></html>

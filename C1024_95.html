@@ -1,19 +1,21 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 95 of 1503<br />
+Viewing C1024 compartment 95 of 1479<br />
 <a href='C1024_94.html'> Prev</a>
 <a href='C1024_96.html'> Next</a>
 <br /><br />
-<strong> Compartment 95 is 960 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/key.c.html#L720'">security/keys/key.c:key_type_put</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L58'">security/keys/keyctl.c:SyS_add_key</a> (480 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L156'">security/keys/keyctl.c:SyS_request_key</a> (384 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L29'">security/keys/keyctl.c:key_get_type_from_user</a> (64 bytes)<br />
+<strong> Compartment 95 is 880 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L6335'">net/core/dev.c:__dev_set_rx_mode</a> (144 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L664'">net/core/dev_addr_lists.c:__dev_mc_add</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L704'">net/core/dev_addr_lists.c:__dev_mc_del</a> (112 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L51'">net/core/dev_addr_lists.c:__hw_addr_add_ex</a> (208 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4,5],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L117'">net/core/dev_addr_lists.c:__hw_addr_del_ex</a> (112 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3,5],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L360'">net/core/dev_addr_lists.c:dev_addr_init</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(5,[],[[],[],[],[],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev_addr_lists.c.html#L684'">net/core/dev_addr_lists.c:dev_mc_add</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 95 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from mm/util.c:memdup_user <br />
-2. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
-3. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br />
-4. STACK <br />
-</html>
+<strong> Compartment 95 accesses 5 objects:</strong><br />
+<span id='obj1'>1. Global var loopback_ops <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/core/dev_addr_lists.c:__hw_addr_create_ex <br /></span>
+<span id='obj5'>5. STACK <br /></span>
+</body></html>

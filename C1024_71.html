@@ -1,32 +1,19 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 71 of 1503<br />
+Viewing C1024 compartment 71 of 1479<br />
 <a href='C1024_70.html'> Prev</a>
 <a href='C1024_72.html'> Next</a>
 <br /><br />
-<strong> Compartment 71 is 944 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/sys_x86_64.c.html#L123'">arch/x86/kernel/sys_x86_64.c:arch_get_unmapped_area</a> (432 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/char/mem.c.html#L666'">drivers/char/mem.c:get_unmapped_area_zero</a> (48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/shm.c.html#L469'">ipc/shm.c:shm_get_unmapped_area</a> (32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mmap.c.html#L2049'">mm/mmap.c:get_unmapped_area</a> (272 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/commoncap.c.html#L1050'">security/commoncap.c:cap_mmap_addr</a> (80 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L841'">security/security.c:security_mmap_addr</a> (80 bytes)<br />
+<strong> Compartment 71 is 704 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,3],[[],[1,2,5],[1,2,3,5],[1,2,3,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L1408'">fs/aio.c:SyS_io_destroy</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[1],[[],[1,2,5],[1,2,3,5],[1,2,3,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L1819'">fs/aio.c:SyS_io_getevents</a> (144 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[],[[],[1,2,5],[1,2,3,5],[1,2,3,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L689'">fs/aio.c:aio_nr_sub</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,4,5],[[],[1,2,5],[1,2,3,5],[1,2,3,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L812'">fs/aio.c:kill_ioctx</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3,4,5],[[],[1,2,5],[1,2,3,5],[1,2,3,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/aio.c.html#L1041'">fs/aio.c:lookup_ioctx</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 71 accesses 15 objects:</strong><br />
-1. Global var aio_ring_fops <br />
-2. Global var capability_hooks <br />
-3. Global var dac_mmap_min_addr <br />
-4. Global var ext4_file_operations <br />
-5. Global var hugetlbfs_file_operations <br />
-6. Global var shm_file_operations <br />
-7. Global var shmem_file_operations <br />
-8. Global var va_align <br />
-9. Global var zero_fops <br />
-10. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-11. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-12. KMEM_CACHE alloc from ipc/shm.c:do_shmat <br />
-13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-14. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-15. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-</html>
+<strong> Compartment 71 accesses 5 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from fs/aio.c:ioctx_alloc <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/aio.c:ioctx_alloc <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br /></span>
+</body></html>

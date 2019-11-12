@@ -1,24 +1,18 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 49 of 1503<br />
+Viewing C1024 compartment 49 of 1479<br />
 <a href='C1024_48.html'> Prev</a>
 <a href='C1024_50.html'> Next</a>
 <br /><br />
-<strong> Compartment 49 is 880 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/inline.c.html#L129'">fs/ext4/inline.c:ext4_find_inline_data_nolock</a> (240 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L246'">fs/ext4/xattr.c:__xattr_check_inode</a> (128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L277'">fs/ext4/xattr.c:ext4_xattr_find_entry</a> (304 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/xattr.c.html#L1059'">fs/ext4/xattr.c:ext4_xattr_ibody_find</a> (208 bytes)<br />
+<strong> Compartment 49 is 944 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,4,5,6],[[],[1,5,6],[1,2,4,5,6],[1,2,3,4,5,6],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/dir.c.html#L63'">fs/ext4/dir.c:__ext4_check_dir_entry</a> (304 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,3,4,5,6],[[],[1,5,6],[1,2,4,5,6],[1,2,3,4,5,6],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2365'">fs/ext4/namei.c:ext4_delete_entry</a> (352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,3,4,6],[[],[1,5,6],[1,2,4,5,6],[1,2,3,4,5,6],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2329'">fs/ext4/namei.c:ext4_generic_delete_entry</a> (288 bytes)<br />
 <br /><br />
-<strong> Compartment 49 accesses 9 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-5. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-6. STACK <br />
-7. String constant *.LC0 <br />
-8. String constant *.LC0 <br />
-9. String constant *.LC3 <br />
-</html>
+<strong> Compartment 49 accesses 6 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br /></span>
+<span id='obj2'>2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+</body></html>

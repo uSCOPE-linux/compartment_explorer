@@ -1,27 +1,24 @@
 <html>
-Selected compartmentalization: <strong>C1024</strong><br />
-<br />
-Viewing compartment: 16 of 1503<br />
+Viewing C1024 compartment 16 of 1479<br />
 <a href='C1024_15.html'> Prev</a>
 <a href='C1024_17.html'> Next</a>
 <br /><br />
-<strong> Compartment 16 is 977 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evgpe.c.html#L381'">drivers/acpi/acpica/evgpe.c:acpi_ev_gpe_detect</a> (406 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evgpe.c.html#L754'">drivers/acpi/acpica/evgpe.c:acpi_ev_gpe_dispatch</a> (294 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evsci.c.html#L66'">drivers/acpi/acpica/evsci.c:acpi_ev_sci_dispatch</a> (94 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/acpica/evsci.c.html#L111'">drivers/acpi/acpica/evsci.c:acpi_ev_sci_xrupt_handler</a> (50 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/osl.c.html#L528'">drivers/acpi/osl.c:acpi_irq</a> (49 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/acpi/sysfs.c.html#L549'">drivers/acpi/sysfs.c:acpi_global_event_handler</a> (84 bytes)<br />
+<strong> Compartment 16 is 976 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(11,[1,2,3,4,5,6,7,8,9,10,11],[[],[1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2491'">block/cfq-iosched.c:cfq_activate_request</a> (240 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(11,[1,2,3,4,5,6,7,8,9,10,11],[[],[1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L3000'">block/cfq-iosched.c:cfq_dispatch_insert</a> (304 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(11,[1,2,3,5,6,7,8,10,11],[[],[1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2888'">block/cfq-iosched.c:cfq_should_idle</a> (368 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(11,[],[[],[1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/kernfs/dir.c.html#L198'">fs/kernfs/dir.c:kernfs_path_from_node</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 16 accesses 10 objects:</strong><br />
-1. Global var acpi_gbl_global_event_handler <br />
-2. Global var acpi_gbl_global_event_handler_context <br />
-3. Global var acpi_gbl_gpe_lock <br />
-4. Global var acpi_gbl_sci_handler_list <br />
-5. Global var acpi_gpe_count <br />
-6. Global var acpi_irq_handled <br />
-7. Global var acpi_sci_count <br />
-8. KMEM_CACHE alloc from drivers/acpi/acpica/evgpeutil.c:acpi_ev_get_gpe_xrupt_block <br />
-9. KMEM_CACHE alloc from include/acpi/platform/aclinuxex.h:acpi_os_allocate_zeroed <br />
-10. KMEM_CACHE alloc from slab.h:kzalloc <br />
-</html>
+<strong> Compartment 16 accesses 11 objects:</strong><br />
+<span id='obj1'>1. Global var blkcg_root <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_get_queue <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_init_queue <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br /></span>
+<span id='obj10'>10. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br /></span>
+<span id='obj11'>11. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mount <br /></span>
+</body></html>
