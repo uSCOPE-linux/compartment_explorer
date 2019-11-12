@@ -1,25 +1,16 @@
 <html>
-Selected compartmentalization: <strong>C16384</strong><br />
-<br />
-Viewing compartment: 92 of 483<br />
+Viewing C16384 compartment 92 of 494<br />
 <a href='C16384_91.html'> Prev</a>
 <a href='C16384_93.html'> Next</a>
 <br /><br />
-<strong> Compartment 92 is 3168 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L139'">security/apparmor/domain.c:__attach_match</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/domain.c.html#L336'">security/apparmor/domain.c:apparmor_bprm_set_creds</a> (2672 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/file.c.html#L107'">security/apparmor/file.c:aa_audit_file</a> (304 bytes)<br />
+<strong> Compartment 92 is 832 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(3,[2],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L3148'">block/blk-core.c:plug_rq_cmp</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(3,[1],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L1191'">block/blk-mq.c:plug_ctx_cmp</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/list_sort.c.html#L105'">lib/list_sort.c:list_sort</a> (592 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/list_sort.c.html#L21'">lib/list_sort.c:merge</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 92 accesses 11 objects:</strong><br />
-1. Global var aa_g_audit <br />
-2. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-6. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
-7. KMEM_CACHE alloc from security/apparmor/context.c:aa_alloc_task_context <br />
-8. KMEM_CACHE alloc from security/apparmor/path.c:aa_path_name <br />
-9. KMEM_CACHE alloc from security/apparmor/policy.c:aa_alloc_profile <br />
-10. KMEM_CACHE alloc from security/apparmor/policy.c:alloc_namespace <br />
-11. STACK <br />
-</html>
+<strong> Compartment 92 accesses 3 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br /></span>
+<span id='obj3'>3. STACK <br /></span>
+</body></html>

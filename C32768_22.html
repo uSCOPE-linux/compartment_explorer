@@ -1,27 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C32768</strong><br />
-<br />
-Viewing compartment: 22 of 408<br />
+Viewing C32768 compartment 22 of 447<br />
 <a href='C32768_21.html'> Prev</a>
 <a href='C32768_23.html'> Next</a>
 <br /><br />
-<strong> Compartment 22 is 480 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_hashtables.c.html#L85'">net/ipv4/inet_hashtables.c:inet_bind_bucket_destroy</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L29'">net/ipv4/inet_timewait_sock.c:inet_twsk_bind_unhash</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L65'">net/ipv4/inet_timewait_sock.c:inet_twsk_free</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L43'">net/ipv4/inet_timewait_sock.c:inet_twsk_kill</a> (160 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/inet_timewait_sock.c.html#L144'">net/ipv4/inet_timewait_sock.c:tw_timer_handler</a> (64 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_minisocks.c.html#L346'">net/ipv4/tcp_minisocks.c:tcp_twsk_destructor</a> (48 bytes)<br />
+<strong> Compartment 22 is 7744 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(6,[4,5],[[],[],[4],[3,4],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L256'">crypto/sha256_generic.c:crypto_sha256_finup</a> (352 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,3,4],[[],[],[4],[3,4],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L249'">crypto/sha256_generic.c:sha256_final</a> (352 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(6,[],[[],[],[4],[3,4],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L234'">crypto/sha256_generic.c:sha256_generic_block_fn</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(6,[4,5,6],[[],[],[4],[3,4],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/sha256_generic.c.html#L70'">crypto/sha256_generic.c:sha256_transform</a> (6912 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,4],[[],[],[4],[3,4],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/crypto/shash.c.html#L154'">crypto/shash.c:crypto_shash_finup</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 22 accesses 10 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/page_alloc.c:alloc_large_system_hash <br />
-2. Global var init_net <br />
-3. Global var tcp6_timewait_sock_ops <br />
-4. Global var tcp_death_row <br />
-5. Global var tcp_hashinfo <br />
-6. Global var tcp_prot <br />
-7. Global var tcp_timewait_sock_ops <br />
-8. Global var tcpv6_prot <br />
-9. KMEM_CACHE alloc from net/ipv4/inet_hashtables.c:inet_bind_bucket_create <br />
-10. KMEM_CACHE alloc from net/ipv4/inet_timewait_sock.c:inet_twsk_alloc <br />
-</html>
+<strong> Compartment 22 accesses 6 objects:</strong><br />
+<span id='obj1'>1. Global var sha256_algs <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from crypto/asymmetric_keys/x509_public_key.c:x509_get_sig_params <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from security/keys/keyctl.c:SyS_add_key <br /></span>
+<span id='obj6'>6. STACK <br /></span>
+</body></html>

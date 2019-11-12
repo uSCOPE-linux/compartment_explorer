@@ -1,23 +1,19 @@
 <html>
-Selected compartmentalization: <strong>C32768</strong><br />
-<br />
-Viewing compartment: 55 of 408<br />
+Viewing C32768 compartment 55 of 447<br />
 <a href='C32768_54.html'> Prev</a>
 <a href='C32768_56.html'> Next</a>
 <br /><br />
-<strong> Compartment 55 is 1024 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fanotify/fanotify.c.html#L142'">fs/notify/fanotify/fanotify.c:fanotify_alloc_event</a> (224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fanotify/fanotify_user.c.html#L705'">fs/notify/fanotify/fanotify_user.c:SyS_fanotify_init</a> (640 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/group.c.html#L115'">fs/notify/group.c:fsnotify_alloc_group</a> (160 bytes)<br />
+<strong> Compartment 55 is 416 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,2],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1019'">net/ipv4/ping.c:ping_get_first</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(4,[3],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1061'">net/ipv4/ping.c:ping_get_idx</a> (80 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(4,[4],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1089'">net/ipv4/ping.c:ping_seq_next</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(4,[2,3,4],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1072'">net/ipv4/ping.c:ping_seq_start</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(4,[2,3,4],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ping.c.html#L1084'">net/ipv4/ping.c:ping_v4_seq_start</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(4,[],[[],[2],[2],[2,3],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ping.c.html#L206'">net/ipv6/ping.c:ping_v6_seq_start</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 55 accesses 9 objects:</strong><br />
-1. Global var fanotify_event_cachep <br />
-2. Global var fanotify_perm_event_cachep <br />
-3. Global var root_user <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
-6. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br />
-7. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br />
-8. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-</html>
+<strong> Compartment 55 accesses 4 objects:</strong><br />
+<span id='obj1'>1. Global var ping_table <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br /></span>
+<span id='obj4'>4. STACK <br /></span>
+</body></html>

@@ -1,41 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C8192</strong><br />
-<br />
-Viewing compartment: 16 of 594<br />
+Viewing C8192 compartment 16 of 617<br />
 <a href='C8192_15.html'> Prev</a>
 <a href='C8192_17.html'> Next</a>
 <br /><br />
-<strong> Compartment 16 is 7632 bytes and has 10 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/paravirt.c.html#L178'">arch/x86/kernel/paravirt.c:native_flush_tlb</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pat.c.html#L919'">arch/x86/mm/pat.c:track_pfn_copy</a> (144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L3747'">mm/memory.c:__pmd_alloc</a> (288 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L577'">mm/memory.c:__pte_alloc</a> (192 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L3724'">mm/memory.c:__pud_alloc</a> (208 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L1044'">mm/memory.c:copy_page_range</a> (2480 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/memory.c.html#L239'">mm/memory.c:tlb_flush_mmu_tlbonly</a> (160 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mprotect.c.html#L262'">mm/mprotect.c:change_protection</a> (2144 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mremap.c.html#L186'">mm/mremap.c:move_page_tables</a> (1952 bytes)<br />
-10. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/page_alloc.c.html#L3895'">mm/page_alloc.c:get_zeroed_page</a> (32 bytes)<br />
+<strong> Compartment 16 is 1952 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(3,[],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L282'">kernel/time/itimer.c:SyS_alarm</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L289'">kernel/time/itimer.c:SyS_setitimer</a> (272 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L189'">kernel/time/itimer.c:do_setitimer</a> (480 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/itimer.c.html#L144'">kernel/time/itimer.c:set_cpu_itimer</a> (496 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(3,[3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L562'">kernel/time/posix-cpu-timers.c:cpu_timer_sample_group</a> (128 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/posix-cpu-timers.c.html#L1216'">kernel/time/posix-cpu-timers.c:set_process_cpu_timer</a> (304 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(3,[3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L581'">kernel/time/time.c:jiffies_to_timespec64</a> (64 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.setColors(3,[3],[[],[],[],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L611'">kernel/time/time.c:timeval_to_jiffies</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 16 accesses 20 objects:</strong><br />
-1. ALLOC_PAGES alloc from arch/x86/mm/pgtable.c:pgd_alloc <br />
-2. ALLOC_PAGES alloc from arch/x86/mm/pgtable.c:pte_alloc_one <br />
-3. ALLOC_PAGES alloc from fs/btrfs/super.c:parse_security_options <br />
-4. ALLOC_PAGES alloc from fs/ext4/super.c:ext4_calculate_overhead <br />
-5. ALLOC_PAGES alloc from fs/super.c:mount_fs <br />
-6. ALLOC_PAGES alloc from mm/memory.c:__pmd_alloc <br />
-7. ALLOC_PAGES alloc from mm/memory.c:__pud_alloc <br />
-8. ALLOC_PAGES alloc from mm/page_alloc.c:get_zeroed_page <br />
-9. Global var __supported_pte_mask <br />
-10. KMEM_CACHE alloc from fs/exec.c:do_execveat_common <br />
-11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-12. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-14. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-15. KMEM_CACHE alloc from mm/mmap.c:__install_special_mapping <br />
-16. KMEM_CACHE alloc from mm/mmap.c:__split_vma <br />
-17. KMEM_CACHE alloc from mm/mmap.c:copy_vma <br />
-18. KMEM_CACHE alloc from mm/mmap.c:do_brk <br />
-19. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-20. STACK <br />
-</html>
+<strong> Compartment 16 accesses 3 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj3'>3. STACK <br /></span>
+</body></html>

@@ -1,22 +1,32 @@
 <html>
-Selected compartmentalization: <strong>C32768</strong><br />
-<br />
-Viewing compartment: 88 of 408<br />
+Viewing C32768 compartment 88 of 447<br />
 <a href='C32768_87.html'> Prev</a>
 <a href='C32768_89.html'> Next</a>
 <br /><br />
-<strong> Compartment 88 is 784 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/dev.c.html#L678'">net/core/dev.c:dev_get_iflink</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/link_watch.c.html#L52'">net/core/link_watch.c:rfc2863_policy</a> (128 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/addrconf.c.html#L5258'">net/ipv6/addrconf.c:inet6_fill_ifinfo</a> (608 bytes)<br />
+<strong> Compartment 88 is 2160 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(15,[1,5,6,7,8,12,13,14],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/fs-writeback.c.html#L725'">fs/fs-writeback.c:inode_congested</a> (240 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(15,[1,5,6,7,8,9,10,11,12,14],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/fadvise.c.html#L179'">mm/fadvise.c:SyS_fadvise64</a> (624 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(15,[],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1098'">mm/filemap.c:page_cache_next_hole</a> (80 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(15,[],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1139'">mm/filemap.c:page_cache_prev_hole</a> (80 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(15,[1,2,3,4,6,7,8,9,10,12,15],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/readahead.c.html#L209'">mm/readahead.c:force_page_cache_readahead</a> (272 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(15,[1,6,7,8,9,12],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/readahead.c.html#L378'">mm/readahead.c:ondemand_readahead</a> (672 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(15,[7,8,9],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/readahead.c.html#L532'">mm/readahead.c:page_cache_async_readahead</a> (112 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.setColors(15,[9],[[],[1,6,9,12,13],[1,4,6,8,9,12,13],[1,3,4,5,6,7,8,9,12,13,14],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/readahead.c.html#L496'">mm/readahead.c:page_cache_sync_readahead</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 88 accesses 8 objects:</strong><br />
-1. Global var loopback_ops <br />
-2. Global var tap_netdev_ops <br />
-3. Global var virtnet_netdev <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-6. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-7. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-8. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
-</html>
+<strong> Compartment 88 accesses 15 objects:</strong><br />
+<span id='obj1'>1. Global var blockdev_superblock <br /></span>
+<span id='obj2'>2. Global var def_blk_aops <br /></span>
+<span id='obj3'>3. Global var empty_aops <br /></span>
+<span id='obj4'>4. Global var ext4_da_aops <br /></span>
+<span id='obj5'>5. Global var noop_backing_dev_info <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br /></span>
+<span id='obj10'>10. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br /></span>
+<span id='obj11'>11. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br /></span>
+<span id='obj12'>12. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+<span id='obj13'>13. KMEM_CACHE alloc from mm/backing-dev.c:wb_congested_get_create <br /></span>
+<span id='obj14'>14. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br /></span>
+<span id='obj15'>15. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br /></span>
+</body></html>

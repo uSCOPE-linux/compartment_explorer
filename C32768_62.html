@@ -1,21 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C32768</strong><br />
-<br />
-Viewing compartment: 62 of 408<br />
+Viewing C32768 compartment 62 of 447<br />
 <a href='C32768_61.html'> Prev</a>
 <a href='C32768_63.html'> Next</a>
 <br /><br />
-<strong> Compartment 62 is 784 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pat.c.html#L655'">arch/x86/mm/pat.c:lookup_memtype</a> (160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pat.c.html#L414'">arch/x86/mm/pat.c:pagerange_is_ram_callback</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/pat.c.html#L425'">arch/x86/mm/pat.c:pat_pagerange_is_ram</a> (128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L361'">kernel/resource.c:find_next_iomem_res</a> (240 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L479'">kernel/resource.c:walk_system_ram_range</a> (192 bytes)<br />
+<strong> Compartment 62 is 2400 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(4,[1],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/arp.c.html#L187'">net/ipv4/arp.c:arp_mc_map</a> (448 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,3,4],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/igmp.c.html#L1253'">net/ipv4/igmp.c:igmp_group_added</a> (368 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,3,4],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/igmp.c.html#L1215'">net/ipv4/igmp.c:igmp_group_dropped</a> (592 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,3,4],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/igmp.c.html#L1140'">net/ipv4/igmp.c:igmpv3_del_delrec</a> (304 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,2,3,4],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/igmp.c.html#L1347'">net/ipv4/igmp.c:ip_mc_inc_group</a> (512 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,2,3,4],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/igmp.c.html#L1700'">net/ipv4/igmp.c:ip_mc_up</a> (144 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(4,[1,3],[[],[],[],[3,4],[1,2,3,4]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/route.c.html#L2680'">net/ipv4/route.c:ip_rt_multicast_event</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 62 accesses 5 objects:</strong><br />
-1. Global var adapter_rom_resources <br />
-2. Global var lapic_resource <br />
-3. Global var video_rom_resource <br />
-4. KMEM_CACHE alloc from kernel/resource.c:resource_list_create_entry <br />
-5. STACK <br />
-</html>
+<strong> Compartment 62 accesses 4 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_init <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/ipv4/igmp.c:ip_mc_inc_group <br /></span>
+</body></html>

@@ -1,21 +1,24 @@
 <html>
-Selected compartmentalization: <strong>C32768</strong><br />
-<br />
-Viewing compartment: 92 of 408<br />
+Viewing C32768 compartment 92 of 447<br />
 <a href='C32768_91.html'> Prev</a>
 <a href='C32768_93.html'> Next</a>
 <br /><br />
-<strong> Compartment 92 is 416 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/pid_namespace.c.html#L151'">kernel/pid_namespace.c:delayed_free_pidns</a> (80 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ucount.c.html#L208'">kernel/ucount.c:dec_ucount</a> (160 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/ucount.c.html#L157'">kernel/ucount.c:put_ucounts</a> (96 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/utsname.c.html#L105'">kernel/utsname.c:free_uts_ns</a> (80 bytes)<br />
+<strong> Compartment 92 is 7296 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(8,[6,8],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L611'">drivers/tty/n_tty.c:__process_echoes</a> (640 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(8,[6,8],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L746'">drivers/tty/n_tty.c:commit_echoes</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(8,[1,6,8],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L908'">drivers/tty/n_tty.c:echo_char</a> (160 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(8,[],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L1743'">drivers/tty/n_tty.c:n_tty_receive_buf2</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(8,[3,4,5,6,8],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L1668'">drivers/tty/n_tty.c:n_tty_receive_buf_common</a> (3456 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(8,[6,8],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/n_tty.c.html#L1239'">drivers/tty/n_tty.c:n_tty_receive_char_special</a> (2752 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(8,[2,7],[[],[],[7],[2,5,6,7],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/tty/tty_buffer.c.html#L425'">drivers/tty/tty_buffer.c:tty_ldisc_receive_buf</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 92 accesses 6 objects:</strong><br />
-1. Global var init_user_ns <br />
-2. Global var ucounts_hashtable <br />
-3. KMEM_CACHE alloc from kernel/pid_namespace.c:copy_pid_ns <br />
-4. KMEM_CACHE alloc from kernel/ucount.c:inc_ucount <br />
-5. KMEM_CACHE alloc from kernel/user_namespace.c:create_user_ns <br />
-6. KMEM_CACHE alloc from kernel/utsname.c:copy_utsname <br />
-</html>
+<strong> Compartment 92 accesses 8 objects:</strong><br />
+<span id='obj1'>1. Global var _ctype <br /></span>
+<span id='obj2'>2. Global var n_tty_ops <br /></span>
+<span id='obj3'>3. Global var pty_unix98_ops <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from drivers/tty/tty_buffer.c:__tty_buffer_request_room <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from drivers/tty/tty_io.c:__tty_alloc_driver <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from drivers/tty/tty_io.c:alloc_tty_struct <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from drivers/tty/tty_ldisc.c:tty_ldisc_get <br /></span>
+<span id='obj8'>8. VMALLOC alloc from drivers/tty/n_tty.c:n_tty_open <br /></span>
+</body></html>

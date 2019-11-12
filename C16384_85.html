@@ -1,22 +1,24 @@
 <html>
-Selected compartmentalization: <strong>C16384</strong><br />
-<br />
-Viewing compartment: 85 of 483<br />
+Viewing C16384 compartment 85 of 494<br />
 <a href='C16384_84.html'> Prev</a>
 <a href='C16384_86.html'> Next</a>
 <br /><br />
-<strong> Compartment 85 is 400 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/mcast.c.html#L2632'">net/ipv6/mcast.c:igmp6_mc_get_next</a> (160 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/mcast.c.html#L2672'">net/ipv6/mcast.c:igmp6_mc_seq_next</a> (48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/mcast.c.html#L2666'">net/ipv6/mcast.c:igmp6_mc_seq_start</a> (192 bytes)<br />
+<strong> Compartment 85 is 1888 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(7,[],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/time/time.c.html#L529'">kernel/time/time.c:__usecs_to_jiffies</a> (64 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(7,[3,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_cubic.c.html#L153'">net/ipv4/tcp_cubic.c:bictcp_cwnd_event</a> (64 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,5,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L848'">net/ipv4/tcp_input.c:tcp_init_cwnd</a> (64 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(7,[2,3,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_input.c.html#L3524'">net/ipv4/tcp_input.c:tcp_process_tlp_ack</a> (336 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,3,5,6,7],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_metrics.c.html#L488'">net/ipv4/tcp_metrics.c:tcp_init_metrics</a> (416 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(7,[3,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L138'">net/ipv4/tcp_output.c:tcp_cwnd_restart</a> (240 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(7,[3,4,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L2284'">net/ipv4/tcp_output.c:tcp_schedule_loss_probe</a> (416 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.setColors(7,[3,6],[[],[3,4],[1,3,4,6],[1,3,4,5,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/tcp_output.c.html#L3463'">net/ipv4/tcp_output.c:tcp_send_delayed_ack</a> (288 bytes)<br />
 <br /><br />
-<strong> Compartment 85 accesses 8 objects:</strong><br />
-1. Global var init_net <br />
-2. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-3. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-6. KMEM_CACHE alloc from net/ipv6/addrconf.c:ipv6_add_dev <br />
-7. KMEM_CACHE alloc from net/ipv6/mcast.c:ipv6_dev_mc_inc <br />
-8. STACK <br />
-</html>
+<strong> Compartment 85 accesses 7 objects:</strong><br />
+<span id='obj1'>1. Global var dst_default_metrics <br /></span>
+<span id='obj2'>2. Global var init_net <br /></span>
+<span id='obj3'>3. Global var jiffies_64 <br /></span>
+<span id='obj4'>4. Global var sysctl_tcp_early_retrans <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/core/dst.c:dst_alloc <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from net/ipv4/tcp_metrics.c:tcp_get_metrics <br /></span>
+</body></html>
