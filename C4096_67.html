@@ -1,20 +1,25 @@
 <html>
-Selected compartmentalization: <strong>C4096</strong><br />
-<br />
-Viewing compartment: 67 of 824<br />
+Viewing C4096 compartment 67 of 815<br />
 <a href='C4096_66.html'> Prev</a>
 <a href='C4096_68.html'> Next</a>
 <br /><br />
-<strong> Compartment 67 is 1248 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L450'">fs/ext4/extents.c:__ext4_ext_check</a> (992 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L60'">fs/ext4/extents.c:ext4_extent_block_csum</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/extents.c.html#L86'">fs/ext4/extents.c:ext4_extent_block_csum_set</a> (160 bytes)<br />
+<strong> Compartment 67 is 4080 bytes and has 8 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(8,[2,4,6],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp.c.html#L572'">net/ipv4/udp.c:udp4_lib_lookup_skb</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(8,[2,6,8],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/udp_offload.c.html#L252'">net/ipv4/udp_offload.c:udp_gro_receive</a> (336 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(8,[5,6],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_checksum.c.html#L63'">net/ipv6/ip6_checksum.c:udp6_csum_init</a> (592 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(8,[1,8],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L208'">net/ipv6/udp.c:__udp6_lib_lookup</a> (656 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(8,[2,3,4,5,6,7,8],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L745'">net/ipv6/udp.c:__udp6_lib_rcv</a> (2064 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(8,[7,8],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L116'">net/ipv6/udp.c:compute_score</a> (176 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(8,[4,6],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L290'">net/ipv6/udp.c:udp6_lib_lookup_skb</a> (112 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.setColors(8,[],[[],[],[6],[4,6],[1,2,3,4,5,6,7,8]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/udp.c.html#L853'">net/ipv6/udp.c:udpv6_rcv</a> (32 bytes)<br />
 <br /><br />
-<strong> Compartment 67 accesses 6 objects:</strong><br />
-1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br />
-2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br />
-3. KMEM_CACHE alloc from crypto/api.c:crypto_create_tfm <br />
-4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br />
-6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-</html>
+<strong> Compartment 67 accesses 8 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from mm/page_alloc.c:alloc_large_system_hash <br /></span>
+<span id='obj2'>2. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br /></span>
+</body></html>

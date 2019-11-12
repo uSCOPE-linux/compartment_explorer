@@ -1,25 +1,31 @@
 <html>
-Selected compartmentalization: <strong>C2048</strong><br />
-<br />
-Viewing compartment: 16 of 1153<br />
+Viewing C2048 compartment 16 of 1158<br />
 <a href='C2048_15.html'> Prev</a>
 <a href='C2048_17.html'> Next</a>
 <br /><br />
-<strong> Compartment 16 is 464 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/jump_label.c.html#L106'">arch/x86/kernel/jump_label.c:arch_jump_label_transform</a> (224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/extable.c.html#L119'">kernel/extable.c:kernel_text_address</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/jump_label.c.html#L268'">kernel/jump_label.c:__jump_label_update</a> (144 bytes)<br />
+<strong> Compartment 16 is 2048 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(15,[4,7,8,9,12,15],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L207'">fs/ext4/file.c:ext4_file_write_iter</a> (832 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(15,[4,7,8,9,12,15],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/file.c.html#L149'">fs/ext4/file.c:ext4_write_checks</a> (128 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(15,[6,7,10,11,14],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1764'">fs/inode.c:dentry_needs_remove_privs</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(15,[3,6,7,9,12,14],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1798'">fs/inode.c:file_remove_privs</a> (192 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(15,[6,7,10,11,14],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1736'">fs/inode.c:should_remove_suid</a> (112 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(15,[2,7,9,12,15],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/read_write.c.html#L380'">fs/read_write.c:vfs_iter_write</a> (240 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(15,[1,4,5,7,9,12,13,14,15],[[],[1,9,12,13,15],[1,6,7,9,12,13,15],[1,6,7,9,12,13,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L2890'">mm/filemap.c:__generic_file_write_iter</a> (448 bytes)<br />
 <br /><br />
-<strong> Compartment 16 accesses 11 objects:</strong><br />
-1. Global var ___once_key.58098 <br />
-2. Global var ___once_key.58103 <br />
-3. Global var ___once_key.60919 <br />
-4. Global var ideal_nops <br />
-5. Global var k8_nops <br />
-6. Global var k8nops <br />
-7. Global var netstamp_needed <br />
-8. Global var p6_nops <br />
-9. Global var p6nops <br />
-10. Global var perf_sched_events <br />
-11. STACK <br />
-</html>
+<strong> Compartment 16 accesses 15 objects:</strong><br />
+<span id='obj1'>1. Global var blockdev_superblock <br /></span>
+<span id='obj2'>2. Global var ext4_file_operations <br /></span>
+<span id='obj3'>3. Global var ovl_dentry_operations <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/aio.c:do_io_submit <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br /></span>
+<span id='obj10'>10. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br /></span>
+<span id='obj11'>11. KMEM_CACHE alloc from fs/proc/inode.c:proc_alloc_inode <br /></span>
+<span id='obj12'>12. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+<span id='obj13'>13. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj14'>14. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br /></span>
+<span id='obj15'>15. STACK <br /></span>
+</body></html>

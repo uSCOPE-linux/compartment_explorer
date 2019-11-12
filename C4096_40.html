@@ -1,34 +1,30 @@
 <html>
-Selected compartmentalization: <strong>C4096</strong><br />
-<br />
-Viewing compartment: 40 of 824<br />
+Viewing C4096 compartment 40 of 815<br />
 <a href='C4096_39.html'> Prev</a>
 <a href='C4096_41.html'> Next</a>
 <br /><br />
-<strong> Compartment 40 is 4080 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/kernel/process_64.c.html#L263'">arch/x86/kernel/process_64.c:__switch_to</a> (1200 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/arch/x86/mm/tlb.c.html#L74'">arch/x86/mm/tlb.c:switch_mm_irqs_off</a> (304 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/rcu/tiny.c.html#L85'">kernel/rcu/tiny.c:rcu_sched_qs</a> (128 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L3333'">kernel/sched/core.c:__schedule</a> (1488 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L2731'">kernel/sched/core.c:finish_task_switch</a> (464 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/deadline.c.html#L1120'">kernel/sched/deadline.c:pick_next_task_dl</a> (176 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/idle_task.c.html#L26'">kernel/sched/idle_task.c:pick_next_task_idle</a> (64 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/rt.c.html#L1525'">kernel/sched/rt.c:pick_next_task_rt</a> (176 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/stop_task.c.html#L26'">kernel/sched/stop_task.c:pick_next_task_stop</a> (80 bytes)<br />
+<strong> Compartment 40 is 176 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(18,[1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17],[[],[],[2,3,4,5,6,7,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L61'">kernel/resource.c:next_resource</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(18,[1,2,3,4,7,8,9,10,11,12,14,15,16,17,18],[[],[],[2,3,4,5,6,7,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L75'">kernel/resource.c:r_next</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(18,[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],[[],[],[2,3,4,5,6,7,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,14,15],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/resource.c.html#L87'">kernel/resource.c:r_start</a> (96 bytes)<br />
 <br /><br />
-<strong> Compartment 40 accesses 14 objects:</strong><br />
-1. Global var __start_init_task <br />
-2. Global var alternatives_patched <br />
-3. Global var dl_sched_class <br />
-4. Global var fair_sched_class <br />
-5. Global var idle_sched_class <br />
-6. Global var init_task <br />
-7. Global var prof_on <br />
-8. Global var rt_sched_class <br />
-9. Global var stop_sched_class <br />
-10. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-11. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-12. KMEM_CACHE alloc from kernel/fork.c:mm_alloc <br />
-13. KMEM_CACHE alloc from kernel/tracepoint.c:tracepoint_probe_register_prio <br />
-14. STACK <br />
-</html>
+<strong> Compartment 40 accesses 18 objects:</strong><br />
+<span id='obj1'>1. Global var adapter_rom_resources <br /></span>
+<span id='obj2'>2. Global var bss_resource <br /></span>
+<span id='obj3'>3. Global var code_resource <br /></span>
+<span id='obj4'>4. Global var data_resource <br /></span>
+<span id='obj5'>5. Global var iomem_resource <br /></span>
+<span id='obj6'>6. Global var ioport_resource <br /></span>
+<span id='obj7'>7. Global var lapic_resource <br /></span>
+<span id='obj8'>8. Global var standard_io_resources <br /></span>
+<span id='obj9'>9. Global var system_rom_resource <br /></span>
+<span id='obj10'>10. Global var vga_console_resource.29819 <br /></span>
+<span id='obj11'>11. Global var video_rom_resource <br /></span>
+<span id='obj12'>12. KMEM_CACHE alloc from drivers/pci/probe.c:pci_alloc_dev <br /></span>
+<span id='obj13'>13. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br /></span>
+<span id='obj14'>14. KMEM_CACHE alloc from kernel/resource.c:alloc_resource <br /></span>
+<span id='obj15'>15. KMEM_CACHE alloc from kernel/resource.c:resource_list_create_entry <br /></span>
+<span id='obj16'>16. KMEM_CACHE alloc from mm/util.c:kmemdup <br /></span>
+<span id='obj17'>17. MEMBLOCK <br /></span>
+<span id='obj18'>18. STACK <br /></span>
+</body></html>

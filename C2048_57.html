@@ -1,26 +1,23 @@
 <html>
-Selected compartmentalization: <strong>C2048</strong><br />
-<br />
-Viewing compartment: 57 of 1153<br />
+Viewing C2048 compartment 57 of 1158<br />
 <a href='C2048_56.html'> Prev</a>
 <a href='C2048_58.html'> Next</a>
 <br /><br />
-<strong> Compartment 57 is 2000 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/binfmt_elf.c.html#L1348'">fs/binfmt_elf.c:writenote</a> (384 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/coredump.c.html#L784'">fs/coredump.c:dump_emit</a> (176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/read_write.c.html#L517'">fs/read_write.c:__kernel_write</a> (240 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/acct.c.html#L467'">kernel/acct.c:do_acct_process</a> (1200 bytes)<br />
+<strong> Compartment 57 is 2048 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(7,[2,4,5],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L841'">net/ipv4/fib_frontend.c:fib_add_ifaddr</a> (400 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(7,[2,4,5],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L1131'">net/ipv4/fib_frontend.c:fib_inetaddr_event</a> (176 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(7,[2,3,4,5,7],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_frontend.c.html#L1162'">net/ipv4/fib_frontend.c:fib_netdev_event</a> (288 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(7,[6],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_semantics.c.html#L537'">net/ipv4/fib_semantics.c:fib_rebalance</a> (288 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,3,6],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_semantics.c.html#L1374'">net/ipv4/fib_semantics.c:fib_sync_down_dev</a> (400 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,6],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/fib_semantics.c.html#L1517'">net/ipv4/fib_semantics.c:fib_sync_up</a> (352 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(7,[2,3],[[],[],[],[4,6],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/route.c.html#L1383'">net/ipv4/route.c:rt_flush_dev</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 57 accesses 11 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/binfmt_elf.c:elf_core_dump <br />
-2. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-3. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br />
-4. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-5. KMEM_CACHE alloc from kernel/acct.c:SyS_acct <br />
-6. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. STACK <br />
-10. String constant *.LC6 <br />
-11. String constant *.LC8 <br />
-</html>
+<strong> Compartment 57 accesses 7 objects:</strong><br />
+<span id='obj1'>1. Global var fib_info_devhash <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_event <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/ipv4/devinet.c:inetdev_init <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from net/ipv4/fib_semantics.c:fib_create_info <br /></span>
+<span id='obj7'>7. STACK <br /></span>
+</body></html>
