@@ -1,20 +1,16 @@
 <html>
-Selected compartmentalization: <strong>C65536</strong><br />
-<br />
-Viewing compartment: 97 of 377<br />
+Viewing C65536 compartment 97 of 432<br />
 <a href='C65536_96.html'> Prev</a>
 <a href='C65536_98.html'> Next</a>
 <br /><br />
-<strong> Compartment 97 is 368 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/kobject_uevent.c.html#L438'">lib/kobject_uevent.c:uevent_net_exit</a> (176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/rtnetlink.c.html#L4109'">net/core/rtnetlink.c:rtnetlink_net_exit</a> (48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/sock_diag.c.html#L328'">net/core/sock_diag.c:diag_net_exit</a> (48 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/af_netlink.c.html#L1985'">net/netlink/af_netlink.c:netlink_kernel_release</a> (48 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/netlink/genetlink.c.html#L1022'">net/netlink/genetlink.c:genl_pernet_exit</a> (48 bytes)<br />
+<strong> Compartment 97 is 832 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(3,[2],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L3148'">block/blk-core.c:plug_rq_cmp</a> (48 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(3,[1],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L1191'">block/blk-mq.c:plug_ctx_cmp</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/list_sort.c.html#L105'">lib/list_sort.c:list_sort</a> (592 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[2,3],[2,3],[2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/list_sort.c.html#L21'">lib/list_sort.c:merge</a> (144 bytes)<br />
 <br /><br />
-<strong> Compartment 97 accesses 4 objects:</strong><br />
-1. Global var uevent_sock_list <br />
-2. KMEM_CACHE alloc from lib/kobject_uevent.c:uevent_net_init <br />
-3. KMEM_CACHE alloc from net/core/net_namespace.c:copy_net_ns <br />
-4. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br />
-</html>
+<strong> Compartment 97 accesses 3 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br /></span>
+<span id='obj3'>3. STACK <br /></span>
+</body></html>

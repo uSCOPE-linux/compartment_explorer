@@ -1,23 +1,17 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 89 of 381<br />
+Viewing C131072 compartment 89 of 372<br />
 <a href='C131072_88.html'> Prev</a>
 <a href='C131072_90.html'> Next</a>
 <br /><br />
-<strong> Compartment 89 is 640 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/power/qos.c.html#L474'">kernel/power/qos.c:pm_qos_update_request</a> (176 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L2880'">kernel/workqueue.c:__cancel_work_timer</a> (432 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L3046'">kernel/workqueue.c:cancel_delayed_work_sync</a> (32 bytes)<br />
+<strong> Compartment 89 is 480 bytes and has 2 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,3,5,6],[[],[3],[2,3,4],[1,2,3,4,5,6],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L812'">fs/inode.c:find_inode_fast</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(6,[1,2,3,4,5,6],[[],[3],[2,3,4],[1,2,3,4,5,6],[1,2,3,4,5,6]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/inode.c.html#L1099'">fs/inode.c:iget_locked</a> (368 bytes)<br />
 <br /><br />
-<strong> Compartment 89 accesses 9 objects:</strong><br />
-1. Global var cpu_dma_pm_qos <br />
-2. Global var pm_qos_array <br />
-3. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-4. KMEM_CACHE alloc from drivers/tty/pty.c:pty_common_install <br />
-5. KMEM_CACHE alloc from drivers/tty/vt/vt.c:vc_allocate <br />
-6. KMEM_CACHE alloc from kernel/cgroup.c:cgroup_mkdir <br />
-7. KMEM_CACHE alloc from kernel/power/qos.c:pm_qos_power_open <br />
-8. KMEM_CACHE alloc from mm/memcontrol.c:mem_cgroup_css_alloc <br />
-9. KMEM_CACHE alloc from net/ipv6/seg6.c:seg6_net_init <br />
-</html>
+<strong> Compartment 89 accesses 6 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from fs/block_dev.c:bdev_alloc_inode <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/inode.c:alloc_inode <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br /></span>
+<span id='obj6'>6. MEMBLOCK <br /></span>
+</body></html>

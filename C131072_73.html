@@ -1,20 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 73 of 381<br />
+Viewing C131072 compartment 73 of 372<br />
 <a href='C131072_72.html'> Prev</a>
 <a href='C131072_74.html'> Next</a>
 <br /><br />
-<strong> Compartment 73 is 800 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L1584'">security/keys/keyctl.c:SyS_keyctl</a> (272 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L248'">security/keys/keyctl.c:keyctl_get_keyring_ID</a> (64 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L277'">security/keys/keyctl.c:keyctl_join_session_keyring</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L1256'">security/keys/keyctl.c:keyctl_set_reqkey_keyring</a> (208 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/keys/keyctl.c.html#L1323'">security/keys/keyctl.c:keyctl_set_timeout</a> (176 bytes)<br />
+<strong> Compartment 73 is 2048 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(7,[3,5],[[],[],[4],[3,4,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1058'">net/core/skbuff.c:copy_skb_header</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(7,[3],[[],[],[4],[3,4,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1091'">net/core/skbuff.c:skb_copy</a> (160 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,2,3,4,5,6],[[],[],[4],[3,4,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1735'">net/core/skbuff.c:skb_copy_bits</a> (720 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(7,[1,3,4,5,7],[[],[],[4],[3,4,6,7],[1,2,3,4,5,6,7]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L4284'">net/core/skbuff.c:skb_try_coalesce</a> (1008 bytes)<br />
 <br /><br />
-<strong> Compartment 73 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-3. KMEM_CACHE alloc from mm/util.c:memdup_user <br />
-4. KMEM_CACHE alloc from security/keys/key.c:key_alloc <br />
-</html>
+<strong> Compartment 73 accesses 7 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from mm/page_alloc.c:page_frag_alloc <br /></span>
+<span id='obj2'>2. ALLOC_PAGES alloc from net/packet/af_packet.c:packet_set_ring <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/core/skbuff.c:__build_skb <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from net/core/skbuff.c:skb_clone <br /></span>
+<span id='obj7'>7. STACK <br /></span>
+</body></html>

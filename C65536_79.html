@@ -1,19 +1,24 @@
 <html>
-Selected compartmentalization: <strong>C65536</strong><br />
-<br />
-Viewing compartment: 79 of 377<br />
+Viewing C65536 compartment 79 of 432<br />
 <a href='C65536_78.html'> Prev</a>
 <a href='C65536_80.html'> Next</a>
 <br /><br />
-<strong> Compartment 79 is 528 bytes and has 4 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L359'">kernel/kthread.c:__kthread_bind_mask</a> (48 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/kthread.c.html#L381'">kernel/kthread.c:kthread_bind_mask</a> (16 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1666'">kernel/workqueue.c:alloc_worker</a> (80 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/workqueue.c.html#L1754'">kernel/workqueue.c:create_worker</a> (384 bytes)<br />
+<strong> Compartment 79 is 1680 bytes and has 5 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(10,[4,5,6,8],[[],[],[9,10],[1,5,6,9,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L51'">fs/ext4/namei.c:ext4_append</a> (224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,2,4,5,6],[[],[],[9,10],[1,5,6,9,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2406'">fs/ext4/namei.c:ext4_inc_count</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,2,4,5,6,9,10],[[],[],[9,10],[1,5,6,9,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2562'">fs/ext4/namei.c:ext4_init_dot_dotdot</a> (192 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(10,[1,2,3,4,5,6,7],[[],[],[9,10],[1,5,6,9,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L2631'">fs/ext4/namei.c:ext4_mkdir</a> (1088 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(10,[1],[[],[],[9,10],[1,5,6,9,10],[1,2,3,4,5,6,7,8,9,10]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/ext4/namei.c.html#L279'">fs/ext4/namei.c:initialize_dirent_tail</a> (64 bytes)<br />
 <br /><br />
-<strong> Compartment 79 accesses 4 objects:</strong><br />
-1. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-2. KMEM_CACHE alloc from kernel/workqueue.c:alloc_unbound_pwq <br />
-3. KMEM_CACHE alloc from kernel/workqueue.c:alloc_worker <br />
-4. KMEM_CACHE alloc from kernel/workqueue.c:init_worker_pool <br />
-</html>
+<strong> Compartment 79 accesses 10 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br /></span>
+<span id='obj2'>2. ALLOC_PAGES alloc from mm/filemap.c:generic_file_read_iter <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/ext4/super.c:ext4_alloc_inode <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from fs/ext4/super.c:ext4_fill_super <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from fs/super.c:sget_userns <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj8'>8. STACK <br /></span>
+<span id='obj9'>9. String constant *.LC41 <br /></span>
+<span id='obj10'>10. String constant *.LC42 <br /></span>
+</body></html>

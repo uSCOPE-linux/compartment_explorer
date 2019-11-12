@@ -1,33 +1,16 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 57 of 381<br />
+Viewing C131072 compartment 57 of 372<br />
 <a href='C131072_56.html'> Prev</a>
 <a href='C131072_58.html'> Next</a>
 <br /><br />
-<strong> Compartment 57 is 6976 bytes and has 9 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/shm.c.html#L376'">ipc/shm.c:shm_fault</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/filemap.c.html#L1238'">mm/filemap.c:find_lock_entry</a> (144 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L543'">mm/shmem.c:shmem_add_to_page_cache</a> (384 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L1894'">mm/shmem.c:shmem_fault</a> (320 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L2249'">mm/shmem.c:shmem_file_read_iter</a> (720 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L1572'">mm/shmem.c:shmem_getpage_gfp</a> (2624 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L232'">mm/shmem.c:shmem_recalc_inode</a> (96 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L749'">mm/shmem.c:shmem_undo_range</a> (2560 bytes)<br />
-9. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L2196'">mm/shmem.c:shmem_write_begin</a> (96 bytes)<br />
+<strong> Compartment 57 is 768 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[],[1,2,3],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/read_write.c.html#L764'">fs/read_write.c:rw_copy_check_uvector</a> (304 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(3,[2,3],[[],[],[1,2,3],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/lib/iov_iter.c.html#L1267'">lib/iov_iter.c:import_iovec</a> (192 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(3,[],[[],[],[1,2,3],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/process_vm_access.c.html#L304'">mm/process_vm_access.c:SyS_process_vm_writev</a> (32 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(3,[1],[[],[],[1,2,3],[1,2,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/process_vm_access.c.html#L263'">mm/process_vm_access.c:process_vm_rw</a> (240 bytes)<br />
 <br /><br />
-<strong> Compartment 57 accesses 13 objects:</strong><br />
-1. ALLOC_PAGES alloc from mm/shmem.c:shmem_getpage_gfp <br />
-2. Global var phys_base <br />
-3. Global var shmem_vm_ops <br />
-4. Global var vm_committed_as <br />
-5. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-6. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-7. KMEM_CACHE alloc from ipc/shm.c:do_shmat <br />
-8. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-9. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-10. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-11. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-12. KMEM_CACHE alloc from mm/shmem.c:shmem_fill_super <br />
-13. STACK <br />
-</html>
+<strong> Compartment 57 accesses 3 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from fs/read_write.c:rw_copy_check_uvector <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from kernel/fork.c:copy_process <br /></span>
+<span id='obj3'>3. STACK <br /></span>
+</body></html>

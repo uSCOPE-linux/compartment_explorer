@@ -1,22 +1,17 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 64 of 381<br />
+Viewing C131072 compartment 64 of 372<br />
 <a href='C131072_63.html'> Prev</a>
 <a href='C131072_65.html'> Next</a>
 <br /><br />
-<strong> Compartment 64 is 672 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/gen_estimator.c.html#L189'">net/core/gen_estimator.c:gen_kill_estimator</a> (64 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L708'">net/core/skbuff.c:kfree_skb_list</a> (48 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_api.c.html#L288'">net/sched/sch_api.c:qdisc_hash_del</a> (112 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_api.c.html#L511'">net/sched/sch_api.c:qdisc_put_stab</a> (80 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L975'">net/sched/sch_generic.c:dev_shutdown</a> (192 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L698'">net/sched/sch_generic.c:qdisc_destroy</a> (176 bytes)<br />
+<strong> Compartment 64 is 608 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3],[[],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/fanotify/fanotify.c.html#L30'">fs/notify/fanotify/fanotify.c:fanotify_merge</a> (224 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4],[[],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/inotify/inotify_fsnotify.c.html#L56'">fs/notify/inotify/inotify_fsnotify.c:inotify_merge</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,3,4,5],[[],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/notify/notification.c.html#L99'">fs/notify/notification.c:fsnotify_add_event</a> (272 bytes)<br />
 <br /><br />
 <strong> Compartment 64 accesses 5 objects:</strong><br />
-1. Global var noop_qdisc <br />
-2. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br />
-5. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br />
-</html>
+<span id='obj1'>1. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/notify/fanotify/fanotify.c:fanotify_alloc_event <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/notify/group.c:fsnotify_alloc_group <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from fs/notify/inotify/inotify_fsnotify.c:inotify_handle_event <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from fs/notify/inotify/inotify_user.c:inotify_new_group <br /></span>
+</body></html>

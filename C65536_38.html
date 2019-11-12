@@ -1,22 +1,30 @@
 <html>
-Selected compartmentalization: <strong>C65536</strong><br />
-<br />
-Viewing compartment: 38 of 377<br />
+Viewing C65536 compartment 38 of 432<br />
 <a href='C65536_37.html'> Prev</a>
 <a href='C65536_39.html'> Next</a>
 <br /><br />
-<strong> Compartment 38 is 1584 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/splice.c.html#L183'">fs/splice.c:splice_to_pipe</a> (288 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1918'">net/core/skbuff.c:__skb_splice_bits</a> (512 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1876'">net/core/skbuff.c:__splice_segment</a> (576 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L1970'">net/core/skbuff.c:skb_splice_bits</a> (160 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/unix/af_unix.c.html#L2489'">net/unix/af_unix.c:unix_stream_splice_actor</a> (48 bytes)<br />
+<strong> Compartment 38 is 1184 bytes and has 9 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,2,3],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L426'">block/blk-mq.c:__blk_mq_complete_request</a> (160 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,3],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L446'">block/blk-mq.c:blk_mq_complete_request</a> (32 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,2,3],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L370'">block/blk-mq.c:blk_mq_end_request</a> (128 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,12],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L339'">block/blk-mq.c:blk_mq_free_hctx_request</a> (64 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,2,4,5,12],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L349'">block/blk-mq.c:blk_mq_free_request</a> (64 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(12,[2,5,6],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-mq.c.html#L1084'">block/blk-mq.c:blk_mq_start_stopped_hw_queues</a> (112 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,3,12],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-stat.c.html#L194'">block/blk-stat.c:blk_stat_add</a> (304 bytes)<br />
+8. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,3,7,8,9,10,11],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/virtio_blk.c.html#L135'">drivers/block/virtio_blk.c:virtblk_done</a> (208 bytes)<br />
+9. <a href='javascript:void(0)' onclick="parent.setColors(12,[1,3],[[],[],[],[3,4,5,8,9],[1,2,3,4,5,6,7,8,9,10,11,12]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/drivers/block/virtio_blk.c.html#L118'">drivers/block/virtio_blk.c:virtblk_request_done</a> (112 bytes)<br />
 <br /><br />
-<strong> Compartment 38 accesses 6 objects:</strong><br />
-1. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
-2. KMEM_CACHE alloc from fs/pipe.c:alloc_pipe_info <br />
-3. KMEM_CACHE alloc from net/core/skbuff.c:__alloc_skb <br />
-4. KMEM_CACHE alloc from net/core/skbuff.c:__kmalloc_reserve <br />
-5. KMEM_CACHE alloc from net/socket.c:sock_alloc_inode <br />
-6. STACK <br />
-</html>
+<strong> Compartment 38 accesses 12 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from block/blk-mq.c:blk_mq_init_rq_map <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from block/blk-flush.c:blk_alloc_flush_queue <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_alloc_tag_set <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_init_allocated_queue <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from block/blk-mq.c:blk_mq_realloc_hw_ctxs <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from block/genhd.c:alloc_disk_node <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from drivers/block/virtio_blk.c:init_vq <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from drivers/block/virtio_blk.c:virtblk_probe <br /></span>
+<span id='obj10'>10. KMEM_CACHE alloc from drivers/virtio/virtio_pci_common.c:virtio_pci_probe <br /></span>
+<span id='obj11'>11. KMEM_CACHE alloc from drivers/virtio/virtio_ring.c:__vring_new_virtqueue <br /></span>
+<span id='obj12'>12. MEMBLOCK <br /></span>
+</body></html>

@@ -1,28 +1,14 @@
 <html>
-Selected compartmentalization: <strong>C65536</strong><br />
-<br />
-Viewing compartment: 60 of 377<br />
+Viewing C65536 compartment 60 of 432<br />
 <a href='C65536_59.html'> Prev</a>
 <a href='C65536_61.html'> Next</a>
 <br /><br />
-<strong> Compartment 60 is 4176 bytes and has 6 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/ipc/shm.c.html#L376'">ipc/shm.c:shm_fault</a> (32 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L543'">mm/shmem.c:shmem_add_to_page_cache</a> (384 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L1894'">mm/shmem.c:shmem_fault</a> (320 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L2249'">mm/shmem.c:shmem_file_read_iter</a> (720 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L1572'">mm/shmem.c:shmem_getpage_gfp</a> (2624 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/shmem.c.html#L2196'">mm/shmem.c:shmem_write_begin</a> (96 bytes)<br />
+<strong> Compartment 60 is 928 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(2,[1],[[],[],[],[],[1,2]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/core/skbuff.c.html#L3722'">net/core/skbuff.c:sock_dequeue_err_skb</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(2,[1],[[],[],[],[],[1,2]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/af_inet.c.html#L1453'">net/ipv4/af_inet.c:inet_recv_error</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(2,[1,2],[[],[],[],[],[1,2]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv4/ip_sockglue.c.html#L506'">net/ipv4/ip_sockglue.c:ip_recv_error</a> (672 bytes)<br />
 <br /><br />
-<strong> Compartment 60 accesses 11 objects:</strong><br />
-1. Global var phys_base <br />
-2. Global var shmem_vm_ops <br />
-3. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-4. KMEM_CACHE alloc from fs/super.c:sget_userns <br />
-5. KMEM_CACHE alloc from ipc/shm.c:do_shmat <br />
-6. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-7. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-8. KMEM_CACHE alloc from mm/mmap.c:mmap_region <br />
-9. KMEM_CACHE alloc from mm/shmem.c:shmem_alloc_inode <br />
-10. KMEM_CACHE alloc from mm/shmem.c:shmem_fill_super <br />
-11. STACK <br />
-</html>
+<strong> Compartment 60 accesses 2 objects:</strong><br />
+<span id='obj1'>1. KMEM_CACHE alloc from net/core/sock.c:sk_prot_alloc <br /></span>
+<span id='obj2'>2. STACK <br /></span>
+</body></html>

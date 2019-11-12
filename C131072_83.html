@@ -1,18 +1,15 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 83 of 381<br />
+Viewing C131072 compartment 83 of 372<br />
 <a href='C131072_82.html'> Prev</a>
 <a href='C131072_84.html'> Next</a>
 <br /><br />
-<strong> Compartment 83 is 384 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L2546'">block/cfq-iosched.c:cfq_merged_request</a> (224 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L493'">block/elevator.c:elv_merged_request</a> (80 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/elevator.c.html#L265'">block/elevator.c:elv_rqhash_reposition</a> (80 bytes)<br />
+<strong> Compartment 83 is 1408 bytes and has 3 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(3,[3],[[],[],[],[1,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L2008'">fs/jbd2/journal.c:jbd2_journal_wipe</a> (176 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,2,3],[[],[],[],[1,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L1464'">fs/jbd2/journal.c:journal_get_superblock</a> (1152 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(3,[1,3],[[],[],[],[1,3],[1,2,3]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/jbd2/journal.c.html#L1580'">fs/jbd2/journal.c:load_superblock</a> (80 bytes)<br />
 <br /><br />
-<strong> Compartment 83 accesses 4 objects:</strong><br />
-1. Global var iosched_cfq <br />
-2. KMEM_CACHE alloc from block/blk-core.c:alloc_request_struct <br />
-3. KMEM_CACHE alloc from block/blk-core.c:blk_alloc_queue_node <br />
-4. KMEM_CACHE alloc from block/elevator.c:elevator_alloc <br />
-</html>
+<strong> Compartment 83 accesses 3 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from fs/buffer.c:__find_get_block <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from fs/buffer.c:alloc_buffer_head <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from fs/jbd2/journal.c:journal_init_common <br /></span>
+</body></html>

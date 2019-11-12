@@ -1,29 +1,21 @@
 <html>
-Selected compartmentalization: <strong>C65536</strong><br />
-<br />
-Viewing compartment: 72 of 377<br />
+Viewing C65536 compartment 72 of 432<br />
 <a href='C65536_71.html'> Prev</a>
 <a href='C65536_73.html'> Next</a>
 <br /><br />
-<strong> Compartment 72 is 624 bytes and has 8 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-cgroup.c.html#L386'">block/blk-cgroup.c:__blkg_release_rcu</a> (192 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-cgroup.c.html#L63'">block/blk-cgroup.c:blkg_free</a> (96 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-core.c.html#L639'">block/blk-core.c:blk_exit_rl</a> (32 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/blk-throttle.c.html#L394'">block/blk-throttle.c:throtl_pd_free</a> (48 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/block/cfq-iosched.c.html#L1676'">block/cfq-iosched.c:cfq_pd_free</a> (16 bytes)<br />
-6. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/backing-dev.c.html#L456'">mm/backing-dev.c:wb_congested_put</a> (128 bytes)<br />
-7. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L146'">mm/mempool.c:mempool_destroy</a> (96 bytes)<br />
-8. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/mm/mempool.c.html#L127'">mm/mempool.c:remove_element</a> (16 bytes)<br />
+<strong> Compartment 72 is 1040 bytes and has 7 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[2],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8643'">kernel/sched/core.c:cpu_cfs_period_write_u64</a> (32 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[2],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8631'">kernel/sched/core.c:cpu_cfs_quota_write_s64</a> (48 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2,5],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8677'">kernel/sched/core.c:tg_cfs_schedulable_down</a> (208 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L730'">kernel/sched/core.c:tg_nop</a> (16 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3,4],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L8505'">kernel/sched/core.c:tg_set_cfs_bandwidth</a> (496 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,2],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/core.c.html#L700'">kernel/sched/core.c:walk_tg_tree_from</a> (192 bytes)<br />
+7. <a href='javascript:void(0)' onclick="parent.setColors(5,[2],[[],[2],[1,2,3,4],[1,2,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/kernel/sched/fair.c.html#L3944'">kernel/sched/fair.c:__refill_cfs_bandwidth_runtime</a> (48 bytes)<br />
 <br /><br />
-<strong> Compartment 72 accesses 10 objects:</strong><br />
-1. Global var blkcg_policy <br />
-2. Global var blkcg_policy_cfq <br />
-3. Global var blkcg_policy_throtl <br />
-4. KMEM_CACHE alloc from block/blk-cgroup.c:blkcg_css_alloc <br />
-5. KMEM_CACHE alloc from block/blk-cgroup.c:blkg_alloc <br />
-6. KMEM_CACHE alloc from block/blk-throttle.c:throtl_pd_alloc <br />
-7. KMEM_CACHE alloc from block/cfq-iosched.c:cfq_pd_alloc <br />
-8. KMEM_CACHE alloc from mm/backing-dev.c:wb_congested_get_create <br />
-9. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
-10. KMEM_CACHE alloc from mm/mempool.c:mempool_create_node <br />
-</html>
+<strong> Compartment 72 accesses 5 objects:</strong><br />
+<span id='obj1'>1. Global var root_task_group <br /></span>
+<span id='obj2'>2. KMEM_CACHE alloc from kernel/sched/core.c:sched_create_group <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from kernel/sched/fair.c:alloc_fair_sched_group <br /></span>
+<span id='obj5'>5. STACK <br /></span>
+</body></html>

@@ -1,35 +1,20 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 32 of 381<br />
+Viewing C131072 compartment 32 of 372<br />
 <a href='C131072_31.html'> Prev</a>
 <a href='C131072_33.html'> Next</a>
 <br /><br />
-<strong> Compartment 32 is 3648 bytes and has 3 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L1847'">fs/eventpoll.c:SyS_epoll_ctl</a> (3376 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/eventpoll.c.html#L808'">fs/eventpoll.c:ep_read_events_proc</a> (176 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/fs/proc_namespace.c.html#L17'">fs/proc_namespace.c:mounts_poll</a> (96 bytes)<br />
+<strong> Compartment 32 is 1248 bytes and has 6 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(5,[5],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_api.c.html#L275'">net/sched/sch_api.c:qdisc_hash_add</a> (208 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(5,[2,3],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L329'">net/sched/sch_generic.c:__netdev_watchdog_up</a> (112 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(5,[1,3,4,5],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L818'">net/sched/sch_generic.c:dev_activate</a> (528 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(5,[5],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L432'">net/sched/sch_generic.c:noqueue_init</a> (32 bytes)<br />
+5. <a href='javascript:void(0)' onclick="parent.setColors(5,[3,4,5],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L595'">net/sched/sch_generic.c:qdisc_alloc</a> (240 bytes)<br />
+6. <a href='javascript:void(0)' onclick="parent.setColors(5,[5],[[],[],[],[1,3,4,5],[1,2,3,4,5]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/sched/sch_generic.c.html#L644'">net/sched/sch_generic.c:qdisc_create_dflt</a> (128 bytes)<br />
 <br /><br />
-<strong> Compartment 32 accesses 21 objects:</strong><br />
-1. Global var eventpoll_fops <br />
-2. Global var inotify_fops <br />
-3. Global var kmsg_fops <br />
-4. Global var pipefifo_fops <br />
-5. Global var proc_mountinfo_operations <br />
-6. Global var proc_reg_file_ops_no_compat <br />
-7. Global var proc_sys_file_operations <br />
-8. Global var root_user <br />
-9. Global var signalfd_fops <br />
-10. Global var socket_file_ops <br />
-11. Global var tfile_check_list <br />
-12. Global var timerfd_fops <br />
-13. Global var visited_list <br />
-14. KMEM_CACHE alloc from fs/eventpoll.c:SyS_epoll_ctl <br />
-15. KMEM_CACHE alloc from fs/eventpoll.c:ep_alloc <br />
-16. KMEM_CACHE alloc from fs/file_table.c:get_empty_filp <br />
-17. KMEM_CACHE alloc from fs/namespace.c:alloc_mnt_ns <br />
-18. KMEM_CACHE alloc from fs/seq_file.c:__seq_open_private <br />
-19. KMEM_CACHE alloc from fs/seq_file.c:seq_open <br />
-20. KMEM_CACHE alloc from kernel/user.c:alloc_uid <br />
-21. STACK <br />
-</html>
+<strong> Compartment 32 accesses 5 objects:</strong><br />
+<span id='obj1'>1. Global var jiffies_64 <br /></span>
+<span id='obj2'>2. Global var loopback_ops <br /></span>
+<span id='obj3'>3. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from net/core/dev.c:alloc_netdev_mqs <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/sched/sch_generic.c:qdisc_alloc <br /></span>
+</body></html>

@@ -1,29 +1,24 @@
 <html>
-Selected compartmentalization: <strong>C131072</strong><br />
-<br />
-Viewing compartment: 48 of 381<br />
+Viewing C131072 compartment 48 of 372<br />
 <a href='C131072_47.html'> Prev</a>
 <a href='C131072_49.html'> Next</a>
 <br /><br />
-<strong> Compartment 48 is 1312 bytes and has 5 functions:</strong><br />
-1. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/lsm.c.html#L471'">security/apparmor/lsm.c:apparmor_getprocattr</a> (608 bytes)<br />
-2. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/policy.c.html#L248'">security/apparmor/policy.c:aa_ns_name</a> (112 bytes)<br />
-3. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/policy.c.html#L229'">security/apparmor/policy.c:aa_ns_visible</a> (64 bytes)<br />
-4. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/apparmor/procattr.c.html#L35'">security/apparmor/procattr.c:aa_getprocattr</a> (432 bytes)<br />
-5. <a href='javascript:void(0)' onclick="parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/security/security.c.html#L1167'">security/security.c:security_getprocattr</a> (96 bytes)<br />
+<strong> Compartment 48 is 2304 bytes and has 4 functions:</strong><br />
+1. <a href='javascript:void(0)' onclick="parent.setColors(11,[7,8,9,10],[[],[3,8],[3,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_fib.c.html#L1170'">net/ipv6/ip6_fib.c:fib6_lookup</a> (112 bytes)<br />
+2. <a href='javascript:void(0)' onclick="parent.setColors(11,[4,5,6,7,8,9,10,11],[[],[3,8],[3,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/ip6_fib.c.html#L1107'">net/ipv6/ip6_fib.c:fib6_lookup_1</a> (336 bytes)<br />
+3. <a href='javascript:void(0)' onclick="parent.setColors(11,[10],[[],[3,8],[3,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/route.c.html#L835'">net/ipv6/route.c:fib6_backtrack</a> (96 bytes)<br />
+4. <a href='javascript:void(0)' onclick="parent.setColors(11,[1,2,3,4,5,7,8,9,10,11],[[],[3,8],[3,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11]]); parent.document.getElementById('linux_panel').src='https://uscope-linux.github.io/compartment_explorer/linux/net/ipv6/route.c.html#L1048'">net/ipv6/route.c:ip6_pol_route</a> (1760 bytes)<br />
 <br /><br />
-<strong> Compartment 48 accesses 13 objects:</strong><br />
-1. Global var aa_profile_mode_names <br />
-2. Global var apparmor_hooks <br />
-3. KMEM_CACHE alloc from fs/dcache.c:__d_alloc <br />
-4. KMEM_CACHE alloc from kernel/cred.c:prepare_creds <br />
-5. KMEM_CACHE alloc from kernel/fork.c:copy_process <br />
-6. KMEM_CACHE alloc from mm/util.c:kstrdup <br />
-7. KMEM_CACHE alloc from security/apparmor/context.c:aa_alloc_task_context <br />
-8. KMEM_CACHE alloc from security/apparmor/policy.c:aa_alloc_profile <br />
-9. STACK <br />
-10. String constant *.LC14 <br />
-11. String constant *.LC19 <br />
-12. String constant *.LC21 <br />
-13. String constant *.LC9 <br />
-</html>
+<strong> Compartment 48 accesses 11 objects:</strong><br />
+<span id='obj1'>1. ALLOC_PAGES alloc from mm/percpu-km.c:pcpu_create_chunk <br /></span>
+<span id='obj2'>2. Global var init_net <br /></span>
+<span id='obj3'>3. Global var jiffies_64 <br /></span>
+<span id='obj4'>4. KMEM_CACHE alloc from mm/util.c:kmemdup <br /></span>
+<span id='obj5'>5. KMEM_CACHE alloc from net/core/dst.c:dst_alloc <br /></span>
+<span id='obj6'>6. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_add_1 <br /></span>
+<span id='obj7'>7. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_add_1 <br /></span>
+<span id='obj8'>8. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_add_1 <br /></span>
+<span id='obj9'>9. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_net_init <br /></span>
+<span id='obj10'>10. KMEM_CACHE alloc from net/ipv6/ip6_fib.c:fib6_net_init <br /></span>
+<span id='obj11'>11. STACK <br /></span>
+</body></html>
