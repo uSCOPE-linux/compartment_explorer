@@ -6,23 +6,23 @@
 	<h1>uSCOPE Linux Compartment Explorer</h1>
 	<script type='text/javascript'>
 	overheads = new Array();
-	overheads["C1024"]=[13401.0,1241.0,272.0,229.0,227.0];
-	overheads["C2048"]=[13234.0,865.0,190.0,164.0,159.0];
-	overheads["C4096"]=[13122.0,776.0,137.0,108.0,103.0];
-	overheads["C8192"]=[13081.0,779.0,112.0,71.0,66.0];
-	overheads["C16384"]=[13039.0,960.0,121.0,51.0,45.0];
-	overheads["C32768"]=[13006.0,1138.0,117.0,36.0,28.0];
-	overheads["C65536"]=[12998.0,1262.0,96.0,34.0,24.0];
-	overheads["C131072"]=[12991.0,3425.0,233.0,29.0,19.0];
+	overheads["A0.001"]=[13962.0,6087.0,575.0,234.0,221.0];
+	overheads["A0.0001"]=[13739.0,5703.0,381.0,135.0,125.0];
+	overheads["A1e-05"]=[13602.0,5592.0,262.0,66.0,57.0];
+	overheads["A1e-06"]=[13539.0,6730.0,344.0,32.0,25.0];
+	overheads["A5e-07"]=[13527.0,6710.0,332.0,26.0,19.0];
+	overheads["A1e-07"]=[13504.0,7511.0,320.0,11.0,8.1];
+	overheads["A5e-08"]=[13496.0,8032.0,326.0,6.3,3.9];
+	overheads["A1e-08"]=[13489.0,8471.0,349.0,4.4,0.4];
 	pmrs = new Array();
-	pmrs["C1024"]=[1.16,1.29,1.84,2.66,7.89];
-	pmrs["C2048"]=[1.21,1.45,2.39,3.28,10.3];
-	pmrs["C4096"]=[1.33,1.71,2.91,4.27,15.64];
-	pmrs["C8192"]=[1.56,2.06,3.94,6.33,26.46];
-	pmrs["C16384"]=[2.0,2.64,4.98,9.54,44.6];
-	pmrs["C32768"]=[2.86,3.7,6.39,12.82,76.77];
-	pmrs["C65536"]=[4.52,5.72,10.19,20.27,131.19];
-	pmrs["C131072"]=[8.03,8.82,13.07,32.97,180.64];
+	pmrs["A0.001"]=[1.05,1.06,1.23,1.94,5.85];
+	pmrs["A0.0001"]=[1.06,1.07,1.38,2.2,6.02];
+	pmrs["A1e-05"]=[1.13,1.16,1.87,3.14,7.24];
+	pmrs["A1e-06"]=[1.55,1.58,3.46,7.06,12.93];
+	pmrs["A5e-07"]=[1.75,1.79,4.08,8.44,15.81];
+	pmrs["A1e-07"]=[3.1,3.17,6.78,20.99,32.18];
+	pmrs["A5e-08"]=[5.21,5.28,10.44,33.35,48.81];
+	pmrs["A1e-08"]=[9.96,10.04,17.39,51.72,88.06];
 	function selectComp(){
 		comp=document.getElementById('comppick').value;
 		newpage=comp + '_1.html';
@@ -69,17 +69,17 @@
 	<form oninput='selectComp()'>
 	<label for='comppick'>Select Subject Domains:</label>
 	<select id='comppick' name='object'>
-		<option value='C1024'>C1024</option>
-		<option value='C2048'>C2048</option>
-		<option value='C4096'>C4096</option>
-		<option value='C8192'>C8192</option>
-		<option value='C16384'>C16384</option>
-		<option value='C32768'>C32768</option>
-		<option value='C65536'>C65536</option>
-		<option value='C131072'>C131072</option>
+		<option value='A0.001'>&alpha;=1e-3</option>
+		<option value='A0.0001'>&alpha;=1e-4</option>
+		<option value='A1e-05'>&alpha;=1e-5</option>
+		<option value='A1e-06'>&alpha;=1e-6</option>
+		<option value='A5e-07'>&alpha;=5e-7</option>
+		<option value='A1e-07'>&alpha;=1e-7</option>
+		<option value='A5e-08'>&alpha;=5e-8</option>
+		<option value='A1e-08'>&alpha;=1e-8</option>
 	</select>
 	</form>
-	The number following the "C" is the maximum number of bytes allowed in a compartment by the code clustering algorithm. <br /><br />
+	The &alpha; parameter to the code clustering algorithm specifies the minimum threshold performance savings per |PS|. <br /> Lower &alpha; values create larger compartments with less overhead but more overprivilege.<br /><br />
 	<form name="mediation" oninput='clearObjects()'>
 	<label for='mediation'>Select a mediation level: </label><select id="mediation">
 	<option value="0" checked="checked"></option>
@@ -88,8 +88,8 @@
 	<option value="3"></option>
 	<option value="4"></option></select>
 	</form>
-	Overhead estimates are for kernel time only and are calculated for the page table + EPT enforcment mechanism.<br />
+	Overhead estimates are for kernel time only, which is typically a small fraction of wall clock time.<br />
 	Click on a function to view its source. Objects accessed by that function turn blue, and accessible objects exposed by unmediation (overprivilege) turn red. <br /><br />
-	<iframe src="C1024_1.html" id='comp_panel' width='49%' height='750'></iframe>
+	<iframe src="A0.001_1.html" id='comp_panel' width='49%' height='750'></iframe>
 	<iframe src="blank.html" id='linux_panel' width='49%' height='750'></iframe>
 </html>
